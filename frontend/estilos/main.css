@@ -45,10 +45,14 @@ body{
 .char{
     height: 100%;
     position: relative;
-    transition: opacity .3s;
-    transition: src .3;
-    margin: 0 -5%
+    margin: 0 -5%;
+    transition: height .6s;
 }
+.fast{
+    transition: all .3s;
+}
+
+
 .together{
     margin: 0 -10%
 }
@@ -109,5 +113,6 @@ body{
         left: 99%;
     }
 }
+
 
 /* PRUEBAS */

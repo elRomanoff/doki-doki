@@ -37,6 +37,11 @@ class Character {
     hide() {
         this.png.classList.toggle("hidden")
     }
+    animation(direction, value){
+        if(direction === "height") {
+            this.png.style.height = value;
+        }
+    }
 }
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
@@ -82,7 +87,7 @@ function manageProperties(objDialog){
         manageBackground(objDialog.newBackground);
     }
     if(objDialog.animation){
-        runAnimation(objDialog.animation.direction, objDialog.animation.n);
+        objDialog.animation.forEach(animation => manageAnimation(animation))
     }
     if(objDialog.music) {
         try{music.pause()} catch{console.log("ahora mismo no hay musica sonando")}
@@ -247,8 +252,12 @@ function manageNewCharacter(obj){
 
 
 //animations
-function runAnimation(direction, n){
-
+function manageAnimation(objAnimation){
+    if(!objAnimation.char){
+        if (objAnimation.direction === "height") {
+            char.style.height = objAnimation.value;
+        }
+    }
 }
 
 

@@ -52,7 +52,11 @@
 {
     "content":"Eeehhhh, you say that like you were thinking about ignoring me!",
     "char": "Sayori",
-    "charImg": "Say2.png"
+    "charImg": "Say2.png",
+    "animation":[{
+        "direction":"height",
+        "value":"96%"
+    }]
 },
 {
     "usesVar": "true",

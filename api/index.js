@@ -6,7 +6,7 @@ const path = require('path');
 
 //settings
 app.use(express.static('./frontend'));
-app.set("port", 80);
+app.set("port", process.env.PORT || 80);
 
 
 
