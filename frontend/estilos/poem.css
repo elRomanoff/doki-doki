@@ -1,0 +1,93 @@
+.natsuki{
+    margin-bottom: 3% !important;
+}
+.yuri{
+    margin-bottom: 3% !important;
+}
+*{
+    line-height: 2;
+}
+@font-face {
+  font-family: 'poem-words';
+  src: url('../fuentes/Halogen.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+
+.poem{
+    background-image: url("../imagenes/Notebook.png");
+    justify-content:center;
+}
+div{
+    border: 1px solid black;
+}
+.container{
+    height: 100%;
+    flex-basis: 31%;
+    display: flex;
+    flex-grow: 1;
+}
+.right{
+    flex-grow: 0;
+}
+.right p{
+    font-family: poem-words;
+    margin-top: 13%;
+    margin-left: -20%;
+    font-size:xx-large;
+
+}
+.left{
+    align-items:flex-end;
+}
+.left div{
+    position:relative;
+    height: 30%;
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin-bottom: 5%;
+    margin-left:1%;
+}
+.left div img{
+    position:relative
+}
+.look-left{
+    transform: scaleX(-1)
+}
+
+.mid{
+    align-items: flex-end;
+}
+.columna{
+    display:flex;
+    flex-basis: 49%;
+    height:80%;
+    flex-direction: column;
+    margin-bottom: 2.6%;
+}
+.columna p{
+    font-family: poem-words;
+    font-size: larger;
+    margin: 7.1% 0;
+}
+.columna p:hover{
+    text-shadow: 2px 2px 1px rgb(255, 170, 255);
+}
+
+
+
+
+
+
+.jumping{
+    animation-name: jump;
+    animation-duration:.7s;
+}
+@keyframes jump {
+    25% { top:-12%}
+    50%{top:0%}
+    75%{top:-12%}
+    100%{top:0%}
+}

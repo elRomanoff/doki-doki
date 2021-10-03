@@ -1,0 +1,1548 @@
+[
+{
+    "music": "ohayou-sayori.mp3"
+},
+{
+    "content": "Heeeyy!!!",
+    "char": "???"
+},
+{
+    "usesVar":"true",
+    "content": "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself",
+    "char": "nobody",
+    "charImg": "Say5.png"
+},
+{
+    "content": "That girl is Sayori, my neighbor and good friend since we were children",
+    "char":"nobody"
+},
+{
+    "content": "You know, the kind of friend you'd never see yourself making today, but it just kind of works out becouse you've known each other for so long?",
+    "char":"nobody"
+},
+{
+    "content": "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently,and I would get tired of waiting up",
+    "char": "nobody"
+},
+{
+    "content": "But if she's going to chase after me like this, I almost feel better off running away",
+    "char": "nobody"
+},
+{
+    "content": "However, I just sigh and idle in front of the crosswalk and let Sayori catch up to me.",
+    "char": "nobody"
+},
+{
+    "content": "Haaahhh...haaahhh...",
+    "char": "Sayori",
+    "charImg":"Ori16.png"
+},
+{
+    "content": "I oversleept again!",
+    "char": "Sayori"
+},
+{
+    "content":"But I caught you this time!",
+    "char": "Sayori"
+},
+{
+    "content": "Maybe, but only becouse I decided to stop and wait for you",
+    "char":"you"
+},
+{
+    "content":"Eeehhhh, you say that like you were thinking about ignoring me!",
+    "char": "Sayori",
+    "charImg": "Say2.png"
+},
+{
+    "usesVar": "true",
+    "content": "That's mean, #var",
+    "char": "Sayori"
+},
+{
+    "content": "Well, if people stare at you for acting weird then I don't want them to think we are a couple or something.",
+    "char": "you"
+},
+{
+    "char": "Sayori",
+    "charImg": "Say1.png",
+    "content":"Fine, fine."
+},
+{
+
+    "content": "But you did wait for me, after all."
+},
+{
+
+    "content": "I guess you don't have it in you to be mean even if you want to-"
+},
+{
+    "char":"you",
+    "content":"Whatever you say, Sayori..."
+},
+{
+    "char":"Sayori",
+    "content":"Ehehe...",
+    "charImg":"Say17.png"
+},
+{
+    "content": "We cross the street together and make our way to school.",
+    "char": "nobody"
+},
+{
+    "content": "As we draw near, the streets become increasingly speckled with other students making their daily commute.",
+    "char": "nobody"
+},
+{
+    "char": "Sayori",
+    "charImg":"Ori1.png",
+    "usesVar":"true",
+    "content": "By the way, #var..."
+},
+{
+    "char": "Sayori",
+    "content":"Have you decided on a club to join yet?"
+},
+{
+    "content":"A club?",
+    "char": "you"
+},
+{
+    "content":"I told you already, I'm not interested in joining any clubs.",
+    "char":"you"
+},
+{
+    "char": "you",
+    "content": "I haven't been looking, either."
+},
+{
+    "char": "Sayori",
+    "content":"Eh? That's not true!",
+    "charImg":"Ori8.png"
+},
+{
+    "char": "Sayori",
+    "content": "You told me you would join a club this year!"
+},
+{
+    "char": "you",
+    "content": "Did I...?"
+},
+{
+    "char": "nobody",
+    "content": "I'm sure it's possible that I did, in one of our of our many conversations where I dismissively go along with whatever she's going on about"
+},
+{
+    "char": "nobody",
+    "content": "Sayori likes to worry a little too much about me, when I'm perfectly content just getting by on the average while spending my free time on games and anime"
+},
+{
+    "char":"Sayori",
+    "charImg":"Ori10.png",
+    "content":"Uh-huh!"
+},
+{
+    "char":"Sayori",
+    "content":"I was talking about how I'm worried that you won't learn how to socialize or have any skills before college."
+},
+{
+    "char": "Sayori",
+    "content": "Your happiness is really important to me, you know!."
+},
+{
+    "content":"And I know you're happy now, but I'd die at the thought of you becoming a NEET in a few years becouse you're not used to the real world!",
+    "char": "Sayori"
+},
+{
+    "char": "Sayori",
+    "charImg": "Ori7.png",
+    "content": "You trust me, right?"
+},
+{
+    "char": "Sayori",
+    "content": "Don't make me keep worrying about you..."
+},
+{
+    "char": "you",
+    "content": "Alright, alright..."
+},
+{
+    "char": "you",
+    "content": "I'll look at a few clubs if it makes you happy"
+},
+{
+    "char": "you",
+    "content": "No promises, though"
+},
+{
+    "char": "Sayori",
+    "charImg":"Say8.png",
+    "content": "Will you at least promise me you'll try a little?"
+},
+{
+    "char": "you",
+    "content":"Yeah, I guess I'll promise you that."
+},
+{
+    "char": "Sayori",
+    "charImg":"Ori18.png",
+    "content":"Yaay~!"
+},
+{
+    "char": "nobody",
+    "content": "Why do I let myself get lectured by such a carefree girl?"
+},
+{
+    "char": "nobody",
+    "content": "More than that, I'm surprised I even let myself relent to her."
+},
+{
+    "char": "nobody",
+    "content": "I guess seeing her worry so much about me makes me want to ease her mind at least a little bit--even if she does exaggerate everything inside of her head."
+},
+{
+    "newBackground": "Class.png",
+    "char":"nobody",
+    "content":"The school day is as ordinary as ever, and it's over before I know it."
+},
+{
+    "char": "nobody",
+    "content":"After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
+},
+{
+    "char": "you",
+    "content": "Clubs..."
+},
+{
+    "char": "nobody",
+    "content":"Sayori wants me to check out some clubs"
+},
+{
+    "char": "nobody",
+    "content": "I guess I have no choice but to start with the anime club..."
+},
+{
+    "char": "Sayori",
+    "content": "Hellooo?"
+},
+{
+    "char": "you",
+    "content":"Sayori?",
+    "charImg": "Say1.png",
+    "insertImg": "Sayori"
+},
+{
+    "char":"nobody",
+    "content":"Sayori must have come into the classroom while I was spacing out"
+},
+
+{
+    "char":"nobody",
+    "content": "I look around and realize that I'm the only one left in the classroom."
+},
+{
+    "char":"Sayori",
+    "content":"I thought I'd catch you coming out of the classroom, but I saw you just sitting here and spacing out, so I came in."
+},
+{
+    "content":"Honestly, you're even worse than me sometimes... I'm impressed!"
+},
+{
+    "char": "trunks",
+    "content":"You don't need to wait up for me if it's going to make you late to your own club."
+},
+{
+    "char":"Sayori",
+    "charImg":"Say25.png",
+    "content": "Well, I thought you might need some encouragement, so I thought, you know..."
+},
+{
+    "char":"you",
+    "content":"Know what?"
+},
+{
+    "char":"Sayori",
+    "content": "Well, that you could come to my club!",
+    "charImg": "Say1.png"
+},
+{
+    "char": "you",
+    "content": "Sayori..."
+},
+{
+    "char": "Sayori",
+    "content": "Yeah??",
+    "charImg": "Ori18.png"
+},
+{
+    "char": "you",
+    "content": "There is no way I'm going to your club."
+},
+{
+    "char":"Sayori",
+    "charImg": "3d.png",
+    "content":"Eeeehhhhh?! Meanie!"
+},
+{
+    "char":"nobody",
+    "content":"Sayori is vice president of the Literature Club"
+},
+{
+    "char": "nobody",
+    "content":"Not that I was ever aware that she had any interest in literature"
+},
+{
+    "char": "nobody",
+    "content":"In fact, I'm 99% sure she only did it becouse she thought it would be fun to help start a new club."
+},
+{
+    "char": "nobody",
+    "content":"Since she was the first one to show interest after the one who proposed the club, she inherited the title ''Vice President''."
+},
+{
+    "char": "nobody",
+    "content":"That said, my interest in literature is guaranteed to be even less."
+},
+{
+    "char":"you",
+    "content":"Yeah. I'm going to the anime club."
+},
+{
+    "char": "Sayori",
+    "content": "C'mon, please?",
+    "charImg": "Say7.png"
+},
+{
+    "char": "you",
+    "content": "Why do you care so much, anyway?"
+},
+{
+    "char": "Sayori",
+    "content": "Well...",
+    "charImg": "3b.png"
+},
+{
+    "content": "I kind of told the club yesterday I would bring in a new member..."
+},
+{
+    "content": "And Natsuki made cupcakes and everything..."
+},
+{
+    "content": "Ehehe..."
+},
+{
+    "char": "you",
+    "content": "Don't make promises you can't keep!"
+},
+{
+    "char": "nobody",
+    "content": "I can't tell if Sayori is really that much of an airhead, or if she's so cunning as to have planned all of this out."
+},
+{
+    "char": "nobody",
+    "content": "I let out a long sigh."
+},
+{
+    "char": "you",
+    "content": "Fine...I'll stop by for a cupcake, okay?"
+},
+{
+    "char": "Sayori",
+    "content": "Yay! Let's go!~",
+    "charImg": "Ori18.png",
+    "comment": "Acá hace como un saltito hacia arriba"
+},
+{
+    "newBackground":"Corridor.png",
+    "char": "nobody",
+    "content": "And thus, today marks the day I sold my soul for a cupcake."
+},
+{
+    "content": "I dejectedly follow Sayori across the school and upstairs--a section of the school I rarely visit, being generally used for third-year classes and activities.",
+    "char": "nobody"
+},
+{
+    "char": "nobody",
+    "content": "Sayori, full of energy, swings open the classroom door."
+},
+{
+    "music":"main-theme.mp3",
+    "newBackground":"Club.png",
+    "char": "Sayori",
+    "content": "Everyone! the new member is here!",
+    "charImg": "Ori1.png"
+},
+{
+    "char": "you",
+    "content":"I told you, don't call me a 'new member--'"
+},
+{
+    "char": "nobody",
+    "content": "Eh? I glance around the room.",
+    "charImg": "s",
+    "insertImg":"s"    
+},
+{
+    "char": "Yuri",
+    "content": "Welcome to the Literature Club. It's a pleasure meeting you.",
+    "charImg":"Yuri_school_2.png"
+},
+{
+    "content": "Sayori always says nice things about you."
+},
+{
+    "char":"Natsuki",
+    "content":"Seriously? You brought a boy?",
+    "newCharacter":[{
+        "new": "true",
+        "left":"true",
+        "char": "Natsuki",
+        "charImg": "Y14.png"
+    }]
+},
+{
+    "content": "Way to kill the atmosphere"
+},
+{
+    "usesVar":"true",
+    "char": "Monika",
+    "content":"Ah, #var! What a great surprise!", 
+    "newCharacter": [{
+        "new": "true",
+        "left": "true",
+        "char": "Monika",
+        "charImg": "Mon11.png"
+    }]
+},
+{
+    "content":"Welcome to the club!"
+},
+{
+    "char": "you",
+    "content":"...",
+    "newCharacter":[{
+        "char":"Monika",
+        "charImg":"Mon1.png"
+    }]
+},
+{
+    "char": "nobody",
+    "content":"All words scape me in this situation"
+},
+{
+    "char": "nobody",
+    "content": "This club..."
+},
+{
+    "char": "nobody",
+    "content": "IS FULL OF INCREDIBLY CUTE GIRLS!!!"
+},
+{
+    "char": "Natsuki",
+    "content":"What are you looking at?",
+    "newCharacter": "erase",
+    "charImg":"Y14.png"
+},
+{
+    "content":"If you want to say something, say it."
+},
+{
+    "char": "you",
+    "content":"S-Sorry..."
+},
+{
+    "char": "Yuri",
+    "content":"Natsuki...",
+    "newCharacter":[{
+        "new":"true",
+        "char": "Yuri",
+        "charImg":"Yuri_school_7.png"
+    },
+    {
+        "hide":"hide",
+        "left":"true",
+        "new":"true",
+        "char": "Sayori",
+        "charImg":"Say1.png"
+    }]
+},
+{
+    "char":"Natsuki",
+    "content":"Hmph.",
+    "charImg":"NatsukiCrossedArms2.png"
+},
+{
+    "char":"nobody",
+    "content":"The girl with the sour actitude, whose name is apparently Natsuki, is one I don't recognize."
+},
+{
+    "char": "nobody",
+    "content": "Her small figure makes me think she's probably a first-year."
+},
+{
+    "char": "nobody",
+    "content": "She is also the one who made cupcakes, acording to Sayori."
+},
+{
+    "char":"Sayori",
+    "content": "You can't just ignore her when she gets moody~",
+    "newCharacter":[{
+        "char":"Sayori",
+        "hide":"NO",
+        "charImg":"Say1.png"
+    }],
+    "comment":"arreglar esta imagen de sayori"
+},
+{
+    "char":"nobody",
+    "content":"Sayori says that quietly into my ear, then turns back toward the other girls."
+},
+{
+    "char":"Sayori",
+    "content":"Anyway! This is Natsuki, allways full of energy!",
+    "newCharacter":[{"char": "Sayori", "charImg":"Say24.png", "comment":"arreglar esta imagen de sayori de vuelta"}]
+},
+{
+    "content": "And this is Yuri, the smartest of the club!"
+},
+{
+    "char":"Yuri",
+    "content":"D-Don't say things like that...",
+    "newCharacter":[{"char":"Yuri","charImg":"YSLookaway.png"}]
+},
+{
+    "content": "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with people like Sayori and Natsuki",
+    "char": "nobody"
+},
+{
+    "char":"you",
+    "content":"Ah... Well, it's nice to meet both of you."
+},
+{
+   "char": "Sayori",
+   "charImg":"Say1.png",
+   "newCharacter":"erase",
+   "content":"And it looks like you already know Monika, is that right?" 
+},
+{
+    "char":"Monika",
+    "content":"That's right.",
+    "charImg": "Ika1.png",
+    "newCharacter":[{"char":"Sayori", "charImg":"Say1.png"},{"char":"Yuri", "charImg":"Yuri_school_2.png", "hide":"hide"}],
+    "comment": "armar imagen de monika"
+},
+{
+    "char": "Monika",
+    "content":"It's nice to see you again, Trunks."
+
+},
+{
+    "char": "nobody",
+    "content":"Monika smiles sweetly.",
+    "insertImg":"Monika", 
+    "charImg":"3aa.png"
+},
+{   
+    "char":"nobody",
+    "content":"We do know each other--well, we rarely talked, but we were in the same class last year."
+},
+{
+    "char":"nobody",
+    "content":"Monika was probably the most popular girl in class--smart, beautiful, athletic."
+},
+{
+    "char":"nobody",
+    "content":"Basically, completly out of my league."
+},
+{
+    "char": "nobody",
+    "content": "So, having her smile at me so genuinely feels a little..."
+},
+{
+    "char": "you",
+    "content": "Y-You too, Monika."
+},
+{
+    "char":"Sayori",
+    "content":"Come sit down, #var! We made room for you at the table, so you can sit next to me or Monika.",
+    "usesVar":"true",
+    "charImg":"Ori24.png",
+    "newCharacter": "erase"
+},
+{
+    "newCharacter":[{"char":"Yuri","charImg":"Yuri_school_2.png","hide":"hide"}],
+    "content":"I'll get the cupcakes~"
+},
+{
+
+    "char":"Natsuki",
+    "charImg":"Schoold.png",
+    "content":"Hey! I made them, I'll get them!",
+    "newCharacter":[{"char":"Sayori","charImg":"3a.png","left":"true"}]
+},
+{
+    "char":"Sayori",
+    "content":"Sorry, I got a little too exited~",
+    "newCharacter":[{
+        "char":"Sayori","charImg":"3a.png"
+    }]
+},
+{
+    "char":"Yuri",
+    "content":"Then, how about I make some tea as well?",
+    "newCharacter":[{"char":"Yuri","hide":"non","charImg":"Yuri_school_2.png"}]
+},
+{
+    "char":"nobody",
+    "newBackground":"Club.png",
+    "newCharacter":"erase",
+    "content":"The girls have a few desks arranged to form a table."
+},
+{
+    "char":"nobody",
+    "content":"As Sayori mentioned, it's been widened so that there is one space next to Monika and one space next to Sayori"
+},
+{
+    "char": "nobody",
+    "content": "Natsuki and Yuri walk over to the corner of the room, where Natsuki grabs a wrapped tray and Yuri opens the closet."
+},
+{
+    "char": "nobody",
+    "content": "Still feeling awkward, I take a seat next to Sayori."
+},
+{
+    "char": "nobody",
+    "content": "Natsuki proudly marches back to the table, tray in hand"
+},
+{
+    "char":"Natsuki",
+    "charImg":"Natsuki_Grin.png",
+    "content":"Okaaay, are you ready?"
+},
+{
+    "content":"...Ta-daa!"
+},
+{
+    "char":"Sayori",
+    "content":"Uwhoaaah!",
+    "newCharacter":[{"char": "Monika","charImg": "Mon9.png","new":"true"},{"char":"Sayori","left":"true","charImg":"Ori13.png","new":"true"}]
+},
+{
+    "char":"nobody",
+    "content":"Natsuki lifts the foil off the tray to reveal a dozen white, fluffy cupcakes decorated to look like little cats."
+},
+{
+    "char": "nobody",
+    "content": "The whiskers are drawn with icing, and little pieces of chocolate were used to make ears."
+},
+{
+    "char":"Sayori",
+    "content":"So cuuuute~!"
+},
+{
+    "char":"Monika",
+    "content":"I had no idea you were so good at baking, Natsuki!"
+},
+{
+    "char":"Natsuki",
+    "content":"Ehehe. Well, you know.",
+    "charImg":"Y15.png"
+},
+{
+    "char": "Natsuki",
+    "content": "Just hurry and take one!."
+},
+{
+    "char":"nobody",
+    "content":"Sayori grabs one first, then Monika. I follow."
+},
+{
+    "char":"Sayori",
+    "content":"It's delicious!"
+},
+{
+    "char":"nobody",
+    "content":"Sayori talks with her mouth full and has already managed to get icing on her face."
+},
+{
+    "char":"nobody",
+    "content":"I turn the cupcake around in my fingers, looking for the best angle to take a bite."
+},
+{
+    "char":"nobody",
+    "content":"Natsuki is quiet.",
+    "charImg":"Schoolb.png",
+    "insertImg":"Natsuki",
+    "newCharacter":"erase"
+},
+{
+    "char":"nobody",
+    "content":"I can't help but notice her sneaking blances in my direction"
+},
+{
+    "char":"nobody",
+    "content":"Is she waiting for me to take a bite?"
+},
+{
+    "char":"nobody",
+    "content":"I finally bite down."
+},
+{
+    "char":"nobody",
+    "content":"The icing is sweet and full of flavor--I wonder if she made it herself."
+},
+{
+    "char":"you",
+    "content":"This is really good."
+},
+{
+    "content":"Thank you, Natsuki"
+},
+{
+    "char":"Natsuki",
+    "content":"W-Why are you thanking me? It's not like I...!",
+    "charImg":"NatsukiCrossedArms3.png"
+},
+{
+    "char":"nobody",
+    "content":"Haven't I heard it before?"
+},
+{
+    "char": "Natsuki",
+    "content": "...Made them for you or anything.",
+    "charImg": "NatsukiCrossedArms2.png"
+},
+{
+    "char":"you",
+    "content":"Eh? I thought you technically did. Sayori said--"
+},
+{
+    "char": "Natsuki",
+    "content": "Well, maybe!",
+    "charImg": "Y5.png"
+},
+{
+    "content":"But not for, y-you know, you! Dummy..."
+},
+{
+    "char":"you",
+    "content":"Alright, alright"
+},
+{
+    "newBackground":"Club.png",
+    "char": "nobody",
+    "content":"I give up on Natsuki's weird logic and dismiss the conversation."
+},
+{
+    "char":"nobody",
+    "content":"Yuri returns to the table, carrying a tea set."
+},
+{
+    "char":"nobody",
+    "content":"She carefully places a teacup in front of each of us before setting down the teapot next to the cupcake tray"
+},
+{
+    "newCharacter":[{"char":"Monika","charImg":"Ika1.png","hide":"hide"}],
+    "char":"you",
+    "content":"You keep a whole tea set in this classroom?",
+    "charImg":"Yuri_school_2.png",
+    "insertImg":"Yuri"
+},
+{
+    "char":"Yuri",
+    "content":"Don't worry, the teachers gave us permission."
+},
+{
+    "content":"After all, doesn't a hot cup of tea help you enjoy a good book?"
+},
+{
+    "char":"you",
+    "content":"Ah... I-I guess..."
+},
+{
+    "char":"Monika",
+    "content":"Ehehe, don't let yourself get intimidated, Yuri's just trying to impress you.",
+    "newCharacter":[{"char":"Monika", "hide":"NO"}]
+},
+{
+    "char":"Yuri",
+    "content":"Eh?! T-That's not...",
+    "charImg":"YScared2.png"
+},
+{
+    "char":"nobody",
+    "content":"Insulted, Yuri looks away."
+},
+{
+    "char":"Yuri",
+    "content":"I meant that, you know...",
+    "charImg":"YSLookaway.png"
+},
+{
+    "char":"you",
+    "content":"I believe you."
+},
+{
+    "content":"Well, tea and reading might not be a pastime for me, but I at least enjoy tea."
+},
+{
+    "char":"Yuri",
+    "content":"I'm glad...",
+    "charImg":"YBashful_Smile_2.png"
+},
+{
+    "char":"nobody",
+    "content":"Yuri faintly smiles to herself in relief."
+},
+{
+    "char":"nobody",
+    "content":"Monika raises an eyebrow, then smiles at me."
+},
+{
+    "char":"Monika",
+    "content":"So, what made you consider the Literature Club?",
+    "charImg":"Mon1.png",
+    "newCharacter":"erase"
+},
+{
+    "content":"Um...",
+    "char":"you"
+},
+{
+    "char":"nobody",
+    "content":"I was afraid of this question."
+},
+{
+    "char":"nobody",
+    "content":"Something tells me I shouldn't tell Monika that I was practically dragged here by Sayori."
+},
+{
+    "char":"you",
+    "content":"Well, I haven't joined any clubs yet, adn Sayori seemed really happy here, so..."
+},
+{
+    "char":"Monika",
+    "content":"That's okay! Don't be embarrassed!",
+    "charImg":"Mon10.png"
+},
+{
+    "char": "Monika",
+    "content": "We'll make sure you feel right at home, okay?",
+    "charImg": "Mon2.png"
+},
+{
+    "content":"As president of the Literature Club, It's my duty to make the club fun and exciting for everyone!"
+},
+{
+    "char":"you",
+    "insertImg":"Monika",
+    "charImg":"Mon1.png",
+    "content":"Monika, I'm surprised."
+},
+{
+    "content":"How come you decided to start your own club?"
+},
+{
+    "content":"You could probably be a board member for any of the major clubs."
+},
+{
+    "content":"Weren't you a leader of the debate club last year?"
+},
+{
+    "char":"Monika",
+    "content":"Ahaha, well, you know...",
+    "charImg":"3aa.png"
+},
+{
+    "content":"To be honest, I can't stand all of the politics around the major clubs."
+},
+{
+    "content":"It feels like nothing but arguing about the budget and publicity and how to prepare for events"
+},
+{
+    "content":"I'd much rather take something I personally enjoy and make something special out of it."
+},
+{
+    "char":"Monika",
+    "content":"And if it encourages others to get into literature, then I'm fulfilling that dream!",
+    "charImg":"Mon2.png"
+},
+{
+    "insertImg":"Monika",
+    "charImg":"Mon1.png",
+    "char":"Sayori",
+    "content":"Monika really is a great leader!",
+    "newCharacter":[{"char":"Yuri", "charImg":"Yuri_school_2.png","hide":"hide","new":"true"},{"char":"Sayori","charImg":"Ori17.png","left":"true","new":"true"}]
+},
+{
+    "newCharacter":[{"char":"Yuri","hide":"non","charImg": "Yuri_school_2.png"}],
+    "char":"Yuri",
+    "content":"Yuri also nods in agreement."
+},
+{
+    "char":"you",
+    "content":"Then I'm surprised there areen't more people in the club yet.",
+    "newCharacter":"erase"
+},
+{
+    "content":"It must be hard to start a new club."
+},
+{
+    "char":"Monika",
+    "charImg":"Ika2.png",
+    "content":"You could put it that way."
+},
+{
+    "content":"Not many people are very interested in putting out all the effort to start something brand new..."
+},
+{
+    "content":"Especially when it's something that doesn't grab your attention, like literature."
+},
+{
+    "content":"You have to work hard to convince people that you're both fun and worthwhile."
+},
+{
+    "content":"But it makes school events, like the festival, that much more important"
+},
+{
+    "char":"Monika",
+    "charImg":"Mon11.png",
+    "content":"I'm confident that we can all really grow this club before we graduate!"
+},
+{
+    "content":"Right everyone?"
+},
+{
+    "char":"Sayori",
+    "content":"Yeah!",
+    "newCharacter":[{"char":"Sayori","new":"true","charImg":"Ori18.png", "left":"true"}]
+},
+{
+    "char":"Yuri",
+    "content":"We'll do our best.",
+    "newCharacter":[{"char":"Yuri","new":"true","charImg":"Yuri_school_2.png", "left":"true"}]
+},
+{
+    "char":"Natsuki",
+    "content":"You know it!",
+    "newCharacter":[{"char":"Natsuki","new":"true","charImg":"Y15.png","left":"true"}]
+},
+{
+    "char":"nobody",
+    "content":"Everyone enthusiastically agrees."
+},
+{
+    "char":"nobody",
+    "content":"Such different girls, all interested in the same goal..."
+},
+{
+    "char":"nobody",
+    "content":"Monika must have worked really hard just to find these three."
+},
+{
+    "char":"nobody",
+    "content":"Maybe that's why they were all so delighted by the idea of a new member joining."
+},
+{
+    "char":"nobody",
+    "content":"Though I still don't really know if I can keep up with their level of enthusiasm about literature"
+},
+{
+    "newCharacter":"erase",
+    "char":"Yuri",
+    "content":"So, #var, what kinds of things do you like to read?",
+    "usesVar":"true",
+    "charImg":"Yuri_school_2.png"
+},
+{
+    "char":"you",
+    "content":"Well... Ah..."
+},
+{
+    "char":"nobody",
+    "content":"Considering how little I've read these past few years, I don't really have a good way of answering that."
+},
+{
+    "char":"you",
+    "content":"...Manga..."
+},
+{
+    "char":"nobody",
+    "content":"I mutter quietly to myself, half-joking."
+},
+{
+    "newCharacter":[{"new":"true", "char":"Natsuki","left":"true", "charImg":"schoolb.png"},{"new":"true","hide":"hide","char":"Monika","charImg":"Mon4.png"}],
+    "char":"nobody",
+    "content":"Natsuki's head suddenly perks up."
+},
+{
+    "char":"nobody",
+    "content":"It looks like she wants to say something, but she keeps quiet."
+},
+{
+    "char":"Yuri",
+    "newCharacter":[{"char":"Natsuki","hide":"hide"}],
+    "charImg":"YBashful_Smile.png",
+    "content":"N-Not much of a reader, I guess..."
+},
+{
+    "char":"you",
+    "content":"...Well, that can change..."
+},
+{
+    "char":"nobody",
+    "content":"What am I saying?"
+},
+{
+    "char":"nobody",
+    "content":"I spoke without thinking after seeing Yuri's sad smile."
+},
+{
+    "char":"you",
+    "content":"Anyway, what about you, Yuri?"
+},
+{
+    "char":"Yuri",
+    "charImg":"Yuu.png",
+    "content":"Well, let's see..."
+},
+{
+    "char":"nobody",
+    "content":"Yuri traces the rim of her teacup with her finger"
+},
+{
+    "char":"Yuri",
+    "charImg":"Yuri_school_2.png",
+    "content":"My favorites are usually novels that build deep and complex fantasy worlds."
+},
+{
+    "content":"The level of creativity and craftsmanship behind them is amazing to me."
+},
+{
+    "char":"Yuri",
+    "content":"And telling a good story in such a foreign world is equally impressive.",
+    "charImg":"YSurp.png"
+},
+{
+    "char":"nobody",
+    "content":"Yuri goes on, clearly passionate about her reading."
+},
+{
+    "char":"nobody",
+    "content":"She seemed so reserved and timid since the moment I walked in, but it's obvious by the way her eyes light up that she finds her confort in the world of books, not people."
+},
+{
+    "char":"Yuri",
+    "charImg":"Yuvu.png",
+    "content":"But you know, I like a lot of things."
+},
+{
+   "content":"Stories with deep psychological elements usually immerse me as well." 
+},
+{
+    "char":"Yuri",
+    "charImg":"21.png",
+    "content":"Isn't it amazing how a writer can so deliberately take adventage of your own lack of imagination to completely throw you for a loop?"
+},
+{
+    "content":"Anyway, I've been reading a lot of horror lately..."
+},
+{
+    "char":"you",
+    "content":"Ah, I read a horror book once..."
+},
+{
+    "char":"nobody",
+    "content":"I desperately grasp something I can relate to at the minimal level."
+},
+{
+    "char":"nobody",
+    "content":"At this rate, yuri might as well be having a conversation with a rock."
+},
+{
+    "char":"Monika",
+    "content":"Really? I wouldn't have expected that, yuri.",
+    "newCharacter":[{"char":"Monika", "charImg":"Mon4.png","hide":"NON"}]
+},
+{
+    "char":"Monika",
+    "content":"For someone as gentle as you..."
+},
+{
+    "char":"Yuri",
+    "content":"I guess you could say that",
+    "charImg":"Yuri_school_2.png"
+},
+{
+    "content":"But if a story makes me think, or takes me to another world, then I can't put it down."
+},
+{
+    "content":"Surreal horror is often very succesful at changing the way you look at the world, if only for a brief moment."
+},
+{
+    "char":"Natsuki",
+    "content":"Ugh, I hate horror...",
+    "newCharacter":[{"char":"Natsuki","hide":"NO","charImg":"NatsukiCrossedArms2.png"}]
+},
+{
+    "char":"Yuri",
+    "content":"Oh? Why's that?",
+    "charImg":"Ysurp.png"
+},
+{
+    "char":"Natsuki",
+    "content":"Well, I just...",
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms.png"}]
+},
+{
+    "char":"nobody",
+    "content":"Natsuki's eyes dart over to me for a split second."
+},
+{
+    "char":"Natsuki",
+    "content":"Never mind.",
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}]
+},
+{
+    "char":"Monika",
+    "content":"That's right, you usually like to write about cute things, don't you, Natsuki?",
+    "newCharacter":[{"char":"Monika","charImg":"Mon1.png"}]
+},
+{
+    "char":"Natsuki",
+    "content":"W-What?",
+    "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}]
+},
+{
+    "content":"What gives you that idea?"
+},
+{
+    "char":"Monika",
+    "content":"You left a piece of scrap paper behind last club meeting.",
+    "newCharacter":[{"char":"Monika","charImg":"Ika2.png"}]
+},
+{
+    "content":"It looked like you were working on a poem called--"
+},
+{
+    "char":"Natsuki",
+    "content":"Don't say it out loud!!",
+    "newCharacter":[{"char":"Natsuki","charImg":"Schoolo.png"}]
+},
+{
+    "content":"And give that back!"
+},
+{
+    "char":"Monika",
+    "content":"Fine, fine~",
+    "newCharacter":[{"char":"Monika","charImg":"Mon10.png"}]
+},
+{
+    "char":"Sayori",
+    "content":"Ehehe, your cupcakes, your poems...",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori17.png","new":"true","left":"true"},{"char":"Monika","hide":"hide"}],
+    "insertImg":"???",
+    "charImg":""
+},
+{
+    "content":"Everything you do is just as cute as you are~"
+},
+{
+    "char":"nobody",
+    "content":"Sayori sidles up behind Natsuki and puts her hands on her shoulders."
+},
+{
+    "char":"Natsuki",
+    "content":"I'm not cute!!",
+    "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}]
+},
+{
+    "newCharacter":"erase",
+    "char":"you",
+    "content":"Natsuki, you write your own poems?",
+    "insertImg":"Natsuki",
+    "charImg":"Schools.png"
+},
+{
+    "char":"Natsuki",
+    "content":"Eh? Well, I guess sometimes.",
+    "charImg":"Schoolj.png"
+},
+{
+    "content":"Why do you care?"
+},
+{
+    "char":"you",
+    "content":"I think that's impressive."
+},
+{
+    "content":"Why don't you share them sometime?"
+},
+{
+    "char":"Natsuki",
+    "content":"N-No!",
+    "charImg":"NatsukiCrossedArms2.png"
+},
+{
+    "char":"Nobody",
+    "content":"Natsuki averts her eyes."
+},
+{
+    "char":"Natsuki",
+    "content":"You wouldn't... like them..."
+},
+{
+    "char":"you",
+    "content":"Ah... not a very confident writer yet?"
+},
+{
+    "newCharacter":[{"char":"Yuri","charImg":"YSurp.png","new":"true","left":"true"},{"char":"Monika","hide":"hide","charImg":"Mon1.png","new":"true"}],
+    "content":"I understand how Natsuki feels.",
+    "char":"Yuri"
+},
+{
+    "content":"Sharing that level of writing takes more than just confidence."
+},
+{
+    "char":"Yuri",
+    "content":"The truest form of writing is writing to oneself.",
+    "newCharacter":[{"char":"Yuri","charImg":"Yuu.png"}]
+},
+{
+    "content":"You must be willing to open up to readers, exposing your vulnerabilities and showing even the deepest reaches of your heart."
+},
+{
+    "char":"Monika",
+    "content":"Do you have writing experience too, Yuri?",
+    "newCharacter":[{"char":"Monika","hide":"non"}],
+    "insertImg":"nobody"
+},
+{
+    "char":"Monika",
+    "content":"Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
+},
+{
+    "char":"Yuri",
+    "content":"...",
+    "newCharacter":[{"char":"Yuri","charImg":"YSShy1.png"}]
+},
+{
+    "char":"you",
+    "content":"I guess it's the same for Yuri..."
+},
+{
+    "char":"Sayori",
+    "content":"Aww... I wanted to read everyone's poems...",
+    "charImg":"Say7.png"
+},
+{
+    "char":"nobody",
+    "newCharacter":"erase",
+    "content":"We all sit in silence for a moment.",
+    "insertImg":"nobody"
+},
+{
+    "char":"Monika",
+    "charImg":"3aa.png",
+    "content":"Okay!"
+},
+{
+    "content":"I have an idea, everyone~"
+},
+{
+    "newCharacter":[{"char":"Yuri", "charImg":"YLook.png","left":"true","new":"true"},{"new":"true","char":"Natsuki","charImg":"Y22.png"}],
+    "comment":"Arreglar todas estas imagenes porque no da loco",
+    "content":"...?",
+    "char":"Nat & Yuri"
+},
+{
+    "char":"nobody",
+    "content":"Natsuki and Yuri look quizzically at Monika."
+},
+{
+    "char":"Monika",
+    "charImg":"Ika2.png",
+    "content":"Let's all go home and write a poem of your own!"
+},
+{
+    "content":"Then, next time we meet, we'll all share them with each other."
+},
+{
+    "content":"That way, everyone is even!"
+},
+{
+    "char":"Natsuki",
+    "content":"U-Um",
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}],
+    "comment":"arreglar esta imagen de Natsuki"
+},
+{
+    "char":"Yuri",
+    "content":"...",
+    "newCharacter":[{"char":"Yuri","charImg":"YSShy1.png"}],
+    "comment":"Arreglar esta tambien"
+},
+{
+    "char":"Sayori",
+    "content":"Yeaaah! Let's do it!",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori18.png","left":"true","new":"true"}]
+},
+{
+    "char":"Monika",
+    "content":"Plus, now that we have a new member, I think it will help us all get a little more comfortable with each other, and strengthen the bond of the club.",
+    "charImg":"Mon1.png"
+},
+{
+    "content":"Isn't that right, #var?",
+    "usesVar":"true"
+},
+{
+    "char":"nobody",
+    "content":"Monika smiles warmly at me once again."
+},
+{
+    "char":"you",
+    "content":"Hold on... there's still one problem."
+},
+{
+    "char":"Monika",
+    "content":"Eh? What's that?",
+    "charImg":"Mon4.png"
+},
+{
+    "char":"nobody",
+    "content":"Now that we're back to the original topic of me joining the club, I bluntly come forth with what's been on my mind the entire time."
+},
+{
+    "char":"you",
+    "content":"I never said I would join this club!"
+},
+{
+    "content":"Sayori may have convinced me to stop by, but I necer made any decision."
+},
+{
+    "content":"I still have other clubs to look at and... um..."
+},
+{
+    "char":"nobody",
+    "content":"I lose my train of thought.",
+    "charImg":"Mon7.png",
+    "newCharacter":[{"char":"Natsuki", "charImg":"Y18.png"},{"char":"Sayori","charImg":"Say7.png"},{"char":"Yuri","charImg":"YSurp.png"}]
+},
+{
+    "char":"nobody",
+    "content":"All four girls stare back at me with dejected eyes."
+},
+{
+    "char":"Monika",
+    "content":"B-But...",
+    "charImg":"Mon16.png"
+},
+{
+    "char":"Yuri",
+    "content":"I'm sorry, I thought...",
+    "newCharacter":[{"char":"Yuri","charImg":"YSSad.png"}]
+},
+{
+    "char":"Natsuki",
+    "content":"Hmph.",
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}]
+},
+{
+    "char":"Sayori",
+    "usesVar":"true",
+    "content":"#var...",
+    "newCharacter":[{"char":"Sayori","charImg":"Say11.png"}]
+},
+{
+    "char":"you",
+    "content":"Y-You all..."
+},
+{
+    "char":"nobody",
+    "content":"I...I'm defenseless against these girls."
+},
+{
+    "char":"nobody",
+    "content":"How am I supposed to make a clear-headed decision when it's like this?"
+},
+{
+    "char": "nobody",
+    "content":"That is, if writing poems is the price I need to pay in order to spend every day with these beautiful girls..."
+},
+{
+    "char":"you",
+    "content":"...Right."
+},
+{
+    "char": "you",
+    "content": "Okay, I'v decided, then."
+},
+{
+    "char":"you",
+    "content":"I'll join the Literature Club."
+},
+{
+    "char":"nobody",
+    "content":"One by one, the girls' eyes light up",
+    "insertImg":"Monika",
+    "charImg":"Mon5.png",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori2.png"},{"char":"Yuri","charImg":"YSurp2.png"},{"char":"Natsuki","charImg":"Schoolj.png"}]
+},
+{
+    "char":"Sayori",
+    "content":"Yesss! I'm so happyyy~",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}]
+},
+{
+    "char":"nobody",
+    "content":"Sayori wraps her arms around me, jumping up and down"
+},
+{
+    "char":"you",
+    "content":"H-Hey--"
+},
+{
+    "char":"Yuri",
+    "content":"You really did scare me for a moment...",
+    "newCharacter":[{"char":"Yuri","charImg":"Yuvu.png"}]
+},
+{
+    "char":"Natsuki",
+    "content":"If you really just came for the cupcakes, I would be super pissed.",
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms4.png"}]
+},
+{
+    "char":"Monika",
+    "charImg":"3aa.png",
+    "content":"Then that makes it official!"
+},
+{
+    "content":"Welcome to the Literature Club!"
+},
+{
+    "char":"you",
+    "content":"Ah..thanks, I guess."
+},
+{
+    "newCharacter":"erase",
+    "char":"Monika",
+    "charImg":"Monika2.png",
+    "content":"Okay, everyone!"
+},
+{
+    "content":"I think with that, we can officialy end today's meeting on a good note."
+},
+{
+    "content":"Everyone remember tonight's assignment:"
+},
+{
+    "content":"Write a poem to bring to the next meeting, so we can all share!"
+},
+{
+    "char":"nobody",
+    "content":"Monika looks over at me once more"
+},
+{
+    "usesVar":"true",
+    "char":"Monika",
+    "charImg":"Mon1.png",
+    "content":"#var, I look foward to seeing you how you express yourself."
+},
+{
+    "char":"Monika",
+    "content":"Ehehe~",
+    "charImg":"3aa.png"
+},
+{
+    "char":"you",
+    "content":"Y-Yeah..."
+},
+{
+    "insertImg":"???",
+    "char":"nobody",
+    "content":"Can I really impress the class star Monika with my mediocre writing skills?"
+},
+{
+    "char":"nobody",
+    "content":"I already feel the anxiety welling up inside me."
+},
+{
+    "char":"nobody",
+    "content":"Meanwhile, the girls continue to chit-chat as Yuri and Natsuki clean up their food."
+},
+{
+    "char":"Sayori",
+    "content":"Hey, #var, since we're already here, do you want to walk home together?",
+    "usesVar":"true",
+    "charImg":"Say1.png"
+},
+{
+    "char":"nobody",
+    "content":"That's right--Sayori and I never walk home together anymore because she always stayed after school for clubs."
+},
+{
+    "char":"you",
+    "content":"Sure, might as well."
+},
+{
+    "char":"Sayori",
+    "content":"Yaay~",
+    "charImg":"Ori17.png"
+},
+{
+    "newBackground":"barrio.png",
+    "char":"nobody",
+    "content":"With that, the two of us depart the clubroom and make our way home."
+},
+{
+    "char":"nobody",
+    "content":"The whole way, my mind wanders back and forth between the four girls:"
+},
+{
+    "char":"nobody",
+    "content":"Sayori,",
+    "newCharacter":[
+        {"char":"Monika","new":"true","charImg":"Mon1.png","hide":"hide"},
+        {"char":"Yuri", "charImg":"Yuri_school_2.png","left":"true","new":"true","hide":"hide"},
+        {"new":"true","char":"Natsuki","charImg":"Y1.png","hide":"hide","left":"true"},
+        {"char":"Sayori","new":"true","left":"true","charImg":"Say1.png"}
+    ]
+},
+{
+    "char":"nobody",
+    "content":",Natsuki",
+    "newCharacter":[{"char":"Natsuki","hide":"non"}]
+},
+{
+    "char":"nobody",
+    "content":"Yuri,",
+    "newCharacter":[{"char":"Yuri","hide":"non"}]
+},
+{
+    "char":"nobody",
+    "content":"and, of course, Monika.",
+    "newCharacter":[{"char":"Monika","hide":"non"}]
+},
+{
+    "char":"nobody",
+    "content":"Will I really be happy spending every day after school in a literature club?"
+},
+{
+    "char":"nobody",
+    "content":"Perhaps I'll have the chance to grow closer to one of these girls..."
+},
+{
+    "newCharacter":"erase",
+    "char":"nobody",
+    "content":"Alright!"
+},
+{
+    "char":"nobody",
+    "content":"I'll just need to make the most of my circumstances, and I'm sure good fortune will find me."
+},
+{
+    "char": "nobody",
+    "content": "And I guess that starts with writing a poem tonight..."
+}
+]

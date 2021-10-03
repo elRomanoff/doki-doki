@@ -1,0 +1,152 @@
+viewport: height y width. medidas relativas que me van a servir en CSS
+
+
+propiedades de texto:
+font-size: 12
+font-family:
+line-height
+font-weight
+
+la font family cursive anda joya para DDLC
+
+
+//TEORIA DE CAJAS
+
+hay dos tipos de cajas en HTML: las "en línea" o "in line" y los bloques
+
+los bloques forman bloques enteros y ocupan todo el ancho del bloque
+contenedor, y se pone uno abajo del otro
+
+los elementos en línea ocupan solamente su contenido
+ej: el ancho de "la pija del toro" va a ser el espacio que ocupe escribir
+"la pija del toro"
+
+//propiedades de las cajas: 
+display: con este podes darle forma de caja, linea, flex y hasta un grid 
+que vamos a ver mas adelante                                                                       
+
+//propiedades de los elementos en linea
+
+**no se les puede dar height ni width
+
+//propiedades de los elementos en bloques
+
+**se les puede dar height y width
+
+////PADDING ** 
+es la distancia entre el texto y la caja
+
+//Box-sizing: propiedad que define el comportamiento del contenido 
+dependiendo de sus margenes y padings
+
+content-box: el padding aumenta el tamaño de la caja definido anteriormente
+border-box: el padding NO aumenta el tamaño de la caja definido anteriormente
+
+
+///MARGIN: separa los contenedores, no su contenido
+
+//OUTLINE: un borde que no afecta al comportamiento de otras CAJAS
+
+//POSITION: posicion por defecto: STATIC  ////IMPORTANTE PARA DDLC}
+
+    relative: el espacio que se le asignó a la caja antes de que la posicionemos 
+    con css queda fijo. podemos mover la caja para cualquier lado, pero quedaria 
+    un hueco en donde estaba antes de cambiarle el position. Los cambios 
+    realizados en porcentajes, se ejecutan según el tamaño del contenedor. 
+    increiblemente, si el contenedor no tiene un alto declarado, la propiedad
+    top directamente no afecta
+
+    absolute: el espacio asignado en el DOM se borra. la posicion absolute es
+    como una pantalla aparte. las propiedades de coordenadas se calculan segun 
+    el elemeto padre posicionado más cercano. si ningun elemento padre tiene position,
+    se calcula segun el viewport
+    
+    fixed: se queda pegado mientras scrolleas, re cheto. se calcula segun el viewport
+    
+    sticky queda en un lugar hasta que bajas y se queda pegado en la parte baja como fixed
+
+"cuando posicionamos un elemento, adquiere cuatro propiedades: top, left, right y bottom."
+
+////PSEUDOELEMENTOS: 
+
+    ::first-line | block    estos forman parte del dom
+    ::first-letter | block
+    ::placeholder | 
+    ::selection
+    ::after | INLINE         estos no
+            content necesario!
+    ::before | INLINE 
+
+    estos ultimos quedan como hijos del elemento al que estan modificando
+    y funcan tanto en bloques como inlines (???)
+
+///OBJECT FIT **MUY IMPORTANTE PARA DDLC
+
+ none: la imagen, si el contenedor es más grande, queda igual(y se centra 
+dependiendo del tamaño que se le dé).
+si el contenedor es mas chico, la imagen sobresale whaaat (salvo que tenga el width y
+height al 100%)
+
+contain: si el contenedor es mas grande, igual que el none.
+si es mas chico, 
+
+
+
+
+
+
+
+
+DEFINICION DE FIREFOX: contain
+El contenido reemplazado está dimensionado para mantener su relación de aspecto mientras se ajusta dentro del cuadro de contenido del elemento: su tamaño de objeto concreto se resuelve como una restricción de contenido contra el ancho y la altura utilizados del elemento.
+cover
+El contenido reemplazado se dimensiona para mantener su relación de aspecto mientras llena el cuadro de contenido completo del elemento. Si la relación de aspecto del objeto no coincide con la relación de aspecto de su caja, entonces el objeto se recortará para que se ajuste.
+fill
+Modifica el tamaño del elemento remplazado para llenar el cuadro de contenido. El objeto completo ocupará todo el espacio de la caja. Si el tamaño del elemento no concuerda con el de su caja, se estirará para llenarlo.
+none
+El contenido reemplazado no se redimensiona.
+scale-down
+El contenido se dimensiona como si none o contain estuvieran especificados, lo que resultaría en un tamaño de objeto concreto más pequeño.
+
+
+//////////////FLEXBOX!!
+    Para trabajar con flexbox necesitamos dos cosas: un flex container y un flex content
+Un elemento flex container se comporta como bloque
+
+main axis: eje x
+cross axis: eje y
+
+ambos axis tienen su main o cross start(a la izquierda o arriba) y su main
+o cross end(a la derecha/abajo)
+
+cada hijo directo de un flex conteiner se conoce como flex item. los
+elementos hijos del flex item no tienen propiedad flex.
+
+justify-content alinea el contenido segun el main axis (que puede ser alto o ancho)
+
+propiedades de justify-content: flex-start(default)
+flex-end (lo contrario xd) space between
+space arround 
+y center
+
+
+
+
+
+
+
+
+
+
+
+//alert btn plantilla
+        <div class="alert-btn">
+            <p>
+                It's time to write a poem!
+            </p>
+            <p>
+                Pick words you think yout favourite club member will like. Something good might happen with whoever likes your
+                poem the most
+            </p>
+            <p class="ok ho">ok</p>
+        </div>
