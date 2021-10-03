@@ -14,7 +14,7 @@ app.set("port", process.env.PORT || 80);
 app.use(require('./routes/index'))
 
 //starting the server
-app.listen(80, function () {
+app.listen((app.get('port')), function () {
     console.log('listening on 80')
 })
 
