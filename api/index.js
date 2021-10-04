@@ -17,4 +17,3 @@ app.use(require('./routes/index'))
 app.listen((app.get('port')), function () {
     console.log('listening on 80')
 })
-

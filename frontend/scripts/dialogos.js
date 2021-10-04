@@ -1,4 +1,4 @@
-let you = prompt("ingresa tu nombre (Si, por el momento hacemos así xd)")
+let you = prompt("Insert your name")
 
 import { cargarSonido } from "/scripts/cargarSonido.js"
 
