@@ -45,13 +45,23 @@ body{
 .char{
     height: 100%;
     position: relative;
+    top: 0%;
+    left: 0%;
     margin: 0 -5%;
-    transition: height .6s;
+    transition: top .2s linear, height .2s linear, left .5s linear;
+        /* transition: top .4s;
+        transition: left .7s; */
 }
 .fast{
     transition: all .3s;
 }
-
+.jump-animation {
+    animation: jumping .3s linear;
+}
+@keyframes jumping{
+    50%{top:-3%}
+    100%{top:0%}
+}
 
 .together{
     margin: 0 -10%

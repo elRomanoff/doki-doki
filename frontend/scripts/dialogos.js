@@ -11,7 +11,7 @@ let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
 
-let i = 0;
+let i = 210;
 
 let arrDialog = []
 
@@ -40,6 +40,18 @@ class Character {
     animation(direction, value){
         if(direction === "height") {
             this.png.style.height = value;
+        }
+        else if(direction === "jump"){
+            this.png.classList.add("jump-animation");
+            setTimeout(() =>{
+                this.png.classList.remove("jump-animation")
+            },600)
+        }
+        else if(direction === "top"){
+            this.png.style.top = value;
+        }
+        else if(direction === "left"){
+            this.png.style.left = value
         }
     }
 }
@@ -102,7 +114,6 @@ function manageProperties(objDialog){
         else if (objDialog.char === "you") charName.innerHTML = you; 
         else charName.innerHTML = objDialog.char;
     }
-    //estas dos voy a tener que modificar
     if (objDialog.charImg) manageImage(objDialog.char, objDialog.charImg);
     if (objDialog.insertImg) manageImage(objDialog.insertImg, objDialog.charImg);
     
@@ -168,24 +179,23 @@ function manageBackground(background){
 }
 
 function manageImage(char, img){
-
     // textBox.innerHTML = "";
     if(!img) pngChar.src = "";
-
-    if(char === "Sayori"){
-        pngChar.src = "/api/img/sayori/" +img;
-    }else 
-    if (char === "Yuri"){
-        pngChar.src = "/api/img/yuri/" + img;
-    }else
-    if(char === "Natsuki"){
-        pngChar.src = "/api/img/natsuki/" + img;
-    }else
-    if(char === "Monika"){
-        pngChar.src = "/api/img/monika/" + img;
+    else{
+        if(char === "Sayori"){
+            pngChar.src = "/api/img/sayori/" +img;
+        }else 
+        if (char === "Yuri"){
+            pngChar.src = "/api/img/yuri/" + img;
+        }else
+        if(char === "Natsuki"){
+            pngChar.src = "/api/img/natsuki/" + img;
+        }else
+        if(char === "Monika"){
+            pngChar.src = "/api/img/monika/" + img;
+        }
     }
 }
-
 
 
 //add new character to the Screen
@@ -250,13 +260,36 @@ function manageNewCharacter(obj){
 }
     
 
-
 //animations
 function manageAnimation(objAnimation){
     if(!objAnimation.char){
         if (objAnimation.direction === "height") {
             char.style.height = objAnimation.value;
         }
+        else if (objAnimation.direction === "top"){
+            char.style.top = objAnimation.value;
+        }
+        else if(objAnimation.direction === "left"){
+            char.style.left = objAnimation.value;
+        }
+        else if(objAnimation.direction === "jump"){
+            char.classList.add("jump-animation")
+            setTimeout(function () {
+                char.classList.remove("jump-animation");
+            },600)
+        }
+    }
+    else if(objAnimation.char === "Yuri"){
+        yuri.animation(objAnimation.direction, objAnimation.value)
+    }
+    else if(objAnimation.char === "Natsuki"){
+        natsuki.animation(objAnimation.direction, objAnimation.value)
+    }
+    else if(objAnimation.char === "Monika"){
+        monika.animation(objAnimation.direction, objAnimation.value)
+    }
+    else if(objAnimation.char === "Sayori"){
+        sayori.animation(objAnimation.direction, objAnimation.value)
     }
 }
 
@@ -282,7 +315,7 @@ function showStory(){
 }
 function skip() {
     if(!skipInterval){
-        skipInterval = setInterval(() => {runDialog()}, 400)
+        skipInterval = setInterval(() => {runDialog()}, 300)
     }
     else {
         clearInterval(skipInterval)

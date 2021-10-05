@@ -55,7 +55,7 @@
     "charImg": "Say2.png",
     "animation":[{
         "direction":"height",
-        "value":"96%"
+        "value":"97%"
     }]
 },
 {
@@ -70,7 +70,11 @@
 {
     "char": "Sayori",
     "charImg": "Say1.png",
-    "content":"Fine, fine."
+    "content":"Fine, fine.",
+    "animation":[{
+        "direction": "height",
+        "value":"100%"
+    }]
 },
 {
 
@@ -90,6 +94,7 @@
     "charImg":"Say17.png"
 },
 {
+    "insertImg":"Sayori",
     "content": "We cross the street together and make our way to school.",
     "char": "nobody"
 },
@@ -122,7 +127,13 @@
 {
     "char": "Sayori",
     "content":"Eh? That's not true!",
-    "charImg":"Ori8.png"
+    "charImg":"Ori8.png",
+    "animation": [
+        {
+            "direction": "top",
+            "value":"4%"
+        }
+    ]
 },
 {
     "char": "Sayori",
@@ -190,7 +201,13 @@
 {
     "char": "Sayori",
     "charImg":"Ori18.png",
-    "content":"Yaay~!"
+    "content":"Yaay~!",
+    "animation": [
+        {
+            "direction": "top",
+            "value": "0%"
+        }
+    ]
 },
 {
     "char": "nobody",
@@ -252,7 +269,7 @@
     "content":"Honestly, you're even worse than me sometimes... I'm impressed!"
 },
 {
-    "char": "trunks",
+    "char": "you",
     "content":"You don't need to wait up for me if it's going to make you late to your own club."
 },
 {
@@ -285,7 +302,13 @@
 {
     "char":"Sayori",
     "charImg": "3d.png",
-    "content":"Eeeehhhhh?! Meanie!"
+    "content":"Eeeehhhhh?! Meanie!",
+    "animation": [
+        {
+            "direction": "top",
+            "value": "3%"
+        }
+    ]
 },
 {
     "char":"nobody",
@@ -354,7 +377,13 @@
     "char": "Sayori",
     "content": "Yay! Let's go!~",
     "charImg": "Ori18.png",
-    "comment": "Acá hace como un saltito hacia arriba"
+    "comment": "Acá hace como un saltito hacia arriba",
+    "animation": [
+        {
+            "direction": "top",
+            "value": "0%"
+        }
+    ]
 },
 {
     "newBackground":"Corridor.png",
@@ -378,13 +407,24 @@
 },
 {
     "char": "you",
-    "content":"I told you, don't call me a 'new member--'"
+    "content":"I told you, don't call me a 'new member--'",
+    "animation": [
+        {
+            "direction": "left",
+            "value": "-70%"
+        }
+    ]
 },
 {
     "char": "nobody",
     "content": "Eh? I glance around the room.",
-    "charImg": "s",
-    "insertImg":"s"    
+    "insertImg":"s",
+    "animation": [
+        {
+            "direction": "left",
+            "value": "0%"
+        }
+    ]    
 },
 {
     "char": "Yuri",
@@ -445,7 +485,13 @@
     "char": "Natsuki",
     "content":"What are you looking at?",
     "newCharacter": "erase",
-    "charImg":"Y14.png"
+    "charImg":"Y14.png",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "102%"
+        }
+    ]
 },
 {
     "content":"If you want to say something, say it."
@@ -468,16 +514,34 @@
         "new":"true",
         "char": "Sayori",
         "charImg":"Say1.png"
-    }]
+    }],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        }
+    ]
 },
 {
     "char":"Natsuki",
     "content":"Hmph.",
-    "charImg":"NatsukiCrossedArms2.png"
+    "charImg":"NatsukiCrossedArms2.png",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "102%"
+        }
+    ]
 },
 {
     "char":"nobody",
-    "content":"The girl with the sour actitude, whose name is apparently Natsuki, is one I don't recognize."
+    "content":"The girl with the sour actitude, whose name is apparently Natsuki, is one I don't recognize.",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        }
+    ]
 },
 {
     "char": "nobody",
@@ -512,7 +576,14 @@
 {
     "char":"Yuri",
     "content":"D-Don't say things like that...",
-    "newCharacter":[{"char":"Yuri","charImg":"YSLookaway.png"}]
+    "newCharacter":[{"char":"Yuri","charImg":"YSLookaway.png"}],
+    "animation": [
+        {
+            "char":"Yuri",
+            "direction": "height",
+            "value": "102%"
+        }
+    ]
 },
 {
     "content": "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with people like Sayori and Natsuki",
@@ -520,7 +591,14 @@
 },
 {
     "char":"you",
-    "content":"Ah... Well, it's nice to meet both of you."
+    "content":"Ah... Well, it's nice to meet both of you.",
+    "animation": [
+        {
+            "char": "Yuri",
+            "direction": "height",
+            "value": "100%"
+        }
+    ]
 },
 {
    "char": "Sayori",
@@ -533,18 +611,28 @@
     "content":"That's right.",
     "charImg": "Ika1.png",
     "newCharacter":[{"char":"Sayori", "charImg":"Say1.png"},{"char":"Yuri", "charImg":"Yuri_school_2.png", "hide":"hide"}],
-    "comment": "armar imagen de monika"
+    "comment": "armar imagen de monika",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "102%"
+        }
+    ]
 },
 {
     "char": "Monika",
-    "content":"It's nice to see you again, Trunks."
-
+    "content":"It's nice to see you again, #var.",
+    "usesVar":"true"
 },
 {
     "char": "nobody",
     "content":"Monika smiles sweetly.",
     "insertImg":"Monika", 
-    "charImg":"3aa.png"
+    "charImg":"3aa.png",
+    "animation":[{
+        "direction":"jump",
+        "value":"none"
+    }]
 },
 {   
     "char":"nobody",
@@ -574,7 +662,6 @@
     "newCharacter": "erase"
 },
 {
-    "newCharacter":[{"char":"Yuri","charImg":"Yuri_school_2.png","hide":"hide"}],
     "content":"I'll get the cupcakes~"
 },
 {
@@ -582,19 +669,45 @@
     "char":"Natsuki",
     "charImg":"Schoold.png",
     "content":"Hey! I made them, I'll get them!",
-    "newCharacter":[{"char":"Sayori","charImg":"3a.png","left":"true"}]
+    "newCharacter":[{"new":"true", "hide":"hide", "char":"Sayori","charImg":"3a.png","left":"true"},{
+            "new": "true",
+            "char": "Yuri",
+            "charImg": "Yuri_school_2.png"
+        }]
 },
 {
     "char":"Sayori",
     "content":"Sorry, I got a little too exited~",
     "newCharacter":[{
-        "char":"Sayori","charImg":"3a.png"
-    }]
+        "char":"Sayori","hide":"non"
+    }],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        },
+        {
+            "char":"Sayori",
+            "direction":"height",
+            "value": "102%"
+        }
+    ]
 },
 {
     "char":"Yuri",
     "content":"Then, how about I make some tea as well?",
-    "newCharacter":[{"char":"Yuri","hide":"non","charImg":"Yuri_school_2.png"}]
+    "newCharacter":[{"char":"Yuri","hide":"non","charImg":"Yuri_school_2.png"}],
+    "animation":[{
+        "char":"Sayori",
+        "direction": "height",
+        "value":"100%"
+    },
+    {
+        "char":"Yuri",
+        "direction":"height",
+        "value":"102%"
+    }
+]
 },
 {
     "char":"nobody",
@@ -641,16 +754,34 @@
 },
 {
     "char":"Sayori",
-    "content":"So cuuuute~!"
+    "content":"So cuuuute~!",
+    "animation":[{"char":"Sayori","direction":"height","value":"103%"}]
 },
 {
     "char":"Monika",
-    "content":"I had no idea you were so good at baking, Natsuki!"
+    "content":"I had no idea you were so good at baking, Natsuki!",
+    "animation":[{
+        "char":"Sayori","direction":"height","value":"100%"
+    },
+    {
+        "char":"Monika","direction":"height","value":"103%"
+    }]
 },
 {
     "char":"Natsuki",
     "content":"Ehehe. Well, you know.",
-    "charImg":"Y15.png"
+    "charImg":"Y15.png",
+        "animation": [
+            {
+                "char": "Monika",
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "direction": "height",
+                "value": "103%"
+            }
+        ]
 },
 {
     "char": "Natsuki",
@@ -662,7 +793,18 @@
 },
 {
     "char":"Sayori",
-    "content":"It's delicious!"
+    "content":"It's delicious!",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "char": "Sayori",
+                "direction": "height",
+                "value": "103%"
+            }
+        ]
 },
 {
     "char":"nobody",
@@ -714,7 +856,8 @@
 {
     "char": "Natsuki",
     "content": "...Made them for you or anything.",
-    "charImg": "NatsukiCrossedArms2.png"
+    "charImg": "NatsukiCrossedArms2.png",
+    "animation":[{"direction":"top","value":"3%"}]
 },
 {
     "char":"you",
@@ -723,7 +866,13 @@
 {
     "char": "Natsuki",
     "content": "Well, maybe!",
-    "charImg": "Y5.png"
+    "charImg": "Y5.png",
+    "animation": [
+        {
+            "direction": "top",
+            "value": "0%"
+        }
+    ]
 },
 {
     "content":"But not for, y-you know, you! Dummy..."
@@ -733,7 +882,7 @@
     "content":"Alright, alright"
 },
 {
-    "newBackground":"Club.png",
+    "insertImg":"a",
     "char": "nobody",
     "content":"I give up on Natsuki's weird logic and dismiss the conversation."
 },
@@ -771,7 +920,8 @@
 {
     "char":"Yuri",
     "content":"Eh?! T-That's not...",
-    "charImg":"YScared2.png"
+    "charImg":"YScared2.png",
+    "animation":[{"direction":"jump", "value":"none"}]
 },
 {
     "char":"nobody",
@@ -1066,7 +1216,8 @@
 {
     "char":"Monika",
     "content":"Really? I wouldn't have expected that, yuri.",
-    "newCharacter":[{"char":"Monika", "charImg":"Mon4.png","hide":"NON"}]
+    "newCharacter":[{"char":"Monika", "charImg":"Mon4.png","hide":"NON"}],
+    "animation":[{"char":"Monika", "direction":"height","value":"103%"}]
 },
 {
     "char":"Monika",
@@ -1075,7 +1226,17 @@
 {
     "char":"Yuri",
     "content":"I guess you could say that",
-    "charImg":"Yuri_school_2.png"
+    "charImg":"Yuri_school_2.png",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "103%"
+            },{
+                "direction":"height",
+                "value": "100%",
+                "char":"Monika"
+            }
+        ]
 },
 {
     "content":"But if a story makes me think, or takes me to another world, then I can't put it down."
@@ -1086,17 +1247,50 @@
 {
     "char":"Natsuki",
     "content":"Ugh, I hate horror...",
-    "newCharacter":[{"char":"Natsuki","hide":"NO","charImg":"NatsukiCrossedArms2.png"}]
+    "newCharacter":[{"char":"Natsuki","hide":"NO","charImg":"NatsukiCrossedArms2.png"}],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        },
+        {
+            "direction": "height",
+            "value": "103%",
+            "char": "Natsuki"
+        }
+    ]
 },
 {
     "char":"Yuri",
     "content":"Oh? Why's that?",
-    "charImg":"Ysurp.png"
+    "charImg":"Ysurp.png",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "103%"
+        },
+        {
+            "direction": "height",
+            "value": "100%",
+            "char": "Natsuki"
+        }
+    ]
 },
 {
     "char":"Natsuki",
     "content":"Well, I just...",
-    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms.png"}]
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms.png"}],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        },
+        {
+            "direction": "height",
+            "value": "103%",
+            "char": "Natsuki"
+        }
+    ]
 },
 {
     "char":"nobody",
@@ -1110,12 +1304,36 @@
 {
     "char":"Monika",
     "content":"That's right, you usually like to write about cute things, don't you, Natsuki?",
-    "newCharacter":[{"char":"Monika","charImg":"Mon1.png"}]
+    "newCharacter":[{"char":"Monika","charImg":"Mon1.png"}],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%",
+            "char":"Natsuki"
+        },
+        {
+            "direction": "height",
+            "value": "103%",
+            "char": "Monika"
+        }
+    ]
 },
 {
     "char":"Natsuki",
     "content":"W-What?",
-    "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}]
+    "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}],
+    "animation": [
+        {
+            "char":"Monika",
+            "direction": "height",
+            "value": "100%"
+        },
+        {
+            "direction": "height",
+            "value": "103%",
+            "char": "Natsuki"
+        }
+    ]
 },
 {
     "content":"What gives you that idea?"
@@ -1123,7 +1341,19 @@
 {
     "char":"Monika",
     "content":"You left a piece of scrap paper behind last club meeting.",
-    "newCharacter":[{"char":"Monika","charImg":"Ika2.png"}]
+    "newCharacter":[{"char":"Monika","charImg":"Ika2.png"}],
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%",
+            "char": "Natsuki"
+        },
+        {
+            "direction": "height",
+            "value": "103%",
+            "char": "Monika"
+        }
+    ]
 },
 {
     "content":"It looked like you were working on a poem called--"
@@ -1131,7 +1361,19 @@
 {
     "char":"Natsuki",
     "content":"Don't say it out loud!!",
-    "newCharacter":[{"char":"Natsuki","charImg":"Schoolo.png"}]
+    "newCharacter":[{"char":"Natsuki","charImg":"Schoolo.png"}],
+        "animation": [
+            {
+                "char": "Monika",
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "direction": "height",
+                "value": "103%",
+                "char": "Natsuki"
+            }
+        ]
 },
 {
     "content":"And give that back!"
@@ -1139,26 +1381,47 @@
 {
     "char":"Monika",
     "content":"Fine, fine~",
-    "newCharacter":[{"char":"Monika","charImg":"Mon10.png"}]
+    "newCharacter":[{"char":"Monika","charImg":"Mon10.png"}],
+        "animation": [
+            {
+                "char": "Natsuki",
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "direction": "height",
+                "value": "103%",
+                "char": "Monika"
+            }
+        ]
 },
 {
     "char":"Sayori",
     "content":"Ehehe, your cupcakes, your poems...",
     "newCharacter":[{"char":"Sayori","charImg":"Ori17.png","new":"true","left":"true"},{"char":"Monika","hide":"hide"}],
-    "insertImg":"???",
-    "charImg":""
+    "insertImg":"???"
 },
 {
     "content":"Everything you do is just as cute as you are~"
 },
 {
     "char":"nobody",
-    "content":"Sayori sidles up behind Natsuki and puts her hands on her shoulders."
+    "content":"Sayori sidles up behind Natsuki and puts her hands on her shoulders.",
+        "animation": [
+            {
+                "char": "Sayori",
+                "direction": "left",
+                "value": "25%"
+            }
+        ]
 },
 {
     "char":"Natsuki",
     "content":"I'm not cute!!",
-    "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}]
+    "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}],
+    "animation":[{
+        "direction":"jump","value":"none"
+    }]
 },
 {
     "newCharacter":"erase",
@@ -1202,7 +1465,8 @@
 {
     "newCharacter":[{"char":"Yuri","charImg":"YSurp.png","new":"true","left":"true"},{"char":"Monika","hide":"hide","charImg":"Mon1.png","new":"true"}],
     "content":"I understand how Natsuki feels.",
-    "char":"Yuri"
+    "char":"Yuri",
+    "animation":[{"char":"Yuri","direction":"height","value":"103%"}]
 },
 {
     "content":"Sharing that level of writing takes more than just confidence."
@@ -1228,7 +1492,14 @@
 {
     "char":"Yuri",
     "content":"...",
-    "newCharacter":[{"char":"Yuri","charImg":"YSShy1.png"}]
+    "newCharacter":[{"char":"Yuri","charImg":"YSShy1.png"}],
+        "animation": [
+            {
+                "char": "Yuri",
+                "direction": "top",
+                "value": "3%"
+            }
+        ]
 },
 {
     "char":"you",
@@ -1278,23 +1549,55 @@
     "char":"Natsuki",
     "content":"U-Um",
     "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}],
-    "comment":"arreglar esta imagen de Natsuki"
+    "comment":"arreglar esta imagen de Natsuki",
+        "animation": [
+            {
+                "char": "Natsuki",
+                "direction": "height",
+                "value": "103%"
+            }
+        ]
 },
 {
     "char":"Yuri",
     "content":"...",
     "newCharacter":[{"char":"Yuri","charImg":"YSShy1.png"}],
-    "comment":"Arreglar esta tambien"
+    "comment":"Arreglar esta tambien",
+        "animation": [
+            {
+                "char": "Yuri",
+                "direction": "height",
+                "value": "103%"
+            },
+            {
+                "char":"Natsuki",
+                "direction":"height",
+                "value":"100%"
+            }
+        ]
 },
 {
     "char":"Sayori",
     "content":"Yeaaah! Let's do it!",
-    "newCharacter":[{"char":"Sayori","charImg":"Ori18.png","left":"true","new":"true"}]
+    "newCharacter":[{"char":"Sayori","charImg":"Ori18.png","left":"true","new":"true"}],
+        "animation": [
+            {
+                "char": "Yuri",
+                "direction": "height",
+                "value": "100%"
+            }
+        ]
 },
 {
     "char":"Monika",
     "content":"Plus, now that we have a new member, I think it will help us all get a little more comfortable with each other, and strengthen the bond of the club.",
-    "charImg":"Mon1.png"
+    "charImg":"Mon1.png",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "103%"
+            }
+        ]
 },
 {
     "content":"Isn't that right, #var?",
@@ -1302,7 +1605,13 @@
 },
 {
     "char":"nobody",
-    "content":"Monika smiles warmly at me once again."
+    "content":"Monika smiles warmly at me once again.",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "100%"
+            }
+        ]
 },
 {
     "char":"you",
@@ -1311,7 +1620,13 @@
 {
     "char":"Monika",
     "content":"Eh? What's that?",
-    "charImg":"Mon4.png"
+    "charImg":"Mon4.png",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "103%"
+        }
+    ]
 },
 {
     "char":"nobody",
@@ -1319,7 +1634,13 @@
 },
 {
     "char":"you",
-    "content":"I never said I would join this club!"
+    "content":"I never said I would join this club!",
+    "animation": [
+        {
+            "direction": "height",
+            "value": "100%"
+        }
+    ]
 },
 {
     "content":"Sayori may have convinced me to stop by, but I necer made any decision."
@@ -1340,23 +1661,50 @@
 {
     "char":"Monika",
     "content":"B-But...",
-    "charImg":"Mon16.png"
+    "charImg":"Mon16.png",
+    "animation": [
+        {
+            "direction": "top",
+            "value": "3%"
+        }
+    ]
 },
 {
     "char":"Yuri",
     "content":"I'm sorry, I thought...",
-    "newCharacter":[{"char":"Yuri","charImg":"YSSad.png"}]
+    "newCharacter":[{"char":"Yuri","charImg":"YSSad.png"}],
+    "animation": [
+        {
+            "char":"Yuri",
+            "direction": "top",
+            "value": "3%"
+        }
+    ]
 },
 {
     "char":"Natsuki",
     "content":"Hmph.",
-    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}]
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}],
+    "animation": [
+        {
+            "char":"Natsuki",
+            "direction": "top",
+            "value": "3%"
+        }
+    ]
 },
 {
     "char":"Sayori",
     "usesVar":"true",
     "content":"#var...",
-    "newCharacter":[{"char":"Sayori","charImg":"Say11.png"}]
+    "newCharacter":[{"char":"Sayori","charImg":"Say11.png"}],
+    "animation": [
+        {
+            "char":"Sayori",
+            "direction": "top",
+            "value": "3%"
+        }
+    ]
 },
 {
     "char":"you",
@@ -1384,7 +1732,28 @@
 },
 {
     "char":"you",
-    "content":"I'll join the Literature Club."
+    "content":"I'll join the Literature Club.",
+    "animation": [
+        {
+            "direction": "jump",
+            "value": "none"
+        },
+        {
+            "direction": "jump",
+            "value": "none",
+            "char":"Sayori"
+        },
+        {
+            "direction": "jump",
+            "value": "none",
+            "char":"Natsuki"
+        },
+        {
+            "direction": "jump",
+            "value": "none",
+            "char":"Yuri"
+        }
+    ]
 },
 {
     "char":"nobody",
@@ -1409,24 +1778,56 @@
 {
     "char":"Yuri",
     "content":"You really did scare me for a moment...",
-    "newCharacter":[{"char":"Yuri","charImg":"Yuvu.png"}]
+    "newCharacter":[{"char":"Yuri","charImg":"Yuvu.png"}],
+    "animation":[{
+        "char":"Yuri",
+        "direction":"height",
+        "value":"103%"
+    }]
 },
 {
     "char":"Natsuki",
     "content":"If you really just came for the cupcakes, I would be super pissed.",
-    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms4.png"}]
+    "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms4.png"}],
+        "animation": [
+            {
+                "char": "Yuri",
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "char":"Natsuki",
+                "direction":"height",
+                "value":"103%"
+            }
+        ]
 },
 {
     "char":"Monika",
     "charImg":"3aa.png",
-    "content":"Then that makes it official!"
+    "content":"Then that makes it official!",
+    "animation": [
+        {
+            "char": "Natsuki",
+            "direction": "height",
+            "value": "100%"
+        },
+        {
+            "direction": "height",
+            "value": "103%"
+        }
+    ]
 },
 {
     "content":"Welcome to the Literature Club!"
 },
 {
     "char":"you",
-    "content":"Ah..thanks, I guess."
+    "content":"Ah..thanks, I guess.",
+    "animaation":[{
+        "direction":"height",
+        "value":"100%"
+    }]
 },
 {
     "newCharacter":"erase",
@@ -1456,7 +1857,11 @@
 {
     "char":"Monika",
     "content":"Ehehe~",
-    "charImg":"3aa.png"
+    "charImg":"3aa.png",
+    "animation":[{
+        "direction":"jump",
+        "value":"none"
+    }]
 },
 {
     "char":"you",
