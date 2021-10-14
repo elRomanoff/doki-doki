@@ -11,7 +11,7 @@ let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
 
-let i = 0;
+let i = 250;
 
 let arrDialog = []
 
@@ -30,6 +30,7 @@ class Character {
     append(left) {
         if (left) {
             let first = screen.firstChild
+            console.log(first)
             screen.insertBefore(this.png, first)
         }
         else screen.appendChild(this.png)
@@ -75,14 +76,12 @@ fetch("/start")
 
 
 function runDialog() {
+    screen.removeEventListener("click", runDialog)
+
+    if (arrDialog[i]) manageProperties(arrDialog[i]);
+    i++;
     try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
-    
-    
-    screen.removeEventListener("click", runDialog)
-    
-    if (arrDialog[i])manageProperties(arrDialog[i]);
-    i++; 
 }
 
 function manageProperties(objDialog){
@@ -157,7 +156,7 @@ function addAnimatedText(text) {
                 clearInterval(interval);
                 screen.addEventListener("click", runDialog)
             }
-        }, 30);     
+        }, 10);     
     }
 
 }
@@ -273,6 +272,8 @@ function manageAnimation(objAnimation){
             char.style.left = objAnimation.value;
         }
         else if(objAnimation.direction === "jump"){
+            console.log(char, "salto saltito saltote")
+            if(char.classList.contains("jump-animation")) char.classList.remove("jump-animation")
             char.classList.add("jump-animation")
             setTimeout(function () {
                 char.classList.remove("jump-animation");

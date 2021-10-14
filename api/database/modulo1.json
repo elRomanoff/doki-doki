@@ -1,19 +1,15 @@
 [
 {
+    "content": "Heeeyy!!!",
+    "char": "???",
     "music": "ohayou-sayori.mp3"
 },
 {
-    "content": "Heeeyy!!!",
-    "char": "???"
+    "content": "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself.",
+    "char": "nobody"
 },
 {
-    "usesVar":"true",
-    "content": "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself",
-    "char": "nobody",
-    "charImg": "Say5.png"
-},
-{
-    "content": "That girl is Sayori, my neighbor and good friend since we were children",
+    "content": "That girl is Sayori, my neighbor and good friend since we were children.",
     "char":"nobody"
 },
 {
@@ -21,11 +17,11 @@
     "char":"nobody"
 },
 {
-    "content": "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently,and I would get tired of waiting up",
+    "content": "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently,and I would get tired of waiting up.",
     "char": "nobody"
 },
 {
-    "content": "But if she's going to chase after me like this, I almost feel better off running away",
+    "content": "But if she's going to chase after me like this, I almost feel better off running away.",
     "char": "nobody"
 },
 {
@@ -46,7 +42,7 @@
     "char": "Sayori"
 },
 {
-    "content": "Maybe, but only becouse I decided to stop and wait for you",
+    "content": "Maybe, but only becouse I decided to stop and wait for you.",
     "char":"you"
 },
 {
@@ -104,7 +100,7 @@
 },
 {
     "char": "Sayori",
-    "charImg":"Ori1.png",
+    "charImg":"Sayori1.png",
     "usesVar":"true",
     "content": "By the way, #var..."
 },
@@ -427,7 +423,8 @@
     ]    
 },
 {
-    "char": "Yuri",
+    "char":"Girl 1",
+    "insertImg": "Yuri",
     "content": "Welcome to the Literature Club. It's a pleasure meeting you.",
     "charImg":"Yuri_school_2.png"
 },
@@ -435,7 +432,7 @@
     "content": "Sayori always says nice things about you."
 },
 {
-    "char":"Natsuki",
+    "char":"Girl 2",
     "content":"Seriously? You brought a boy?",
     "newCharacter":[{
         "new": "true",
@@ -449,7 +446,7 @@
 },
 {
     "usesVar":"true",
-    "char": "Monika",
+    "char": "Girl 3",
     "content":"Ah, #var! What a great surprise!", 
     "newCharacter": [{
         "new": "true",
@@ -482,7 +479,8 @@
     "content": "IS FULL OF INCREDIBLY CUTE GIRLS!!!"
 },
 {
-    "char": "Natsuki",
+    "insertImg":"Natsuki",
+    "char": "Girl 2",
     "content":"What are you looking at?",
     "newCharacter": "erase",
     "charImg":"Y14.png",
@@ -501,7 +499,8 @@
     "content":"S-Sorry..."
 },
 {
-    "char": "Yuri",
+    "char": "Girl 1",
+    "insertImg":"Yuri",
     "content":"Natsuki...",
     "newCharacter":[{
         "new":"true",
@@ -733,7 +732,7 @@
 },
 {
     "char":"Natsuki",
-    "charImg":"Natsuki_Grin.png",
+    "charImg":"Natsuki_Grin2.png",
     "content":"Okaaay, are you ready?"
 },
 {
@@ -755,6 +754,7 @@
 {
     "char":"Sayori",
     "content":"So cuuuute~!",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}],
     "animation":[{"char":"Sayori","direction":"height","value":"103%"}]
 },
 {
@@ -895,7 +895,7 @@
     "content":"She carefully places a teacup in front of each of us before setting down the teapot next to the cupcake tray"
 },
 {
-    "newCharacter":[{"char":"Monika","charImg":"Ika1.png","hide":"hide"}],
+    "newCharacter":[{"new":"true","char":"Monika","charImg":"Ika1.png","hide":"hide"}],
     "char":"you",
     "content":"You keep a whole tea set in this classroom?",
     "charImg":"Yuri_school_2.png",
@@ -1416,12 +1416,16 @@
         ]
 },
 {
+    "animation": [
+        {
+            "char":"Natsuki",
+            "direction": "jump",
+            "value": "none"
+        }
+    ],
     "char":"Natsuki",
     "content":"I'm not cute!!",
-    "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}],
-    "animation":[{
-        "direction":"jump","value":"none"
-    }]
+    "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}]
 },
 {
     "newCharacter":"erase",
@@ -1433,7 +1437,12 @@
 {
     "char":"Natsuki",
     "content":"Eh? Well, I guess sometimes.",
-    "charImg":"Schoolj.png"
+    "charImg":"Schoolj.png",
+    "animation":[{
+        "char":"Sayori",
+        "direction":"left",
+        "value":"0%"
+    }]
 },
 {
     "content":"Why do you care?"
