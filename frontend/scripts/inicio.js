@@ -1,12 +1,14 @@
 alert ("Loading... Please wait...")
-document.addEventListener('DOMContentLoaded', function () {
+import { cargarSonido } from "/scripts/cargarSonido.js"
+
+
+document.addEventListener('DOMContentLoaded', async() => {
     
+    const music = await cargarSonido("/api/sound/music/main-theme.mp3");
 
     alert("Hace click en aceptar y después en la pantalla")
-    import {cargarSonido} from "/scripts/cargarSonido.js"
 
     //cargar las canciones
-    const music = cargarSonido("/api/sound/music/main-theme.mp3");
     const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
     const selectSound = cargarSonido("/api/sound/sfx/select");
 
