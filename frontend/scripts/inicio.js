@@ -1,3 +1,4 @@
+alert ("Loading... Please wait...")
 document.addEventListener('DOMContentLoaded', function () {
     
 
