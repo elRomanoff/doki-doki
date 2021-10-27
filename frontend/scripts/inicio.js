@@ -2,9 +2,9 @@ alert ("Loading... Please wait...")
 import { cargarSonido } from "/scripts/cargarSonido.js"
 
 
-document.addEventListener('DOMContentLoaded', async() => {
+document.addEventListener('DOMContentLoaded', () => {
     
-    const music = await cargarSonido("/api/sound/music/main-theme.mp3");
+    const music = cargarSonido("/api/sound/music/main-theme.mp3");
 
     alert("Hace click en aceptar y después en la pantalla")
 
@@ -45,9 +45,7 @@ document.addEventListener('DOMContentLoaded', async() => {
     }
 
     //tocar los botones para nuevo juego, cargar, etc
-    function alt() {
-        alert("Pará, emoción. El juego todavia está en desarrollo")
-    }
+
     menuBtns.addEventListener("click", (e) => {
         if (e.target.classList.contains("ok")){
             selectSound.play();

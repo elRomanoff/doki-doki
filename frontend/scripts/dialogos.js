@@ -11,7 +11,7 @@ let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
 
-let i = 250;
+let i = 0;
 
 let arrDialog = []
 

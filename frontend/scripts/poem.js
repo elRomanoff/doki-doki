@@ -121,6 +121,13 @@ class Character{
             this.char.src = this.src
         },750)
     }
+    resetAll(){
+        this.removeJumpInterval();
+        this.top = 0;
+        this.left = 0;
+        this.char.style.left = "0%";
+        this.char.style.top = "0%";
+    }
 }
 
 let sayori = new Character("sayori",6000,"imagenes/sayori-sticker2.png");
@@ -134,7 +141,6 @@ setTimeout(() =>{
 yuri.createJumpInterval()
 },4000)
 
-fetch("/Poem/words")
-    .then(x =>{
-        
-    })
+fetch("/poem-words")
+    .then(res => res.json())
+    .then(x => {console.log(x)})
