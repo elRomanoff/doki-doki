@@ -22,10 +22,10 @@ class Character {
         this.route = route
         this.charName = charName;
         this.png = document.createElement("img");
-        this.png.classList.add("char", `${charName}`)
+        this.png.classList.add("char",   `${charName}`)
     }
     defineImg(img) {
-        this.png.src = this.route + img
+        this.png.src = this.route + img;
     }
     append(left) {
         if (left) {
@@ -85,6 +85,7 @@ function runDialog() {
 }
 
 function manageProperties(objDialog){
+    if (objDialog.goTo) window.open(`${objDialog.goTo}`, "_self")
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
             try{screen.removeChild(sayori.png)}catch{}

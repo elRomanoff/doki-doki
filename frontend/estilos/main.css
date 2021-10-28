@@ -89,6 +89,7 @@ body{
     font-family: Principal;
 }
 
+
 .alert-btn p{
     font-size: 1em;
     color:black;
@@ -97,7 +98,7 @@ body{
 .ok{
     color: white !important; 
     font-family: Botones !important;
-    font-size: 2em;
+    font-size: 200%;
     -webkit-text-stroke: 2px rgb(187, 085, 153);
     text-shadow: 2px 2px 1px rgb(187, 085, 153);
     margin: .5em;

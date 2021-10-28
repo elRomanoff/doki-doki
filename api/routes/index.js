@@ -13,9 +13,8 @@ router.get("/poem", (req, res) => {
 //poem words
 router.get("/poem-words", async (req, res) =>{
     const textWords = fs.readFileSync(path.join(__dirname, "../database/poem-words.txt"), "utf-8");
-    const arrWords = textWords.slice("\r\n")
-
-    res.send({obj: textWords})
+    const arrWords = textWords.split("\r\n")
+    res.send({obj: arrWords})
 })
 
 //provisory

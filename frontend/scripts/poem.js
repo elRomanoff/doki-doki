@@ -1,4 +1,19 @@
+const screen = document.querySelector(".screen")
+const poemAlert = document.createElement("div")
+poemAlert.classList.add("alert-btn")
+poemAlert.innerHTML = `<p>Time to write a poem!</p> Pick words you think your favorite club member will like. Something good might happen with whoever likes your poem the most! <p class="ok ho">OK</p>`
+screen.appendChild(poemAlert)
+const ok = document.querySelector(".ok")
+ok.addEventListener("click", () => {
+    screen.removeChild(poemAlert)
+})
 
+
+const columna1 = document.querySelector(".c1")
+const columna2 = document.querySelector(".c2")
+const count = document.getElementById("count")
+
+let index = 0;
 
 class Character{
     constructor(charName,time,img2){
@@ -12,6 +27,7 @@ class Character{
         this.src = this.char.src;
         this.img2 = img2;
         this.randomJump = null;
+        this.score = 0;
     }
     jumpRight(){
         if (this.direction !== "right") {
@@ -141,6 +157,71 @@ setTimeout(() =>{
 yuri.createJumpInterval()
 },4000)
 
+
 fetch("/poem-words")
     .then(res => res.json())
-    .then(x => {console.log(x)})
+    .then(x => {
+        let tenWords = []
+        function createArrWords(){
+            tenWords = []
+            for (let i = 0; i < 10; i++) {
+                let wordString = x.obj[Math.floor(Math.random() * (x.obj.length))]
+                tenWords.push(wordString.split(","))
+            }
+        }
+
+        function printWords() {
+            index++
+            count.innerHTML = `${index}/20`
+            createArrWords();
+            columna1.innerHTML = "";
+            columna2.innerHTML = "";
+            
+            for (let i = 0; i < 5; i++) {
+                columna1.innerHTML += `<p id="${i}">${tenWords[i][0]}</p>`;
+            }
+            for(let i = 5; i < 10; i++){
+                columna2.innerHTML += `<p id="${i}"> ${ tenWords[i][0] }</p>`
+            }
+        }
+        printWords()
+
+        columna1.addEventListener("click", (e)=>{
+            if (!e.target.id) return
+
+            if(tenWords[e.target.id][1] == 3){
+                sayori.jumpHappy();
+                sayori.score++
+            }
+            else if(tenWords[e.target.id][2] == 3){
+                natsuki.jumpHappy();
+                natsuki.score++
+            }
+            else if(tenWords[e.target.id][3] == 3){
+                yuri.jumpHappy();
+                yuri.score++
+            }
+            printWords()
+        })
+        columna2.addEventListener("click",(e) =>{
+            if (!e.target.id) return
+
+            if (tenWords[e.target.id][1] == 3) {
+                sayori.jumpHappy();
+                sayori.score++
+            }
+            else if (tenWords[e.target.id][2] == 3) {
+                natsuki.jumpHappy();
+                natsuki.score++
+            }
+            else if (tenWords[e.target.id][3] == 3) {
+                yuri.jumpHappy();
+                yuri.score++
+            }
+            printWords()
+        })
+
+
+    })
+
+//order: Sayori, Natsuki, Yuri

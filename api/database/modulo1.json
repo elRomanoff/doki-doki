@@ -1962,5 +1962,8 @@
 {
     "char": "nobody",
     "content": "And I guess that starts with writing a poem tonight..."
+},
+{
+    "goto":"/Poem"
 }
 ]
