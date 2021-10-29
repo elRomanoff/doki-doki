@@ -30,7 +30,6 @@ class Character {
     append(left) {
         if (left) {
             let first = screen.firstChild
-            console.log(first)
             screen.insertBefore(this.png, first)
         }
         else screen.appendChild(this.png)
@@ -273,7 +272,6 @@ function manageAnimation(objAnimation){
             char.style.left = objAnimation.value;
         }
         else if(objAnimation.direction === "jump"){
-            console.log(char, "salto saltito saltote")
             if(char.classList.contains("jump-animation")) char.classList.remove("jump-animation")
             char.classList.add("jump-animation")
             setTimeout(function () {
