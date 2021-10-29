@@ -162,6 +162,7 @@ fetch("/poem-words")
     .then(res => res.json())
     .then(x => {
         let tenWords = []
+        console.log(x)
         function createArrWords(){
             tenWords = []
             for (let i = 0; i < 10; i++) {
