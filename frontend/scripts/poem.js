@@ -1,12 +1,33 @@
+ import { cargarSonido } from "/scripts/cargarSonido.js"
+        const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
+        const selectSound = cargarSonido("/api/sound/sfx/select");
+        const music = cargarSonido("/api/sound/music/" +"dreams.mp3");
+        function playMusic(){
+            alert("Poem screen")
+            music.play();
+        }
+        playMusic()
+        
+
+
 const screen = document.querySelector(".screen")
 const poemAlert = document.createElement("div")
 poemAlert.classList.add("alert-btn")
 poemAlert.innerHTML = `<p>Time to write a poem!</p> Pick words you think your favorite club member will like. Something good might happen with whoever likes your poem the most! <p class="ok ho">OK</p>`
 screen.appendChild(poemAlert)
 const ok = document.querySelector(".ok")
+
+ok.addEventListener("mouseover",()=>{
+    hoverSound.play();
+})
+
 ok.addEventListener("click", () => {
+    selectSound.play();
     screen.removeChild(poemAlert)
 })
+
+
+
 
 
 const columna1 = document.querySelector(".c1")
@@ -189,6 +210,8 @@ fetch("/poem-words")
 
         columna1.addEventListener("click", (e)=>{
             if (!e.target.id) return
+            
+            selectSound.play();
 
             if(tenWords[e.target.id][1] == 3){
                 sayori.jumpHappy();
@@ -206,6 +229,7 @@ fetch("/poem-words")
         })
         columna2.addEventListener("click",(e) =>{
             if (!e.target.id) return
+                selectSound.play();
 
             if (tenWords[e.target.id][1] == 3) {
                 sayori.jumpHappy();
