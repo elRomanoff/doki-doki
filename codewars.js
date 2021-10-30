@@ -18,7 +18,7 @@ function accum(str){
     }
     return fin
 }
-//domingo 1 de agosto papaaa
+//domingo 1 de agosto
 
 function getMiddle(s) {
     let splitted = s.split('');
