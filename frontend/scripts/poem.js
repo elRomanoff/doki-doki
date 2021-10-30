@@ -1,7 +1,7 @@
  import { cargarSonido } from "/scripts/cargarSonido.js"
         const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
         const selectSound = cargarSonido("/api/sound/sfx/select");
-        const music = cargarSonido("/api/sound/music/" +"dreams.mp3");
+        const music = cargarSonido("/api/sound/music/dreamsc.mp3");
         function playMusic(){
             alert("Poem screen")
             music.play();

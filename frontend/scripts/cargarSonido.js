@@ -1,4 +1,4 @@
-function cargarSonido(fuente) {
+    function cargarSonido(fuente) {
     const sonido = document.createElement("audio");
     sonido.src = fuente;
     sonido.setAttribute("preload", "auto");
