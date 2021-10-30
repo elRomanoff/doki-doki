@@ -138,7 +138,7 @@ class Character{
 
     createJumpInterval(){
         this.randomJump = setInterval(() => {
-            let num = Math.round(Math.random() * 3)
+            let num = Math.round(Math.random() * 4)
             if (num === 0) this.jump();
             else if (num === 1) this.jumpLeft();
             else if (num === 2) this.jumpRight();
@@ -208,28 +208,25 @@ fetch("/poem-words")
         }
         printWords()
 
-        columna1.addEventListener("click", (e)=>{
-            if (!e.target.id) return
+        columna1.addEventListener("click", (e) => clickWord(e))
+        columna2.addEventListener("click",(e)=> clickWord(e))
             
-            selectSound.play();
 
-            if(tenWords[e.target.id][1] == 3){
-                sayori.jumpHappy();
-                sayori.score++
+
+        function clickWord(e){
+            if(index > 20){
+                columna2.removeEventListener("click", clickWord)
+                columna1.removeEventListener("click", clickWord);
+
+                if(sayori.score > yuri.score && sayori.score > natsuki.score) alert ("Sayori loved your poem!")
+                else if (natsuki.score > yuri.score && natsuki.score > sayori.score) alert ("Natsuki loved your poem!")
+                else if (yuri.score > natsuki.score && yuri.score > sayori.score) alert ("Yuri loved your poem!")
+
+                return;
             }
-            else if(tenWords[e.target.id][2] == 3){
-                natsuki.jumpHappy();
-                natsuki.score++
-            }
-            else if(tenWords[e.target.id][3] == 3){
-                yuri.jumpHappy();
-                yuri.score++
-            }
-            printWords()
-        })
-        columna2.addEventListener("click",(e) =>{
+
             if (!e.target.id) return
-                selectSound.play();
+            selectSound.play();
 
             if (tenWords[e.target.id][1] == 3) {
                 sayori.jumpHappy();
@@ -244,7 +241,10 @@ fetch("/poem-words")
                 yuri.score++
             }
             printWords()
-        })
+        }
+
+        
+        
 
 
     })
