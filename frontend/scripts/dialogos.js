@@ -10,9 +10,14 @@ let pngChar = document.getElementById("char");
 let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
+let i;
 
-let i = 0;
-
+if(!localStorage.getItem("currentGame")) {
+    i = 0;
+}
+else {
+    i = localStorage.getItem("currentGame");
+}
 let arrDialog = []
 
 
@@ -297,10 +302,11 @@ function manageAnimation(objAnimation){
 //options!
 let options = document.getElementById("options")
 options.addEventListener("click", function(e){
+    e.stopPropagation();
     if(e.target.id === "history") showStory()
     else if (e.target.id ==="skip") skip()
     else if (e.target.id ==="auto") alert("La función de auto guardado está siempre activada")
-    else if (e.target.id === "save") alert("Aún no hay sistema de guardado :c")
+    else if (e.target.id === "save") saveGame()
 }) 
 function showStory(){
     let index = i;
@@ -321,4 +327,7 @@ function skip() {
         clearInterval(skipInterval)
         skipInterval = null;
     }
+}
+const saveGame = () =>{
+    localStorage.setItem("currentGame", i)
 }
