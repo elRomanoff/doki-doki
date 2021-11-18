@@ -75,7 +75,7 @@
         transform: rotate(45deg);
         top: 15.5%;
         left: -9%;
-        animation: lunares 1.5s linear infinite;
+        animation: lunares 1.8s linear infinite;
 }
 
 
@@ -101,4 +101,17 @@
     top:-40em;
     z-index: inherit;
     transition: top 2s
+}
+
+
+
+/* Screen changes */
+
+.options-menu{
+    position:absolute;
+    width: 100%;
+    height: 40%;
+    background:black;
+    display:flex;
+    justify-content:space-around;
 }

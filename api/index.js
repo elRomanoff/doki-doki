@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const path = require('path');
 
-//para que lea los post lpm
 
 //settings
 app.use(express.static('./frontend'));

@@ -74,7 +74,7 @@ body{
 }
 
 
-/* botones de alerta*/
+/* alert buttons */
 .alert-btn{
     position: absolute;
     align-self: center;
@@ -107,6 +107,10 @@ body{
     -webkit-text-stroke: 2px rgb(255, 170, 204);
     text-shadow: 2px 2px 1px rgb(255, 170, 204);
     cursor:pointer;
+}
+.marked{
+    -webkit-text-stroke: 2px rgb(255, 170, 204);
+    text-shadow: 2px 2px 1px rgb(255, 170, 204);   
 }
 /*  */
 

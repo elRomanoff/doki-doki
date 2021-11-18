@@ -89,7 +89,6 @@ function runDialog() {
 }
 
 function manageProperties(objDialog){
-    if (objDialog.goTo) window.open(`${objDialog.goTo}`, "_self")
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
             try{screen.removeChild(sayori.png)}catch{}
@@ -331,3 +330,17 @@ function skip() {
 const saveGame = () =>{
     localStorage.setItem("currentGame", i)
 }
+
+//resice screen
+const resize = () => {
+    if (window.innerWidth < window.innerHeight) alert("Please, rotate your phone")
+    else if (window.innerHeight < screen.style.height){
+        screen.style.height = window.innerHeight+"px";
+        screen.style.width = screen.style.height * 1280 / 720;
+        screen.style.fontSize = (screen.style.width * 26 / 1280) + "px" 
+    }
+}
+
+window.addEventListener('resize', resize);
+
+resize();

@@ -56,9 +56,19 @@ menuBtns.addEventListener("click", (e) => {
         else if (e.target.innerHTML === "Load Game"){
             if (localStorage.getItem("currentGame")) window.open("/newGame", "_self")
         }
+        else if (e.target.innerHTML === "Settings"){
+            // e.target.classList.toggle("mar ked")
+            logo.classList.toggle("hidden")
+            n.classList.toggle("hidden")
+            s.classList.toggle("hidden")
+            m.classList.toggle("hidden")
+            y.classList.toggle("hidden")
+            
+            const optionsMenu = document.createElement("div")
+            optionsMenu.classList.add("options-menu")
+            optionsMenu.innerHTML = ``
+            screen.appendChild(optionsMenu)
+        }
     }
 });
-
-
-
 
