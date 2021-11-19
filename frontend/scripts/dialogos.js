@@ -1,6 +1,7 @@
 let you = prompt("Insert your name")
 
 import { cargarSonido } from "/scripts/cargarSonido.js"
+import { Character } from "/scripts/characters.js"
 
 let mainScreen = document.querySelector(".mainScreen");
 mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
@@ -21,45 +22,7 @@ else {
 let arrDialog = []
 
 
-//prototype of the characters
-class Character {
-    constructor(charName, route) {
-        this.route = route
-        this.charName = charName;
-        this.png = document.createElement("img");
-        this.png.classList.add("char",   `${charName}`)
-    }
-    defineImg(img) {
-        this.png.src = this.route + img;
-    }
-    append(left) {
-        if (left) {
-            let first = mainScreen.firstChild
-            mainScreen.insertBefore(this.png, first)
-        }
-        else mainScreen.appendChild(this.png)
-    }
-    hide() {
-        this.png.classList.toggle("hidden")
-    }
-    animation(direction, value){
-        if(direction === "height") {
-            this.png.style.height = value;
-        }
-        else if(direction === "jump"){
-            this.png.classList.add("jump-animation");
-            setTimeout(() =>{
-                this.png.classList.remove("jump-animation")
-            },600)
-        }
-        else if(direction === "top"){
-            this.png.style.top = value;
-        }
-        else if(direction === "left"){
-            this.png.style.left = value
-        }
-    }
-}
+
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
 let natsuki = new Character("natsuki", "/api/img/natsuki/")
