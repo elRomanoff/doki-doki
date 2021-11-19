@@ -182,7 +182,6 @@ function manageBackground(background){
 }
 
 function manageImage(char, img){
-    // textBox.innerHTML = "";
     if(!img) pngChar.src = "";
     else{
         if(char === "Sayori"){
@@ -199,7 +198,6 @@ function manageImage(char, img){
         }
     }
 }
-
 
 //add new character to the Screen
 function manageNewCharacter(obj){
@@ -262,7 +260,6 @@ function manageNewCharacter(obj){
     
 }
     
-
 //animations
 function manageAnimation(objAnimation){
     if(!objAnimation.char){
@@ -298,7 +295,7 @@ function manageAnimation(objAnimation){
 }
 
 
-//options!
+//options
 let options = document.getElementById("options")
 options.addEventListener("click", function(e){
     e.stopPropagation();
