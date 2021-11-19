@@ -38,6 +38,7 @@ body{
     font-size: 26px;
     justify-content: space-around;
     overflow: hidden;
+    background-size: contain;
 }
 
 

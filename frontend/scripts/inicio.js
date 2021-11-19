@@ -2,7 +2,7 @@ import { cargarSonido } from "/scripts/cargarSonido.js"
 
 const music = cargarSonido("/api/sound/music/main-theme.mp3");
 
-alert("Welcome to Doki Doki Literature Club Browser Edition! - Developed by elRomanoff")
+// alert("Welcome to Doki Doki Literatuhiddenb Browser Edition! - Developed by elRomanoff")
 
 //cargar las canciones
 const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
@@ -63,11 +63,13 @@ menuBtns.addEventListener("click", (e) => {
             s.classList.toggle("hidden")
             m.classList.toggle("hidden")
             y.classList.toggle("hidden")
+
             
-            const optionsMenu = document.createElement("div")
-            optionsMenu.classList.add("options-menu")
-            optionsMenu.innerHTML = ``
-            screen.appendChild(optionsMenu)
+            
+            // const optionsMenu = document.createElement("div")
+            // optionsMenu.classList.add("options-menu")
+            // optionsMenu.innerHTML = ``
+            // screen.appendChild(optionsMenu)
         }
     }
 });

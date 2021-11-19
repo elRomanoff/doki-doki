@@ -2,8 +2,8 @@ let you = prompt("Insert your name")
 
 import { cargarSonido } from "/scripts/cargarSonido.js"
 
-let screen = document.querySelector(".screen");
-screen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
+let mainScreen = document.querySelector(".mainScreen");
+mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 let music;
 let pngChar = document.getElementById("char");
@@ -34,10 +34,10 @@ class Character {
     }
     append(left) {
         if (left) {
-            let first = screen.firstChild
-            screen.insertBefore(this.png, first)
+            let first = mainScreen.firstChild
+            mainScreen.insertBefore(this.png, first)
         }
-        else screen.appendChild(this.png)
+        else mainScreen.appendChild(this.png)
     }
     hide() {
         this.png.classList.toggle("hidden")
@@ -75,12 +75,12 @@ fetch("/start")
             x.forEach(element => {
             arrDialog.push(element)
          });
-        screen.addEventListener("click",runDialog)
+        mainScreen.addEventListener("click",runDialog)
     })
 
 
 function runDialog() {
-    screen.removeEventListener("click", runDialog)
+    mainScreen.removeEventListener("click", runDialog)
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
     i++;
@@ -91,10 +91,10 @@ function runDialog() {
 function manageProperties(objDialog){
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
-            try{screen.removeChild(sayori.png)}catch{}
-            try{screen.removeChild(yuri.png)}catch{}
-            try{screen.removeChild(monika.png)}catch{} 
-            try{screen.removeChild(natsuki.png)}catch{}    
+            try{mainScreen.removeChild(sayori.png)}catch{}
+            try{mainScreen.removeChild(yuri.png)}catch{}
+            try{mainScreen.removeChild(monika.png)}catch{} 
+            try{mainScreen.removeChild(natsuki.png)}catch{}    
         }
         else objDialog.newCharacter.forEach(obj =>manageNewCharacter(obj))
     }
@@ -130,9 +130,9 @@ function manageProperties(objDialog){
 function addAnimatedText(text) {
     textBox.innerHTML = ""
     let j = 0;
-    screen.addEventListener("click", printFullText)
+    mainScreen.addEventListener("click", printFullText)
     function printFullText() {
-        screen.removeEventListener("click", printFullText);
+        mainScreen.removeEventListener("click", printFullText);
         textBox.innerHTML = text;
         j = text.length;
     }
@@ -147,7 +147,7 @@ function addAnimatedText(text) {
             }
             else{
                 clearInterval(interval);
-                screen.addEventListener("click", runDialog)
+                mainScreen.addEventListener("click", runDialog)
             }
         },5)
     }else{
@@ -158,7 +158,7 @@ function addAnimatedText(text) {
             }
             else {
                 clearInterval(interval);
-                screen.addEventListener("click", runDialog)
+                mainScreen.addEventListener("click", runDialog)
             }
         }, 10);     
     }
@@ -171,11 +171,11 @@ function manageBackground(background){
 
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
-    screen.appendChild(overScreen);
+    mainScreen.appendChild(overScreen);
 
     setTimeout(() =>{
-        screen.style.backgroundImage = `url("/api/img/background/${background}/")`
-        setTimeout(() => screen.removeChild(overScreen),500)
+        mainScreen.style.backgroundImage = `url("/api/img/background/${background}/")`
+        setTimeout(() => mainScreen.removeChild(overScreen),500)
     },500)  
     
 
@@ -331,13 +331,13 @@ const saveGame = () =>{
     localStorage.setItem("currentGame", i)
 }
 
-//resice screen
+//resice mainScreen
 const resize = () => {
-    if (window.innerWidth < window.innerHeight) alert("Please, rotate your phone")
-    else if (window.innerHeight < screen.style.height){
-        screen.style.height = window.innerHeight+"px";
-        screen.style.width = screen.style.height * 1280 / 720;
-        screen.style.fontSize = (screen.style.width * 26 / 1280) + "px" 
+    if (screen.height < 720){
+        mainScreen.style.height = screen.height+"px";
+        let auxWidth = (screen.height * 1280) / 720
+        mainScreen.style.width = auxWidth + "px";
+        mainScreen.style.fontSize = (auxWidth * 26 / 1280) + "px" 
     }
 }
 
