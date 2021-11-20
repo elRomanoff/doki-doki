@@ -15,7 +15,7 @@ let s = document.querySelector('.s');
 let y = document.querySelector('.y');
 let m = document.querySelector('.m');
 let logo = document.getElementById("logo")
-let screen = document.getElementById('pantalla');
+let mainScreen = document.getElementById('pantalla');
 let menuBtns = document.getElementById('menu-btns');
 const optionsMenu = document.createElement("div");
 optionsMenu.classList.add("options-menu")
@@ -26,7 +26,7 @@ optionsMenu.classList.add("options-menu")
 //pongo esa ultima funcion ahi por el tema de javascript, que no reproduce musica
 //hasta que alguien toca el dom
 
-screen.addEventListener('click', run);
+mainScreen.addEventListener('click', run);
 function run() {
     menuBtns.addEventListener("mouseover", (e) => {
         if (e.target.classList.contains("ok")) hoverSound.play();
@@ -43,8 +43,10 @@ function run() {
     y.style.left = "36%"
     logo.style.top = "-5em"
 
-    music.play();
+    console.log(config.music)
+    if(config.music === "true")music.play();
 
+    // mainScreen.removeEventListener("click", run)
 }
 
 //tocar los botones para nuevo juego, cargar, etc
@@ -85,28 +87,31 @@ menuBtns.addEventListener("click", (e) => {
                         <span class="ok ho">Fast</span>
                     </p>
                 </div>`
-                screen.appendChild(optionsMenu)
+                mainScreen.appendChild(optionsMenu)
 
                 const speedOptions = document.getElementById('speeds');
                 const musicSwitch = document.getElementById('music');
 
                 speedOptions.addEventListener("click", (e) =>{
                     if(e.target.innerHTML ==="Fast"){
-                        config.setTextSpeed(10)
+                        config.setTextSpeed(9)
                     }
                     else if(e.target.innerHTML ==="Normal"){
-                        config.setTextSpeed(30)
+                        config.setTextSpeed(20)
                     }
                     else if (e.target.innerHTML ==="Slow"){
-                        config.setTextSpeed(80)
+                        config.setTextSpeed(44)
                     }
                 });
 
                 musicSwitch.addEventListener("click", (e) =>{
                     if(e.target.innerHTML === "On"){
-                        music.volume = 1
+                        config.setMusic(true)
+                        music.volume = 1;
+                        try{music.play()}catch{}
                     }
                     else if(e.target.innerHTML === "Off"){
+                        config.setMusic(false)
                         music.volume = 0
                         try{music.play()} 
                         catch{"algo salio re mal"}

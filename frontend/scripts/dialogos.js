@@ -3,6 +3,7 @@ let next =  "/poem"
 
 import { cargarSonido } from "/scripts/cargarSonido.js"
 import { Character } from "/scripts/characters.js"
+import {config} from "/scripts/config.js"
 
 let mainScreen = document.querySelector(".mainScreen");
 mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
@@ -12,14 +13,16 @@ let pngChar = document.getElementById("char");
 let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
-let i = 300;
+let i = 0;
 
-// if(!localStorage.getItem("currentGame")) {
-//     i = 0;
-// }
-// else {
-//     i = localStorage.getItem("currentGame");
-// }
+let textSpeed = config.textSpeed
+
+if(!localStorage.getItem("currentGame")) {
+    i = 0;
+}
+else {
+    i = localStorage.getItem("currentGame");
+}
 let arrDialog = []
 
 
@@ -48,7 +51,7 @@ function runDialog() {
     mainScreen.removeEventListener("click", runDialog)
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
-    else window.open(next)
+    else window.open(next, "_self")
     i++;
     try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
@@ -126,7 +129,7 @@ function addAnimatedText(text) {
                 clearInterval(interval);
                 mainScreen.addEventListener("click", runDialog)
             }
-        }, 10);     
+        }, textSpeed);     
     }
 
 }

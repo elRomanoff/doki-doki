@@ -183,7 +183,6 @@ fetch("/poem-words")
     .then(res => res.json())
     .then(x => {
         let tenWords = []
-        console.log(x)
         function createArrWords(){
             tenWords = []
             for (let i = 0; i < 10; i++) {
@@ -248,5 +247,19 @@ fetch("/poem-words")
 
 
     })
+
+const resize = () => {
+    if (screen.height < 720) {
+        mainScreen.style.height = screen.height + "px";
+        let auxWidth = (screen.height * 1280) / 720
+        mainScreen.style.width = auxWidth + "px";
+        mainScreen.style.fontSize = (auxWidth * 26 / 1280) + "px"
+    }
+}
+
+window.addEventListener('resize', resize);
+
+resize();
+
 
 //order: Sayori, Natsuki, Yuri
