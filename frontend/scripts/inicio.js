@@ -1,3 +1,4 @@
+import { config } from "/scripts/config.js";
 import { cargarSonido } from "/scripts/cargarSonido.js"
 
 const music = cargarSonido("/api/sound/music/main-theme.mp3");
@@ -16,6 +17,10 @@ let m = document.querySelector('.m');
 let logo = document.getElementById("logo")
 let screen = document.getElementById('pantalla');
 let menuBtns = document.getElementById('menu-btns');
+const optionsMenu = document.createElement("div");
+optionsMenu.classList.add("options-menu")
+
+
 
 //funcion que pone la musica y ejecuta las animaciones
 //pongo esa ultima funcion ahi por el tema de javascript, que no reproduce musica
@@ -39,7 +44,7 @@ function run() {
     logo.style.top = "-5em"
 
     music.play();
-    setTimeout(() => music.play(), 130000)
+
 }
 
 //tocar los botones para nuevo juego, cargar, etc
@@ -64,12 +69,53 @@ menuBtns.addEventListener("click", (e) => {
             m.classList.toggle("hidden")
             y.classList.toggle("hidden")
 
-            
-            
-            // const optionsMenu = document.createElement("div")
-            // optionsMenu.classList.add("options-menu")
-            // optionsMenu.innerHTML = ``
-            // screen.appendChild(optionsMenu)
+            if(logo.classList.contains("hidden")){
+                optionsMenu.innerHTML = `<div class="options-flex-spacer"></div>
+                <div class="options-flex-container">
+                    <p class="ok">Music:</p>
+                    <p class="ok">Text speed:</p>
+                </div>
+                <div class="options-flex-container">
+                    <p id="music">
+                        <span class="ok ho">On</span> <span class="ok ho">Off</span>
+                    </p>
+                    <p id="speeds">
+                        <span class="ok ho">Slow</span>
+                        <span class="ok ho">Normal</span>
+                        <span class="ok ho">Fast</span>
+                    </p>
+                </div>`
+                screen.appendChild(optionsMenu)
+
+                const speedOptions = document.getElementById('speeds');
+                const musicSwitch = document.getElementById('music');
+
+                speedOptions.addEventListener("click", (e) =>{
+                    if(e.target.innerHTML ==="Fast"){
+                        config.setTextSpeed(10)
+                    }
+                    else if(e.target.innerHTML ==="Normal"){
+                        config.setTextSpeed(30)
+                    }
+                    else if (e.target.innerHTML ==="Slow"){
+                        config.setTextSpeed(80)
+                    }
+                });
+
+                musicSwitch.addEventListener("click", (e) =>{
+                    if(e.target.innerHTML === "On"){
+                        music.volume = 1
+                    }
+                    else if(e.target.innerHTML === "Off"){
+                        music.volume = 0
+                        try{music.play()} 
+                        catch{"algo salio re mal"}
+                    }
+                })
+            }
+            else{
+                optionsMenu.innerHTML = ""
+            }
         }
     }
 });

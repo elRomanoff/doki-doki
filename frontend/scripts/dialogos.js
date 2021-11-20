@@ -1,4 +1,5 @@
 let you = prompt("Insert your name")
+let next =  "/poem" 
 
 import { cargarSonido } from "/scripts/cargarSonido.js"
 import { Character } from "/scripts/characters.js"
@@ -11,14 +12,14 @@ let pngChar = document.getElementById("char");
 let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
-let i;
+let i = 300;
 
-if(!localStorage.getItem("currentGame")) {
-    i = 0;
-}
-else {
-    i = localStorage.getItem("currentGame");
-}
+// if(!localStorage.getItem("currentGame")) {
+//     i = 0;
+// }
+// else {
+//     i = localStorage.getItem("currentGame");
+// }
 let arrDialog = []
 
 
@@ -35,6 +36,7 @@ let monika = new Character("monika", "/api/img/monika/")
 fetch("/start")
     .then (res => res.json())
     .then (x =>{
+            length = x.length
             x.forEach(element => {
             arrDialog.push(element)
          });
@@ -46,9 +48,10 @@ function runDialog() {
     mainScreen.removeEventListener("click", runDialog)
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
+    else window.open(next)
     i++;
     try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
-    try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
+    // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
 }
 
 function manageProperties(objDialog){
@@ -112,7 +115,7 @@ function addAnimatedText(text) {
                 clearInterval(interval);
                 mainScreen.addEventListener("click", runDialog)
             }
-        },5)
+        },4)
     }else{
         let interval = setInterval(function () {
             if (text[j] !== undefined) {
@@ -175,7 +178,8 @@ function manageNewCharacter(obj){
             sayori.defineImg(obj.charImg)
         }
         if (obj.hide) {
-            sayori.hide()
+            if(obj.hide == "hide") sayori.hide()
+            else sayori.unhide()
         }
     };
     if (obj.char === "Yuri") {
@@ -189,7 +193,9 @@ function manageNewCharacter(obj){
             yuri.defineImg(obj.charImg)
         }
         if (obj.hide) {
-            yuri.hide()
+            if(obj.hide == "hide")yuri.hide()
+            else yuri.unhide()
+            
         }
     }
     if (obj.char === "Natsuki") {
@@ -203,7 +209,8 @@ function manageNewCharacter(obj){
             natsuki.defineImg(obj.charImg)
         }
         if (obj.hide) {
-            natsuki.hide()
+            if (obj.hide == "hide") natsuki.hide()
+            else natsuki.unhide()
         }
     }
     if (obj.char === "Monika") {
@@ -217,7 +224,8 @@ function manageNewCharacter(obj){
             monika.defineImg(obj.charImg)
         }
         if (obj.hide) {
-            monika.hide()
+            if(obj.hide == "hide") monika.hide();
+            else monika.unhide()
         }
     }
     
@@ -304,3 +312,5 @@ const resize = () => {
 window.addEventListener('resize', resize);
 
 resize();
+
+export {mainScreen as mainScreen}
