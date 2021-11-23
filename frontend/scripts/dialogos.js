@@ -9,6 +9,7 @@ let mainScreen = document.querySelector(".mainScreen");
 mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 let music;
+let enableMusic = config.music
 let pngChar = document.getElementById("char");
 let skipInterval
 let charName = document.getElementById("char-name");
@@ -53,7 +54,10 @@ function runDialog() {
     if (arrDialog[i]) manageProperties(arrDialog[i]);
     else window.open(next, "_self")
     i++;
-    try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
+    if(enableMusic === "true"){
+        console.log(enableMusic)
+        try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
+    }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
 }
 
@@ -277,6 +281,7 @@ options.addEventListener("click", function(e){
     else if (e.target.id ==="skip") skip()
     else if (e.target.id ==="auto") alert("La función de auto guardado está siempre activada")
     else if (e.target.id === "save") saveGame()
+    else if (e.target.id ==="menu") openMenu()
 }) 
 function showStory(){
     let index = i;
@@ -301,6 +306,10 @@ function skip() {
 const saveGame = () =>{
     localStorage.setItem("currentGame", i)
 }
+const openMenu = () => {
+    window.open("/", "_self") 
+}
+
 
 //resice mainScreen
 const resize = () => {

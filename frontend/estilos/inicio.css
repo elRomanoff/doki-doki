@@ -106,6 +106,41 @@
 
 
 /* Screen changes */
+.load-menu{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content:center;
+    background-color: transparent;
+}
+
+.load-flex-container{
+    flex-basis:70%;
+    display: flex
+}
+.load-holder{
+    height:100%;
+    width:33%
+}
+.load-div:nth-child(2){
+    margin-top: 20%
+}
+
+.load-div{
+    display:flex;
+    height: 38%;
+    width: 90%;
+    background-color: rgb(236,182,229);
+    margin-left: 5%;
+    justify-content: center;
+    align-items: flex-end;
+}
+.load-div span{
+    position: relative;
+    top: 11%
+}
+
 
 .options-menu{
     position:absolute;
@@ -115,7 +150,6 @@
     justify-content:space-around;
 
 }
-
 
 .options-flex-spacer{
     flex-basis:20%;
@@ -128,4 +162,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+
+.corner-text{
+    font-size: 3rem !important;
+    -webkit-text-stroke: 3.2px rgb(187, 085, 153)!important;
+    text-shadow: 3px 3px 1.5px rgb(187, 085, 153)!important;
+    position: absolute;
+    z-index: 2000;
+
+    bottom: 72%
 }

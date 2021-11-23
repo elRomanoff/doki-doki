@@ -52,8 +52,8 @@
     bottom: 1.5%;
     font-size: 0.7em;
     display: flex;
-    width: 20%;
-    justify-content: space-between;
+    width: 26%;
+    justify-content: space-around;
 }
 .option{
     color: rgb(082, 055, 068);

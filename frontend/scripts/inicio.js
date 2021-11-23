@@ -3,6 +3,11 @@ import { cargarSonido } from "/scripts/cargarSonido.js"
 
 const music = cargarSonido("/api/sound/music/main-theme.mp3");
 
+const optionsMenu = document.createElement("div");
+optionsMenu.classList.add("options-menu")
+const loadMenu = document.createElement("div");
+loadMenu.classList.add("load-menu")
+
 // alert("Welcome to Doki Doki Literatuhiddenb Browser Edition! - Developed by elRomanoff")
 
 //cargar las canciones
@@ -17,8 +22,13 @@ let m = document.querySelector('.m');
 let logo = document.getElementById("logo")
 let mainScreen = document.getElementById('pantalla');
 let menuBtns = document.getElementById('menu-btns');
-const optionsMenu = document.createElement("div");
-optionsMenu.classList.add("options-menu")
+
+
+const menuAside = document.querySelector(".menu__aside")
+const cornerText = document.createElement("p");
+const logoContainer = document.querySelector(".logo")
+cornerText.classList.add("corner-text", "hidden", "ok")
+menuAside.insertBefore(cornerText, logoContainer)
 
 
 
@@ -54,23 +64,47 @@ function run() {
 menuBtns.addEventListener("click", (e) => {
     if (e.target.classList.contains("ok")){
         selectSound.play();
-        if (e.target.innerHTML === "New Game") {
+        if (e.target.id === "new-game") {
             const prevGame = localStorage.getItem("currentGame");
             localStorage.setItem("savedGame", prevGame)
             localStorage.setItem("currentGame", 0);
             window.open("/newGame", "_self")
         }
-        else if (e.target.innerHTML === "Load Game"){
-            if (localStorage.getItem("currentGame")) window.open("/newGame", "_self")
+        else if (e.target.id === "load-game"){
+            hideAll("Load")
+            try{mainScreen.removeChild(optionsMenu)}catch{}
+
+            if(logo.classList.contains("hidden")){
+                loadMenu.innerHTML = `<div class="options-flex-spacer"></div>
+            <div class="load-flex-container">
+                <div class="load-holder">
+                    <div class="load-div"><span>Empty slot</span></div>
+                    <div class="load-div"><span>Empty slot</span></div>
+                </div>
+                <div class="load-holder">
+                    <div class="load-div"><span>Empty slot</span></div>
+                    <div class="load-div"><span>Empty slot</span></div>
+                </div>
+                <div class="load-holder">
+                    <div class="load-div"><span>Empty slot</span></div>
+                    <div class="load-div"><span>Empty slot</span></div>
+                </div>
+            </div>
+        </div>`
+
+        mainScreen.appendChild(loadMenu)
+            }
+            else {
+                loadMenu.innerHTML = ""
+            }
+            
+
+            // if (localStorage.getItem("currentGame")) window.open("/newGame", "_self")
         }
         else if (e.target.innerHTML === "Settings"){
-            // e.target.classList.toggle("mar ked")
-            logo.classList.toggle("hidden")
-            n.classList.toggle("hidden")
-            s.classList.toggle("hidden")
-            m.classList.toggle("hidden")
-            y.classList.toggle("hidden")
-
+            try { mainScreen.removeChild(loadMenu) } catch {}
+            hideAll(e.target.innerHTML)
+            
             if(logo.classList.contains("hidden")){
                 optionsMenu.innerHTML = `<div class="options-flex-spacer"></div>
                 <div class="options-flex-container">
@@ -125,3 +159,23 @@ menuBtns.addEventListener("click", (e) => {
     }
 });
 
+const hideAll = (text)=>{
+    if (text === cornerText.innerHTML){
+        cornerText.classList.add("hidden")
+        logo.classList.remove("hidden")
+        n.classList.remove("hidden")
+        s.classList.remove("hidden")
+        m.classList.remove("hidden")
+        y.classList.remove("hidden")
+
+        cornerText.innerHTML=""
+    }else{
+        cornerText.innerHTML = text
+        cornerText.classList.remove("hidden")
+        logo.classList.add("hidden")
+        n.classList.add("hidden")
+        s.classList.add("hidden")
+        m.classList.add("hidden")
+        y.classList.add("hidden")
+    }
+}
