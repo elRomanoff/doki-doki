@@ -41,6 +41,39 @@ body{
     background-size: contain;
 }
 
+/* SCREEN TO SAVE OR LOAD */
+.save-screen {
+    display:flex;
+    position: absolute;
+    z-index: 1000;
+    font-size: 60%;
+    align-items: center;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#aside-menu{
+    flex-basis:23%;
+}
+.lfx{
+    height: 60%;
+    margin-left: 5%
+}
+.load-div{
+    color: darkgrey!important;
+    background-size: cover;
+    position: relative;
+    z-index: 9999;
+}
+
+.options-btns{
+    top:18%
+}
+
+
 
 /* personajes. */ 
 .char{
@@ -115,6 +148,8 @@ body{
     text-shadow: 2px 2px 1px rgb(255, 170, 204);   
 }
 /*  */
+
+
 
 .crosser{
     background: black;

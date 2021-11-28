@@ -1,5 +1,6 @@
 import { config } from "/scripts/config.js";
 import { cargarSonido } from "/scripts/cargarSonido.js"
+import {findSave} from "/scripts/saveGame.js"
 
 const music = cargarSonido("/api/sound/music/main-theme.mp3");
 
@@ -53,7 +54,6 @@ function run() {
     y.style.left = "36%"
     logo.style.top = "-5em"
 
-    console.log(config.music)
     if(config.music === "true")music.play();
 
     // mainScreen.removeEventListener("click", run)
@@ -65,44 +65,73 @@ menuBtns.addEventListener("click", (e) => {
     if (e.target.classList.contains("ok")){
         selectSound.play();
         if (e.target.id === "new-game") {
-            const prevGame = localStorage.getItem("currentGame");
-            localStorage.setItem("savedGame", prevGame)
             localStorage.setItem("currentGame", 0);
             window.open("/newGame", "_self")
         }
+
         else if (e.target.id === "load-game"){
+            let arrSave = [
+                findSave(0),
+                findSave(1),
+                findSave(2),
+                findSave(3),
+                findSave(4),
+                findSave(5)
+            ]
             hideAll("Load")
             try{mainScreen.removeChild(optionsMenu)}catch{}
 
             if(logo.classList.contains("hidden")){
-                loadMenu.innerHTML = `<div class="options-flex-spacer"></div>
-            <div class="load-flex-container">
-                <div class="load-holder">
-                    <div class="load-div"><span>Empty slot</span></div>
-                    <div class="load-div"><span>Empty slot</span></div>
-                </div>
-                <div class="load-holder">
-                    <div class="load-div"><span>Empty slot</span></div>
-                    <div class="load-div"><span>Empty slot</span></div>
-                </div>
-                <div class="load-holder">
-                    <div class="load-div"><span>Empty slot</span></div>
-                    <div class="load-div"><span>Empty slot</span></div>
-                </div>
-            </div>
-        </div>`
+                let fragment = document.createDocumentFragment();
+                const ofs = document.createElement("div");
+                ofs.classList.add("options-flex-spacer")
+                const lfc = document.createElement("div")
+                lfc.classList.add("load-flex-container")
+
+                for (let i = 0; i < arrSave.length; i = i + 2) {
+                    const loadHolder = document.createElement("div");
+                    loadHolder.classList.add("load-holder");
+                    for (let j = 0; j < 2; j++) {
+                        const loadDiv = document.createElement("div");
+                        loadDiv.classList.add("load-div", (i+j));
+                        const spanding = document.createElement("span");
+                        if (arrSave[i + j].date) {
+                            spanding.innerHTML = `${arrSave[i + j].date}`;
+                            loadDiv.style.backgroundImage = `url("${arrSave[i + j].background}")`
+                            console.log(arrSave[i + j].background)
+                        }
+                        else spanding.innerHTML = "Empty Slot"
+                        loadDiv.appendChild(spanding)
+                        loadHolder.appendChild(loadDiv)
+                    }
+                    lfc.appendChild(loadHolder)
+                }
+                fragment.appendChild(ofs)
+                fragment.appendChild(lfc)
+                loadMenu.appendChild(fragment)
+                loadMenu.addEventListener("click", (e) =>{ e.stopPropagation()})
 
         mainScreen.appendChild(loadMenu)
+
+        let nodeList = document.querySelectorAll(".load-div")
+        for (let i = 0; i < nodeList.length; i++) {
+            const element = nodeList[i];
+            element.addEventListener("click",(e)=> {
+                if(e.target.style.backgroundImage){
+                    localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
+                    window.open(arrSave[e.target.classList[1]].chapter, "_self")
+                } 
+            })
+        }
+
             }
             else {
                 loadMenu.innerHTML = ""
+                mainScreen.removeChild(mainScreen.lastElementChild)
             }
-            
-
-            // if (localStorage.getItem("currentGame")) window.open("/newGame", "_self")
         }
         else if (e.target.innerHTML === "Settings"){
-            try { mainScreen.removeChild(loadMenu) } catch {}
+            try { mainScreen.removeChild(loadMenu);loadMenu.innerHTML = ""} catch {}
             hideAll(e.target.innerHTML)
             
             if(logo.classList.contains("hidden")){

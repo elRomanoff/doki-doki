@@ -2,13 +2,17 @@
         const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
         const selectSound = cargarSonido("/api/sound/sfx/select");
         const music = cargarSonido("/api/sound/music/dreams.mp3");
-        function playMusic(){
-            alert("Poem screen")
-            music.play();
-        }
-        playMusic()
-        
 
+
+import { config } from "/scripts/config.js"
+
+if(config.music === "true"){
+    function playMusic(){
+        alert("Poem screen")
+        music.play();
+    }
+    playMusic()
+}
 
 const screen = document.querySelector(".screen")
 const poemAlert = document.createElement("div")

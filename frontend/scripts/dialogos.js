@@ -1,6 +1,13 @@
-let you = prompt("Insert your name")
+let you = "" 
+if(localStorage.getItem("name")) you = localStorage.getItem("name")
+else {
+    you = prompt("Insert your name");
+    localStorage.setItem("name", you)
+}
+
 let next =  "/poem" 
 
+import { createSaveScreen } from "/scripts/saveGame.js"
 import { cargarSonido } from "/scripts/cargarSonido.js"
 import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
@@ -14,18 +21,17 @@ let pngChar = document.getElementById("char");
 let skipInterval
 let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
-let i = 0;
+let i = localStorage.getItem("currentGame");
+
+if(!i) i = 0;
+
+
 
 let textSpeed = config.textSpeed
 
-if(!localStorage.getItem("currentGame")) {
-    i = 0;
-}
-else {
-    i = localStorage.getItem("currentGame");
-}
 let arrDialog = []
 
+let saveObj = {}
 
 
 let sayori = new Character("sayori", "/api/img/sayori/")
@@ -55,7 +61,6 @@ function runDialog() {
     else window.open(next, "_self")
     i++;
     if(enableMusic === "true"){
-        console.log(enableMusic)
         try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
@@ -274,41 +279,46 @@ function manageAnimation(objAnimation){
 
 
 //options
-let options = document.getElementById("options")
-options.addEventListener("click", function(e){
-    e.stopPropagation();
-    if(e.target.id === "history") showStory()
-    else if (e.target.id ==="skip") skip()
-    else if (e.target.id ==="auto") alert("La función de auto guardado está siempre activada")
-    else if (e.target.id === "save") saveGame()
-    else if (e.target.id ==="menu") openMenu()
-}) 
-function showStory(){
+function saveGame(option) {
+    const objectToSave = {index: i, background: mainScreen.style.backgroundImage}
+    const saveScreen = createSaveScreen(option, objectToSave)
+    mainScreen.appendChild(saveScreen)
+    document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})
+}
+
+function showStory() {
     let index = i;
     if (index >= 15) index = index - 15;
     else index = 0;
     let history = "";
-    for (index; index < i; index++){
+    for (index; index < i; index++) {
         if (arrDialog[index].char && arrDialog[index].char != "nobody") history += arrDialog[index].char + ": ";
         history += arrDialog[index].content + "\n";
     }
     alert(history)
 }
 function skip() {
-    if(!skipInterval){
-        skipInterval = setInterval(() => {runDialog()}, 300)
+    if (!skipInterval) {
+        skipInterval = setInterval(() => { runDialog() }, 300)
     }
     else {
         clearInterval(skipInterval)
         skipInterval = null;
     }
 }
-const saveGame = () =>{
-    localStorage.setItem("currentGame", i)
-}
 const openMenu = () => {
-    window.open("/", "_self") 
+    window.open("/", "_self")
 }
+
+let options = document.getElementById("options")
+options.addEventListener("click", function(e){
+    e.stopPropagation();
+    if(e.target.id === "history") showStory()
+    else if (e.target.id ==="skip") skip()
+    else if (e.target.id ==="load") saveGame("Load")
+    else if (e.target.id === "save") saveGame("Save")
+    else if (e.target.id ==="menu") openMenu()
+}) 
 
 
 //resice mainScreen
