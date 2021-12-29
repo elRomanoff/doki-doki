@@ -24,16 +24,15 @@ function createSaveScreen(option, objectToSave){
         <aside class="menu__aside" id="aside-menu">
             <p class="ok corner-text">${option}</p>
             <div class="botones options-btns" id="menu-btns">
-                <p class="ok ho" id="story">History</p>
-                <p class="ok ho" id="menu">Main Menu</p>
-                <p class="ok ho" id="save">Save Game</p>
-                <p class="ok ho" id="load">Load Game</p>
+                <p class="ok ho" id="delete-btn">Delete</p>
+                <p class="ok ho" id="menu-btn">Main Menu</p>
+                <p class="ok ho" id="save-btn">Save Game</p>
+                <p class="ok ho" id="load-btn">Load Game</p>
                 <p></p>
                 <p class="ok ho" id="return">Return</p>
             </div>
         </aside>`;
 
-    function changeSaveScreen() {
 
         const savingFragment = document.createDocumentFragment();
         const lfx = document.createElement("div");
@@ -44,25 +43,56 @@ function createSaveScreen(option, objectToSave){
             loadHolder.classList.add("load-holder");
             for(let j = 0; j<2; j++){
                 const loadDiv = document.createElement("div");
-                loadDiv.classList.add("load-div");
+                loadDiv.classList.add("load-div", i + j);
                 const spanding = document.createElement("span");
                 if(arrSave[i + j].date) {
                     spanding.innerHTML = `${arrSave[i + j].date}`;
-                    loadDiv.style.backgroundImage = `url("${arrSave[i+j].background}")`
-                    console.log(arrSave[i + j].background)
+                    loadDiv.style.backgroundImage = arrSave[i+j].background
                 }
-                else spanding.innerHTML = "Empty Slot"
+                else {
+                    spanding.innerHTML = "Empty Slot"
+                }
+
+                loadDiv.classList.add("load-hover")
                 loadDiv.appendChild(spanding)
                 loadHolder.appendChild(loadDiv)
+
+                if(option === "Load"){
+                    loadDiv.addEventListener("click", (e) => {
+                        if (e.target.style.backgroundImage) {
+                            localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
+                            window.open(arrSave[e.target.classList[1]].chapter, "_self")
+                        }
+                    })
+                }
+                else if (option === "Save") {
+                    loadDiv.addEventListener("click", (e)=>{
+                        let saveNum = e.target.classList[1]
+                        localStorage.setItem(`save${saveNum}`, JSON.stringify(objectToSave))
+                        arrSave[saveNum] = findSave(saveNum)  
+                        e.target.style.backgroundImage = objectToSave.background
+                        e.target.firstChild.innerHTML = objectToSave.date
+                    })
+                }
+                else if (option === "Delete"){
+                    loadDiv.addEventListener("click",(e)=>{
+                        let saveNum = e.target.classList[1]
+                        localStorage.removeItem(`save${saveNum}`)
+                        arrSave[saveNum] = findSave(saveNum)
+                        e.target.style.backgroundImage = ""
+                        e.target.firstChild.innerHTML = "Empty Slot"
+                    })
+                }
             }
             lfx.appendChild(loadHolder)
         }
+        
         savingFragment.appendChild(lfx)
         saveScreen.appendChild(savingFragment)
-    }
 
-    changeSaveScreen();
+
     fragment.appendChild(saveScreen)
+
     return fragment;
 }
 

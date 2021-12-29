@@ -2,6 +2,7 @@ import { config } from "/scripts/config.js";
 import { cargarSonido } from "/scripts/cargarSonido.js"
 import {findSave} from "/scripts/saveGame.js"
 
+
 const music = cargarSonido("/api/sound/music/main-theme.mp3");
 
 const optionsMenu = document.createElement("div");
@@ -96,9 +97,10 @@ menuBtns.addEventListener("click", (e) => {
                         loadDiv.classList.add("load-div", (i+j));
                         const spanding = document.createElement("span");
                         if (arrSave[i + j].date) {
+                            loadDiv.classList.add("load-hover")
                             spanding.innerHTML = `${arrSave[i + j].date}`;
-                            loadDiv.style.backgroundImage = `url("${arrSave[i + j].background}")`
-                            console.log(arrSave[i + j].background)
+                            loadDiv.style.backgroundImage = arrSave[i + j].background
+            
                         }
                         else spanding.innerHTML = "Empty Slot"
                         loadDiv.appendChild(spanding)
@@ -116,15 +118,16 @@ menuBtns.addEventListener("click", (e) => {
         let nodeList = document.querySelectorAll(".load-div")
         for (let i = 0; i < nodeList.length; i++) {
             const element = nodeList[i];
-            element.addEventListener("click",(e)=> {
-                if(e.target.style.backgroundImage){
-                    localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
-                    window.open(arrSave[e.target.classList[1]].chapter, "_self")
-                } 
-            })
-        }
 
+            if (element.style.backgroundImage) {
+                    element.addEventListener("click",(e)=> {
+                        console.log(arrSave[e.target.classList[1]])
+                    localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
+                    window.open(arrSave[e.target.classList[1]].chapter, "_self");
+                })
             }
+        }
+    }
             else {
                 loadMenu.innerHTML = ""
                 mainScreen.removeChild(mainScreen.lastElementChild)

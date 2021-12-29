@@ -13,7 +13,6 @@ import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
 
 let mainScreen = document.querySelector(".mainScreen");
-mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 let music;
 let enableMusic = config.music
@@ -23,16 +22,20 @@ let charName = document.getElementById("char-name");
 let textBox = document.getElementById("text-box");
 let i = localStorage.getItem("currentGame");
 
+// let background = localStorage.getItem("background");
+
 if(!i) i = 0;
+mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 
 
 let textSpeed = config.textSpeed
+if(!textSpeed) {    
+    textSpeed = 20
+    config.setTextSpeed(20)
+}
 
 let arrDialog = []
-
-let saveObj = {}
-
 
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
@@ -280,10 +283,13 @@ function manageAnimation(objAnimation){
 
 //options
 function saveGame(option) {
-    const objectToSave = {index: i, background: mainScreen.style.backgroundImage}
+    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: Date.now(), chapter: window.location.pathname}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})
+    document.getElementById("save-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Save")})
+    document.getElementById("load-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Load")})
+    document.getElementById("delete-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Delete")})
 }
 
 function showStory() {
