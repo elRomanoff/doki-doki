@@ -217,7 +217,7 @@ fetch("/poem-words")
 
 
         function clickWord(e){
-            if(index > 20){
+            if(index > 19){
                 columna2.removeEventListener("click", clickWord)
                 columna1.removeEventListener("click", clickWord);
 

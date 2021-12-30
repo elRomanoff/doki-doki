@@ -19,7 +19,7 @@ router.get("/poem-words", async (req, res) =>{
 
 //provisory
 router.get("/start", (req, res) => {
-    res.sendFile(path.join(__dirname, '../database/modulo1.json'))
+    res.sendFile(path.join(__dirname, '../database/first-day.json'))
 })
 
 

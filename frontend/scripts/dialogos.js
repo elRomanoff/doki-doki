@@ -24,7 +24,7 @@ let i = localStorage.getItem("currentGame");
 
 // let background = localStorage.getItem("background");
 
-if(!i) i = 0;
+if(!i) i = 0;    
 mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 
@@ -43,16 +43,25 @@ let natsuki = new Character("natsuki", "/api/img/natsuki/")
 let monika = new Character("monika", "/api/img/monika/")
 
 //
+let chapter = ""
+if(!localStorage.getItem("currentGame") || window.location.pathname === "/newGame"){
+    chapter = "/start"
+}else{
+    chapter = localStorage.getItem("currentGame")
+}
 
 
-
-fetch("/start")
+fetch(chapter)
     .then (res => res.json())
     .then (x =>{
             length = x.length
-            x.forEach(element => {
+            x.forEach((element, index) => {
+            if(index < i && element.newBackground){
+                console.log(element.newBackground)
+                mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`}
             arrDialog.push(element)
          });
+        
         mainScreen.addEventListener("click",runDialog)
     })
 
@@ -283,7 +292,12 @@ function manageAnimation(objAnimation){
 
 //options
 function saveGame(option) {
-    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: Date.now(), chapter: window.location.pathname}
+    const arrDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+    const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    let dateToSave = new Date()
+    let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
+
+    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: window.location.pathname}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})

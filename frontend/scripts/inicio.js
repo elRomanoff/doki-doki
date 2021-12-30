@@ -133,7 +133,7 @@ menuBtns.addEventListener("click", (e) => {
                 mainScreen.removeChild(mainScreen.lastElementChild)
             }
         }
-        else if (e.target.innerHTML === "Settings"){
+        else if (e.target.id === "settings"){
             try { mainScreen.removeChild(loadMenu);loadMenu.innerHTML = ""} catch {}
             hideAll(e.target.innerHTML)
             
@@ -187,6 +187,9 @@ menuBtns.addEventListener("click", (e) => {
             else{
                 optionsMenu.innerHTML = ""
             }
+        }
+        else if(e.target.id = "quit"){
+            window.open('about:blank', '_self', '');
         }
     }
 });
