@@ -54,14 +54,25 @@ if(!localStorage.getItem("currentGame") || window.location.pathname === "/newGam
 fetch(chapter)
     .then (res => res.json())
     .then (x =>{
+        //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
+            let breakPoint = []
+
             length = x.length
             x.forEach((element, index) => {
             if(index < i && element.newBackground){
-                console.log(element.newBackground)
-                mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`}
+                mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`
+            }
+            if(index < i && element.newCharacter){
+                breakPoint.push(element.newCharacter)
+                if(element.newCharacter == "erase") breakPoint.length = 0;
+            }
+            
             arrDialog.push(element)
          });
-        
+         console.log(breakPoint)
+         breakPoint.forEach(x => {
+             x.forEach(y => manageNewCharacter(y))
+         })
         mainScreen.addEventListener("click",runDialog)
     })
 
