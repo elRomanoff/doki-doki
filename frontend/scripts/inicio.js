@@ -189,7 +189,7 @@ menuBtns.addEventListener("click", (e) => {
             }
         }
         else if(e.target.id = "quit"){
-            window.open('about:blank', '_self', '');
+            window.home();
         }
     }
 });
