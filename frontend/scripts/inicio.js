@@ -55,7 +55,7 @@ function run() {
     y.style.left = "36%"
     logo.style.top = "-5em"
 
-    if(config.music === "true")music.play();
+    if(config.music !== "false")music.play();
 
     // mainScreen.removeEventListener("click", run)
 }

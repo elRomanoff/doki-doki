@@ -44,13 +44,13 @@ let monika = new Character("monika", "/api/img/monika/")
 
 //
 let chapter = ""
-if(!localStorage.getItem("currentGame") || window.location.pathname === "/newGame"){
+if(!localStorage.getItem("currentChapter")){
     chapter = "/start"
 }else{
-    chapter = localStorage.getItem("currentGame")
+    chapter = localStorage.getItem("currentChapter")
 }
 
-
+console.log(chapter)
 fetch(chapter)
     .then (res => res.json())
     .then (x =>{
@@ -83,7 +83,7 @@ function runDialog() {
     if (arrDialog[i]) manageProperties(arrDialog[i]);
     else window.open(next, "_self")
     i++;
-    if(enableMusic === "true"){
+    if(enableMusic !== "false"){
         try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}

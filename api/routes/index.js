@@ -21,6 +21,11 @@ router.get("/poem-words", async (req, res) =>{
 router.get("/start", (req, res) => {
     res.sendFile(path.join(__dirname, '../database/first-day.json'))
 })
+router.get("/second-day/:char", (req,res) =>{
+    if(req.params.char === "Sayori"){
+        res.sendFile(path.join(__dirname, '../database/day2-sayori.json'))
+    }
+})
 
 
 //media routes
