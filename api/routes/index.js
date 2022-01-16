@@ -4,7 +4,7 @@ const path = require('path');
 const fs = require('fs')
 
 // game and directory routes
-router.get("/newGame", (req, res) => {
+router.get("/Game", (req, res) => {
     res.sendFile(path.join(__dirname, '../../frontend/juego.html'));
 });
 router.get("/poem", (req, res) => {

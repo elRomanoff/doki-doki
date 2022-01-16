@@ -1,9 +1,3 @@
-let you = "" 
-if(localStorage.getItem("name")) you = localStorage.getItem("name")
-else {
-    you = prompt("Insert your name");
-    localStorage.setItem("name", you)
-}
 
 let next =  "/poem" 
 
@@ -11,68 +5,74 @@ import { createSaveScreen } from "/scripts/saveGame.js"
 import { cargarSonido } from "/scripts/cargarSonido.js"
 import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
+import {dictionary} from "/scripts/dictionary.js"
 
-let mainScreen = document.querySelector(".mainScreen");
+//config stuff
+const you = config.getName();
+const textSpeed = config.getTextSpeed()
+const chapter = config.getChapter()
+let i = localStorage.getItem("doki_currentGame");
+if (!i) i = 0;    
 
+let enableMusic = config.music;
+
+
+
+//GLOBALS
+const mainScreen = document.querySelector(".mainScreen");
 let music;
-let enableMusic = config.music
-let pngChar = document.getElementById("char");
+const pngChar = document.getElementById("char");
 let skipInterval
-let charName = document.getElementById("char-name");
-let textBox = document.getElementById("text-box");
-let i = localStorage.getItem("currentGame");
+const charName = document.getElementById("char-name");
+const textBox = document.getElementById("text-box");
+let arrDialog = []
+
+
 
 // let background = localStorage.getItem("background");
 
-if(!i) i = 0;    
 mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
 
 
-
-let textSpeed = config.textSpeed
-if(!textSpeed) {    
-    textSpeed = 20
-    config.setTextSpeed(20)
-}
-
-let arrDialog = []
 
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
 let natsuki = new Character("natsuki", "/api/img/natsuki/")
 let monika = new Character("monika", "/api/img/monika/")
 
-//
-let chapter = ""
-if(!localStorage.getItem("currentChapter")){
-    chapter = "/start"
-}else{
-    chapter = localStorage.getItem("currentChapter")
-}
 
-console.log(chapter)
 fetch(chapter)
     .then (res => res.json())
     .then (x =>{
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
             let breakPoint = []
-
+            //PROVISORIO!
+            let arrSayori = []
+            //
             length = x.length
             x.forEach((element, index) => {
-            if(index < i && element.newBackground){
-                mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`
-            }
-            if(index < i && element.newCharacter){
-                breakPoint.push(element.newCharacter)
-                if(element.newCharacter == "erase") breakPoint.length = 0;
-            }
-            
-            arrDialog.push(element)
-         });
-         console.log(breakPoint)
+                //
+                if (element.char === "Sayori" || element.insertImg === "Sayori") arrSayori.push(element.charImg)
+
+                if(index < i && element.newBackground){
+                    mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`
+                }
+                if(index < i && element.newCharacter){
+                    breakPoint.push(element.newCharacter)
+                    if(element.newCharacter == "erase") breakPoint.length = 0;
+                }
+                if(index < i && element.music){
+                    music = element.music
+                }            
+                arrDialog.push(element)
+            });
+            console.log(arrSayori)
          breakPoint.forEach(x => {
              x.forEach(y => manageNewCharacter(y))
          })
+
+        
+        
         mainScreen.addEventListener("click",runDialog)
     })
 
@@ -186,7 +186,8 @@ function manageImage(char, img){
     if(!img) pngChar.src = "";
     else{
         if(char === "Sayori"){
-            pngChar.src = "/api/img/sayori/" +img;
+            pngChar.src = dictionary[img];
+            console.log(img)
         }else 
         if (char === "Yuri"){
             pngChar.src = "/api/img/yuri/" + img;
@@ -308,7 +309,7 @@ function saveGame(option) {
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
 
-    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: window.location.pathname}
+    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})

@@ -1,0 +1,26 @@
+[
+    {
+        "char":"Monika",
+        "usesVar":"true",
+        "charImg":"3aa.png",
+        "content":"Hi again, #var!"
+    },
+    {
+        "content":"Glad to see you didn't run away from us. Hahaha!"
+    },
+    {
+        "char": "you",
+        "charImg": "",
+        "content": "Nah, don't worry."
+    },
+    {
+        "char": "",
+        "charImg": "",
+        "content": "This might be a little strange for me, but I at least keep my word."
+    },
+    {
+        "char": "nobody",
+        "charImg": "",
+        "content": ""
+    }
+]
