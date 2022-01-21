@@ -46,13 +46,8 @@ fetch(chapter)
     .then (x =>{
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
             let breakPoint = []
-            //PROVISORIO!
-            let arrSayori = []
-            //
             length = x.length
             x.forEach((element, index) => {
-                //
-                if (element.char === "Sayori" || element.insertImg === "Sayori") arrSayori.push(element.charImg)
 
                 if(index < i && element.newBackground){
                     mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`
@@ -66,7 +61,6 @@ fetch(chapter)
                 }            
                 arrDialog.push(element)
             });
-            console.log(arrSayori)
          breakPoint.forEach(x => {
              x.forEach(y => manageNewCharacter(y))
          })
@@ -175,7 +169,7 @@ function manageBackground(background){
     mainScreen.appendChild(overScreen);
 
     setTimeout(() =>{
-        mainScreen.style.backgroundImage = `url("/api/img/background/${background}/")`
+        mainScreen.style.backgroundImage = dictionary[background]
         setTimeout(() => mainScreen.removeChild(overScreen),500)
     },500)  
     
@@ -184,21 +178,21 @@ function manageBackground(background){
 
 function manageImage(char, img){
     if(!img) pngChar.src = "";
-    else{
-        if(char === "Sayori"){
-            pngChar.src = dictionary[img];
-            console.log(img)
-        }else 
-        if (char === "Yuri"){
-            pngChar.src = "/api/img/yuri/" + img;
-        }else
-        if(char === "Natsuki"){
-            pngChar.src = "/api/img/natsuki/" + img;
-        }else
-        if(char === "Monika"){
-            pngChar.src = "/api/img/monika/" + img;
-        }
-    }
+    else pngChar = dictionary[img]
+    // else{
+    //     if(char === "Sayori"){
+    //         pngChar.src = dictionary[img];
+    //     }else 
+    //     if (char === "Yuri"){
+    //         pngChar.src = dictionary[img];
+    //     }else
+    //     if(char === "Natsuki"){
+    //         pngChar.src = "/api/img/natsuki/" + img;
+    //     }else
+    //     if(char === "Monika"){
+    //         pngChar.src = "/api/img/monika/" + img;
+    //     }
+    // }
 }
 
 //add new character to the Screen
@@ -309,7 +303,7 @@ function saveGame(option) {
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
 
-    const objectToSave = {index: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter}
+    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})

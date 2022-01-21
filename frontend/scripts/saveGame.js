@@ -11,6 +11,7 @@ let arrSave = [
 function findSave(n){
     let saveStat = localStorage.getItem("doki_save"+n)
     let saveStatJSON = JSON.parse(saveStat)
+    console.log(saveStatJSON)
     if (saveStat){
         return saveStatJSON;
     }
@@ -63,15 +64,15 @@ function createSaveScreen(option, objectToSave){
                     loadDiv.addEventListener("click", (e) => {
                         if (e.target.style.backgroundImage) {
                             config.setChapter(arrSave[e.target.classList[1]].chapter)
-                            localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
-                            window.open(arrSave[e.target.classList[1]], "_self")
+                            localStorage.setItem("doki_currentGame", arrSave[e.target.classList[1]].doki_currentGame)
+                            window.open("/Game", "_self")
                         }
                     })
                 }
                 else if (option === "Save") {
                     loadDiv.addEventListener("click", (e)=>{
                         let saveNum = e.target.classList[1]
-                        localStorage.setItem(`save${saveNum}`, JSON.stringify(objectToSave))
+                        localStorage.setItem(`doki_save${saveNum}`, JSON.stringify(objectToSave))
                         arrSave[saveNum] = findSave(saveNum)  
                         e.target.style.backgroundImage = objectToSave.background
                         e.target.firstChild.innerHTML = objectToSave.date
@@ -80,7 +81,7 @@ function createSaveScreen(option, objectToSave){
                 else if (option === "Delete"){
                     loadDiv.addEventListener("click",(e)=>{
                         let saveNum = e.target.classList[1]
-                        localStorage.removeItem(`save${saveNum}`)
+                        localStorage.removeItem(`doki_save${saveNum}`)
                         arrSave[saveNum] = findSave(saveNum)
                         e.target.style.backgroundImage = ""
                         e.target.firstChild.innerHTML = "Empty Slot"

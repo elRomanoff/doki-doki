@@ -13,8 +13,8 @@ loadMenu.classList.add("load-menu")
 // alert("Welcome to Doki Doki Literatuhiddenb Browser Edition! - Developed by elRomanoff")
 
 //cargar las canciones
-const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
-const selectSound = cargarSonido("/api/sound/sfx/select");
+const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
+const selectSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fselect.ogg?alt=media&token=02f9acb0-aa26-41f4-97c8-68eac0a0a5e7");
 
 //  aca hago las animaciones de los personajes y el logo. tambien declaro variables globales
 let n = document.querySelector('.n');

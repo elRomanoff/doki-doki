@@ -1,5 +1,5 @@
 import {mainScreen} from "/scripts/dialogos.js"
-
+import {dictionary} from "/scripts/dictionary.js"
 //prototype of the characters
 class Character {
     constructor(charName, route) {
@@ -9,7 +9,7 @@ class Character {
         this.png.classList.add("char", `${charName}`)
     }
     defineImg(img) {
-        this.png.src = this.route + img;
+        this.png.src = dictionary[img];
     }
     append(left) {
         if (left) {
