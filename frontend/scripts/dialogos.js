@@ -14,7 +14,7 @@ const chapter = config.getChapter()
 let i = localStorage.getItem("doki_currentGame");
 if (!i) i = 0;    
 
-let enableMusic = config.music;
+let enableMusic = config.getMusic();
 
 
 
@@ -78,6 +78,7 @@ function runDialog() {
     else window.open(next, "_self")
     i++;
     if(enableMusic !== "false"){
+        console.log(enableMusic)
         try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
@@ -178,7 +179,7 @@ function manageBackground(background){
 
 function manageImage(char, img){
     if(!img) pngChar.src = "";
-    else pngChar = dictionary[img]
+    else pngChar.src = dictionary[img]
     // else{
     //     if(char === "Sayori"){
     //         pngChar.src = dictionary[img];

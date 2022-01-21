@@ -4,7 +4,10 @@ const config = {
     music: localStorage.getItem('doki_music'),
     setMusic: function(music){
         this.music = music
-        localStorage.setItem("music", music)
+        localStorage.setItem("doki_music", music)
+    },
+    getMusic: function(){
+        return localStorage.getItem("doki_music")
     },
 
     //textSpeed
