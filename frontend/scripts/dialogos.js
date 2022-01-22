@@ -1,4 +1,4 @@
-
+"use strict"
 let next =  "/poem" 
 
 import { createSaveScreen } from "/scripts/saveGame.js"
@@ -29,9 +29,12 @@ let arrDialog = []
 
 
 
-// let background = localStorage.getItem("background");
+// let background = localStorage.getItem("doki_background");
+// if(!background){
+//     mainScreen.style.backgroundImage = 'url("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fbarrio.png?alt=media&token=9d2b5cb0-9d17-419f-92de-61b7b37cc4ae")'
 
-mainScreen.style.backgroundImage = `url("/api/img/background/barrio.png/")`
+// }
+// else mainScreen.style.backgroundImage = background
 
 
 
@@ -50,7 +53,7 @@ fetch(chapter)
             x.forEach((element, index) => {
 
                 if(index < i && element.newBackground){
-                    mainScreen.style.backgroundImage = `url("/api/img/background/${element.newBackground}/")`
+                    mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
                 }
                 if(index < i && element.newCharacter){
                     breakPoint.push(element.newCharacter)
@@ -113,8 +116,8 @@ function manageProperties(objDialog){
         else if (objDialog.char === "you") charName.innerHTML = you; 
         else charName.innerHTML = objDialog.char;
     }
-    if (objDialog.charImg) manageImage(objDialog.char, objDialog.charImg);
-    if (objDialog.insertImg) manageImage(objDialog.insertImg, objDialog.charImg);
+    if (objDialog.charImg) manageImage(objDialog.charImg);
+    if (objDialog.insertImg) manageImage(objDialog.charImg);
     
     if (!objDialog.content){
         i++;
@@ -162,38 +165,24 @@ function addAnimatedText(text) {
 }
 
 function manageBackground(background){
-    pngChar.src="";
-    textBox.innerHTML = "";
 
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
     mainScreen.appendChild(overScreen);
 
     setTimeout(() =>{
-        mainScreen.style.backgroundImage = dictionary[background]
+        mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
         setTimeout(() => mainScreen.removeChild(overScreen),500)
     },500)  
-    
+    pngChar.src = "";
+    textBox.innerHTML = "";
 
 }
 
-function manageImage(char, img){
+function manageImage(img){
+
     if(!img) pngChar.src = "";
     else pngChar.src = dictionary[img]
-    // else{
-    //     if(char === "Sayori"){
-    //         pngChar.src = dictionary[img];
-    //     }else 
-    //     if (char === "Yuri"){
-    //         pngChar.src = dictionary[img];
-    //     }else
-    //     if(char === "Natsuki"){
-    //         pngChar.src = "/api/img/natsuki/" + img;
-    //     }else
-    //     if(char === "Monika"){
-    //         pngChar.src = "/api/img/monika/" + img;
-    //     }
-    // }
 }
 
 //add new character to the Screen

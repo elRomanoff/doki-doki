@@ -1,5 +1,8 @@
 [
 {
+    "newBackground": "barrio.png"
+},
+{
     "content": "Heeeyy!!!",
     "char": "???",
     "music": "ohayou-sayori.mp3"
@@ -500,7 +503,6 @@
 },
 {
     "char": "Girl 1",
-    "insertImg":"Yuri",
     "content":"Natsuki...",
     "newCharacter":[{
         "new":"true",
