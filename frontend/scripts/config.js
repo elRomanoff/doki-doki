@@ -46,10 +46,12 @@ const config = {
             this.setName(you)
         }
         return you;
-    }
+    },
 
-    //
+    //Chapters 
+    order: ["/Start","/Poem","/second-day/"],
 }
+
 
 
 

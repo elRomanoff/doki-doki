@@ -16,6 +16,10 @@ router.get("/poem-words", async (req, res) =>{
     const arrWords = textWords.split(/\r?\n/)
     res.send({obj: arrWords})
 })
+//help file
+router.get("/help", function(req, res){
+    res.sendFile(path.join(__dirname, "../../frontend/help.html"))
+})
 
 //provisory
 router.get("/start", (req, res) => {

@@ -29,14 +29,6 @@ let arrDialog = []
 
 
 
-// let background = localStorage.getItem("doki_background");
-// if(!background){
-//     mainScreen.style.backgroundImage = 'url("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fbarrio.png?alt=media&token=9d2b5cb0-9d17-419f-92de-61b7b37cc4ae")'
-
-// }
-// else mainScreen.style.backgroundImage = background
-
-
 
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
@@ -334,7 +326,8 @@ options.addEventListener("click", function(e){
     else if (e.target.id ==="load") saveGame("Load")
     else if (e.target.id === "save") saveGame("Save")
     else if (e.target.id ==="menu") openMenu()
-}) 
+})
+
 
 
 //resice mainScreen

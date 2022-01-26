@@ -188,8 +188,11 @@ menuBtns.addEventListener("click", (e) => {
                 optionsMenu.innerHTML = ""
             }
         }
-        else if(e.target.id = "quit"){
-            window.home();
+        else if(e.target.id === "help"){
+            window.open("/help");
+        }
+        else if(e.target.id === "quit"){
+            window.open("about:blank","_self");
         }
     }
 });
