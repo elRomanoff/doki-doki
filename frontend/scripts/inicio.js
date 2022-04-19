@@ -120,10 +120,10 @@ menuBtns.addEventListener("click", (e) => {
             const element = nodeList[i];
 
             if (element.style.backgroundImage) {
-                    element.addEventListener("click",(e)=> {
-                        console.log(arrSave[e.target.classList[1]])
+                element.addEventListener("click",(e)=> {
+                    console.log(arrSave[e.target.classList[1]])
                     localStorage.setItem("currentGame", arrSave[e.target.classList[1]].index)
-                    window.open(arrSave[e.target.classList[1]].chapter, "_self");
+                    window.open("/game", "_self");
                 })
             }
         }

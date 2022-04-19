@@ -173,11 +173,9 @@
 
 
 .corner-text{
-    font-size: 3rem !important;
-    -webkit-text-stroke: 3.2px rgb(187, 085, 153)!important;
-    text-shadow: 3px 3px 1.5px rgb(187, 085, 153)!important;
+    -webkit-text-stroke: 3.2px rgb(187, 085, 153);
+    text-shadow: 3px 3px 1.5px rgb(187, 085, 153);
     position: absolute;
     z-index: 2000;
-
     bottom: 72%
 }
