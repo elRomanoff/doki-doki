@@ -41,21 +41,25 @@ fetch(chapter)
     .then (x =>{
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
             let breakPoint = []
-            length = x.length
+
             x.forEach((element, index) => {
 
                 if(index < i && element.newBackground){
                     mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
                 }
+                if (element.charImg) {encodeImg (dictionary[element.charImg]); console.log(element.charImg)}
+                if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
+
                 if(index < i && element.newCharacter){
                     breakPoint.push(element.newCharacter)
                     if(element.newCharacter == "erase") breakPoint.length = 0;
                 }
                 if(index < i && element.music){
                     music = element.music
-                }            
+                } 
                 arrDialog.push(element)
             });
+            // manageImage()
          breakPoint.forEach(x => {
              x.forEach(y => manageNewCharacter(y))
          })
@@ -73,7 +77,6 @@ function runDialog() {
     else window.open(next, "_self")
     i++;
     if(enableMusic !== "false"){
-        console.log(enableMusic)
         try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
     }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
@@ -108,8 +111,7 @@ function manageProperties(objDialog){
         else if (objDialog.char === "you") charName.innerHTML = you; 
         else charName.innerHTML = objDialog.char;
     }
-    if (objDialog.charImg) manageImage(objDialog.charImg);
-    if (objDialog.insertImg) manageImage(objDialog.charImg);
+    if (objDialog.charImg || objDialog.insertImg) manageImage(objDialog.charImg);
     
     if (!objDialog.content){
         i++;
@@ -172,10 +174,16 @@ function manageBackground(background){
 }
 
 function manageImage(img){
-
     if(!img) pngChar.src = "";
     else pngChar.src = dictionary[img]
 }
+function encodeImg(imgSrc) {
+    const imgToInsert = document.createElement("img");
+    imgToInsert.src = imgSrc
+    mainScreen.appendChild(imgToInsert);
+    imgToInsert.style.display = "none"
+}
+
 
 //add new character to the Screen
 function manageNewCharacter(obj){
@@ -340,8 +348,9 @@ const resize = () => {
     }
 }
 
-window.addEventListener('resize', resize);
 
+
+window.addEventListener('resize', resize);
 resize();
 
 export {mainScreen as mainScreen}
