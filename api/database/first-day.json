@@ -1,6 +1,7 @@
 [
 {
-    "newBackground": "barrio.png"
+    "newBackground": "barrio.png",
+    "next":"day2"
 },
 {
     "content": "Heeeyy!!!",
@@ -625,7 +626,7 @@
 },
 {
     "char": "Monika",
-    "content":"It's nice to see you again, #var.",
+    "content":"It's great to see you again, #var.",
     "usesVar":"true"
 },
 {
@@ -1130,7 +1131,7 @@
     "content":"I mutter quietly to myself, half-joking."
 },
 {
-    "newCharacter":[{"new":"true", "char":"Natsuki","left":"true", "charImg":"schoolb.png"},{"new":"true","hide":"hide","char":"Monika","charImg":"Mon4.png"}],
+    "newCharacter":[{"new":"true", "char":"Natsuki","left":"true", "charImg":"Schoolb.png"},{"new":"true","hide":"hide","char":"Monika","charImg":"Mon4.png"}],
     "char":"nobody",
     "content":"Natsuki's head suddenly perks up."
 },
@@ -1200,7 +1201,7 @@
 },
 {
     "char":"Yuri",
-    "charImg":"21.png",
+    "charImg":"2l1.png",
     "content":"Isn't it amazing how a writer can so deliberately take adventage of your own lack of imagination to completely throw you for a loop?"
 },
 {
@@ -1268,7 +1269,7 @@
 {
     "char":"Yuri",
     "content":"Oh? Why's that?",
-    "charImg":"Ysurp.png",
+    "charImg":"YSurp.png",
     "animation": [
         {
             "direction": "height",

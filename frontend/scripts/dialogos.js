@@ -1,5 +1,4 @@
 "use strict"
-let next =  "/poem" 
 
 import { createSaveScreen } from "/scripts/saveGame.js"
 import { cargarSonido } from "/scripts/cargarSonido.js"
@@ -9,26 +8,25 @@ import {dictionary} from "/scripts/dictionary.js"
 
 //config stuff
 const you = config.getName();
-const textSpeed = config.getTextSpeed()
-const chapter = config.getChapter()
-let i = localStorage.getItem("doki_currentGame");
-if (!i) i = 0;    
+const textSpeed = config.getTextSpeed();
+const chapter = config.getChapter();
+const route = config.getRoute();
+
+let i = config.getGameIndex();
+console.log(route)
 
 let enableMusic = config.getMusic();
 
-
-
 //GLOBALS
 const mainScreen = document.querySelector(".mainScreen");
-let music;
 const pngChar = document.getElementById("char");
-let skipInterval
 const charName = document.getElementById("char-name");
 const textBox = document.getElementById("text-box");
-let arrDialog = []
-
-
-
+let skipInterval;
+let music;
+let arrDialog = [];
+let auxDialogArray = [];
+let next = "";
 
 let sayori = new Character("sayori", "/api/img/sayori/")
 let yuri = new Character("yuri", "/api/img/yuri/")
@@ -39,6 +37,14 @@ let monika = new Character("monika", "/api/img/monika/")
 fetch(chapter)
     .then (res => res.json())
     .then (x =>{
+        // acá arranca el programa. antes de que se empiece a ejecutar la función que recorre el array al que se le hizo fetch,
+        // el programa observa el primer elemento en busca de configuraciones globales
+        next = x[0]?.next;
+        if( x[0].usesRoute) {
+            if(!route) window.open("/Poem", "_self")
+            else fetch(chapter+ "/" +route).then(res => res.json()).then(x => x.forEach(y => auxDialogArray.push(y)))
+        }
+
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
             let breakPoint = []
 
@@ -47,7 +53,7 @@ fetch(chapter)
                 if(index < i && element.newBackground){
                     mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
                 }
-                if (element.charImg) {encodeImg (dictionary[element.charImg]); console.log(element.charImg)}
+                if (element.charImg) encodeImg (dictionary[element.charImg]);
                 if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
                 if(index < i && element.newCharacter){
@@ -56,15 +62,18 @@ fetch(chapter)
                 }
                 if(index < i && element.music){
                     music = element.music
-                } 
+                }
+                //
                 arrDialog.push(element)
+                //
+                if (element.newRoute) {
+                    console.log(arrDialog)
+                    console.log(auxDialogArray)
+                }
             });
-            // manageImage()
          breakPoint.forEach(x => {
              x.forEach(y => manageNewCharacter(y))
          })
-
-        
         
         mainScreen.addEventListener("click",runDialog)
     })
@@ -74,7 +83,11 @@ function runDialog() {
     mainScreen.removeEventListener("click", runDialog)
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
-    else window.open(next, "_self")
+    else {
+        config.setChapter(next);
+        config.setGameIndex(0);
+        window.location.reload()
+    } 
     i++;
     if(enableMusic !== "false"){
         try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
@@ -83,6 +96,7 @@ function runDialog() {
 }
 
 function manageProperties(objDialog){
+    if(objDialog.newRoute) console.log("new route! " + route)
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
             try{mainScreen.removeChild(sayori.png)}catch{}
@@ -111,7 +125,7 @@ function manageProperties(objDialog){
         else if (objDialog.char === "you") charName.innerHTML = you; 
         else charName.innerHTML = objDialog.char;
     }
-    if (objDialog.charImg || objDialog.insertImg) manageImage(objDialog.charImg);
+    if (objDialog.charImg) manageImage(objDialog.charImg);
     
     if (!objDialog.content){
         i++;
@@ -293,7 +307,7 @@ function saveGame(option) {
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
 
-    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter}
+    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})

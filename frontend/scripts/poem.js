@@ -221,9 +221,9 @@ fetch("/poem-words")
                 columna2.removeEventListener("click", clickWord)
                 columna1.removeEventListener("click", clickWord);
 
-                if(sayori.score > yuri.score && sayori.score > natsuki.score) alert ("Sayori loved your poem!")
-                else if (natsuki.score > yuri.score && natsuki.score > sayori.score) alert ("Natsuki loved your poem!")
-                else if (yuri.score > natsuki.score && yuri.score > sayori.score) alert ("Yuri loved your poem!")
+                if(sayori.score > yuri.score && sayori.score > natsuki.score) openNext("sayori")
+                else if (natsuki.score > yuri.score && natsuki.score > sayori.score) openNext("natsuki")
+                else if (yuri.score > natsuki.score && yuri.score > sayori.score) openNext("yuri")
 
                 return;
             }
@@ -259,6 +259,11 @@ const resize = () => {
         mainScreen.style.width = auxWidth + "px";
         mainScreen.style.fontSize = (auxWidth * 26 / 1280) + "px"
     }
+}
+
+function openNext(character){
+    config.setRoute(character)
+    window.open("/Game", "_self")
 }
 
 window.addEventListener('resize', resize);

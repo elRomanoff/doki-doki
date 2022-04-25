@@ -21,13 +21,20 @@ router.get("/help", function(req, res){
     res.sendFile(path.join(__dirname, "../../frontend/help.html"))
 })
 
-//provisory
+//chapters
 router.get("/start", (req, res) => {
     res.sendFile(path.join(__dirname, '../database/first-day.json'))
 })
-router.get("/second-day/:char", (req,res) =>{
-    if(req.params.char === "Sayori"){
-        res.sendFile(path.join(__dirname, '../database/day2-sayori.json'))
+router.get("/day2", (req, res) => {
+    res.sendFile(path.join(__dirname, '../database/day2.json'))
+})
+
+router.get("/day2/:char", (req,res) =>{
+    if(req.params.char === "sayori"){
+        res.sendFile(path.join(__dirname, '../database/day2sayori.json'))
+    }
+    else if (req.params.char === "yuri"){
+        res.send("dale vamos bien")
     }
 })
 

@@ -177,5 +177,6 @@
     text-shadow: 3px 3px 1.5px rgb(187, 085, 153);
     position: absolute;
     z-index: 2000;
-    bottom: 72%
+    bottom: 72%;
+    font-size: 300%!important;
 }

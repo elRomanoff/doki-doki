@@ -11,7 +11,6 @@ let arrSave = [
 function findSave(n){
     let saveStat = localStorage.getItem("doki_save"+n)
     let saveStatJSON = JSON.parse(saveStat)
-    console.log(saveStatJSON)
     if (saveStat){
         return saveStatJSON;
     }
@@ -64,7 +63,8 @@ function createSaveScreen(option, objectToSave){
                     loadDiv.addEventListener("click", (e) => {
                         if (e.target.style.backgroundImage) {
                             config.setChapter(arrSave[e.target.classList[1]].chapter)
-                            localStorage.setItem("doki_currentGame", arrSave[e.target.classList[1]].doki_currentGame)
+                            config.setGameIndex(arrSave[e.target.classList[1]].doki_currentGame)
+                            config.setRoute(arrSave[e.target.classList[1]].route)
                             window.open("/Game", "_self")
                         }
                     })

@@ -28,10 +28,20 @@ const config = {
         localStorage.setItem("doki_currentChapter", chapter)
     },
     getChapter: function(){
-        if(!this.currentChapter) this.currentChapter = "/start"
+        if(!this.currentChapter || this.currentChapter === "undefined")  this.currentChapter = "/start"
         return this.currentChapter;
     },
 
+    //game index
+    currentGame: localStorage.getItem("doki_currentGame"),
+    setGameIndex: function(index){
+        this.currentGame = index;
+        localStorage.setItem("doki_currentGame", index);
+    },
+    getGameIndex: function(){
+        if(!this.currentGame) this.currentGame = 0;
+        return this.currentGame
+    },
 
     //name 
     name: localStorage.getItem("doki_name"),
@@ -47,6 +57,25 @@ const config = {
         }
         return you;
     },
+    
+    //route
+    currentRoute: localStorage.getItem("doki_currentRoute"),
+    setRoute: function (route) {
+        this.currentRoute = route;
+        localStorage.setItem("doki_currentRoute", route)
+    },
+    getRoute: function () {
+        if (!this.currentRoute || this.currentRoute === "undefined") this.currentRoute = ""
+        return this.currentRoute;
+    },
+
+    //newGame
+    setNewGame: function(){
+        this.setRoute("")
+        this.setGameIndex(0)
+        this.setChapter("")
+    },
+
 
     //Chapters 
     order: ["/Start","/Poem","/second-day/"],

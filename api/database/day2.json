@@ -1,0 +1,483 @@
+[
+    {
+        "newBackground": "Club.png",
+        "next": "day3",
+        "usesRoute":true
+    },
+    {
+        "char": "Monika",
+        "usesVar": "true",
+        "charImg": "3aa.png",
+        "content": "Hi again, #var!"
+    },{},
+    {
+        "content": "Glad to see you didn't run away from us. Hahaha!"
+    },
+    {
+        "char": "you",
+        "content": "Nah, don't worry."
+    },
+    {
+        "content": "This might be a little strange for me, but I at least keep my word."
+    },
+    {
+        "char": "nobody",
+        "content": "Well, I'm back at the Literature Club.",
+        "charImg":"MC"
+    },
+    {
+        "content": "I was the last to come in, so everyone else is already hanging out."
+    },
+    {
+        "char":"Yuri",
+        "usesVar": true,
+        "content": "Thanks for keeping your promise, #var.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "content": "I hope this isn't too overwhelming of a commitment for you."
+    },
+    {
+        "content": "Making you dive headfirst into literature when you're not accustomed to it...",
+        "charImg":"YBashful_Smile_3.png"
+    },
+    {
+        "char":"Natsuki",
+        "content": "Oh, come on! Like he deserves any slack.",
+        "newCharacter":[
+            {
+                "new": true,
+                "char": "Natsuki",
+                "charImg": "Y16.png"
+            },
+            {
+                "char": "Monika",
+                "new": true,
+                "charImg": "Monika2.png",
+                "hide": "hide",
+                "left": true
+            }
+        ],
+        "animation": [
+            {
+                "char": "Monika",
+                "direction": "left",
+                "value": "-70%"
+            }
+        ]
+        
+    },
+    {
+        "content": "Sayori told me you didn't even want to join any clubs this year."
+    },
+    {
+        "content": "And last year, too!"
+    },
+    {
+        "content": "I don't know if you plan to just come here and hang out, or what...",
+        "newCharacter":[{"char": "Natsuki","charImg": "Y14.png"}]
+    },
+    {
+        "content": "But if you don't take us seriously, then you won't see the end of it."
+    },
+    {
+        "char":"Monika",
+        "content": "Natsuki, you certainly have a big mouth for someone who keeps her manga collection in the clubroom.",
+        "newCharacter":[{"char":"Monika", "hide":"non"}],
+        "animation": [
+            {
+                "char": "Monika",
+                "direction": "left",
+                "value": "0%"
+            }
+        ]
+    },
+    {
+        "char":"Natsuki",
+        "content": "M-M-M...!!",
+        "newCharacter":[
+            {
+                "char": "Natsuki",
+                "charImg": "Y17.png"
+           }
+        ]
+    },
+    {
+        "content": "Natsuki finds herself stuck between saying 'Monika' and 'Manga'",
+        "animation":[{"char":"Monika","direction":"left","value":"-70%"}]
+    },
+    {
+        "content": "Manga is literature!!",
+        "newCharacter":[{"char":"Natsuki", "charImg":"Schools.png"}],
+        "animation":[{"char":"Natsuki", "direction":"jump"}]
+    },
+    {
+        "char":"nobody",
+        "content": "Swiftly defeated, Natsuki plops back into her seat.",
+        "newCharacter":"erase"
+    },
+    {
+        "char":"Sayori",
+        "content": "Don't worry, guys~",
+        "newCharacter":[{"char":"Sayori", "new":"true", "left":"true","charImg":"Sayori3.png"}]
+    },
+    {
+        "usesVar": true,
+        "content": "#var always gives it his best as long as he's having fun."
+    },
+    {
+        "content": "He helps me with busywork without me even asking."
+    },
+    {
+        "content": "Like cooking, cleaning my room..."
+    },
+    {
+        "char":"Yuri",
+        "content": "How dependable...",
+        "charImg":"Yuvu.png",
+        "animation":[{"direction":"height", "value":"102%"}]
+    },
+    {
+        "char":"you",
+        "content": "Sayori, that's because your room is so messy it's distracting.",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "100%"
+            }
+        ]
+    },
+    {
+        "content": "And you almost set your house on fire once."
+    },
+    {
+        "content": "Is that so... Ehehe...",
+        "char":"Sayori",
+        "newCharacter":[{"char":"Sayori","charImg":"3a.png"}],
+        "animation":[{"char":"Sayori","direction":"top","value":"3%"}]
+    },
+    {
+        "char":"Yuri",
+        "charImg":"Yuri_school_4.png",
+        "content": "You two are really good friends, aren't you?",
+        "animation": [
+            {
+                "direction": "height",
+                "value": "102%"
+            }
+        ]
+    },
+    {
+        "content": "I might be a little jealous..."
+    },
+    {
+        "char":"Sayori",
+        "usesVar": true,
+        "content": "How come? You and #var can become good friends too!",
+        "newCharacter":[{"char":"Sayori","charImg":"Say1.png"}],
+        "animation":[
+            {
+                "char":"Sayori",
+                "direction": "height",
+                "value": "102%"
+            },
+            {
+                "char":"Sayori",
+                "direction":"top",
+                "value":"0%"
+            },
+            {
+                "direction": "height",
+                "value": "100%"
+            }
+        ]
+    },
+    {
+        "char":"Yuri",
+        "content": "U-Um...",
+        "charImg": "YSLookaway.png",
+        "animation": [{
+            "direction": "height",
+            "value": "102%"
+        },
+        {
+            "char":"Sayori",
+            "direction": "height",
+            "value": "100%"
+        }]
+    },
+    {
+        "char":"you",
+        "content": "S-Sayori--",
+        "animation":[
+            {
+                "direction": "height",
+                "value": "100%"
+            }]
+    },
+    {
+        "char":"Sayori",
+        "content": "Hmm?",
+        "animation":[
+            {
+                "char":"Sayori",
+                "direction": "height",
+                "value": "102%"
+            }]
+    },
+    {
+        "char":"you",
+        "content": "...",
+        "animation":[
+            {
+                "char":"Sayori",
+                "direction": "height",
+                "value": "100%"
+            }]
+    },
+    {
+        "char":"nobody",
+        "content": "As usual, Sayori seems oblivious to the weird situation she just put me into."
+    },
+    {
+        "char":"Sayori",
+        "content": "Oh, oh! Yuri even brought you something today, you know~",
+        "newCharacter":[{"char":"Sayori","charImg":"Ori24.png"}],
+        "animation":[
+            {
+                "char":"Sayori",
+                "direction": "height",
+                "value": "102%"
+            }]
+    },
+    {
+        "char":"Yuri",
+        "content": "W-Wait! Sayori...",
+        "charImg":"YScared3.png",
+        "animation":[[
+                {
+                    "direction": "height",
+                    "value": "103%"
+                },
+                {
+                    "char": "Sayori",
+                    "direction": "height",
+                    "value": "100%"
+                }
+            ]]
+    },
+    {
+        "char":"you",
+        "content": "Eh? Me?",
+        "animation":[{
+                "direction": "height",
+                "value": "100%"
+            }]
+    },
+    {
+        "char":"Yuri",
+        "content": "Um... Not really...",
+        "charImg":"YWorried.png",
+        "animation":[{
+                "direction": "height",
+                "value": "102%"
+            }]
+    },
+    {
+        "char":"Sayori",
+        "content": "Don't be shy~",
+        "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}],
+        "animation":[
+            {
+                "char": "Sayori",
+                "direction": "height",
+                "value": "102%"
+            },
+            {
+                "direction": "height",
+                "value": "100%"
+            }]
+    },
+    {
+        "char":"Yuri",
+        "content": "It's really nothing...",
+        "animation":[
+            {
+                "char": "Sayori",
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "direction": "height",
+                "value": "102%"
+            }
+        ]
+    },
+    {
+        "char":"you",
+        "content": "What is it?",
+        "animation":[
+            {
+                "direction": "height",
+                "value": "100%"
+            }
+        ]
+    },
+    {
+        "char":"Yuri",
+        "content": "N-Never mind!",
+        "charImg":"YSShy1.png",
+        "animation":[{
+            "direction": "height",
+            "value": "102%"
+        }]
+    },
+    {
+        "content": "Sayori made it sound like a big deal when it's really not..."
+    },
+    {
+        "content": "Uuuuh, what do I do..."
+    },
+    {
+        "char":"Sayori",
+        "content": "Eh? I'm sorry, Yuri, I wasn't thinking...",
+                "newCharacter": [
+                    {
+                        "char": "Sayori",
+                        "charImg": "Say7.png"
+                    }
+                ],
+                "animation": [
+                    {
+                        "char": "Sayori",
+                        "direction": "height",
+                        "value": "102%"
+                    },
+                    {
+                        "direction": "height",
+                        "value": "100%"
+                    }
+                ]
+    },
+    {
+        "content": "I guess that means it's up to me to rescue this situation...",
+        "newCharacter":"erase"
+    },
+    {
+        "char":"you",
+        "content": "Hey, don't worry about it."
+    },
+    {
+        "content": "First of all, I wasn't expecting anything in the first place."
+    },
+    {
+        "content": "So any nice gesture from you is a pleasant surprise."
+    },
+    {
+        "content": "It'll make me happy no matter what."
+    },
+    {
+        "content": "I-Is that so...",
+        "char":"Yuri",
+        "charImg":"YSSad.png"
+    },
+    {
+        "char":"true",
+        "content": "Yeah. I won't make it a big deal if you don't want it to be."
+    },
+    {
+        "char":"Yuri",
+        "content": "Alright..."
+    },
+    {
+        "content": "Well, here.",
+        "charImg": "Yuri_school_2.png"
+    },
+    {
+        "char":"nobody",
+        "content": "Yuri reaches into her bag and pulls out a book."
+    },
+    {
+        "char":"Yuri",
+        "content": "I didn't want you to feel left out..."
+    },
+    {
+        "content": "So I picked out a book that I thought you might enjoy."
+    },
+    {
+        "content": "It's a short read, so it should keep your attention, even if you don't usually read."
+    },
+    {
+        "content": "And we could, you know..."
+    },
+    {
+        "charImg":"YSLookaway.png",
+        "content": "Discuss it...if you wanted...",
+        "animation":[{"direction":"top","value":"3%"}]
+    },
+    {
+        "char":"nobody",
+        "content": "Th-This is..."
+    },
+    {
+        "char": "nobody",
+        "content": "How is this girl accidentally being so cute?"
+    },
+    {
+        "char": "nobody",
+        "content": "She even picked out a book she thinks I'll like, despite me not reading much..."
+    },
+    {
+        "char": "you",
+        "content": "Yuri, thank you! I'll definitely read this!"
+    },
+    {
+        "char": "nobody",
+        "content": "I enthusiastically take the book."
+    },
+    {
+        "char": "Yuri",
+        "content": "Phew...",
+        "animation":[{"direction":"top","value":"0%"}],
+        "charImg":"Yuvu.png"
+    },
+    {
+        "content": "Well, you can read it at your own pace.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "content": "I look forward to hearing what you think."
+    },
+    {
+        "char":"nobody",
+        "charImg":"MC",
+        "content":"Now that everyone's settled in, I expected Monika to kick off some scheduled activities for the club."
+    },
+    {
+        "char":"nobody",
+        "content":"But that doesn't seem to be the case"
+    },
+    {
+        "char":"nobody",
+        "content": "Sayori and Monika are having a cheery conversation in the corner."
+    },
+    {
+        "char": "nobody",
+        "content": "Yuri's face is already buried in a book."
+    },
+    {
+        "char": "nobody",
+        "content": "I can't help but notice her intense expression, like she was waiting for this chance."
+    },
+    {
+        "char": "nobody",
+        "content": "Meanwhile, Natsuki is rummaging around in the closet."
+    },
+    {
+        "newBackground":"Club.png",
+        "newRoute": true
+    },
+    {
+        
+    }
+]

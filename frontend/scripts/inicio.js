@@ -66,7 +66,7 @@ menuBtns.addEventListener("click", (e) => {
     if (e.target.classList.contains("ok")){
         selectSound.play();
         if (e.target.id === "new-game") {
-            localStorage.setItem("doki_currentGame", 0);
+            config.setNewGame() 
             window.open("/Game", "_self")
         }
 

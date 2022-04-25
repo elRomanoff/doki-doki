@@ -9,7 +9,7 @@
     height: 20%;
     position: absolute;
     z-index: 10;
-    padding: .3em 2em;
+    padding: .7em 2em;
     font-family: principal;
     text-shadow: -0.05em -0.05em 0 rgb(025, 0, 010), 0.05em 0.05em 0 rgb(025, 0, 010), -0.05em 0.05em 0 rgb(025, 0, 010), 0.05em -0.05em rgb(025, 0, 010);
     -webkit-text-stroke: .01em rgb(025, 0, 010);
@@ -42,7 +42,7 @@
     border-radius: .7em;
     background-image: url("/imagenes/text-background.png");
     background-repeat: repeat;
-    opacity: .7;
+    opacity: .85;
     z-index: 5;
     border: 4px solid white;
 }
