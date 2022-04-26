@@ -42,7 +42,7 @@ fetch(chapter)
         next = x[0]?.next;
         if( x[0].usesRoute) {
             if(!route) window.open("/Poem", "_self")
-            else fetch(chapter+ "/" +route).then(res => res.json()).then(x => x.forEach(y => auxDialogArray.push(y)))
+            else fetch(chapter+ "/" +route).then(res => res.json()).then(y => x.forEach(y => auxDialogArray.push(y)))
         }
 
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
