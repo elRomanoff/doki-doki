@@ -2,7 +2,8 @@
     {
         "newBackground": "Club.png",
         "next": "day3",
-        "usesRoute":true
+        "usesRoute":true,
+        "music":"ohayou-sayori.mp3"
     },
     {
         "char": "Monika",
@@ -382,7 +383,7 @@
         "charImg":"YSSad.png"
     },
     {
-        "char":"true",
+        "char":"you",
         "content": "Yeah. I won't make it a big deal if you don't want it to be."
     },
     {
@@ -478,6 +479,14 @@
         "newRoute": true
     },
     {
-        
+        "char":"Monika",
+        "content":"By the way, did you remember to write a poem last night?"
+    },
+    {
+        "char":"you",
+        "content":"Pero ma vaaaale (?)"
+    },
+    {
+        "action":"poem selection"
     }
 ]

@@ -1,18 +1,10 @@
- import { cargarSonido } from "/scripts/cargarSonido.js"
-        const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
-        const selectSound = cargarSonido("/api/sound/sfx/select");
-        const music = cargarSonido("/api/sound/music/dreams.mp3");
-
-
+import { cargarSonido } from "/scripts/cargarSonido.js"
 import { config } from "/scripts/config.js"
 
-if(config.music === "true"){
-    function playMusic(){
-        alert("Poem screen")
-        music.play();
-    }
-    playMusic()
-}
+const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
+const selectSound = cargarSonido("/api/sound/sfx/select");
+const music = cargarSonido("/api/sound/music/dreams.mp3");
+const enableMusic = config.getMusic()
 
 const screen = document.querySelector(".screen")
 const poemAlert = document.createElement("div")
@@ -27,6 +19,7 @@ ok.addEventListener("mouseover",()=>{
 
 ok.addEventListener("click", () => {
     selectSound.play();
+    if(enableMusic) music.play()
     screen.removeChild(poemAlert)
 })
 

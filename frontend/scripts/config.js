@@ -68,6 +68,16 @@ const config = {
         if (!this.currentRoute || this.currentRoute === "undefined") this.currentRoute = ""
         return this.currentRoute;
     },
+    //aditional routes
+    aditionalRoutes: localStorage.getItem("doki_aditionalRoutes"),
+    setAditionalRoute: function (add) {
+        this.aditionalRoutes = add
+        localStorage.setItem("doki_aditionalRoutes", JSON.stringify(add))
+    },
+    getAditionalRoute: function(){
+        if(!this.aditionalRoute) this.aditionalRoute = [];
+        return this.aditionalRoute;
+    },
 
     //newGame
     setNewGame: function(){

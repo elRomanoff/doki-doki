@@ -1,7 +1,7 @@
 const { json } = require('body-parser');
 const fs = require('fs');
 
-const rawText = fs.readFileSync( __dirname + "/sayori-provisory.txt", "utf-8")
+const rawText = fs.readFileSync( __dirname + "/.txt", "utf-8")
 
 const rawArray = (rawText.split("\n"))
 

@@ -11,7 +11,7 @@
     z-index: 10;
     padding: .7em 2em;
     font-family: principal;
-    text-shadow: -0.05em -0.05em 0 rgb(025, 0, 010), 0.05em 0.05em 0 rgb(025, 0, 010), -0.05em 0.05em 0 rgb(025, 0, 010), 0.05em -0.05em rgb(025, 0, 010);
+    text-shadow: -0.05em -0.05em .05em rgb(025, 0, 010), 0.05em 0.05em .05em rgb(025, 0, 010), -0.05em 0.05em .05em rgb(025, 0, 010), 0.05em -0.05em rgb(025, 0, 010);
     -webkit-text-stroke: .01em rgb(025, 0, 010);
     letter-spacing: -0.02em;
     margin-bottom: .4em;

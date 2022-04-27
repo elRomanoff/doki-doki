@@ -11,6 +11,7 @@ const you = config.getName();
 const textSpeed = config.getTextSpeed();
 const chapter = config.getChapter();
 const route = config.getRoute();
+const addRoute = []
 
 let i = config.getGameIndex();
 console.log(route)
@@ -36,13 +37,17 @@ let monika = new Character("monika", "/api/img/monika/")
 
 fetch(chapter)
     .then (res => res.json())
-    .then (x =>{
+    .then (async x => {
         // acá arranca el programa. antes de que se empiece a ejecutar la función que recorre el array al que se le hizo fetch,
         // el programa observa el primer elemento en busca de configuraciones globales
         next = x[0]?.next;
         if( x[0].usesRoute) {
             if(!route) window.open("/Poem", "_self")
-            else fetch(chapter+ "/" +route).then(res => res.json()).then(y => x.forEach(y => auxDialogArray.push(y)))
+            else{
+                const res = await fetch(chapter + "/" + route)
+                const resJson = await res.json();
+                resJson.forEach(y => auxDialogArray.push(y))
+            }
         }
 
         //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
@@ -61,20 +66,19 @@ fetch(chapter)
                     if(element.newCharacter == "erase") breakPoint.length = 0;
                 }
                 if(index < i && element.music){
-                    music = element.music
+                    music = element.music;
                 }
                 //
                 arrDialog.push(element)
                 //
                 if (element.newRoute) {
-                    console.log(arrDialog)
-                    console.log(auxDialogArray)
+                    arrDialog.push(...auxDialogArray)
                 }
             });
          breakPoint.forEach(x => {
              x.forEach(y => manageNewCharacter(y))
          })
-        
+        console.log(arrDialog)
         mainScreen.addEventListener("click",runDialog)
     })
 
@@ -307,7 +311,7 @@ function saveGame(option) {
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
 
-    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route}
+    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute}
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})
