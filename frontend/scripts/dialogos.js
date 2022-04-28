@@ -5,6 +5,7 @@ import { cargarSonido } from "/scripts/cargarSonido.js"
 import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
+import Background from "/scripts/backgrounds.js"
 
 //config stuff
 const you = config.getName();
@@ -29,11 +30,11 @@ let arrDialog = [];
 let auxDialogArray = [];
 let next = "";
 
-let sayori = new Character("sayori", "/api/img/sayori/")
-let yuri = new Character("yuri", "/api/img/yuri/")
-let natsuki = new Character("natsuki", "/api/img/natsuki/")
-let monika = new Character("monika", "/api/img/monika/")
-
+let sayori = new Character("sayori")
+let yuri = new Character("yuri")
+let natsuki = new Character("natsuki")
+let monika = new Character("monika")
+let charBg = new Background()
 
 fetch(chapter)
     .then (res => res.json())
@@ -66,7 +67,7 @@ fetch(chapter)
                     if(element.newCharacter == "erase") breakPoint.length = 0;
                 }
                 if(index < i && element.music){
-                    music = element.music;
+                    music = cargarSonido("/api/sound/music/" + element.music);
                 }
                 //
                 arrDialog.push(element)
@@ -93,8 +94,8 @@ function runDialog() {
         window.location.reload()
     } 
     i++;
-    if(enableMusic !== "false"){
-        try{music.play();}catch(err){console.log("Tranquilos, yo le pregunté")}
+    if(enableMusic){
+        try{music.play();}catch(err){console.error(err.message)}
     }
     // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
 }
@@ -177,22 +178,32 @@ function addAnimatedText(text) {
 }
 
 function manageBackground(background){
-
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
     mainScreen.appendChild(overScreen);
-
     setTimeout(() =>{
         mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
         setTimeout(() => mainScreen.removeChild(overScreen),500)
     },500)  
     pngChar.src = "";
     textBox.innerHTML = "";
-
 }
+
 
 function manageImage(img){
     if(!img) pngChar.src = "";
+
+    else if (typeof img === "object"){
+        if (!img.background) mainScreen.removeChild(charBg.domImg)
+        else if(charBg.domImg.src){
+           charBg.defineImgWithAnimation(img.backgound)
+        }
+        else{
+            charBg.defineImg(img.background)
+            charBg.append()
+        }
+    }
+
     else pngChar.src = dictionary[img]
 }
 function encodeImg(imgSrc) {
@@ -201,7 +212,6 @@ function encodeImg(imgSrc) {
     mainScreen.appendChild(imgToInsert);
     imgToInsert.style.display = "none"
 }
-
 
 //add new character to the Screen
 function manageNewCharacter(obj){
@@ -366,7 +376,18 @@ const resize = () => {
     }
 }
 
+//key pressing
 
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === " "){
+        console.log()
+        const event = new MouseEvent("click",{
+            
+        })
+        mainScreen.dispatchEvent(event)
+    }
+})
 
 window.addEventListener('resize', resize);
 resize();

@@ -159,6 +159,12 @@ body{
     left: -90%;
     animation: crosser 1s linear;
 } 
+.char-bg{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: 2;
+}
 
 @keyframes crosser {
     100%{

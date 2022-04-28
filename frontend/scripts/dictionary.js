@@ -55,6 +55,7 @@ let dictionary = {
     "Say23.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FSay23.png?alt=media&token=8c3316a0-057f-4c49-9f96-daa91a6a4510",
     "Say24.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FSay24.png?alt=media&token=17871201-9c4d-4083-bc7a-26e7acc1b02c",
     "Say25.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FSay25.png?alt=media&token=2a56b2b2-7b00-423c-bf7d-f57eae8b6b0a",
+    "Say26.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fsayori%2FSay26.png?alt=media&token=8399f1b7-893d-4604-bbeb-2fad499c03e1",
     "Sayori1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FSayori1.png?alt=media&token=c4d8bfbe-917d-47b7-b6ba-3ad399c241ca",
     "Sayori2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FSayori2.png?alt=media&token=6f440e5a-d19a-482c-a7aa-34278afded95",
     "Sayori3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fsayori%2FSayori3.png?alt=media&token=f02acef8-8d89-43f7-97f1-b0766aebd94f",
@@ -207,7 +208,10 @@ let dictionary = {
     "Club.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2FClub.png?alt=media&token=6ca63d35-5ce3-4c25-abf0-694c29774cfc",
     "Corridor.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2FCorridor.png?alt=media&token=2afa74de-1454-4e1c-acaf-246410d5aef7",
     "Notebook.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2FNotebook.png?alt=media&token=f2d5cddb-cf2d-41f2-9aca-434676d2e13c",
-    "barrio.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fbarrio.png?alt=media&token=9d2b5cb0-9d17-419f-92de-61b7b37cc4ae"
+    "barrio.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fbarrio.png?alt=media&token=9d2b5cb0-9d17-419f-92de-61b7b37cc4ae",
+    //Sayori
+    "sayori-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fsayori-bg-1.png?alt=media&token=f0c438d8-ecf3-4f30-b6e2-3a4b77af802b"
+
 }
 
 export {dictionary as dictionary}

@@ -480,13 +480,17 @@
     },
     {
         "char":"Monika",
-        "content":"By the way, did you remember to write a poem last night?"
+        "content":"By the way, did you remember to write a poem last night?",
+        "newCharacter":[{
+                "char": "Monika",
+                "charImg": "Mon1.png"
+            }],
+        "charImg":"none"
     },
     {
-        "char":"you",
-        "content":"Pero ma vaaaale (?)"
+        "char":"you"
     },
     {
-        "action":"poem selection"
+        "menu":"poem selection"
     }
 ]

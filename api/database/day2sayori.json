@@ -624,7 +624,8 @@
         "content": "Once you see how much better it looks, you'll change your mind."
     },
     {
-        "content": " "
+        "content": "Ehehe~",
+        "charImg": {"background":"sayori-bg-1.png"}  
     },
     {
         "char": "Sayori",
@@ -652,7 +653,7 @@
     },
     {
         "char": "you",
-        "content": "You'll make {i}me{/i} feel weird about it, stupid..."
+        "content": "You'll make  me  feel weird about it, stupid..."
     },
     {
         "char": "Sayori",
@@ -728,7 +729,8 @@
     },
     {
         "char": "you",
-        "content": "Anyway..."
+        "content": "Anyway...",
+        "charImg": "Say17.png"  
     },
     {
         "char": "you",
@@ -758,7 +760,8 @@
     },
     {
         "char": "Sayori",
-        "content": "Phew!"
+        "content": "Phew!",
+        "charImg":{}
     },
     {
         "char": "Sayori",
@@ -769,7 +772,8 @@
     },
     {
         "char": "Sayori",
-        "content": "So if I keep it unbuttoned then I won't get a boyfriend, right?"
+        "content": "So if I keep it unbuttoned then I won't get a boyfriend, right?",
+        "charImg":"Say1.png"
     },
     {
         "char": "you",
@@ -785,11 +789,13 @@
     },
     {
         "char": "Sayori",
-        "content": "...If I had a boyfriend, then he wouldn't even let you do things like this!"
+        "content": "...If I had a boyfriend, then he wouldn't even let you do things like this!",
+        "charImg":"Ori8.png"
     },
     {
         "char": "Sayori",
-        "content": "And you take care of me better than anyone else would, anyway..."
+        "content": "And you take care of me better than anyone else would, anyway...",
+        "charImg":"Ori25.png"
     },
     {
         "char": "Sayori",
@@ -817,7 +823,8 @@
     },
     {
         "char": "Sayori",
-        "content": "Only if you focus on going to bed earlier!"
+        "content": "Only if you focus on going to bed earlier!",
+        "charImg":"Say10.png"
     },
     {
         "char": "you",
@@ -829,11 +836,13 @@
     },
     {
         "char": "Sayori",
-        "content": "Ehehe~"
+        "content": "Ehehe~",
+        "charImg":"Ori17.png"
     },
     {
         "char": "Sayori",
-        "content": "I guess we really are better at taking care of each other than we are at taking care of ourselves."
+        "content": "I guess we really are better at taking care of each other than we are at taking care of ourselves.",
+        "charImg": "Ori24.png"
     },
     {
         "char": "you",
@@ -841,7 +850,8 @@
     },
     {
         "char": "Sayori",
-        "content": "So maybe you should come wake me up in the morning!"
+        "content": "So maybe you should come wake me up in the morning!",
+        "charImg": "Ori17.png"
     },
     {
         "char": "you",
@@ -849,15 +859,25 @@
     },
     {
         "char": "Sayori",
-        "content": "Aw, but I was joking that time!"
+        "content": "Aw, but I was joking that time!",
+        "charImg": "Say8.png",
+        "newCharacter":[{"char":"Monika","new":"true","left":"true","hide":"hide","charImg":"Monika2.png"},{
+                "char": "Natsuki",
+                "new": "true",
+                "hide": "hide",
+                "charImg": "Y15.png"
+            }]
     },
     {
         "char": "you",
-        "content": "Man, it's impossible to tell with you sometimes."
+        "content": "Man, it's impossible to tell with you sometimes.",
+        "animation":[{"char":"Monika","direction":"left","value":"-50%"}]
     },
     {
         "char": "Monika",
-        "content": "Okay, everyone!"
+        "content": "Okay, everyone!",
+        "newCharacter":[{"char":"Monika","hide":"none"}],
+        "animation":[{"char":"Monika","direction":"left","value":"0%"}]
     },
     {
         "char": "you",
@@ -871,12 +891,14 @@
         "content": "Why don't we share the poems we wrote now?"
     },
     {
-        "content": " "
+        "content": "Yay~!",
+        "charImg":"Ori18.png"
     },
     {
         "usesVar": "true",
         "char": "Sayori",
-        "content": "#var, I can't wait to read yours!"
+        "content": "#var, I can't wait to read yours!",
+        "charImg": "Ori24.png"
     },
     {
         "char": "you",
