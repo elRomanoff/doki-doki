@@ -57,6 +57,15 @@ const config = {
         }
         return you;
     },
+    //in screen characters
+    inScreenCharacters: localStorage.getItem("doki_inScreenCharacters"),
+    setScreenCharacters: function(characters) {
+        localStorage.setItem("doki_inScreenCharacters", JSON.stringify(characters))
+    },
+    getScreenCharacters: function(){
+        if(!this.inScreenCharacters) this.inScreenCharacters = '["char"]'
+        return JSON.parse(this.inScreenCharacters);
+    },
     
     //route
     currentRoute: localStorage.getItem("doki_currentRoute"),
@@ -84,11 +93,9 @@ const config = {
         this.setRoute("")
         this.setGameIndex(0)
         this.setChapter("")
+        this.setScreenCharacters(["char"])
     },
 
-
-    //Chapters 
-    order: ["/Start","/Poem","/second-day/"],
 }
 
 

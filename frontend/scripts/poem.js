@@ -255,7 +255,9 @@ const resize = () => {
 }
 
 function openNext(character){
-    config.setRoute(character)
+    config.setRoute(character);
+    config.setAditionalRoute([]),
+    config.setScreenCharacters([])
     window.open("/Game", "_self")
 }
 

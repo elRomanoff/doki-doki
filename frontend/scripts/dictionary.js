@@ -61,10 +61,12 @@ let dictionary = {
     "Sayori3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fsayori%2FSayori3.png?alt=media&token=f02acef8-8d89-43f7-97f1-b0766aebd94f",
 
     //NATSUKI
+    "LeftArm.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm1.png?alt=media&token=87ec8efb-a233-4079-8b6c-685bc7381a62",
     "NatsukiCrossedArms.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms.png?alt=media&token=90fb9946-ce0e-4eec-a470-60947b0b57ed",
     "NatsukiCrossedArms2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms2.png?alt=media&token=f9ae6407-3e30-4731-b590-ed236001bdf1",
     "NatsukiCrossedArms3.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms3.png?alt=media&token=ed291190-e69a-4827-93b4-85d2a99fd246",
     "NatsukiCrossedArms4.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms4.png?alt=media&token=f7e40114-db1c-4357-8224-de9959f986c6",
+    "NatsukiCrossedArms5.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms5.png?alt=media&token=d4c41332-e91b-4cbb-a18b-19e69509cb31",
     "Natsuki_Grin.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsuki_Grin.png?alt=media&token=4063ad5b-817b-4d00-ba00-d21f1d456a6d",
     "Natsuki_Grin2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsuki_Grin2.png?alt=media&token=0f2b0371-d292-42de-9480-7e36bcbbd433",
     "Natsukiheadturn.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiheadturn.png?alt=media&token=295d62d9-0a59-42fd-b7df-843e6c1125b5",
@@ -120,7 +122,8 @@ let dictionary = {
     "Y24.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY24.png?alt=media&token=10dedfa0-04c6-4614-b290-f52af5cbc69f",
     "Y25.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY25.png?alt=media&token=137a25a8-a2b1-499a-ae41-4b9c8b351b67",
     "Y20.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY20.png?alt=media&token=0bcdc736-92d7-472d-8ccf-cba52a327e63",
-
+    "Y26.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY26.png?alt=media&token=94874be3-8716-4822-b651-b55303fe3ae0",
+    "Y27.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY27.png?alt=media&token=938bee9d-64f2-49a3-a6d6-4fa17f5ea57c",
 
     //YURI
     "Casualclothes1-0.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fcasual%2FCasualclothes1-0.png?alt=media&token=612bdb39-724c-4246-8f62-ad5ae7ae72ac",
@@ -133,7 +136,7 @@ let dictionary = {
     "YOutWorried.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fcasual%2FYOutWorried.png?alt=media&token=3c58ff61-8b29-4932-a0e8-953a038a261f",
 
     "2l1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2F2l1.png?alt=media&token=2e7831d2-8f10-4b92-a5c7-a25c5cc67fa8",
-    "Yangry.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2F2l1.png?alt=media&token=2e7831d2-8f10-4b92-a5c7-a25c5cc67fa8",
+    "YAngry.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYAngry.png?alt=media&token=b287d56c-41eb-4c60-ab3a-0788a509e1ca",
     "YBashful_Smile.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYBashful_Smile.png?alt=media&token=865fe25b-8353-4691-9c03-1f20b7e522df",
     "YBashful_Smile_2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYBashful_Smile_2.png?alt=media&token=a22287d8-3216-40ca-b13e-9c7af70ae466",
     "YBashful_Smile_3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYBashful_Smile_3.png?alt=media&token=f9365444-3af4-42e7-89cf-b9bb324f195f",
@@ -142,7 +145,9 @@ let dictionary = {
     "YLook.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYLook.png?alt=media&token=cad06dcd-3933-4fd5-ad7c-ed53465c4bc6",
     "YSHappy.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSHappy.png?alt=media&token=961906ef-2f29-4bdd-b303-2f9b0c4bbb68",
     "YSLookaway.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSLookaway.png?alt=media&token=345a8668-298d-4aea-89d9-3d727b2978bf",
+    "YSmile.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSmile.png?alt=media&token=c5bab921-00ca-43a9-bd8e-b541e4971e76",
     "YSSad.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSSad.png?alt=media&token=965a7c33-6e35-4f82-bf8f-e52bfd7e00d8",
+    "YSSad2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSSad2.png?alt=media&token=266124b4-fb16-4e88-b7a5-47ed654d1abe",
     "YSShy1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSShy1.png?alt=media&token=cfd5b885-3d23-4b2c-b363-9cfd33d8fa34",
     "YSShy2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYSShy2.png?alt=media&token=7d21077c-adaa-4734-b40c-af2e67db5044",
     "YScared.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYScared.png?alt=media&token=b7af77d2-6e07-4761-918c-d60a495fb52a",
@@ -157,8 +162,10 @@ let dictionary = {
     "Yuri_school_4.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuri_school_4.png?alt=media&token=e269a35b-3e5f-4239-bd43-396b125253f3",
     "Yuri_school_6.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuri_school_6.png?alt=media&token=fd2b5bce-b749-4815-bfce-2206c6129561",
     "Yuri_school_7.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuri_school_7.png?alt=media&token=56ad1514-5794-4b7c-90f6-8e9930e965a0",
+    "Yuri_school_8.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuri_school_8.png?alt=media&token=bbbaaf6e-1321-4c0d-9488-c786bd74d858",
     "Yurifull1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYurifull1.png?alt=media&token=b7ee3ab0-0510-47c8-9f3d-2e8e924032bc",
     "Yuu.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuu.png?alt=media&token=6d357422-875a-4b24-a784-b5cf3a58d15b",
+    "Yuu2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuu2.png?alt=media&token=e14f5dfb-dd20-4742-8ca1-cd11caeba260",
     "Yuvu.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYuvu.png?alt=media&token=b93dda70-f4b1-4b95-a1f1-62b337fb3760",
     "YWorried.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fschool%2FYWorried.png?alt=media&token=e660b873-b9a4-4302-afa0-ef1f2bfec53e",
 

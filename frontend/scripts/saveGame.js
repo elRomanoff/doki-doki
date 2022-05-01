@@ -65,7 +65,8 @@ function createSaveScreen(option, objectToSave){
                             config.setChapter(arrSave[e.target.classList[1]].chapter)
                             config.setGameIndex(arrSave[e.target.classList[1]].doki_currentGame)
                             config.setRoute(arrSave[e.target.classList[1]].route)
-                            config.setAditionalRoute(arrSave[e.target.classList[1]].aditionalRoute)
+                            config.setAditionalRoute(arrSave[e.target.classList[1]].aditionalRoute);
+                            config.setScreenCharacters(arrSave[e.target.classList[1]].inScreenCharacters)
                             window.open("/Game", "_self")
                         }
                     })

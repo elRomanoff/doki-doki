@@ -12,10 +12,9 @@ const you = config.getName();
 const textSpeed = config.getTextSpeed();
 const chapter = config.getChapter();
 const route = config.getRoute();
-const addRoute = []
-
+const addRoute = [];
 let i = config.getGameIndex();
-console.log(route)
+const inScreenCharacters = config.getScreenCharacters();
 
 let enableMusic = config.getMusic();
 
@@ -36,6 +35,23 @@ let natsuki = new Character("natsuki")
 let monika = new Character("monika")
 let charBg = new Background()
 
+function takeCharactersToScreen () {
+    let left = true
+    inScreenCharacters.map(x=>{
+        if(x !== "char"){
+            x.left = left;
+            x.new = true;
+            x.char = x.charName.charAt(0).toUpperCase() + x.charName.slice(1)
+            manageNewCharacter(x);
+        }
+        else left = false;
+    })
+    
+
+};
+takeCharactersToScreen()
+
+
 fetch(chapter)
     .then (res => res.json())
     .then (async x => {
@@ -50,36 +66,34 @@ fetch(chapter)
                 resJson.forEach(y => auxDialogArray.push(y))
             }
         }
+    
+        x.forEach((element, index) => {
+            
+            if (index <= i && element.newCharacter && element.newCharacter !=="erase") {
+                //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
+                element.newCharacter.forEach(y => {
+                    if (y.charImg) manageNewCharacter({ "char": y.char, "charImg": y.charImg })
+                })
+            }
 
-        //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
-            let breakPoint = []
+            if (element.newRoute) {
+                arrDialog.push(...auxDialogArray)
+            }
+            if(index < i && element.newBackground){ 
+                mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
+            }
+            if (element.charImg) {encodeImg (dictionary[element.charImg]);
+            }
+            if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
-            x.forEach((element, index) => {
-
-                if(index < i && element.newBackground){
-                    mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
-                }
-                if (element.charImg) encodeImg (dictionary[element.charImg]);
-                if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
-
-                if(index < i && element.newCharacter){
-                    breakPoint.push(element.newCharacter)
-                    if(element.newCharacter == "erase") breakPoint.length = 0;
-                }
-                if(index < i && element.music){
-                    music = cargarSonido("/api/sound/music/" + element.music);
-                }
-                //
-                arrDialog.push(element)
-                //
-                if (element.newRoute) {
-                    arrDialog.push(...auxDialogArray)
-                }
-            });
-         breakPoint.forEach(x => {
-             x.forEach(y => manageNewCharacter(y))
-         })
-        console.log(arrDialog)
+            if(index < i && element.music){
+                music = cargarSonido("/api/sound/music/" + element.music);
+            }
+            //
+            arrDialog.push(element)
+            //
+        });
+    
         mainScreen.addEventListener("click",runDialog)
     })
 
@@ -209,7 +223,7 @@ function manageImage(img){
 function encodeImg(imgSrc) {
     const imgToInsert = document.createElement("img");
     imgToInsert.src = imgSrc
-    mainScreen.appendChild(imgToInsert);
+    textBox.appendChild(imgToInsert);
     imgToInsert.style.display = "none"
 }
 
@@ -316,12 +330,19 @@ function manageAnimation(objAnimation){
 
 //options
 function saveGame(option) {
+    const inScreenCharacters = document.querySelectorAll(".char")
     const arrDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
     const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
-
-    const objectToSave = {doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute}
+    const objectToSave = {inScreenCharacters:[], doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute}
+    
+    for (let index = 0; index < inScreenCharacters.length; index++) {
+        if(inScreenCharacters[index].id) objectToSave.inScreenCharacters.push("char")
+        else if (inScreenCharacters[index].classList.contains("hidden")) objectToSave.inScreenCharacters.push({ charName: inScreenCharacters[index].classList[1], hide:"hide"})
+        else objectToSave.inScreenCharacters.push({charName: inScreenCharacters[index].classList[1]})
+    }
+    
     const saveScreen = createSaveScreen(option, objectToSave)
     mainScreen.appendChild(saveScreen)
     document.getElementById("return").addEventListener("click", () =>{mainScreen.removeChild(mainScreen.lastElementChild)})
@@ -381,7 +402,6 @@ const resize = () => {
 
 document.addEventListener("keydown", (e) => {
     if (e.key === " "){
-        console.log()
         const event = new MouseEvent("click",{
             
         })

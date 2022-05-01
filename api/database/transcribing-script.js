@@ -1,7 +1,7 @@
 const { json } = require('body-parser');
 const fs = require('fs');
 
-const rawText = fs.readFileSync( __dirname + "/.txt", "utf-8")
+const rawText = fs.readFileSync( __dirname + "/transc.txt", "utf-8")
 
 const rawArray = (rawText.split("\n"))
 
@@ -48,4 +48,4 @@ const arr = rawArray.map(x =>{
     return rawObj
 })
 
-fs.writeFileSync(__dirname + "./algo.json", JSON.stringify(arr))
+fs.writeFileSync("./algo.json", JSON.stringify(arr))
