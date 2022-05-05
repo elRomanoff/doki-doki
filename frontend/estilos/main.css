@@ -147,9 +147,33 @@ body{
     -webkit-text-stroke: 2px rgb(255, 170, 204);
     text-shadow: 2px 2px 1px rgb(255, 170, 204);   
 }
+
+.selection-container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color:transparent;
+    width:100%;
+    height:100%;
+    padding-top: 12%;
+}
+.selection-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5%;
+    background-color: rgb(255, 230, 244);
+    border: .1em solid rgb(255, 189, 225);
+    color:black;
+    padding: 0.11%;
+    width: 33%;    
+}
+.selection-btn:hover{
+    background-color:#fff;
+    color:rgb(255, 170, 153)
+}
+
 /*  */
-
-
 
 .crosser{
     background: black;

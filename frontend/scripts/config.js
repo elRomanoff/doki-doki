@@ -87,14 +87,50 @@ const config = {
         if(!this.aditionalRoute) this.aditionalRoute = [];
         return this.aditionalRoute;
     },
-
+    //extra
+    setExtra: function(song, img, background){
+        localStorage.setItem("currentSong", song)
+        localStorage.setItem("charImg", img)
+        localStorage.setItem("background", background)
+    },
+    getExtra: function(){
+        return{
+            song: localStorage.getItem("currentSong"),
+            currentImg: localStorage.getItem("charImg"),
+            currentBackground: localStorage.getItem("background")
+        }
+    },
+    //poem scores
+    setScore: function(say, nat, yu){
+        localStorage.setItem("doki_currentSayoriScore", say)
+        localStorage.setItem("doki_currentNatsukiScore", nat)
+        localStorage.setItem("doki_currentYuriScore", yu)
+    },
+    getScore: function(){
+        return {
+            sayScore: localStorage.getItem("doki_currentSayoriScore"),
+            natScore: localStorage.getItem("doki_currentNatsukiScore"),
+            yuScore: localStorage.getItem("doki_currentYuriScore")
+        }
+    },
     //newGame
     setNewGame: function(){
         this.setRoute("")
         this.setGameIndex(0)
         this.setChapter("")
-        this.setScreenCharacters(["char"])
+        this.setScreenCharacters(["char"]);
+        this.setAditionalRoute([])
+        this.setExtra({})
     },
+    //loadGame
+    setLoadGame: function(obj){
+        this.setRoute(obj?.route)
+        this.setGameIndex(obj?.doki_currentGame)
+        this.setChapter(obj?.chapter)
+        this.setAditionalRoute(obj?.aditionalRoute)
+        this.setScreenCharacters(obj?.inScreenCharacters)
+        this.setExtra(obj.song, obj.img, obj.currentBackground)
+    }
 
 }
 

@@ -62,11 +62,7 @@ function createSaveScreen(option, objectToSave){
                 if(option === "Load"){
                     loadDiv.addEventListener("click", (e) => {
                         if (e.target.style.backgroundImage) {
-                            config.setChapter(arrSave[e.target.classList[1]].chapter)
-                            config.setGameIndex(arrSave[e.target.classList[1]].doki_currentGame)
-                            config.setRoute(arrSave[e.target.classList[1]].route)
-                            config.setAditionalRoute(arrSave[e.target.classList[1]].aditionalRoute);
-                            config.setScreenCharacters(arrSave[e.target.classList[1]].inScreenCharacters)
+                            config.setLoadGame(arrSave[e.target.classList[1]])
                             window.open("/Game", "_self")
                         }
                     })

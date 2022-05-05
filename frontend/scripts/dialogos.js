@@ -12,13 +12,19 @@ const you = config.getName();
 const textSpeed = config.getTextSpeed();
 const chapter = config.getChapter();
 const route = config.getRoute();
-const addRoute = [];
+const addRoute = config.getAditionalRoute();
 let i = config.getGameIndex();
 const inScreenCharacters = config.getScreenCharacters();
+const {sayScore,natScore,yuScore} = config.getScore()
+console.log(sayScore, natScore, yuScore)
 
 let enableMusic = config.getMusic();
 
 //GLOBALS
+
+const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
+const selectSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fselect.ogg?alt=media&token=02f9acb0-aa26-41f4-97c8-68eac0a0a5e7");
+
 const mainScreen = document.querySelector(".mainScreen");
 const pngChar = document.getElementById("char");
 const charName = document.getElementById("char-name");
@@ -27,8 +33,17 @@ let skipInterval;
 let music;
 let arrDialog = [];
 let auxDialogArray = [];
+let selectionMenu = [];
+let selectionOptions = {};
 let next = "";
 
+//variables to save game
+let {song, currentBackground, currentImg} = config.getExtra()
+manageImage(currentImg)
+manageBackground(currentBackground)
+music = cargarSonido("/api/sound/music/" + song)
+
+//instance of characters and background
 let sayori = new Character("sayori")
 let yuri = new Character("yuri")
 let natsuki = new Character("natsuki")
@@ -51,7 +66,7 @@ function takeCharactersToScreen () {
 };
 takeCharactersToScreen()
 
-
+//init
 fetch(chapter)
     .then (res => res.json())
     .then (async x => {
@@ -75,20 +90,13 @@ fetch(chapter)
                     if (y.charImg) manageNewCharacter({ "char": y.char, "charImg": y.charImg })
                 })
             }
-
             if (element.newRoute) {
                 arrDialog.push(...auxDialogArray)
-            }
-            if(index < i && element.newBackground){ 
-                mainScreen.style.backgroundImage = `url("${dictionary[element.newBackground]}")`
             }
             if (element.charImg) {encodeImg (dictionary[element.charImg]);
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
-            if(index < i && element.music){
-                music = cargarSonido("/api/sound/music/" + element.music);
-            }
             //
             arrDialog.push(element)
             //
@@ -103,6 +111,8 @@ function runDialog() {
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
     else {
+        config.setRoute("")
+        config.setAditionalRoute([])
         config.setChapter(next);
         config.setGameIndex(0);
         window.location.reload()
@@ -111,11 +121,9 @@ function runDialog() {
     if(enableMusic){
         try{music.play();}catch(err){console.error(err.message)}
     }
-    // try{charName.classList.remove("toggler")}catch(err){console.log("Tranquilos, ya esta sacado")}
 }
 
 function manageProperties(objDialog){
-    if(objDialog.newRoute) console.log("new route! " + route)
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
             try{mainScreen.removeChild(sayori.png)}catch{}
@@ -134,6 +142,7 @@ function manageProperties(objDialog){
     if(objDialog.music) {
         try{music.pause()} catch{console.log("ahora mismo no hay musica sonando")}
         music = cargarSonido("/api/sound/music/" + objDialog.music);
+        song = objDialog.music
     }
     if(objDialog.usesVar) {
         objDialog.content = objDialog.content.replace("#var", you)
@@ -151,6 +160,15 @@ function manageProperties(objDialog){
         runDialog();
     }
     else addAnimatedText(objDialog.content);
+
+    if(objDialog.selectMenu){
+        document.removeEventListener("keydown", keyDownPress)
+
+        if(objDialog.selectMenu === "continue"){
+            createSelectionMenu ()
+        }
+        else createSelectionMenu(objDialog.selectMenu, objDialog, true)
+    }
 }
 
 function addAnimatedText(text) {
@@ -192,6 +210,7 @@ function addAnimatedText(text) {
 }
 
 function manageBackground(background){
+    currentBackground = background;
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
     mainScreen.appendChild(overScreen);
@@ -203,7 +222,6 @@ function manageBackground(background){
     textBox.innerHTML = "";
 }
 
-
 function manageImage(img){
     if(!img) pngChar.src = "";
 
@@ -214,11 +232,14 @@ function manageImage(img){
         }
         else{
             charBg.defineImg(img.background)
-            charBg.append()
+            charBg.append();
         }
     }
 
-    else pngChar.src = dictionary[img]
+    else{
+         pngChar.src = dictionary[img]
+        currentImg = img
+    }
 }
 function encodeImg(imgSrc) {
     const imgToInsert = document.createElement("img");
@@ -327,6 +348,62 @@ function manageAnimation(objAnimation){
     }
 }
 
+//selectionMenu
+function createSelectionMenu(arrChar, objDialog, isNew) {
+
+    if(arrChar) selectionMenu = arrChar.map(objChar => {return objChar})
+
+
+    if(isNew && objDialog.dependsOnRoute) {
+        if (sayScore < 30) selectionOptions.Sayori = objDialog.Sayori.dislike
+        else if( sayScore >= 30 && sayScore < 45 ) selectionOptions.Sayori = objDialog.Sayori.like
+        else selectionOptions.Sayori = objDialog.Sayori.love
+
+       if(yuScore < 30) selectionOptions.Yuri = objDialog.Yuri.dislike;
+       else if (yuScore >= 30 && yuScore < 45) selectionOptions.Yuri = objDialog.Yuri.like;
+       else selectionOptions.Yuri = objDialog.Yuri.love
+
+        if (natScore < 30) selectionOptions.Natsuki = objDialog.Natsuki.dislike;
+        else if (natScore >= 30 && natScore < 45) selectionOptions.Natsuki = objDialog.Natsuki.like;
+        else selectionOptions.Natsuki = objDialog.Natsuki.love;
+
+        selectionOptions.Monika = objDialog.Monika;
+        
+    }
+    //if ! depends on route
+    else if(isNew){
+        selectionOptions.Sayori = objDialog.Sayori;
+        selectionOptions.Yuri = objDialog.Yuri;
+        selectionOptions.Natsuki = objDialog.Natsuki;
+        selectionOptions.Monika = objDialog.Monika
+    }
+
+    const selectionContainer = document.createDocumentFragment();
+    const selectContainer = document.createElement("div")
+    selectContainer.classList.add("selection-container")
+    selectContainer.addEventListener("click",(e) =>{e.stopPropagation()})
+
+    console.log(selectionMenu)
+    selectionMenu.forEach( x => {
+        const charSelect = document.createElement("div");
+        charSelect.classList.add("selection-btn", x.char)
+        charSelect.innerHTML = x.content;
+        charSelect.addEventListener("mouseover",()=> hoverSound.play())
+        charSelect.addEventListener("click",(e)=>{ 
+            selectSound.play();
+            mainScreen.removeChild(selectContainer)
+            document.addEventListener("keydown", keyDownPress)
+            console.log(selectionOptions)
+            arrDialog.splice(i,0,...selectionOptions[e.target.classList[1]])
+            const event = new MouseEvent("click", {})
+            mainScreen.dispatchEvent(event)
+            selectionMenu = selectionMenu.filter(filtered => filtered.char !== e.target.classList[1])
+        })
+        selectContainer.appendChild(charSelect) 
+    })
+    selectionContainer.appendChild(selectContainer)
+    mainScreen.appendChild(selectionContainer)    
+}
 
 //options
 function saveGame(option) {
@@ -335,7 +412,7 @@ function saveGame(option) {
     const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
-    const objectToSave = {inScreenCharacters:[], doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute}
+    const objectToSave = {inScreenCharacters:[], doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute, song:song, img:currentImg, currentBackground:currentBackground}
     
     for (let index = 0; index < inScreenCharacters.length; index++) {
         if(inScreenCharacters[index].id) objectToSave.inScreenCharacters.push("char")
@@ -349,6 +426,9 @@ function saveGame(option) {
     document.getElementById("save-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Save")})
     document.getElementById("load-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Load")})
     document.getElementById("delete-btn").addEventListener("click", () => { mainScreen.removeChild(mainScreen.lastElementChild); saveGame("Delete")})
+    document.getElementById("menu-btn").addEventListener("click", () => {window.open("/", "_self") })
+
+    
 }
 
 function showStory() {
@@ -399,15 +479,15 @@ const resize = () => {
 
 //key pressing
 
+function keyDownPress(e) {
+    if (e.key === " ") {
+        const event = new MouseEvent("click", {
 
-document.addEventListener("keydown", (e) => {
-    if (e.key === " "){
-        const event = new MouseEvent("click",{
-            
         })
         mainScreen.dispatchEvent(event)
     }
-})
+}
+document.addEventListener("keydown", keyDownPress)
 
 window.addEventListener('resize', resize);
 resize();

@@ -164,9 +164,9 @@ class Character{
     }
 }
 
-let sayori = new Character("sayori",6000,"imagenes/sayori-sticker2.png");
-let natsuki = new Character("natsuki", 5669,"imagenes/natsuki-sticker2.png");
-let yuri = new Character("yuri",5105,"imagenes/yuri-sticker2.png");
+let sayori = new Character("sayori",9000,"imagenes/sayori-sticker2.png");
+let natsuki = new Character("natsuki", 9000,"imagenes/natsuki-sticker2.png");
+let yuri = new Character("yuri",8000,"imagenes/yuri-sticker2.png");
 
 
 setTimeout(() => sayori.createJumpInterval(), 7000)
@@ -221,21 +221,26 @@ fetch("/poem-words")
                 return;
             }
 
+
             if (!e.target.id) return
             selectSound.play();
 
+            sayori.score += parseInt(tenWords[e.target.id][1]);
+            natsuki.score += parseInt(tenWords[e.target.id][2]);
+            yuri.score += parseInt(tenWords[e.target.id][3]);
+            
+            console.log("Sayori: " + sayori.score+ ". Natsuki: " + natsuki.score + ". Yuri: " + yuri.score)
+
             if (tenWords[e.target.id][1] == 3) {
                 sayori.jumpHappy();
-                sayori.score++
             }
             else if (tenWords[e.target.id][2] == 3) {
                 natsuki.jumpHappy();
-                natsuki.score++
             }
             else if (tenWords[e.target.id][3] == 3) {
                 yuri.jumpHappy();
-                yuri.score++
             }
+
             printWords()
         }
 
@@ -256,6 +261,7 @@ const resize = () => {
 
 function openNext(character){
     config.setRoute(character);
+    config.setScore(sayori.score, natsuki.score, yuri.score)
     config.setAditionalRoute([]),
     config.setScreenCharacters([])
     window.open("/Game", "_self")
@@ -266,4 +272,3 @@ window.addEventListener('resize', resize);
 resize();
 
 
-//order: Sayori, Natsuki, Yuri

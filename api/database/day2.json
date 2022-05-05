@@ -4,7 +4,7 @@
         "next": "day3",
         "usesRoute":true,
         "music":"ohayou-sayori.mp3"
-    },
+    },  
     {
         "char": "Monika",
         "usesVar": "true",
@@ -534,11 +534,106 @@
         "content": "I do the same, myself."
     },
     {
-        "menu": "menu",
-        "music":"aca pongo la musica del poema para compartir"
+        "selectMenu": [
+            {
+                "char":"Sayori",
+                "content":"Sayori",
+                "message":[
+                    {
+                        "char":"nobody",
+                        "content":"I'm definitely most comfortable sharing it with sayori first."
+                    },
+                    {
+                        "char":"nobody",
+                        "content":"She's my good friend, after all."
+                    }
+                ]
+            }, 
+            {
+                "char":"Natsuki",
+                "content":"Natsuki",
+                "message":[
+                    {
+                        "char":"nobody", 
+                        "content":"I told Natsuki I was interested in her poems yesterday."
+                    },
+                    {
+                        "char":"nobody",
+                        "content":"It's probably only fair if I shared mine with her first."
+                    }
+                ]
+            },
+            {
+                "char":"Yuri", 
+                "content":"Yuri",
+                "message":[
+                    {
+                        "char":"nobody",
+                        "content":"Yuri seems the most experienced, so I should start with her."
+                    },
+                    {
+                        "char":"nobody",
+                        "content":"I can trust her opinion to be fair."
+                    }
+                ]},
+                {
+                    "char":"Monika",
+                    "content":"Monika",
+                    "message":[
+                        {
+                            "char":"nobody", 
+                            "content":"I should start with Monika."
+                        },
+                        {
+                            "char":"nobody", 
+                            "content":"Yesterday she seemed eager to read my poem, and I want her to knwo I'm putting in effort."
+                            }
+                    ]
+                }
+            ],
+        "dependsOnRoute":true,
+        "content":"Who should I show my poem first?",
+        "char":"nobody",
+        "music":"okay-everyone.mp3",
+        "Natsuki":{
+            "love":[{
+                    "content": "lo lograste CAPO <3"
+                },
+                {
+                    "content": "ahora podes seguir programando la parte mecanica de este jueguito"
+                },
+                {
+                    "content": "Who should I show my poem first?",
+                    "selectMenu": "continue",
+                    "charImg": "no"
+                }],
+            "like":[
+                {"content":"lo lograste forro"},
+                {"content":"ahora podes seguir programando la parte mecanica de este jueguito"},
+                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+            ],
+            "dislike":[ 
+                {"content":"una verga tu poema", "charImg":"NatsukiCrossedArms3.png"},
+                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+            ]
+        },
+        "Sayori":{
+            "like":[
+                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+            ],
+            "dislike":[],
+            "love":[]
+        },
+        "Yuri":{
+            "like":[],
+            "dislike":[],
+            "love":[]
+        },
+        "Monika":[]
     },
     {
         "newBackground": "Club.png",
+        "music":"main-theme.mp3",
         "char": "you",
         "content": "Phew..."
     },  
@@ -1189,6 +1284,7 @@
         "content": "..."
     },
     {
+        "char":"nobody",
         "content": "How did I get dragged into this in the first place?!",
         "animation": [
             {
@@ -1203,14 +1299,20 @@
         ]
     },
     {
+        "char":"nobody",
         "content": "It's not like I know anything about writing..."
     },
     {
+        "char":"nobody",
         "content": "But whomever I agree with, they'll probably think more highly of me!"
     },
     {
+        "char":"nobody",
         "content": "So, of course that's going to be...!",
-        "menu":"ay no seee"
+        "selectMenu":[{"char":"Natsuki", "content":"Natsuki"},{"char":"Yuri","content":"Yuri"},{"char":"Sayori", "content":"Help me, Sayori!"}],
+        "Natsuki":[{"content":"bbbbb"}],
+        "Yuri":[{"content":"aaaaaaaaaaaa"}],
+        "Sayori":[{"content":"asdasd"}]
     },
     {
         "char": "Monika",
@@ -1279,7 +1381,7 @@
     {
         "char":"nobody",
         "content": "I think to myself.",
-        "charImg":"non"
+        "charImg":"non" 
     },
     {"char": "nobody",  
         "content": "I did learn a little more about the kinds of poems everyone likes."
