@@ -65,3 +65,8 @@
 .toggler{
     display: none;
 }
+
+@media (max-height: 720px) {
+    .text{border: 1.5px solid white;}
+    .text-background{border: 1.5px solid white;}
+}

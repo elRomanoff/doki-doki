@@ -244,7 +244,7 @@ function manageImage(img){
 function encodeImg(imgSrc) {
     const imgToInsert = document.createElement("img");
     imgToInsert.src = imgSrc
-    textBox.appendChild(imgToInsert);
+    mainScreen.appendChild(imgToInsert);
     imgToInsert.style.display = "none"
 }
 
@@ -383,7 +383,7 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
     selectContainer.classList.add("selection-container")
     selectContainer.addEventListener("click",(e) =>{e.stopPropagation()})
 
-    console.log(selectionMenu)
+    console.log()
     selectionMenu.forEach( x => {
         const charSelect = document.createElement("div");
         charSelect.classList.add("selection-btn", x.char)
@@ -395,6 +395,9 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
             document.addEventListener("keydown", keyDownPress)
             console.log(selectionOptions)
             arrDialog.splice(i,0,...selectionOptions[e.target.classList[1]])
+
+            if (selectionMenu.length >= 4) arrDialog.splice(i, 0, ...selectionMenu.find(y => { return y.char === e.target.innerHTML }).message)
+
             const event = new MouseEvent("click", {})
             mainScreen.dispatchEvent(event)
             selectionMenu = selectionMenu.filter(filtered => filtered.char !== e.target.classList[1])
@@ -470,8 +473,8 @@ options.addEventListener("click", function(e){
 //resice mainScreen
 const resize = () => {
     if (screen.height < 720){
-        mainScreen.style.height = screen.height+"px";
-        let auxWidth = (screen.height * 1280) / 720
+        mainScreen.style.height = (screen.height - 50) +"px";
+        let auxWidth = ((screen.height - 50) * 1280) / 720
         mainScreen.style.width = auxWidth + "px";
         mainScreen.style.fontSize = (auxWidth * 26 / 1280) + "px" 
     }

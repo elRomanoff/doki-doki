@@ -198,3 +198,25 @@ body{
 
 
 /* PRUEBAS */
+
+@media (max-height: 720px) {
+    .ok {
+        color: white !important;
+        font-family: Botones !important;
+        font-size: 200%;
+        -webkit-text-stroke: 1px rgb(187, 085, 153);
+        text-shadow: 1px 1px .5px rgb(187, 085, 153);
+        margin: .5em;
+    }
+    
+    .ho:hover {
+        -webkit-text-stroke: 1px rgb(255, 170, 204);
+        text-shadow: 1px 1px .5px rgb(255, 170, 204);
+        cursor: pointer;
+    }
+    
+    .marked {
+        -webkit-text-stroke: 1px rgb(255, 170, 204);
+        text-shadow: 1px 1px 5px rgb(255, 170, 204);
+    }
+}
