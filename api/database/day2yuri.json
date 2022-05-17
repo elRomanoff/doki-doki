@@ -1,1 +1,864 @@
-[{}]
+[
+    {
+        "content": "I'm really curious to talk to Yuri a little bit more...", "char":"nobody",
+        "newBackground":"Club.png"
+    },
+    {
+        "content": "But at the same time, I would feel bad for distracting her from reading.", "char":"nobody"
+    },
+    {
+        "content": "I catch a glimpse of the cover of her book.", "char":"nobody"
+    },
+    {
+        "content": "It looks like the same book that she lent to me...", "char":"nobody"
+    },
+    {
+        "content": "More than that, she seems to be on the first few pages.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"Yurifull1.png",
+        "music":"playwithme.mp3"
+    },
+    {
+        "content": "Crap--", "char":"nobody"
+    },
+    {
+        "content": "I think she noticed me looking at her...", "char":"nobody"
+    },
+    {
+        "content": "She sneaks another glance at me, and our eyes meet for a split second.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "...",
+        "charImg": "YSLookaway.png"
+    },
+    {
+        "content": "But that only makes her hide her face deeper in her book.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Sorry..."
+    },
+    {
+        "char": "you",
+        "content": "I was just spacing out..."
+    },
+    {
+        "content": "I mutter this, sensing I made her uncomfortable.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Oh...",
+        "charImg":"YBashful_Smile_3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's fine...",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "If I was focused, then I probably wouldn't have noticed in the first place."
+    },
+    {
+        "char": "Yuri",
+        "content": "But I'm just re-reading a bit of this, so..."
+    },
+    {
+        "char": "you",
+        "content": "That's the book that you gave me, right?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Mhm."
+    },
+    {
+        "char": "Yuri",
+        "content": "I wanted to re-read some of it."
+    },
+    {
+        "char": "Yuri",
+        "content": "Not for any particular reason...!",
+        "charImg":"YShy2.png"
+    },
+    {
+        "char": "you",
+        "content": "Just curious, how come you have two copies of the same book?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, when I stopped at the bookstore yesterday--"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, that's not what I meant...",
+        "charImg":"YWorried.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I mean--"
+    },
+    {
+        "char": "Yuri",
+        "content": "I...just happened to buy two of them.",
+        "charImg":"Yunu.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, I see."
+    },
+    {
+        "content": "There's something fairly obvious here that Yuri isn't telling me, but I decide to let it go.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I'll definitely start reading it soon!"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm glad to hear...",
+        "charImg":"YBashful_Smile_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Once it starts to pick up, you might have a hard time putting it down.",
+        "charImg":"Yuri_school_9.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's a very engaging and relatable story."
+    },
+    {
+        "char": "you",
+        "content": "Is that so...?"
+    },
+    {
+        "char": "you",
+        "content": "What's it about, anyway?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YSurp.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Mmm..."
+    },
+    {
+        "content": "Yuri closes the book and scans her eyes over the back.", "char":"nobody"
+    },
+    {
+        "content": "The book is titled \\\"Portrait of Markov\\\".", "char":"nobody"
+    },
+    {
+        "content": "There's an ominous-looking eye symbol on the front cover.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Alright...",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I just wanted to make sure I don't accidentally give anything away."
+    },
+    {
+        "char": "Yuri",
+        "content": "Basically, it's about this girl in high school who moves in with her long-lost younger sister..."
+    },
+    {
+        "char": "Yuri",
+        "content": "But as soon as she does so, her life gets really strange."
+    },
+    {
+        "char": "Yuri",
+        "content": "She gets targeted by these people who escaped from a human experiment prison...",
+        "charImg":"Yuvu.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "And while her life is in danger, she needs to desperately choose who to trust."
+    },
+    {
+        "char": "Yuri",
+        "content": "No matter what she does, she ends up destroying most of her relationships and her life starts to fall apart...",
+        "charImg":"YSmile.png"
+    },
+    {
+        "char": "you",
+        "content": "That's kind of--!"
+    },
+    {
+        "content": "That's kind of dark, isn't it?", "char":"nobody"
+    },
+    {
+        "content": "Yuri made it sound like it was going to be a nice story, so that dark turn came from nowhere.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ahaha.",
+        "charImg":"Yuri_school_3.png"
+    },
+    {
+        "content": "Yuri gently giggles, all of a sudden.", "char":"nobody"
+    },
+    {
+        "usesVar": true,
+        "char": "Yuri",
+        "content": "Are you not a fan of that sort of thing, #var?"
+    },
+    {
+        "char": "you",
+        "content": "No, it's not that..."
+    },
+    {
+        "char": "you",
+        "content": "I mean, I can definitely enjoy those kinds of stories, so don't worry."
+    },
+    {
+        "char": "Yuri",
+        "content": "I hope so...",
+        "charImg":"YBashful_Smile_2.png"
+    },
+    {
+        "content": "Yeah... I totally forgot that Yuri is into those things.", "char":"nobody"
+    },
+    {
+        "content": "She's so shy and reclusive on the outside, but her mind seems to be completely different.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's just that those kinds of stories..."
+    },
+    {
+        "char": "Yuri",
+        "content": "They challenge you to look at life from a strange new perspective.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "When horrible things happen not just because someone wants to be evil..."
+    },
+    {
+        "char": "Yuri",
+        "content": "But because they have their own goals, or their own philosophy that they believe in.",
+        "charImg":"Yuvu.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Then suddenly, when you thought you related to the protagonist..."
+    },
+    {
+        "char": "Yuri",
+        "content": "They're made out to be the naive one for letting their one-sided morals interfere with the villain's plans."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm...I'm rambling, aren't I...?",
+        "charImg":"YSSad.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Not again..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry...",
+        "charImg":"YSLookaway.png"
+    },
+    {
+        "char": "you",
+        "content": "Hey, don't apologize...!"
+    },
+    {
+        "char": "you",
+        "content": "I haven't lost interest or anything."
+    },
+    {
+        "char": "Yuri",
+        "content": "Well..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I guess it's alright, then..."
+    },
+    {
+        "char": "Yuri",
+        "content": "But I feel like I should let you know that I have this problem...",
+        "charImg":"Yurifull1.png"    
+    },
+    {
+        "char": "Yuri",
+        "content": "When I let things like books and writing fill my thoughts..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I kind of forget to pay attention to other people..."
+    },
+    {
+        "char": "Yuri",
+        "content": "So I'm sorry if I end up saying something strange!",
+        "charImg":"YSSad3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "And please stop me if I start talking too much!"
+    },
+    {
+        "char": "you",
+        "content": "That's--"
+    },
+    {
+        "char": "you",
+        "content": "I really don't think you need to worry..."
+    },
+    {
+        "char": "you",
+        "content": "That just means you're passionate about reading."
+    },
+    {
+        "char": "you",
+        "content": "The least I can do is listen."
+    },
+    {
+        "char": "you",
+        "content": "It's a literature club, after all..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah--",
+        "charImg": "Yurifull1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "That's..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, that's true..."
+    },
+    {
+        "char": "you",
+        "content": "In fact..."
+    },
+    {
+        "char": "you",
+        "content": "I might as well get started reading it, right?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Y-You don't have to!",
+        "charImg":"YScared3.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha, what are you saying?"
+    },
+    {
+        "char": "you",
+        "content": "Just a moment ago, you said you were looking forward to it."
+    },
+    {
+        "char": "Yuri",
+        "content": "...",
+        "charImg":"YWorried.png"
+    },
+    {
+        "char": "you",
+        "content": "Let me just get the book..."
+    },
+    {
+        "content": "I quickly retrieve the book that I had put into my bag.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright...it's fine if I sit here, right?"
+    },
+    {
+        "content": "I slip into the seat next to Yuri's.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...!",
+        "charImg":"YScared3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Yeah..."
+    },
+    {
+        "char": "you",
+        "content": "Are you sure?"
+    },
+    {
+        "char": "you",
+        "content": "You seem a little apprehensive..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry...",
+        "charImg":"YSLookaway.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's not that I don't want you to!"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's just something I'm not very used to..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That is, reading in company with someone."
+    },
+    {
+        "char": "you",
+        "content": "I see..."
+    },
+    {
+        "char": "you",
+        "content": "Well, just tell me if I end up distracting you or anything."
+    },
+    {
+        "char": "Yuri",
+        "content": "A-Alright..."
+    },
+    {
+        "content": "I open the book and start the prologue.", "char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "I soon understand what Yuri means about reading in company.", "char":"nobody"
+    },
+    {
+        "content": "It's as if I can feel her presence over my shoulder as I read.", "char":"nobody"
+    },
+    {
+        "content": "It's not a particularly bad thing.", "char":"nobody"
+    },
+    {
+        "content": "Maybe a little distracting, but the feeling is somewhat comforting.", "char":"nobody"
+    },
+    {
+        "content": "Yuri is in the corner of my eye.", "char":"nobody"
+    },
+    {
+        "content": "I realize that she's not actually looking at her own book.", "char":"nobody"
+    },
+    {
+        "content": "I glance over.", "char":"nobody"
+    },
+    {
+        "content": "It looks like she's reading from my book instead--", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "S-Sorry!",
+        "charImg":"YScared3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was just--!"
+    },
+    {
+        "char": "you",
+        "content": "Yuri, you really apologize a lot, don't you?"
+    },
+    {
+        "char": "Yuri",
+        "content": "I...I do?"
+    },
+    {
+        "char": "Yuri",
+        "content": "I don't really mean to...",
+        "charImg":"Yurifull1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Sorry..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I mean--!",
+        "charImg":"YSShy1.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "you",
+        "content": "Here, this should work, right?"
+    },
+    {
+        "content": "I slide my desk until it's up against Yuri's, then hold my book more between the two of them.", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YSSad.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I suppose so..."
+    },
+    {
+        "content": "Yuri timidly closes her own copy.", "char":"nobody"
+    },
+    {
+        "content": "Once we each lean in a little bit, our shoulders are almost touching.", "char":"nobody"
+    },
+    {
+        "content": "It feels like my left arm is in the way, so instead I use my right hand to hold the book open.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah, I guess that makes it kind of difficult to turn the page..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Here..."
+    },
+    {
+        "content": "Yuri takes her left arm and holds the left side of the book between her thumb and forefinger.", "char":"nobody",
+        "charImg":{"background":"yuri-bg-1.png"}
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "content": "I do the same with my right arm, on the right side of the book.", "char":"nobody"
+    },
+    {
+        "content": "That way, I turn a page, and Yuri slides it under her thumb after it flips to her side.", "char":"nobody"
+    },
+    {
+        "content": "But in holding it like this...", "char":"nobody"
+    },
+    {
+        "content": "We're huddled even closer together than before.", "char":"nobody"
+    },
+    {
+        "content": "It's actually kind of distracting me...!", "char":"nobody"
+    },
+    {
+        "content": "It's as if I can feel the warmth of Yuri's face, and she's in the corner of my vision...", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "...Are you ready?",
+        "charImg":{"background":"yuri-bg-2.png"}
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "Yuri",
+        "content": "To turn the page..."
+    },
+    {
+        "char": "you",
+        "content": "Ah...sorry!"
+    },
+    {
+        "char": "you",
+        "content": "I think I got a bit distracted for a second..."
+    },
+    {
+        "content": "I glance over at Yuri's face again, and our eyes meet.", "char":"nobody"
+    },
+    {
+        "content": "I don't know how I'll be able to keep up with her...", "char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's okay.",
+        "charImg":{"background":"yuri-bg-3.png"}
+    },
+    {
+        "char": "Yuri",
+        "content": "You're not as used to reading, right?"
+    },
+    {
+        "char": "Yuri",
+        "content": "I don't mind being patient if it takes you a bit longer..."
+    },
+    {
+        "char": "Yuri",
+        "content": "It's probably the least I can do..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Since you've been so patient with me..."
+    },
+    {
+        "char": "you",
+        "content": "Y-Yeah..."
+    },
+    {
+        "char": "you",
+        "content": "Thanks."
+    },
+    {
+        "content": "We continue reading.", "char":"nobody",
+        "charImg":{"background":"yuri-bg-1.png"}
+    },
+    {
+        "content": "Yuri no longer asks me if I'm ready to turn the page.", "char":"nobody"
+    },
+    {
+        "content": "Instead, I just assume that she finishes the page before me, so I turn it by my own volition.", "char":"nobody"
+    },
+    {
+        "content": "We continue the first chapter in silence.", "char":"nobody"
+    },
+    {
+        "content": "Even so, turning each page almost feels like an intimate exchange...", "char":"nobody"
+    },
+    {
+        "content": "My thumb gently letting go of the page, letting it flutter over to her side as she catches it under her own thumb.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Hey, Yuri..."
+    },
+    {
+        "char": "you",
+        "content": "This might be a silly thought, but..."
+    },
+    {
+        "char": "you",
+        "content": "The main character kind of reminds me of you a little bit."
+    },
+    {
+        "char": "Yuri",
+        "content": "You...think so?",
+        "charImg":{"background":"yuri-bg-2.png"}
+    },
+    {
+        "char": "Yuri",
+        "content": "How does she?"
+    },
+    {
+        "char": "you",
+        "content": "Well, I guess she's more blunt in a lot of ways..."
+    },
+    {
+        "char": "you",
+        "content": "But she also second-guesses all of the things that she says and does."
+    },
+    {
+        "char": "you",
+        "content": "Like she's afraid she'll do something wrong."
+    },
+    {
+        "char": "you",
+        "content": "It's not like I can see into your head or anything..."
+    },
+    {
+        "char": "you",
+        "content": "But they're kind of reminiscent of some of your mannerisms."
+    },
+    {
+        "char": "Yuri",
+        "content": "I-I see...",
+        "charImg":"YSSad3.png"
+    },
+    {
+        "content": "Yuri remains silent for a moment.", "char":"nobody",
+        "charImg":{"background":""}
+    },
+    {
+        "usesVar":true,
+        "char": "Yuri",
+        "content": "But #var..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's probably..."
+    },
+    {
+        "char": "Yuri",
+        "content": "...a terrible thing to have in common with her!"
+    },
+    {
+        "char": "Yuri",
+        "content": "Uuuh, that's so embarrassing that you think that...",
+        "charImg":"YSLookaway.png"
+    },
+    {
+        "char": "you",
+        "content": "W-Wait!"
+    },
+    {
+        "char": "you",
+        "content": "I didn't mean it in a bad way or anything!"
+    },
+    {
+        "char": "you",
+        "content": "Sorry, I really didn't know you were self-conscious about that sort of thing..."
+    },
+    {
+        "char": "Yuri",
+        "content": "..."
+    },
+    {
+        "char": "you",
+        "content": "I guess I more meant that it's kind of cute..."
+    },
+    {
+        "char": "Yuri",
+        "content": "A-Ah--",
+        "charImg":"YShy2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "What are you saying all of a sudden...?"
+    },
+    {
+        "char": "Yuri",
+        "content": "I...!",
+        "newCharacter":[{"char":"Monika","new":"true","left":true,"hide":"hide","charImg":"Ika2.png"},{"char":"Natsuki","new":"true","hide":"hide","charImg":"Y20.png"}],
+        "animation":[{"char":"Monika","direction":"left", "value":"30%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "Okay, everyone!",
+        "newCharacter":[{"char":"Monika","hide":"non"}],
+        "animation":[{"char":"Monika","direction":"left", "value":"0%"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "...!",
+        "animation":[{"direction":"jump", "value":null}],
+        "charImg":"YScared3.png"
+    },
+    {
+        "char": "Monika",
+        "content": "I think it's about time we share today's poems with each other.",
+        "animation":[{"direction":"height","value":"102%","char":"Monika"}]
+    },
+    {
+        "char": "Monika",
+        "content": "We might not have enough time if we wait too long."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"Yunu.png",
+        "animation":[{"char":"Monika","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+    },
+    {
+        "content": "Yuri exhales, spared from finishing her thought.", "char":"nobody"
+    },
+    {
+        "char": "Monika",
+        "content": "Is that alright, Yuri?",
+        "animation": [
+            {
+                "char": "Monika",
+                "direction": "height",
+                "value": "102%"
+            },
+            {
+                "direction": "height",
+                "value": "100%"
+            }
+        ],
+        "newCharacter":[{"char":"Monika", "charImg": "Ika1.png"}]
+    },
+    {
+        "char": "Monika",
+        "content": "You look kind of down..."
+    },
+    {
+        "char": "Monika",
+        "content": "I'm sorry if you haven't been looking forward to this..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, it's not...",
+        "charImg": "YSSad.png",
+        "animation":[{"char":"Monika","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "...It's fine."
+    },
+    {
+        "content": "Yuri releases her hand from the book, causing it to close on top of my thumb.", "char":"nobody",
+        "animation":[{"direction":"height","value":"100%"}]
+    },
+    {
+        "char": "you",
+        "content": "Alright..."
+    },
+    {
+        "char": "you",
+        "content": "I guess I'll do some more reading tonight."
+    },
+    {
+        "char": "you",
+        "content": "Or would you prefer I only read it with you?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Um...!",
+        "charImg":"YSurp2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I...guess I don't have too much of a preference either way..."
+    },
+    {
+        "char": "you",
+        "content": "Hmm..."
+    },
+    {
+        "char": "you",
+        "content": "In that case, I'll read a little more tonight."
+    },
+    {
+        "char": "you",
+        "content": "It'll be more fun to read with you after it picks up a bit, you know?"
+    },
+    {
+        "char": "Yuri",
+        "content": "That's good reasoning.",
+        "charImg":"2l1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "In that case, feel free to finish the first two chapters in your own time."
+    },
+    {
+        "char": "you",
+        "content": "Alright!"
+    },
+    {
+        "content": "I stand up.", "char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "char":"nobody",
+        "content": "I make a mental note of where I left off in the book, then slip it back into my bag."
+    }
+]

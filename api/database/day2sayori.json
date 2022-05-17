@@ -36,7 +36,8 @@
         "char": "Sayori",
         "content": "We're probably gonna seem really lame compared to all the other clubs, though...",
         "charImg":"Say7.png",
-        "newCharacter":[{"char":"Monika","hide":"hide", "new":"true", "charImg":"Mon18.png"}]
+        "newCharacter":[{"char":"Monika","hide":"hide", "new":"true", "charImg":"Mon18.png"}],
+        "animation":[{"char":"Monika","direction":"left","value":"0%"}]
     },
     {
         "char": "Monika",

@@ -11,7 +11,7 @@ class Background {
         this.domImg.src = dictionary[src];
     }
     defineImgWithAnimation(src){
-        return
+        this.domImg.src = dictionary[src];
     }
     append() {
         mainScreen.appendChild(this.domImg)

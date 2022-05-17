@@ -28,7 +28,7 @@ const config = {
         localStorage.setItem("doki_currentChapter", chapter)
     },
     getChapter: function(){
-        if(!this.currentChapter || this.currentChapter === "undefined")  this.currentChapter = "/start"
+        if(!this.currentChapter || this.currentChapter === "undefined")  this.currentChapter = "start"
         return this.currentChapter;
     },
 

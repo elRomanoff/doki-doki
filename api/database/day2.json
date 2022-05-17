@@ -592,44 +592,888 @@
                 }
             ],
         "dependsOnRoute":true,
-        "content":"Who should I show my poem first?",
+        "charImg":"non",
+        "newCharacter":"erase",
+        "content":"Who should I show my poem to first?",
         "char":"nobody",
         "music":"okay-everyone.mp3",
         "Natsuki":{
-            "love":[{
-                    "content": "lo lograste CAPO <3"
+            "love":[
+                {
+                    "char": "Natsuki",
+                    "content": "...",
+                    "charImg": "Schoolb.png"
                 },
                 {
-                    "content": "ahora podes seguir programando la parte mecanica de este jueguito"
+                    "char": "you",
+                    "content": "...?"
                 },
                 {
-                    "content": "Who should I show my poem first?",
-                    "selectMenu": "continue",
-                    "charImg": "no"
-                }],
-            "like":[
-                {"content":"lo lograste forro"},
-                {"content":"ahora podes seguir programando la parte mecanica de este jueguito"},
-                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+                    "char": "Natsuki",
+                    "content": "...Okay, well let's start with the things I don't like!",
+                    "charImg": "Schoolt.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "First of all, um..."
+                },
+                {
+                    "char": "you",
+                    "content": "..."
+                },
+                {
+                    "content": "Natsuki re-reads my poem."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "N-Never mind. I don't feel like giving you my opinion.",
+                    "charImg":"Y14.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Eh? Then what's the point of sharing in the first place?"
+                },
+                {
+                    "char": "you",
+                    "content": "I wrote this when I could have been doing other things."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Uu...",
+                    "charImg":"Y28.png"
+                },
+                {
+                    "char": "you",
+                    "content": "In fact, remember how I said I wanted to read your poems?"
+                },
+                {
+                    "char": "you",
+                    "content": "That's what I had in mind when writing this."
+                },
+                {
+                    "char": "you",
+                    "content": "I want to help you feel comfortable enough to share yours."
+                },
+                {
+                    "char": "you",
+                    "content": "Like Monika said."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Uuuu...!",
+                    "charImg":"Schooly.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Well I would be more comfortable sharing my poem if yours was really bad!",
+                    "charImg":"Schoolw.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "You were supposed to show me some dumb poem and make me go 'Hah, well it's not that great but let me show you what real literature looks like!'",
+                    "charImg":"Schoolv.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "And you went and ruined it!",
+                    "charImg":"Schoolw.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I hope you're happy!"
+                },
+                {
+                    "char": "you",
+                    "content": "..."
+                },
+                {
+                    "char": "you",
+                    "content": "...So, in other words, you're saying you liked it?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Urk--",
+                    "charImg":"Schooln.png"
+                },
+                {
+                    "char":"nobody",
+                    "content": "Natsuki's retort gets caught in her throat."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Uuuuuuuuu...You're so...!",
+                    "charImg":"Schooly.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "You just...you...don't understand anything, do you?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I already told you that, you don't have to go announcing it to the world like you're all self-important!",
+                    "charImg":"NatsukiCrossedArms4.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Pretty sure you never actually said that..."
+                },
+                {
+                    "char":"nobody",
+                    "content": "I say that mostly to myself."
+                },
+                {
+                    "char":"nobody",
+                    "content": "Natsuki must really hate me or something."
+                },
+                {
+                    "char":"nobody",
+                    "content": "I can't figure out if it's a win or a loss that she liked my poem."
+                },
+                {
+                    "char": "you",
+                    "content": "In any case... You still need to show me yours, right?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Gr... Fine, I guess.",
+                    "charImg":"NatsukiCrossedArms2.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Only because Monika will make me if I don't."
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "charImg": "non",
+                    "selectMenu": "continue"
+                }
             ],
-            "dislike":[ 
-                {"content":"una verga tu poema", "charImg":"NatsukiCrossedArms3.png"},
-                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+            "like":[
+                {
+                    "char": "Natsuki",
+                    "content": "..."
+                },
+                {
+                    "char": "you",
+                    "content": "...?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "...Well, it's about what I expected from someone like you."
+                },
+                {
+                    "char": "you",
+                    "content": "That's a little blunt..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Well, excuse me."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "It's not like I said it was bad."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "It just didn't evoke any emotions."
+                },
+                {
+                    "char": "you",
+                    "content": "So basically, it's not cute enough for your tastes?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Do you want to get smacked?"
+                },
+                {
+                    "char": "you",
+                    "content": "I'll pass..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Sigh..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Well anyway, I guess I need to show you mine."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Not that you'll like it."
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "charImg": "non",
+                    "char":"nobody",
+                    "selectMenu": "continue"
+                }
+            ],
+            "dislike":[
+                {
+                    "charImg": "Schoolb.png",
+                    "char": "Natsuki",
+                    "content": "..."
+                },
+                {
+                    "char": "you",
+                    "content": "...?"
+                },
+                {
+                    "usesVar": true,
+                    "char": "Natsuki",
+                    "content": "#var, if you're not going to take this club seriously then go home.",
+                    "charImg":"LeftArm2.png"
+                },
+                {
+                    "char": "you",
+                    "content": "W-What??"
+                },
+                {
+                    "char": "you",
+                    "content": "Harsh..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "What, you expect me to believe that you actually put effort into this?",
+                    "charImg":"Y5.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Do you think I'm stupid?"
+                },
+                {
+                    "char": "you",
+                    "content": "I'm not a writer!"
+                },
+                {
+                    "char": "you",
+                    "content": "Maybe it's not very good, but yeah, I did put in effort."
+                },
+                {
+                    "char": "you",
+                    "content": "We all start somewhere, right?"
+                },
+                {
+                    "char": "you",
+                    "content": "If you're still proud of the first poem you ever wrote, then I'd like to read it."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "!!",
+                    "charImg":"Schooln.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Painful to think about?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "...",
+                    "charImg":"Schoolq.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Fine.",
+                    "charImg":"NatsukiCrossedArms4.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Well, sorry."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "You'll get better, anyway.",
+                    "charImg":"NatsukiCrossedArms.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I'd tell you what to improve, but you're better off just trying again."
+                },
+                {
+                    "char": "you",
+                    "content": "Fair enough..."
+                },
+                {
+                    "char": "you",
+                    "content": "Well, to each their own, I guess."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Anyway, I guess I gotta share mine now...",
+                    "charImg":"NatsukiCrossedArms4.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Knowing you, you'll probably think it's stupid."
+                }
+            ],
+            "end":[
+                {"content":"adasdsa"}
             ]
         },
         "Sayori":{
             "like":[
-                {"content":"Who should I show my poem first?", "selectMenu":"continue", "charImg":"no"}
+                {
+                    "content": "qsy",
+                    "newBackground":"transition"
+                }
             ],
-            "dislike":[],
-            "love":[]
+            "dislike":[
+                    {
+                        "char": "Sayori",
+                        "content": "..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "...Wow!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "[player]..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Your poem is really bad!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ahahaha!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It's fine, it's fine~"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It's your first time."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Besides..."
+                    },
+                    {
+                        "comment":"lo qiue sigue aca es el shared",
+                        "poem": "sayori_poem_1",
+                        "charImg": {"background":""}
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I'm really happy just that you wrote one."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It just reminds me of how you're really a part of the club now~"
+                    },
+                    {
+                        "content": "(Not to mention the fact that I'm standing in front of you in the clubroom...?)"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Er...well, of course."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm not really into it yet, but that doesn't mean I'll break my promise."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "See?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It's like I said before, [player]..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Deep down, you're not selfish at all, you know?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Trying new things like this for other people..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "That's something that only really good people do!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Thanks...Sayori."
+                    },
+                    {
+                        "content": "...I'm not sure if Sayori sees the full picture of my motive here.","char":"nobody"
+                    },
+                    {
+                        "content": "Then again...","char":"nobody"
+                    },
+                    {
+                        "content": "I can't deny that she's part of the reason I joined.","char":"nobody"
+                    },
+                    {
+                        "content": "Knowing how much this means to her and all...","char":"nobody"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Yeah."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "And I'm gonna make sure you have lots of fun here, okay?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "That will be my way of thanking you~"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Alright, I'm going to hold you to that, then."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Yay~!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Now, you'll read my poem too, right?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Don't worry, I'm really bad at this."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ehehe..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "We'll see about that."
+                    }
+                ],
+            "love":[
+                {
+                    "newBackground":"transition",
+                    "char": "Sayori",
+                    "content": "...",
+                    "charImg":"Say14.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "...Oh my goodness!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "This is sooooo good, [player]!",
+                    "charImg": "Ori2.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Eh?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I love it~!",
+                    "charImg": "Ori18.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I had no idea you were such a good writer!"
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori..."
+                },
+                {
+                    "char": "you",
+                    "content": "You must be seriously overreacting."
+                },
+                {
+                    "char": "you",
+                    "content": "I'm not a good writer at all."
+                },
+                {
+                    "char": "you",
+                    "content": "I honestly have no idea what I'm doing."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Well...",
+                    "charImg": "Say24.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Maybe that's why!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Because I have no idea what I like, either!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ahahaha!",
+                    "charImg": "Say18.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Jeez..."
+                },
+                {
+                    "char":"nobody",
+                    "optionalText":["Yuri's opinion was way more constructive than this...","I'm sure Yuri's opinion has to be a little more constructive than this."],
+                    "optionCharacter":"Yuri",
+                    "content":" "
+                },
+                {
+                    "char":"nobody",
+                    "content":" ",
+                    "optionalText":["","Maybe even Natsuki's."],
+                    "optionCharacter":"Natsuki"
+                },
+                {
+                    "char": "you",
+                    "content": "Are you sure you don't like it just because I wrote it?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Eh?",
+                    "charImg":"Say26.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Well, I'm sure that's part of it."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I think I understand you better than a lot of other people, you know?",
+                    "charImg":"Say24.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "So when I read your poem..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "It's not just a poem..."
+                },
+                {
+                    "usesVar":true,
+                    "char": "Sayori",
+                    "content": "It's a #var poem!",
+                    "charImg": "Ori17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "And that makes it feel extra special!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Like I can feel your feelings in it~"
+                },
+                {
+                    "content": "Sayori hugs the sheet against her chest.",
+                    "char":"nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "You're so weird, Sayori..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe..."
+                },
+    
+                {
+                    "char": "Sayori",
+                    "content": "I'm really happy just that you wrote one.",
+                    "charImg":"Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "It just reminds me of how you're really a part of the club now~"
+                },
+                {
+                    "content": "(Not to mention the fact that I'm standing in front of you in the clubroom...?)", "char":"nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "Er...well, of course."
+                },
+                {
+                    "char": "you",
+                    "content": "I'm not really into it yet, but that doesn't mean I'll break my promise."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "See?",
+                    "charImg":"Say20.png"
+                },
+                {
+                    "usesVar": true,
+                    "char": "Sayori",
+                    "content": "It's like I said before, #var..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Deep down, you're not selfish at all, you know?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Trying new things like this for other people..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That's something that only really good people do!",
+                    "charImg": "Say17.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Thanks...Sayori."
+                },
+                {
+                    "content": "...I'm not sure if Sayori sees the full picture of my motive here.", "char":"nobody"
+                },
+                {
+                    "content": "Then again...", "char":"nobody"
+                },
+                {
+                    "content": "I can't deny that she's part of the reason I joined.", "char":"nobody"
+                },
+                {
+                    "content": "Knowing how much this means to her and all...", "char":"nobody"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Yeah.",
+                    "charImg": "Say24.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "And I'm gonna make sure you have lots of fun here, okay?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That will be my way of thanking you~"
+                },
+                {
+                    "char": "you",
+                    "content": "Alright, I'm going to hold you to that, then."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Yay~!",
+                    "charImg": "Ori18.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Now, you'll read my poem too, right?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Don't worry, I'm really bad at this.",
+                    "charImg": "Say25.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe..."
+                },
+                {
+                    "char": "you",
+                    "content": "We'll see about that."
+                }
+            
+            
+
+            ],
+            "end":[
+                {
+                    "poem":"poem goes here uwu"
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori..."
+                },
+                {
+                    "char": "you",
+                    "content": "This is just a guess, but..."
+                },
+                {
+                    "char": "you",
+                    "content": "Did you wait until this morning to write this?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "No!",
+                    "charImg": "Ori8.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "J-Just a little bit!",
+                    "charImg":"Ori12.png"
+                },
+                {
+                    "char": "you",
+                    "content": "You can't answer 'just a little bit' to a yes or no question..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I forgot to do it last night...",
+                    "charImg":"3b.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Well, at least that makes me feel a little better about myself..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Don't be mean!",
+                    "charImg":"Say8.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I still tried my best..."
+                },
+                {
+                    "char": "you",
+                    "content": "Ah, yeah..."
+                },
+                {
+                    "char": "you",
+                    "content": "I didn't mean to say that it was a bad poem."
+                },
+                {
+                    "char": "you",
+                    "content": "It came out nice...or, how should I put it..."
+                },
+                {
+                    "char": "you",
+                    "content": "It sounds just like you."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Really?",
+                    "charImg": "Say4.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Yeah."
+                },
+                {
+                    "char": "you",
+                    "content": "Especially that last line..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I made eggs and toast!",
+                    "charImg":"Ori18.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Even though you were late to school...?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "It's bad to skip breakfast!",
+                    "charImg": "3d.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I get all cranky..."
+                },
+                {
+                    "char": "you",
+                    "content": "Well, I guess there's no point in arguing..."
+                },
+                {
+                    "char": "you",
+                    "content": "Anyway, thanks for showing me."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe~",
+                    "charImg":"Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "This was so much fun."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Monika's the best!"
+                },
+                {
+                    "char": "you",
+                    "content": "Ah...yeah."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "But next time, I won't forget."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "And I'm gonna write the best poem ever!",
+                    "charImg":"Ori24.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Well, I guess I look forward to it."
+                },
+                {
+                    "newBackground":"transition"    
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "char": "nobody",
+                    "charImg": "non",
+                    "selectMenu": "continue"    
+                }
+            ]
         },
         "Yuri":{
-            "like":[],
-            "dislike":[],
-            "love":[]
+            "like":[
+                {
+                    "content": "qsy"
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "char": "nobody",
+                    "charImg": "non",
+                    "selectMenu": "continue"
+                }
+            ],
+            "dislike":[
+                {
+                    "content": "qsy"
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "char": "nobody",
+                    "charImg": "non",
+                    "selectMenu": "continue"
+                }
+            ],
+            "love":[
+                {
+                    "content": "Who should I show my poem to next?",
+                    "char": "nobody",
+                    "charImg": "non",
+                    "selectMenu": "continue"
+                }
+            ],
+            "end":[]
         },
-        "Monika":[]
+        "Monika":[
+            {
+                "content":"qsy"
+            },
+            {
+                "content": "Who should I show my poem to next?",
+                "char": "nobody",
+                "charImg": "non",
+                "selectMenu": "continue"
+            }
+        ]
     },
     {
         "newBackground": "Club.png",

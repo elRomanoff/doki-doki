@@ -16,6 +16,7 @@ const addRoute = config.getAditionalRoute();
 let i = config.getGameIndex();
 const inScreenCharacters = config.getScreenCharacters();
 const {sayScore,natScore,yuScore} = config.getScore()
+
 console.log(sayScore, natScore, yuScore)
 
 let enableMusic = config.getMusic();
@@ -106,7 +107,11 @@ fetch(chapter)
     })
 
 
-function runDialog() {
+function runDialog(skipInterval) {
+
+
+    if (arrDialog[i]?.selectMenu && skipInterval === "skipping") return "stop"
+
     mainScreen.removeEventListener("click", runDialog)
 
     if (arrDialog[i]) manageProperties(arrDialog[i]);
@@ -169,6 +174,15 @@ function manageProperties(objDialog){
         }
         else createSelectionMenu(objDialog.selectMenu, objDialog, true)
     }
+    if(objDialog.optionalText) manageOptions(objDialog)
+}
+
+function manageOptions(optionObj){
+    if(selectionMenu.filter(filtered => filtered.char === optionObj.optionCharacter)[0]) addAnimatedText(optionObj.optionalText[1])
+    else if(optionObj.optionalText[0]){
+        addAnimatedText(optionObj.optionalText[0])
+    }
+    else {i++; runDialog()}
 }
 
 function addAnimatedText(text) {
@@ -210,16 +224,22 @@ function addAnimatedText(text) {
 }
 
 function manageBackground(background){
+
     currentBackground = background;
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
     mainScreen.appendChild(overScreen);
-    setTimeout(() =>{
-        mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
-        setTimeout(() => mainScreen.removeChild(overScreen),500)
-    },500)  
-    pngChar.src = "";
-    textBox.innerHTML = "";
+    if(background === "transition"){
+        setTimeout(() => mainScreen.removeChild(overScreen), 500)
+    }
+    else{
+        setTimeout(() => {
+            mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
+            setTimeout(() => mainScreen.removeChild(overScreen), 500)
+        }, 500)
+        pngChar.src = "";
+        textBox.innerHTML = "";
+    }
 }
 
 function manageImage(img){
@@ -228,7 +248,7 @@ function manageImage(img){
     else if (typeof img === "object"){
         if (!img.background) mainScreen.removeChild(charBg.domImg)
         else if(charBg.domImg.src){
-           charBg.defineImgWithAnimation(img.backgound)
+           charBg.defineImgWithAnimation(img.background)
         }
         else{
             charBg.defineImg(img.background)
@@ -369,6 +389,12 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
 
         selectionOptions.Monika = objDialog.Monika;
         
+        selectionOptions.Sayori = [...selectionOptions.Sayori, ...objDialog.Sayori.end]
+        selectionOptions.Yuri = [...selectionOptions.Yuri, ...objDialog.Yuri.end]
+        selectionOptions.Natsuki = [...selectionOptions.Natsuki, ...objDialog.Natsuki.end]
+
+
+        console.log(selectionOptions.Sayori)
     }
     //if ! depends on route
     else if(isNew){
@@ -377,13 +403,17 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
         selectionOptions.Natsuki = objDialog.Natsuki;
         selectionOptions.Monika = objDialog.Monika
     }
+    if(!selectionMenu.length){
+        textBox.innerHTML=""
+        document.addEventListener("keydown", keyDownPress)
+        return
+    }
 
     const selectionContainer = document.createDocumentFragment();
     const selectContainer = document.createElement("div")
     selectContainer.classList.add("selection-container")
     selectContainer.addEventListener("click",(e) =>{e.stopPropagation()})
 
-    console.log()
     selectionMenu.forEach( x => {
         const charSelect = document.createElement("div");
         charSelect.classList.add("selection-btn", x.char)
@@ -393,13 +423,14 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
             selectSound.play();
             mainScreen.removeChild(selectContainer)
             document.addEventListener("keydown", keyDownPress)
-            console.log(selectionOptions)
             arrDialog.splice(i,0,...selectionOptions[e.target.classList[1]])
 
             if (selectionMenu.length >= 4) arrDialog.splice(i, 0, ...selectionMenu.find(y => { return y.char === e.target.innerHTML }).message)
 
+            //fake click
             const event = new MouseEvent("click", {})
             mainScreen.dispatchEvent(event)
+            //
             selectionMenu = selectionMenu.filter(filtered => filtered.char !== e.target.classList[1])
         })
         selectContainer.appendChild(charSelect) 
@@ -447,7 +478,13 @@ function showStory() {
 }
 function skip() {
     if (!skipInterval) {
-        skipInterval = setInterval(() => { runDialog() }, 300)
+        skipInterval = setInterval(() => {
+            const skipping = runDialog("skipping");
+            if (skipping) {
+                clearInterval(skipInterval);
+                skipInterval = null;
+            }
+        }, 300)
     }
     else {
         clearInterval(skipInterval)

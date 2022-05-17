@@ -1,0 +1,925 @@
+[
+    {
+        "char": "Natsuki",
+        "content": "Ugh...!"
+    },
+    {
+        "content": "I hear Natsuki utter an exasperated sigh from within the closet.", "char":"nobody"
+    },
+    {
+        "content": "She seems to be annoyed by something.", "char":"nobody"
+    },
+    {
+        "content": "I approach her, in case she needs a hand.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "You looking for something in there?",
+        "newBackground":"Closet.png",
+        "charImg":"Y28.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Freaking Monika...",
+        "music":"playwithme.mp3"
+    },
+    {
+        "char": "Natsuki",
+        "content": "She never puts my stuff back in the right spot!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What's the point in keeping your collection organized if someone else is just gonna mess it up?"
+    },
+    {
+        "content": "Natsuki slides a bunch of stacked books and boxes across the shelf.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Manga..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You read manga, right?",
+        "charImg":"LeftArm1.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah--"
+    },
+    {
+        "char": "you",
+        "content": "...Sometimes..."
+    },
+    {
+        "content": "Manga is one of those things where you can't admit you're really into it until you figure out where the other person stands.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "...How did you know, anyway?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I heard you bring it up at some point."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Besides, it's kind of written on your face."
+    },
+    {
+        "content": "What's that supposed to mean...?", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I-I see..."
+    },
+    {
+        "content": "There's a lone volume of manga amidst a stack of various books on the side of one of the shelves.", "char":"nobody"
+    },
+    {
+        "content": "Curious, I pull it out of the stack.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "There it is!",
+        "charImg":"Schoola.png"
+    },
+    {
+        "content": "Natsuki snatches it out of my hand.", "char":"nobody"
+    },
+    {
+        "content": "She then turns to a box of manga and slips the volume right into the middle of the rest.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Aah, much better!",
+        "charImg":"Y15.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Seeing a box set with one book missing is probably the most irritating sight in the world."
+    },
+    {
+        "char": "you",
+        "content": "I know that feel..."
+    },
+    {
+        "content": "I get a closer look at the box set she's admiring.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Parfait Girls...?"
+    },
+    {
+        "content": "It's a series I've never heard of in my life.", "char":"nobody"
+    },
+    {
+        "content": "That probably means it's either way out of my demographic, or it's simply terrible.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "If you're gonna judge, you can go do it through the glass on that door.",
+        "charImg":"NatsukiCrossedArms3.png"
+    },
+    {
+        "content": "She points to the classroom door.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "H-Hey, I wasn't judging anything...!"
+    },
+    {
+        "char": "you",
+        "content": "I didn't even say anything."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It was the tone of your voice.",
+        "charImg":"NatsukiCrossedArms.png"
+    },
+    {
+        "usesVar":"true",
+        "char": "Natsuki",
+        "content": "But I'll tell you one thing, #var."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Consider this a lesson straight from the Literature Club: Don't judge a book by its cover!",
+        "charImg":"Y15.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "In fact--"
+    },
+    {
+        "content": "Natsuki pulls out the first volume of Parfait Girls from the box.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm gonna show you exactly why!"
+    },
+    {
+        "content": "She shoves the book right into my hands.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "content": "I stare at the cover.", "char":"nobody"
+    },
+    {
+        "content": "It features four girls in colorful attire striking animated feminine poses.", "char":"nobody"
+    },
+    {
+        "content": "It's...exceedingly 'moe'", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't just stand there!",
+        "charImg":"Y13.png"
+    },
+    {
+        "char": "you",
+        "content": "Uwa--"
+    },
+    {
+        "content": "Natsuki grabs my arm and pulls me out of the closet.", "char":"nobody",
+        "charImg":"none"
+    },
+    {
+        "content": "She then takes a seat against the wall, beneath the windowsills.", "char":"nobody"
+    },
+    {
+        "content": "She pats on the ground next to her, signaling me to sit there.", "char":"nobody"
+    },
+    {
+        "newBackground":"Club.png",
+        "charImg":"",
+        "char": "you",
+        "content": "Wouldn't chairs be more comfortable...?"
+    },
+    {
+        "content": "I take my seat.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Chairs wouldn't work.",
+        "charImg":"LeftArm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "We can't read at the same time like that."
+    },
+    {
+        "char": "you",
+        "content": "Eh? Why's that?"
+    },
+    {
+        "char": "you",
+        "content": "Ah...I guess it's easier to be close together like this..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "--!",
+        "charImg":"Schooln.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "D-Don't just say that!",
+        "charImg":"NatsukiCrossedArms6.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You'll make me feel weird about it!"
+    },
+    {
+        "content": "Natsuki crosses her arms and scootches an inch away from me.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Sorry..."
+    },
+    {
+        "content": "I didn't exactly expect to be sitting this close to her, either...", "char":"nobody",
+        "charImg":"NatsukiCrossedArms7.png"
+    },
+    {
+        "content": "Not that I can say it's a particularly bad thing.", "char":"nobody"
+    },
+    {
+        "content": "I open the book.", "char":"nobody"
+    },
+    {
+        "content": "It's only a few seconds before Natsuki once again inches closer, reclaiming the additional space while she hopes I won't notice.", "char":"nobody"
+    },
+    {
+        "content": "I can feel her peering over my shoulder, much more eager to begin reading than I am.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Wow, how long has it been since I read the beginning...?",
+        "charImg":"Schoolj.png"
+    },
+    {
+        "char": "you",
+        "content": "Hm?"
+    },
+    {
+        "char": "you",
+        "content": "You don't go back and flip through the older volumes every now and then?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Not really."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Maybe sometimes after I've already finished the series."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hey, are you paying attention?",
+        "charImg":"LeftArm1.png"
+    },
+    {
+        "char": "you",
+        "content": "Uh..."
+    },
+    {
+        "content": "I am, but nothing's really happened yet, so I can talk at the same time.", "char":"nobody"
+    },
+    {
+        "content": "It looks like it's about a bunch of friends in high school.", "char":"nobody"
+    },
+    {
+        "content": "Typical slice-of-life affair.", "char":"nobody"
+    },
+    {
+        "content": "I kind of grew out of these, since it's rare for the writing to be entertaining enough to make up for the lack of plot.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "So..."
+    },
+    {
+        "char": "you",
+        "content": "What should I expect from this?"
+    },
+    {
+        "char": "you",
+        "content": "Is there going to be plot?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, obviously!",
+        "charImg":"Y26.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You think I would enjoy something that didn't have a plot?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I mean...",
+        "charImg":"Y14.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, I guess I know what you're saying...",
+        "charImg":"LeftArm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A lot of the beginning is about simple things...",
+        "charImg":"Schoolj.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Like there's a really funny chapter where they're obsessed with a guy at the ice cream shop..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "But that just helps you get to know the characters!",
+        "charImg":"LeftArm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "And besides, it's still entertaining."
+    },
+    {
+        "char": "Natsuki",
+        "content": "But later on, there's all kinds of drama...",
+        "charImg":"Y15.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Like when they get into all their backstories, and when some of the romance starts to happen..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "That's really what makes it so good.",
+        "charImg":"Y1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "There are so many touching parts."
+    },
+    {
+        "char": "you",
+        "content": "Ah, is that so?"
+    },
+    {
+        "char": "you",
+        "content": "It sounds like you really know what you're talking about."
+    },
+    {
+        "char": "you",
+        "content": "Maybe I underestimated you."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ehehe.",
+        "charImg":"Natsuki_Grin2.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "...Hey, wait!",
+        "charImg":"Schoole.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What's that supposed to mean?!"
+    },
+    {
+        "char": "you",
+        "content": "Uwa--"
+    },
+    {
+        "content": "Natsuki gives me a little shove.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I just meant that I haven't yet seen you at your full power..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hmph. Good save.",
+        "charImg":"NatsukiCrossedArms2.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah... This chapter seems like it's about baking."
+    },
+    {
+        "char": "you",
+        "content": "This is just a guess, but is there a lot of baking in this manga?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well--",
+        "charImg":"NatsukiCrossedArms.png"
+    },
+    {
+        "content": "Natsuki pauses for a moment, as if she doesn't want to admit something.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "...Yeah.",
+        "charImg":"Schoolp.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Why does that matter?"
+    },
+    {
+        "char": "you",
+        "content": "It doesn't, I was just curious..."
+    },
+    {
+        "char": "you",
+        "content": "Since you enjoy baking too, right?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "That's--",
+        "charImg":"Schooln.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just a coincidence!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I just happened to get into baking around the same time I got this manga.",
+        "charImg":"Schoolt.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Like I would ever get into anything because it's in a manga."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I feel bad for anyone that impressionable.",
+        "charImg":"Y27.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahaha!"
+    },
+    {
+        "content": "Definitely not a coincidence...", "char":"nobody"
+    },
+    {
+        "content": "I guess that explains Natsuki's interest in baking.", "char":"nobody"
+    },
+    {
+        "content": "Still, of all the hobbies to pick up from a manga, that's definitely one of the better ones.", "char":"nobody"
+    },
+    {
+        "content": "Not to mention she's really good at it, so who am I to judge?", "char":"nobody"
+    },
+    {
+        "content": "...", "char":"nobody",
+        "charImg":{"background":"natsuki-bg-1.png"}
+    },
+    {
+        "content": "We read on for a few more minutes.", "char":"nobody"
+    },
+    {
+        "content": "I've finished a couple chapters at this point.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "..."
+    },
+    {
+        "char": "you",
+        "content": "...Are you sure this isn't boring for you?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's not!"
+    },
+    {
+        "char": "you",
+        "content": "Even though you're just watching me read?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well...!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm...fine with that."
+    },
+    {
+        "char": "you",
+        "content": "If you say so..."
+    },
+    {
+        "char": "you",
+        "content": "...I guess it's fun sharing something you like with someone else."
+    },
+    {
+        "char": "you",
+        "content": "I always get excited when I convince any of my friends to pick up a series I enjoy."
+    },
+    {
+        "char": "you",
+        "content": "You know what I mean?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "...?"
+    },
+    {
+        "char": "you",
+        "content": "Hm?"
+    },
+    {
+        "char": "you",
+        "content": "You don't?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Um...",
+        "charImg":{"background":"natsuki-bg-2.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "That's not..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, I wouldn't really know."
+    },
+    {
+        "char": "you",
+        "content": "...What do you mean?"
+    },
+    {
+        "char": "you",
+        "content": "Don't you share your manga with your friends?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Could you not rub it in?",
+        "charImg":{"background":"natsuki-bg-3.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez..."
+    },
+    {
+        "char": "you",
+        "content": "Ah... Sorry..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hmph."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Like I could ever get my friends to read this..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "They just think manga is for kids."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I can't even bring it up without them being all like..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "'Eh? You still haven't grown out of that yet?'"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Makes me want to punch them in the face..."
+    },
+    {
+        "char": "you",
+        "content": "Urgh, I know those kinds of people..."
+    },
+    {
+        "char": "you",
+        "content": "Honestly, it takes a lot of effort to find friends who don't judge, much less friends who are also into it..."
+    },
+    {
+        "char": "you",
+        "content": "I'm already kind of a loser, so I guess I gravitated toward the other losers over time."
+    },
+    {
+        "char": "you",
+        "content": "But it's probably harder for someone like you..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hm."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Yeah, that's pretty accurate.",
+        "charImg":{"background":"natsuki-bg-1.png"}
+    },
+    {
+        "content": "...Wait, which part??", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I mean, I feel like I can't even keep it in my own room..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I don't even know what my dad would do if he found this."
+    },
+    {
+        "char": "Natsuki",
+        "content": "At least it's safe here in the clubroom."
+    },
+    {
+        "char": "Natsuki",
+        "content": "'Cept Monika was kind of a jerk about it...",
+        "charImg":{"background":"natsuki-bg-3.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ugh! I just can't win, can I?"
+    },
+    {
+        "char": "you",
+        "content": "Well, it paid off in the end, didn't it?"
+    },
+    {
+        "char": "you",
+        "content": "I mean, here I am, reading it."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, it's not like that solves any of my problems."
+    },
+    {
+        "char": "you",
+        "content": "Maybe..."
+    },
+    {
+        "char": "you",
+        "content": "But at least you're enjoying yourself, right?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "--",
+        "charImg":{"background":"natsuki-bg-2.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...So?"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez, that's enough!",
+        "charImg":{"background":"natsuki-bg-3.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "Are you gonna keep reading, or what?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, yeah..."
+    },
+    {
+        "content": "I flip the page.", "char":"nobody"
+    },
+    {
+        "content": "Suddenly, Natsuki starts laughing.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahahaha!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I totally forgot that happens!"
+    },
+    {
+        "content": "Natsuki puts her finger on one of the panels.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Minori is my favorite character."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You always feel a little bad for her, since she's so unlucky."
+    },
+    {
+        "char": "Natsuki",
+        "content": "But it gets especially bad when--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Uu...",
+        "charImg":{"background":"natsuki-bg-1.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "I shouldn't be talking about that yet!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just finish this chapter!",
+        "charImg":"non"
+    },
+    {
+        "content": "Natsuki's voice sparkles with excitement.", "char":"nobody",
+        "charImg":{"background":false}
+    },
+    {
+        "content": "It's a stark contrast to her usual bossy tone.", "char":"nobody"
+    },
+    {
+        "content": "But if she's not used to sharing her favorite manga with her friends, I can understand why.", "char":"nobody"
+    },
+    {
+        "content": "It's hard to express in words the feeling you get when connecting with someone like that.", "char":"nobody"
+    },
+    {
+        "content": "And being able to provide that to Natsuki, for whom it's a rare experience...", "char":"nobody"
+    },
+    {
+        "content": "The thought makes me smile a little to myself.", "char":"nobody"
+    },
+    {
+        "char": "Monika",
+        "content": "Okay, everyone!",
+        "newCharacter":[{"char":"Monika", "charImg":"Ika2.png", "left":"true", "new":"true"}]
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "Monika",
+        "content": "Are you all ready with today's poems?"
+    },
+    {
+        "char": "you",
+        "content": "..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Oh, come on!",
+        "charImg":"Y26.png",
+        "animation": [{"direction":"height", "value":"102%"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "Could your timing be any worse?"
+    },
+    {
+        "char": "Monika",
+        "content": "Sorry~!",
+        "newCharacter":[{"char":"Monika", "charImg":"3aa.png"}],
+        "animation": [
+            {
+                "direction": "height",
+                "value": "100%"
+            },
+            {
+                "char":"Monika",
+                "direction":"height",
+                "value":"102%"
+            }
+        ]
+    },
+    {
+        "char": "Monika",
+        "content": "I just need to make sure we have enough time."
+    },
+    {
+        "char": "Monika",
+        "content": "Though you do look pretty cozy over there. Ahaha!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh...?",
+        "charImg":"Y17.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah!",
+        "charImg":"Schoolo.png"
+    },
+    {
+        "content": "Natsuki suddenly notices how close she's gotten to me.", "char":"nobody"
+    },
+    {
+        "content": "She hastily slides herself a good twelve inches away from me.", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright...",
+        "newCharacter":"erase",
+        "charImg":"Schoolr.png"
+    },
+    {
+        "char": "you",
+        "content": "Guess I'll stop here for now."
+    },
+    {
+        "content": "I close the book and hand it towards Natsuki.", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're just giving it back...?",
+        "charImg":"LeftArm3.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't you want to know what happens?"
+    },
+    {
+        "char": "you",
+        "content": "Ah... Yeah, but..."
+    },
+    {
+        "char": "you",
+        "content": "Monika just said--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't be dumb.",
+        "charImg":"LeftArm4.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just take it home with you."
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "you",
+        "content": "...Is that really alright?"
+    },
+    {
+        "content": "I say that mostly because I really didn't plan on using my spare time to read this...", "char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, of course.",
+        "charImg":"Y16.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It would take forever to finish if you didn't take it home."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just finish that one before tomorrow, so we can start the next one."
+    },
+    {
+        "char": "Natsuki",
+        "content": "And if it gets bent, I'll kill you.",
+        "charImg":"Y18.png"
+    },
+    {
+        "char": "you",
+        "content": "By tomorrow...?"
+    },
+    {
+        "content": "I only got partway through the volume so far.", "char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "I might fall behind on some shows if I try to get through this...", "char":"nobody"
+    },
+    {
+        "content": "But I suppose that's a necessary sacrifice in exchange for seeing Natsuki's enthusiastic face.", "char":"nobody"
+    },
+    {
+        "content": "Or am I more scared of what will happen if I {i}don't{/i} finish it...?", "char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright, then!"
+    },
+    {
+        "content": "I stand up.", "char":"nobody"
+    },
+    {
+        "content": "I return to where I put my stuff and carefully slip the book into my bag.", "char":"nobody"
+    }
+]
