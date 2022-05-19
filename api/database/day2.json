@@ -751,7 +751,9 @@
             "like":[
                 {
                     "char": "Natsuki",
-                    "content": "..."
+                    "content": "...",
+                    "newBackground":"transition",
+                    "charImg":"Schoolb.png"
                 },
                 {
                     "char": "you",
@@ -759,7 +761,8 @@
                 },
                 {
                     "char": "Natsuki",
-                    "content": "...Well, it's about what I expected from someone like you."
+                    "content": "...Well, it's about what I expected from someone like you.",
+                    "charImg":"LeftArm1.png"
                 },
                 {
                     "char": "you",
@@ -783,7 +786,8 @@
                 },
                 {
                     "char": "Natsuki",
-                    "content": "Do you want to get smacked?"
+                    "content": "Do you want to get smacked?",
+                    "charImg":"Y17.png"
                 },
                 {
                     "char": "you",
@@ -791,21 +795,18 @@
                 },
                 {
                     "char": "Natsuki",
-                    "content": "Sigh..."
+                    "content": "Sigh...",
+                    "charImg":"Y4.png"
                 },
                 {
                     "char": "Natsuki",
-                    "content": "Well anyway, I guess I need to show you mine."
+                    "content": "Well anyway, I guess I need to show you mine.",
+                    "charImg":"Y5.png"
                 },
                 {
                     "char": "Natsuki",
-                    "content": "Not that you'll like it."
-                },
-                {
-                    "content": "Who should I show my poem to next?",
-                    "charImg": "non",
-                    "char":"nobody",
-                    "selectMenu": "continue"
+                    "content": "Not that you'll like it.",
+                    "charImg":"Y29.png"
                 }
             ],
             "dislike":[
@@ -908,7 +909,141 @@
                 }
             ],
             "end":[
-                {"content":"adasdsa"}
+                {
+                    "poem":"poem goes here uwu"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Yeah...",
+                    "charImg":"LeftArm4.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I told you that you weren't gonna like it."
+                },
+                {
+                    "char": "you",
+                    "content": "I like it."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "What?",
+                    "charImg":"LeftArm5.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Just be honest!"
+                },
+                {
+                    "char": "you",
+                    "content": "I am."
+                },
+                {
+                    "char": "you",
+                    "content": "Why are you so convinced that I wouldn't like it?"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Well--",
+                    "charImg":"NatsukiCrossedArms5.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Because!"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Everyone in high school thinks that writing has to be all sophisticated and stuff..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "So people don't even take my writing seriously.",
+                    "charImg":"NatsukiCrossedArms4.png"
+                },  
+                {
+                    "char": "you",
+                    "content": "But isn't the point of poems for people to express themselves?"
+                },
+                {
+                    "char": "you",
+                    "content": "Your writing style wouldn't make your message any less valid."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Yes! Exactly!",
+                    "charImg":"Schoolj.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I like when it's easy to read, but it hits you hard."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Like in this poem.",
+                    "charImg":"Schoolb.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Seeing everyone around you do great things can be really disheartening..."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "So I decided to write about it."
+                },
+                {
+                    "char": "you",
+                    "content": "Yeah, I understand."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "But the other nice thing about simple writing is that it puts more weight on the wordplay.",
+                    "charImg":"Y1.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Like I set up for a rhyme at the end, but then made it fall flat on purpose."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "It helps bring out the feeling in the last line."
+                },
+                {
+                    "char": "you",
+                    "content": "So you did..."
+                },
+                {
+                    "char": "you",
+                    "content": "I guess more went into it than I realized."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "That's what it means to be a pro!",
+                    "charImg":"Y27.png"
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "I'm glad you learned something."
+                },
+                {
+                    "char": "Natsuki",
+                    "content": "Didn't expect that from the youngest one here, did you?"
+                },
+                {
+                    "char": "you",
+                    "content": "Yeah...guess not."
+                },
+                {
+                    "content": "I decide to humor her with that last comment.","char":"nobody"
+                },
+                {
+                    "content": "I don't really care how old everyone is, but if Natsuki is feeling proud then I won't take that away from her.","char":"nobody"
+                },
+                {
+                    "content": "Who should I show my poem to next?",
+                    "char": "nobody",
+                    "charImg": "non",
+                    "selectMenu": "continue"
+                }
             ]
         },
         "Sayori":{
@@ -1465,13 +1600,409 @@
         },
         "Monika":[
             {
-                "content":"qsy"
+                "yuri":[],
+                "natsuki":[],
+                "sayori":[
+                    {
+                        "char": "Monika",
+                        "content": "I like this one!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It makes me think of something Sayori would like."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Is that so?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You and Sayori are really good friends, right?",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I wouldn't be surprised if you had those sorts of things in common."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ah, well..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "We may be good friends, but Sayori and I are actually really different."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, that may be the case."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But maybe there are also some similarities that you wouldn't expect.",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "The way she talks about you..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It sounds like the two of you really care about each other's well-being."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Even if you show it in different ways, it ends up being more similar than you'd think."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I think that's the kind of vibe I get when reading your poem.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You sure you're not reading into it too much?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! I could be!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Oh gosh, I sound like Yuri..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "...But in any case, Sayori's writing has kind of a gentle feel to it.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I can tell that she likes exploring with emotions, like happiness and sadness."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Who knew that someone so happy would enjoy sad things, too?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Yeah... That's totally unexpected."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, to each their own~",
+                        "charImg":"Ika10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And you shouldn't be afraid to experiment a little bit, either.",
+                        "charImg":"Ika1.png"
+                    }
+                ],
+                "end":[
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'll end up trying different things a lot."
+                    },
+                    {
+                        "char": "you",
+                        "content": "It could take a while before I feel comfortable doing this."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "That's okay!",
+                        "charImg":"Mon11.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'd love to see you try new things.",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "That's the best way to find the kind of style that suits you."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Everyone else might be a little bit biased toward their own kinds of styles...",
+                        "charImg": "Ika5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But I'll always help you find what suits you the most!",
+                        "charImg": "Ika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So don't force yourself to write the way everyone else wants you to write."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's not like you have to worry about impressing them or anything."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha!",
+                        "charImg": "3aa.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ahaha..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Anyway, do you want to read my poem now?",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Don't worry, I'm not very good...",
+                        "charImg": "Mon5.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "You sound pretty confident for someone who claims to not be very good."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well...that's 'cause I have to sound confident.",
+                        "charImg": "Mon10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "That doesn't mean I always feel that way, you know?",
+                        "charImg": "Mon2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "I see...",
+                        "charImg": "Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Well, let's read it, then."
+                    },
+                    {
+                        "poem":"poem goes here uwu"
+                    },
+
+                    {
+                        "char": "Monika",
+                        "content": "So...what do you think?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Hmm...it's very...freeform, if that's what you call it."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Sorry, I'm not really the right person to ask for feedback..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha. It's okay.",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yeah, that kind of style has gotten pretty popular nowadays.",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "That is, a lot of poems have been putting emphasis on the timing between words and lines."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "When performed out loud, it can be really powerful.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "What was the inspiration behind this one?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ah..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, I'm not sure if I know how to put it...",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I guess you could say that I had some kind of epiphany recently.",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's been influencing my poems a bit."
+                    },
+                    {
+                        "char": "you",
+                        "content": "An epiphany?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yeah...something like that.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'm kind of nervous to talk about deep stuff like that, because it's kind of coming on strongly..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Maybe after everyone is better friends with each other."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Anyway...",
+                        "charImg":"Mon10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Here's Monika's Writing Tip of the Day!",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Sometimes when you're writing a poem --or a story-- your brain gets too fixated on a specific point..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "If you try so hard to make it perfect, then you'll never make any progress."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Just force yourself to get something down on the paper, and tidy it up later!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Another way to think about it is this:"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "If you keep your pen in the same spot for too long, you'll just get a big dark puddle of ink."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So just move your hand, and go with the flow!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "...That's my advice for today!",
+                        "charImg":"Ika10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Thanks for listening~"
+                    },
+                    {
+                        "content": "Who should I show my poem to next?",
+                        "newBackground":"transition",
+                        "char": "nobody",
+                        "charImg": "non",
+                        "selectMenu": "continue"
+                    }
+                ],
+                "usesVar":true,
+                "content":"Hi, #var!",
+                "charImg":"Mon2.png"
             },
             {
-                "content": "Who should I show my poem to next?",
-                "char": "nobody",
-                "charImg": "non",
-                "selectMenu": "continue"
+                "char": "Monika",
+                "content": "Having a good time so far?"
+            },
+            {
+                "char": "you",
+                "content": "Ah...yeah."
+            },
+            {
+                "char": "Monika",
+                "content": "Good! Glad to hear it!",
+                "charImg":"Mon11.png"
+            },
+            {
+                "char": "Monika",
+                "content": "By the way, since you're new and everything...",
+                "charImg":"Ika1.png"
+            },
+            {
+                "char": "Monika",
+                "content": "If you ever have any suggestions for the club, like new activities, or things we can do better..."
+            },
+            {
+                "char": "Monika",
+                "content": "I'm always listening!",
+                "charImg":"Ika2.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Don't be afraid to bring things up, okay?"
+            },
+            {
+                "char": "you",
+                "content": "Alright...I'll keep that in mind.",
+                "charImg":"Ika1.png"
+            },
+            {
+                "content": "Of course I'll be afraid to bring things up.","char":"nobody"
+            },
+            {
+                "content": "I'm much better off just going with the flow until I'm more settled in.","char":"nobody"
+            },
+            {
+                "char": "Monika",
+                "content": "Anyway...",
+                "charImg":"Mon1.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Want to share your poem with me?"
+            },
+            {
+                "char": "you",
+                "content": "It's kind of embarrassing, but I guess I have to."
+            },
+            {
+                "char": "Monika",
+                "content": "Ahahaha!",
+                "charImg":"3aa.png"
+            },
+            {
+                "usesVar":true,
+                "char": "Monika",
+                "content": "Don't worry, #var!"
+            },
+            {
+                "char": "Monika",
+                "content": "We're all a little embarrassed today, you know?"
+            },
+            {
+                "char": "Monika",
+                "content": "But it's that sort of barrier that we'll all learn to get past soon."
+            },
+            {
+                "char": "you",
+                "content": "Yeah, that's true."
+            },
+            {
+                "content": "I hand Monika my poem.","char":"nobody"
+            },
+            {
+                "char": "Monika",
+                "content": "...Mhm!",
+                "charImg":"Monika1.png"
             }
         ]
     },

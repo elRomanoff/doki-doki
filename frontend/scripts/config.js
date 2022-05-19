@@ -8,6 +8,7 @@ const config = {
     },
     getMusic: function(){
         return localStorage.getItem("doki_music")
+        console.log(music)
     },
 
     //textSpeed

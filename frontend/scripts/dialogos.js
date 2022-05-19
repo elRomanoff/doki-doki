@@ -123,7 +123,8 @@ function runDialog(skipInterval) {
         window.location.reload()
     } 
     i++;
-    if(enableMusic){
+    if(enableMusic != "false"){
+        console.log(enableMusic)
         try{music.play();}catch(err){console.error(err.message)}
     }
 }
