@@ -175,15 +175,23 @@ function manageProperties(objDialog){
         }
         else createSelectionMenu(objDialog.selectMenu, objDialog, true)
     }
-    if(objDialog.optionalText) manageOptions(objDialog)
+    if(objDialog.options) manageOptions(objDialog)
 }
 
 function manageOptions(optionObj){
-    if(selectionMenu.filter(filtered => filtered.char === optionObj.optionCharacter)[0]) addAnimatedText(optionObj.optionalText[1])
-    else if(optionObj.optionalText[0]){
-        addAnimatedText(optionObj.optionalText[0])
+    //si la opcion es "ya entregaste el poema a"
+    if(optionObj.shownCharacter){
+        if (selectionMenu.filter(filtered => filtered.char === optionObj.shownCharacter)[0]) addAnimatedText(optionObj.optionalText[1])
+        else if (optionObj.optionalText[0]) {
+            addAnimatedText(optionObj.optionalText[0])
+        }
+        else { i++; runDialog() }
     }
-    else {i++; runDialog()}
+    else if (optionObj.route){
+        if(optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+        else arrDialog.splice(i + 1, 0, ...optionObj.option2)
+    }
+
 }
 
 function addAnimatedText(text) {
@@ -245,7 +253,6 @@ function manageBackground(background){
 
 function manageImage(img){
     if(!img) pngChar.src = "";
-
     else if (typeof img === "object"){
         if (!img.background) mainScreen.removeChild(charBg.domImg)
         else if(charBg.domImg.src){
@@ -258,8 +265,11 @@ function manageImage(img){
     }
 
     else{
-         pngChar.src = dictionary[img]
-        currentImg = img
+        if (img[img.length - 1] != g){ pngChar.src = ""; console.log(img)}
+        else {
+            pngChar.src = dictionary[img]
+            currentImg = img;
+        }
     }
 }
 function encodeImg(imgSrc) {
@@ -376,6 +386,9 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
 
 
     if(isNew && objDialog.dependsOnRoute) {
+
+        selectionOptions.Monika = objDialog.Monika.concat(objDialog.Monika[0][route]);
+
         if (sayScore < 30) selectionOptions.Sayori = objDialog.Sayori.dislike
         else if( sayScore >= 30 && sayScore < 45 ) selectionOptions.Sayori = objDialog.Sayori.like
         else selectionOptions.Sayori = objDialog.Sayori.love
@@ -388,14 +401,10 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
         else if (natScore >= 30 && natScore < 45) selectionOptions.Natsuki = objDialog.Natsuki.like;
         else selectionOptions.Natsuki = objDialog.Natsuki.love;
 
-        selectionOptions.Monika = objDialog.Monika;
-        
         selectionOptions.Sayori = [...selectionOptions.Sayori, ...objDialog.Sayori.end]
         selectionOptions.Yuri = [...selectionOptions.Yuri, ...objDialog.Yuri.end]
         selectionOptions.Natsuki = [...selectionOptions.Natsuki, ...objDialog.Natsuki.end]
-
-
-        console.log(selectionOptions.Sayori)
+        selectionOptions.Monika = [...selectionOptions.Monika, ...objDialog.Monika[0].end]
     }
     //if ! depends on route
     else if(isNew){
@@ -405,6 +414,7 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
         selectionOptions.Monika = objDialog.Monika
     }
     if(!selectionMenu.length){
+        console.log(arrDialog)
         textBox.innerHTML=""
         document.addEventListener("keydown", keyDownPress)
         return

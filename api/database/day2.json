@@ -576,20 +576,20 @@
                         "content":"I can trust her opinion to be fair."
                     }
                 ]},
-                {
-                    "char":"Monika",
-                    "content":"Monika",
-                    "message":[
-                        {
-                            "char":"nobody", 
-                            "content":"I should start with Monika."
-                        },
-                        {
-                            "char":"nobody", 
-                            "content":"Yesterday she seemed eager to read my poem, and I want her to knwo I'm putting in effort."
-                            }
-                    ]
-                }
+            {
+                "char":"Monika",
+                "content":"Monika",
+                "message":[
+                    {
+                        "char":"nobody", 
+                        "content":"I should start with Monika."
+                    },
+                    {
+                        "char":"nobody", 
+                        "content":"Yesterday she seemed eager to read my poem, and I want her to knwo I'm putting in effort."
+                        }
+                ]
+            }
             ],
         "dependsOnRoute":true,
         "charImg":"non",
@@ -1049,8 +1049,53 @@
         "Sayori":{
             "like":[
                 {
-                    "content": "qsy",
-                    "newBackground":"transition"
+                    "char": "Sayori",
+                    "content": "...",
+                    "charImg":"Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "usesVar":true,
+                    "content": "This is a good poem, #var!",
+                    "charImg":"Sayori3.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Are you sure it's your first time?"
+                },
+                {
+                    "char": "you",
+                    "content": "Of course..."
+                },
+                {
+                    "char": "you",
+                    "content": "It's not that good."
+                },
+                {
+                    "char": "you",
+                    "content": "Am I the kind of guy who would be writing poems in his spare time?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe, I guess you're right~",
+                    "charImg":"Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "But that's why it impressed me!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Well, to be honest...",
+                    "charImg":"Say4.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I was afraid that you wouldn't do it seriously..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Or that you wouldn't write one at all."
                 }
             ],
             "dislike":[
@@ -1063,8 +1108,9 @@
                         "content": "...Wow!"
                     },
                     {
+                        "usesVar":true,
                         "char": "Sayori",
-                        "content": "[player]..."
+                        "content": "#var..."
                     },
                     {
                         "char": "Sayori",
@@ -1089,102 +1135,6 @@
                     {
                         "char": "Sayori",
                         "content": "Besides..."
-                    },
-                    {
-                        "comment":"lo qiue sigue aca es el shared",
-                        "poem": "sayori_poem_1",
-                        "charImg": {"background":""}
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "I'm really happy just that you wrote one."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "It just reminds me of how you're really a part of the club now~"
-                    },
-                    {
-                        "content": "(Not to mention the fact that I'm standing in front of you in the clubroom...?)"
-                    },
-                    {
-                        "char": "you",
-                        "content": "Er...well, of course."
-                    },
-                    {
-                        "char": "you",
-                        "content": "I'm not really into it yet, but that doesn't mean I'll break my promise."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "See?"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "It's like I said before, [player]..."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Deep down, you're not selfish at all, you know?"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Trying new things like this for other people..."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "That's something that only really good people do!"
-                    },
-                    {
-                        "char": "you",
-                        "content": "Thanks...Sayori."
-                    },
-                    {
-                        "content": "...I'm not sure if Sayori sees the full picture of my motive here.","char":"nobody"
-                    },
-                    {
-                        "content": "Then again...","char":"nobody"
-                    },
-                    {
-                        "content": "I can't deny that she's part of the reason I joined.","char":"nobody"
-                    },
-                    {
-                        "content": "Knowing how much this means to her and all...","char":"nobody"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Yeah."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "And I'm gonna make sure you have lots of fun here, okay?"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "That will be my way of thanking you~"
-                    },
-                    {
-                        "char": "you",
-                        "content": "Alright, I'm going to hold you to that, then."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Yay~!"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Now, you'll read my poem too, right?"
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Don't worry, I'm really bad at this."
-                    },
-                    {
-                        "char": "Sayori",
-                        "content": "Ehehe..."
-                    },
-                    {
-                        "char": "you",
-                        "content": "We'll see about that."
                     }
                 ],
             "love":[
@@ -1200,7 +1150,8 @@
                 },
                 {
                     "char": "Sayori",
-                    "content": "This is sooooo good, [player]!",
+                    "usesVar":true,
+                    "content": "This is sooooo good, #var!",
                     "charImg": "Ori2.png"
                 },
                 {
@@ -1256,15 +1207,17 @@
                 },
                 {
                     "char":"nobody",
+                    "options":true,
                     "optionalText":["Yuri's opinion was way more constructive than this...","I'm sure Yuri's opinion has to be a little more constructive than this."],
-                    "optionCharacter":"Yuri",
+                    "shownCharacter":"Yuri",
                     "content":" "
                 },
                 {
                     "char":"nobody",
                     "content":" ",
+                    "options":true,
                     "optionalText":["","Maybe even Natsuki's."],
-                    "optionCharacter":"Natsuki"
+                    "shownCharacter":"Natsuki"
                 },
                 {
                     "char": "you",
@@ -1317,19 +1270,21 @@
                 {
                     "char": "Sayori",
                     "content": "Ehehe..."
-                },
-    
+                }
+            ],
+            "end":[
                 {
                     "char": "Sayori",
                     "content": "I'm really happy just that you wrote one.",
-                    "charImg":"Say1.png"
+                    "charImg": "Say1.png"
                 },
                 {
                     "char": "Sayori",
                     "content": "It just reminds me of how you're really a part of the club now~"
                 },
                 {
-                    "content": "(Not to mention the fact that I'm standing in front of you in the clubroom...?)", "char":"nobody"
+                    "content": "(Not to mention the fact that I'm standing in front of you in the clubroom...?)",
+                    "char": "nobody"
                 },
                 {
                     "char": "you",
@@ -1342,7 +1297,7 @@
                 {
                     "char": "Sayori",
                     "content": "See?",
-                    "charImg":"Say20.png"
+                    "charImg": "Say4.png"
                 },
                 {
                     "usesVar": true,
@@ -1360,23 +1315,27 @@
                 {
                     "char": "Sayori",
                     "content": "That's something that only really good people do!",
-                    "charImg": "Say17.png"
+                    "charImg": "Ori17.png"
                 },
                 {
                     "char": "you",
                     "content": "Thanks...Sayori."
                 },
                 {
-                    "content": "...I'm not sure if Sayori sees the full picture of my motive here.", "char":"nobody"
+                    "content": "...I'm not sure if Sayori sees the full picture of my motive here.",
+                    "char": "nobody"
                 },
                 {
-                    "content": "Then again...", "char":"nobody"
+                    "content": "Then again...",
+                    "char": "nobody"
                 },
                 {
-                    "content": "I can't deny that she's part of the reason I joined.", "char":"nobody"
+                    "content": "I can't deny that she's part of the reason I joined.",
+                    "char": "nobody"
                 },
                 {
-                    "content": "Knowing how much this means to her and all...", "char":"nobody"
+                    "content": "Knowing how much this means to her and all...",
+                    "char": "nobody"
                 },
                 {
                     "char": "Sayori",
@@ -1416,12 +1375,7 @@
                 {
                     "char": "you",
                     "content": "We'll see about that."
-                }
-            
-            
-
-            ],
-            "end":[
+                },
                 {
                     "poem":"poem goes here uwu"
                 },
@@ -1555,53 +1509,999 @@
                     "content": "Well, I guess I look forward to it."
                 },
                 {
-                    "newBackground":"transition"    
-                },
-                {
                     "content": "Who should I show my poem to next?",
                     "char": "nobody",
                     "charImg": "non",
-                    "selectMenu": "continue"    
+                    "selectMenu": "continue",
+                    "newBackground": "transition"
                 }
             ]
         },
         "Yuri":{
-            "like":[
-                {
-                    "content": "qsy"
-                },
-                {
-                    "content": "Who should I show my poem to next?",
-                    "char": "nobody",
-                    "charImg": "non",
-                    "selectMenu": "continue"
-                }
-            ],
             "dislike":[
                 {
-                    "content": "qsy"
+                    "char": "Yuri",
+                    "content": "...",
+                    "charImg":"Yuri_school_7.png"
                 },
                 {
-                    "content": "Who should I show my poem to next?",
-                    "char": "nobody",
-                    "charImg": "non",
-                    "selectMenu": "continue"
+                    "char": "Yuri",
+                    "content": "Mm..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "..."
+                },
+                {
+                    "content": "Yuri stares at the poem.", "char":"nobody"
+                },
+                {
+                    "content": "A minute passes, more than enough time for her to finish reading.", "char":"nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "Um..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Oh!"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "S-Sorry...!",
+                    "charImg": "YScared3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I forgot to start speaking..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "U-Um!"
+                },
+                {
+                    "char": "you",
+                    "content": "It's fine, don't force yourself."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'm not...",
+                    "charImg": "YSSad.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I just need to put my thoughts into words."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Hold on..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Okay."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "This is your first time writing a poem, right?",
+                    "charImg": "YSurp.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Er, yeah..."
+                },
+                {
+                    "char": "you",
+                    "content": "Why do you ask?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'm just making sure."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I guessed that it might be after reading through it."
+                },
+                {
+                    "char": "you",
+                    "content": "Ah, so it's that bad."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "No!!",
+                    "charImg": "YScared.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Did I just raise my voice...?",
+                    "charImg": "YWorried.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Uu, I'm so sorry...",
+                    "charImg": "YSShy1.png"
+                },
+                {
+                    "content": "Yuri buries her face in her hands.", "char":"nobody"
+                },
+                {
+                    "content": "I couldn't help but notice that it's been several minutes and we really haven't gotten anywhere.", "char":"nobody"
+                },
+                {
+                    "content": "It might take Yuri a while to get used to new people...", "char":"nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "It's fine, I really didn't notice."
+                },
+                {
+                    "char": "you",
+                    "content": "What were you saying?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Right...um...",
+                    "charImg": "YBashful_Smile_2.png"
+                }
+            ],
+            "like":[
+                {
+                    "char": "Yuri",
+                    "content": "...",
+                    "charImg": "Yuri_school_7.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Mm..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "..."
+                },
+                {
+                    "content": "Yuri stares at the poem.",
+                    "char": "nobody"
+                },
+                {
+                    "content": "A minute passes, more than enough time for her to finish reading.",
+                    "char": "nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "Um..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Oh!"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "S-Sorry...!",
+                    "charImg": "YScared3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I forgot to start speaking..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "U-Um!"
+                },
+                {
+                    "char": "you",
+                    "content": "It's fine, don't force yourself."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'm not...",
+                    "charImg": "YSSad.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I just need to put my thoughts into words."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Hold on..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Okay."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "This is your first time writing a poem, right?",
+                    "charImg": "YSurp.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Er, yeah..."
+                },
+                {
+                    "char": "you",
+                    "content": "Why do you ask?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'm just making sure."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I guessed that it might be after reading through it."
+                },
+                {
+                    "char": "you",
+                    "content": "Ah, so it's that bad."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "No!!",
+                    "charImg": "YScared.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Did I just raise my voice...?",
+                    "charImg": "YWorried.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Uu, I'm so sorry...",
+                    "charImg": "YSShy1.png"
+                },
+                {
+                    "content": "Yuri buries her face in her hands.",
+                    "char": "nobody"
+                },
+                {
+                    "content": "I couldn't help but notice that it's been several minutes and we really haven't gotten anywhere.",
+                    "char": "nobody"
+                },
+                {
+                    "content": "It might take Yuri a while to get used to new people...",
+                    "char": "nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "It's fine, I really didn't notice."
+                },
+                {
+                    "char": "you",
+                    "content": "What were you saying?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Right...um...",
+                    "charImg": "YBashful_Smile_2.png"
                 }
             ],
             "love":[
                 {
+                    "char": "Yuri",
+                    "content": "...",
+                    "charImg":"YLook.png"
+                },
+                {
+                    "content": "As Yuri reads the poem, I notice her eyes lighten.","char":"nobody"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Exceptional.",
+                    "charImg":"YSurp2.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Eh? What was that?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "D-Did I say that out loud...?",
+                    "charImg": "YScared3.png"
+                },
+                {
+                    "content": "Yuri first covers her mouth, but then ends up covering her whole face.","char":"nobody"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I...!",
+                    "charImg": "YSShy1.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Uu..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "(He's going to hate me...)"
+                },
+                {
+                    "char": "you",
+                    "content": "Um..."
+                },
+                {
+                    "char": "you",
+                    "content": "You really didn't do anything wrong, Yuri..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Eh...?",
+                    "charImg": "Yurifull1.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "That's..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I-I guess you're right...",
+                    "charImg": "YShy2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "What am I getting so nervous for?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "A-Ahaha..."
+                },
+                {
+                    "content": "Yuri takes a breath.","char":"nobody",
+                    "charImg": "Yuu2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "So..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "What kind of writing experience do you have?",
+                    "charImg": "Yuri_school_2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Your use of imagery and metaphors indicates you've written a lot of poetry before."
+                },
+                {
+                    "char": "you",
+                    "content": "Really...?"
+                },
+                {
+                    "char": "you",
+                    "content": "Wow, that's a huge compliment coming from you."
+                },
+                {
+                    "char": "you",
+                    "content": "This is actually my first time, really."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Huh...?",
+                    "charImg": "YLook.png"
+                },
+                {
+                    "content": "Yuri stares at me blankly, then looks at my poem again.","char":"nobody"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Well, I know that!",
+                    "charImg": "Yuri_school_8.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I just meant...u-um..."
+                },
+                {
+                    "content": "Yuri trails off, unable to find an excuse.","char":"nobody"
+                },
+                {
+                    "content": "She traces her finger along the words in the poem, as if breaking it down more thoroughly.","char":"nobody"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "...Yeah.",
+                    "charImg": "Yuu2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Okay."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "This is the reason I was able to tell."
+                }
+            ],
+            "end":[
+                {
+                    "char": "Yuri",
+                    "content": "It's just that there are specific writing habits that are usually typical of new writers.",
+                    "charImg":"Yuri_school_1.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "And having been through that myself, I kind of learned to pick up on them."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I think the most noticeable thing I recognize in new writers is that they try to make their style very deliberate.",
+                    "charImg": "YBashful_Smile_3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "In other words, they tend to pick a writing style separate from the topic matter, and they form-fit the two together."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "The end result is that both the style and the expressiveness are weakened.",
+                    "charImg": "Yuri_school_2.png"
+                },
+                {
+                    "content": "Once Yuri finds her train of thought, it's as if her demeanor totally changes.", "char":"nobody"
+                },
+                {
+                    "content": "Her stammering is completely gone, and she sounds like an expert.", "char":"nobody"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Of course, that's not something you can be blamed for.",
+                    "charImg": "Yuu.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "There are so many different skills and techniques that go into writing even a simple poem."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Not just finding them and building them, but getting them to work together is probably the most challenging part.",
+                    "charImg": "Yuri_school_2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "It might take you some time, but it all comes with practice, and learning by example, and trying new things."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I also hope that everyone else in the club gives you valuable feedback."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Natsuki can be a little bit biased, though...",
+                    "charImg": "Yuu.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Biased? How?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "U-Um...",
+                    "charImg": "YSmile.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Well..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Never mind..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I shouldn't be talking about people like that..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Sorry..."
+                },
+                {
+                    "char": "you",
+                    "content": "It's fine."
+                },
+                {
+                    "content": "I'm not sure if Yuri is apologizing to herself, to me, or to Natsuki.", "char":"nobody"
+                },
+                {
+                    "char": "you",
+                    "content": "Do you mind if I read your poem now?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Please do!",
+                    "charImg": "YHappy2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'd love to share my thought process behind it..."
+                },
+                {
+                    "content": "Yuri smiles dreamily, as if that's a rare opportunity for her.", "char":"nobody"
+                },
+                {
+                    "content": "Which itself is kind of funny...", "char":"nobody"
+                },
+                {
+                    "content": "...After all, isn't this supposed to be a literature club?"
+                },
+                {
+                    "poem":"poem goes here uwu"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I...I'm sorry I have such terrible handwriting!"
+                },
+                {
+                    "char": "you",
+                    "content": "What??"
+                },
+                {
+                    "char": "you",
+                    "content": "I wasn't thinking that at all..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "But it took you a long time to read...",
+                    "charImg":"YSSad.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Ah--"
+                },
+                {
+                    "char": "you",
+                    "content": "Well, I just don't read script very often..."
+                },
+                {
+                    "char": "you",
+                    "content": "I actually think your handwriting is pretty."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Eh?",
+                    "charImg":"YSSad3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "That's...a relief...",
+                    "charImg":"YBashful_Smile_2.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Also, I liked the poem."
+                },
+                {
+                    "char": "you",
+                    "content": "Even though it's short, it was really descriptive."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "It wasn't too short?",
+                    "charImg":"YSSad3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I usually write longer poems..."
+                },
+                {
+                    "char": "you",
+                    "content": "Not at all."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'm...really glad you like it.",
+                    "charImg":"Yuvu.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "I'll be honest..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Since it's our first time sharing, I wanted to write something a little more mild.",
+                    "charImg":"Yuri_school_2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Something easy to digest, I suppose."
+                },
+                {
+                    "char": "you",
+                    "content": "Are you into ghosts, Yuri?"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Huhu.",
+                    "charImg":"Yuvu.png"
+                },
+                {
+                    "usesVar":true,
+                    "char": "Yuri",
+                    "content": "Actually, the story isn't about a ghost at all, #var."
+                },
+                {
+                    "char": "you",
+                    "content": "Really?"
+                },
+                {
+                    "char": "you",
+                    "content": "I must have totally missed the point..."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Well, I suppose you did only glance over it, after all...",
+                    "charImg":"YBashful_Smile_3.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "But remember that poets often express their own thoughts, feelings, and experiences in their work."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "They usually do more than tell a simple story, or paint a picture.",
+                    "charImg":"Yuri_school_1.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "In this case, perhaps the subject of the poem is only being symbolically compared to a ghost."
+                },
+                {
+                    "char": "Yuri",
+                    "content": "Lingering in her last remaining place of comfort, unable to let go of the past.",
+                    "charImg":"Yuu2.png"
+                },
+                {
+                    "char": "Yuri",
+                    "content": "And soon to be left with nothing..."
+                },
+                {
+                    "char": "you",
+                    "content": "...That's a lot more solemn, putting it that way."
+                },
+                {
+                    "char": "you",
+                    "content": "I hadn't even thought of that..."
+                },
+                {
+                    "char": "you",
+                    "content": "That's impressive."
+                },
+                {
+
+                    "options":true,
+                    "route":"yuri",
+                    "option1":[
+                        {
+                            "char": "Yuri",
+                            "content": "Eh?",
+                            "charImg":"YSurp2.png"
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "I-It's nothing, really!",
+                            "charImg":"YSSad.png"
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "Yours was impressive too, so..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Nah..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "If anything, I could probably learn a thing or two from you."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "...You think so?",
+                            "charImg":"Yurifull1.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Yeah, of course."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "Ah..."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "You know...",
+                            "charImg":"Yuri_school_4.png"
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "I was really nervous about doing all this."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "But in the end, I enjoyed it."
+                        },
+                        {
+                            "usesVar":true,
+                            "char": "Yuri",
+                            "content": "I'm going to keep doing my best for you, #var."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Ah..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Me too."
+                        }
+                    ],
+                    "option2":[
+                        {
+                            "char": "Yuri",
+                            "content": "It's nothing, really...",
+                            "charImg":"YBashful_Smile_3.png"
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "Well...it makes me happy that you think that."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "Just remember that it won't be long before you pick up on these things, too.",
+                            "charImg":"Yuri_school_2.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Yeah, maybe you're right."
+                        },
+                        {
+                            "char": "you",
+                            "content": "I guess I'll have to keep trying."
+                        },
+                        {
+                            "char": "Yuri",
+                            "content": "I'm counting on you."
+                        }
+                    ],
+                    "content": " "
+                },
+                {
                     "content": "Who should I show my poem to next?",
+                    "newBackground": "transition",
                     "char": "nobody",
                     "charImg": "non",
                     "selectMenu": "continue"
                 }
-            ],
-            "end":[]
+            ]
         },
         "Monika":[
             {
-                "yuri":[],
-                "natsuki":[],
+                "yuri":[
+                    {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "Great job, #var!",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I was going 'Ooh' in my head while reading it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's really metaphorical!",
+                        "charImg":"Mon10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'm not sure why, but I didn't expect you to go for something so deep.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I guess I underestimated you!",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "It's easiest for me to keep everyone's expectations low."
+                    },
+                    {
+                        "char": "you",
+                        "content": "That way, it always counts when I put in some effort."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! That's not very fair!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, I guess it worked, anyway."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You know that Yuri likes this kind of writing, right?",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Writing that's full of imagery and symbolism."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Unlike Sayori, who likes using simple and direct words to describe happiness and sadness...",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yuri likes it when readers are left to derive their own meaning out of it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's very challenging to write like that effectively.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Both allowing people to get something out of it just by feel..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Or letting them deeply analyze all of the nuances."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It can take years of practice, which I'm assuming Yuri has at this point."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I never really asked, though...",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'm nowhere near her level yet."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Don't worry so much about that!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You do your own thing."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Just keep exploring, and learn by trying new things!"
+                    }
+                ],
+                "natsuki":[
+                    {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "I like it, #var!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Really...?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's a lot cuter than I expected.",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahahaha!",
+                        "charImg":"Mon11.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Oh jeez..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "No, no!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It kind of makes me think of something Natsuki would write."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And she's a good writer, too."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So take that as a compliment!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ahaha..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "If you say so."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yep!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "By any chance have you read anything by Shel Silverstein?",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Maybe a long time ago..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "He's famous for telling all kinds of stories in just a few simple words."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "His poems can be funny, endearing, or even sad..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And sometimes they're only a few lines long.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might even feel like they're written for kids, but if you think about them..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They can express views of the world that would apply to anybody."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I see..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "So you're saying that Natsuki is kind of like that?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Sort of.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Maybe she's not an expert..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But you probably won't find much filler in her poems."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might be easy to write, but they're super challenging to get the meaning through."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I can see why it would be your kind of poem to explore!",
+                        "charImg":"Monika2.png"
+                    }
+                ],
                 "sayori":[
                     {
                         "char": "Monika",
@@ -2007,7 +2907,6 @@
         ]
     },
     {
-        "newBackground": "Club.png",
         "music":"main-theme.mp3",
         "char": "you",
         "content": "Phew..."
@@ -2684,15 +3583,1129 @@
     {
         "char":"nobody",
         "content": "So, of course that's going to be...!",
-        "selectMenu":[{"char":"Natsuki", "content":"Natsuki"},{"char":"Yuri","content":"Yuri"},{"char":"Sayori", "content":"Help me, Sayori!"}],
-        "Natsuki":[{"content":"bbbbb"}],
-        "Yuri":[{"content":"aaaaaaaaaaaa"}],
-        "Sayori":[{"content":"asdasd"}]
+        "selectMenu":[{"char":"Natsuki", "content":"Natsuki."},{"char":"Yuri","content":"Yuri."},{"char":"Sayori", "content":"Help me, Sayori!"}],
+        "Natsuki":[
+            {
+                "char": "you",
+                "content": "Um..."
+            },
+            {
+                "char": "you",
+                "content": "Yuri!"
+            },
+            {
+                "char": "you",
+                "content": "You're really talented."
+            },
+            {
+                "char": "Yuri",
+                "content": "Eh? W-Well...",
+                "charImg":"Yurifull1.png",
+                "animation":[{"direction":"top", "value":"3%"}]
+            },
+            {
+                "char": "you",
+                "content": "But Natsuki has a point!"
+            },
+            {
+                "char": "you",
+                "content": "I think that..."
+            },
+            {
+                "animation":[{"direction":"top","value":"0%"}],
+                "content": "I wrack my brain in an attempt to back myself up.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "I think that conveying feelings with few words..."
+            },
+            {
+                "char": "you",
+                "content": "Can be just as impressive as well!"
+            },
+            {
+                "char": "you",
+                "content": "It lets the reader's imagination take over."
+            },
+            {
+                "char": "you",
+                "content": "And Natsuki's poem did a really good job at that!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "...Yeah!!",
+                "newCharacter":[{"char":"Natsuki", "charImg":"NatsukiCrossedArms8.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "It did, didn't it?!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Ahah!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Shows how much you know!"
+            },
+            {
+                "char": "Yuri",
+                "content": "T-That's not...",
+                "charImg":"YSLookaway.png"
+            },
+            {
+                "char": "you",
+                "content": "Natsuki...",
+                "animation":[{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "I think that's enough."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Huh?",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooll.png"}],
+                "animation":[{"char":"Natsuki","direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Me?"
+            },
+            {
+                "char": "Natsuki",
+                "content": "But she was so mean to me...!"
+            },
+            {
+                "content": "Natsuki's voice whines.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "Look...",
+                "animation":[{"char":"Natsuki","direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "What we talked about yesterday was right."
+            },
+            {
+                "char": "you",
+                "content": "Writing is a really personal thing."
+            },
+            {
+                "char": "you",
+                "content": "And sharing it can definitely be hard."
+            },
+            {
+                "char": "you",
+                "content": "It looks like we learned that today."
+            },
+            {
+                "char": "you",
+                "content": "Even small criticism can lead to something pretty heated."
+            },
+            {
+                "content": "I glance over my shoulder.","char":"nobody"
+            },
+            {
+                "content": "Sayori is nodding vigorously.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "Yeah, so..."
+            },
+            {
+                "char": "you",
+                "content": "You don't need to feel threatened."
+            },
+            {
+                "char": "you",
+                "content": "You're a great writer, Natsuki.",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolg.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Ah--",
+                "animation":[{"char":"Natsuki","direction":"height" ,"value":"102%"}]
+            },
+            {
+                "content": "Natsuki's voice gets caught in surprise.","char":"nobody"
+            },
+            {
+                "char": "Natsuki",
+                "content": "...Thanks for noticing.",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolp.png"}]
+            },
+            {
+                "content": "She finally mutters that, barely audible.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "Yuri...",
+                "animation":[{"char":"Natsuki","direction":"height","value":"100%"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "...?",
+                "animation":[{"direction":"height","value":"102%"}],
+                "charImg":"Yurifull1.png"
+            },
+            {
+                "content": "Yuri looks at me dejectedly.","char":"nobody"
+            },
+            {
+                "content": "With a face like that, I can't help but feel bad for her as well.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "I'm sure that Natsuki didn't mean everything she said.",
+                "animation":[{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "So you don't need to feel threatened, either."
+            },
+            {
+                "char": "Yuri",
+                "content": "Well...",
+                "animation":[{"direction":"height","value":"102%"}],
+                "charImg":"YSSad.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "If you say so..."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Hey...!",
+                "animation":[{"direction":"height","value":"100%"},{"char":"Natsuki","direction":"height","value":"102%"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolf.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "usesVar":true,
+                "content": "It's not like you need to apologize for me, #var."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Sheesh." ,
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolv.png"}]
+            },
+            {
+                "content": "Natsuki takes a breath.","char":"nobody"
+            },
+            {
+                "char": "Natsuki",
+                "content": "I...",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolp.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "The thing about..."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Uu..."
+            },
+            {
+                "content": "Natsuki glances around the room.","char":"nobody"
+            },
+            {
+                "char": "Natsuki",
+                "content": "{i}Would everyone stop staring at me??{/i}",
+                "animation":[{"char":"Natsuki","direction":"jump"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooly.png"}]
+            },
+            {
+                "content": "Unsurprisingly, Natsuki has a harder time with it than she boasted.","char":"nobody"
+            },
+            {
+                "content": "Sayori and Monika look away.","char":"nobody"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Hmph.",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolh.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Anyway...!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "The thing about your boobs. I didn't mean it, okay?",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolp.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "That's all."
+            },
+            {
+                "content": "Natsuki looks away, avoiding eye contact with anyone.","char":"nobody"
+            },
+            {
+                "char": "Sayori",
+                "content": "Yeah! You're naturally beautiful, Yuri!!",
+                "newCharacter":[{"char":"Sayori","left":true,"new":true,"charImg":"Ori24.png"}],
+                "animation":[{"char":"Natsuki","direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "Sayori?!",
+                "charImg":"YSShy1.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "...",
+                "animation":[{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "I-I'll go make some tea..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Ehh?",
+                "newCharacter":[{"char":"Sayori","charImg":"Ori8.png"}],
+                "animation":[{"direction":"left","value":"-100%"},{"char":"Sayori","direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "I was just trying to help!"
+            },
+            {
+                "char": "you",
+                "content": "I'm sure she appreciated it, Sayori.",
+                "animation":[{"char":"Sayori","direction":"height","value":"100%"}]
+            },
+            {
+                "content": "I pat Sayori on the shoulder.","char":"nobody",
+                "charImg":"non",
+                "animation":[{"direction":"left","value":"0%"}]
+            },
+            {
+                "char": "Monika",
+                "content": "Well, now that we're past that...",
+                "charImg":"Ika12.png",
+                "newCharacter":"erase"
+            },
+            {
+                "char": "Monika",
+                "content": "Everyone's read each other's poems, right?",
+                "charImg":"Ika2.png"
+            },
+            {
+                "char": "Monika",
+                "content": "I hope that it was worthwhile for everyone!"
+            },
+            {
+                "char": "Monika",
+                "usesVar": true,
+                "content": "Especially you, #var!",
+                "charImg":"3aa.png"
+            },
+            {
+                "char": "Monika",
+                "content": "And to be honest..."
+            },
+            {
+                "char": "Monika",
+                "content": "It's a nice change of pace from the lazing around we got a little too used to."
+            },
+            {
+                "char": "Monika",
+                "content": "Ahahaha!"
+            },
+            {
+                "char": "you",
+                "content": "Ah, so my joining the club was responsible for ruining the atmosphere..."
+            },
+            {
+                "char": "Monika",
+                "content": "No, not at all, not at all!",
+                "charImg":"Mon4.png"
+            },
+            {
+                "char": "Monika",
+                "content": "There's still time before we go home."
+            },
+            {
+                "char": "Monika",
+                "content": "So we'll all relax for a bit.",
+                "charImg":"Mon1.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Of course, besides chatting, we do literature-related things in the clubroom..."
+            },
+            {
+                "char": "Monika",
+                "content": "So maybe you can take the chance to pick up a book, or do some writing."
+            },
+            {
+                "char": "Monika",
+                "content": "After all, that's what the club is for!",
+                "charImg":"Mon2.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "I disagree, Monika!",
+                "newCharacter":[{"char":"Sayori","new":true,"left":true,"charImg":"Ori10.png"},{"char":"Yuri","new":true,"hide":"hide","charImg":"YSSad.png"}],
+                "animation":[{"char":"Sayori","direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Monika",
+                "content": "Eh? About what?",
+                "charImg":"Mon4.png",
+                "animation":[{"char":"Sayori","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "That's not the most important thing about the literature club!",
+                "animation":[{"char":"Sayori","direction":"height","value":"102%"},{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "The most important thing..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Is having fun!",
+                "animation":[{"char": "Sayori","direction":"jump"}],
+                "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}]
+            },
+            {
+                "char": "Monika",
+                "charImg":"Mon12.png",
+                "content": "Ahaha, of course...",
+                "animation":[{"char":"Sayori","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Monika",
+                "content": "Well, I guess that's why you're the Vice President, Sayori.",
+                "charImg":"Monika1.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "Ehehe...",
+                "animation":[{"char":"Sayori","direction":"height","value":"102%"},{"direction":"height","value":"100%"}]
+            },
+            {
+                "newBackground":"Club.png",
+                "content": "In the end, though, Monika's right.","char":"nobody"
+            },
+            {
+                "content": "Being in the Literature Club probably means I can't spend all my time doing nothing.","char":"nobody"
+            },
+            {
+                "content": "But in the end...","char":"nobody"
+            },
+            {
+                "content": "...I guess it's been worth it so far."
+            }
+        ],
+        "Yuri":[
+            {
+                "char": "you",
+                "content": "Natsuki."
+            },
+            {
+                "char": "you",
+                "content": "You're right that I liked your poem."
+            },
+            {
+                "char": "Natsuki",
+                "content": "See??",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoold.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "you",
+                "content": "Wait!",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolf.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "That's not an excuse for you to be so mean!"
+            },
+            {
+                "char": "you",
+                "content": "You shouldn't pick a fight just because someone's opinion is different."
+            },
+            {
+                "char": "Natsuki",
+                "content": "That's not what happened at all!",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooll.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Yuri wouldn't even take my poem seriously!"
+            },
+            {
+                "char": "you",
+                "content": "Mm...",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "I understand."
+            },
+            {
+                "char": "you",
+                "content": "Yuri."
+            },
+            {
+                "char": "Yuri",
+                "content": "Eh?",
+                "charImg":"YSSad3.png",
+                "animation":[{ "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "you",
+                "content": "You're a seriously talented writer.",
+                "animation":[{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "you",
+                "content": "It's no secret that I was impressed."
+            },
+            {
+                "char": "Yuri",
+                "content": "W-Well, that's...",
+                "animation":[{ "direction":"height","value":"102%"}],
+                "charImg":"YBashful_Smile_2.png"
+            },
+            {
+                "char": "you",
+                "content": "But here's the thing.",
+                "animation":[{ "direction":"height","value":"100%"}]    
+            },
+            {
+                "char": "you",
+                "content": "No matter how simple or refined someone's writing style is..."
+            },
+            {
+                "char": "you",
+                "content": "They're still putting feelings into it, and it becomes something really personal."
+            },
+            {
+                "char": "you",
+                "content": "That's why Natsuki felt threatened when you said her poem was cute."
+            },
+            {
+                "char": "Yuri",
+                "content": "I...see...",
+                "animation":[{ "direction":"height","value":"102%"}],
+                "charImg":"YSSad.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "I didn't notice that I..."
+            },
+            {
+                "char": "Yuri",
+                "content": "I-I'm sorry...",
+                "charImg":"Yunu.png",
+                "animation":[{ "direction":"height","value":"100%"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "Uuu...",
+                "animation":[{ "direction":"top","value":"2%"}]
+            },
+            {
+                "char": "you",
+                "content": "But Natsuki, you took it way too far!",
+                "charImg":"non",
+                "animation":[{ "direction":"height","value":"102%"},{"direction":"top","value":"0%"}]
+            },
+            {
+                "char": "you",
+                "content": "Yuri means well, and if you just told her how you felt..."
+            },
+            {
+                "char": "you",
+                "content": "Then this wouldn't have happened in the first place."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Are you kidding?",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoold.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "That's exactly what I did!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "It was her that--"
+            },
+            {
+                "char": "Monika",
+                "content": "Natsuki, I think that's enough.",
+                "charImg":"Monika4.png"
+            },
+            {
+                "char": "Monika",
+                "content": "You both said some things that you didn't mean."
+            },
+            {
+                "char": "Monika",
+                "content": "Yuri apologized. Don't you think you should, too?"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Nnn...!",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"direction":"height","value":"100%"}]
+
+            },
+            {
+                "content": "Natsuki clenches her fists.","char":"nobody",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"}]
+            },
+            {
+                "content": "In the end, nobody has taken her side.","char":"nobody"
+            },
+            {
+                "content": "She's trapped, at this point being defiant only because she can't handle the pressure.","char":"nobody"
+            },
+            {
+                "content": "I end up even feeling bad for her.","char":"nobody",
+                "newCharacter":[{
+                    "char":"Sayori","new":true,"left":true,"hide":"hide","charImg":"Ori8.png"
+                }],
+                "animation":[{"char":"Sayori","direction":"left","value":"-50%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "U-Um!",
+                "newCharacter":[{"char":"Sayori","hide":"non"}],
+                "animation":[{"char":"Sayori","direction":"left","value":"0%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "Sometimes when I'm hurt..."
+            },
+            {
+                "char": "Sayori",
+                "content": "It helps to take a walk and clear my head!"
+            },
+            {
+                "char": "you",
+                "content": "Sayori, she doesn't need to--"
+            },
+            {
+                "char": "Natsuki",
+                "content": "You know what?",
+                "animation":[{"char":"Natsuki","direction":"height","value":"102%"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Y29.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "I'm going to do that."
+            },
+            {
+                "char": "Natsuki",
+                "content": "It'll spare me from having to look at all your faces right now.",
+                "newCharacter":[{"char":"Natsuki","charImg":"Y26.png"}]
+            },
+            {
+                "content": "Without warning, Natsuki snatches her own poem up from the desk and storms out.","char":"nobody",
+                "newCharacter":[{"char":"Natsuki","hide":"hide"}]
+            },
+            {
+                "content": "On her way out, she crumples up the poem with her hands and throws it in the trash.","char":"nobody"
+            },
+            {
+                "char": "Sayori",
+                "content": "Natsuki...",
+                "newCharacter":[{"char":"Sayori","charImg":"Say11.png"}],
+                "animation":[{"char":"Sayori","direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Monika",
+                "content": "She really didn't need to do that...",
+                "charImg":"Mon18.png",
+                "animation":[{"char":"Sayori","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "content": "I look across the room.","char":"nobody",
+                "charImg":"non",
+                "animation":[{"direction":"height","value":"100%"}],
+                "newCharacter":"erase"
+            },
+            {
+                "content": "Yuri has her chin buried in her hands while she stares down at her desk.","char":"nobody"
+            },
+            {
+                "content": "I gingerly approach her and sit in an adjacent chair.","char":"nobody"
+            },
+            {
+                "char": "Yuri",
+                "content": "Sigh...",
+                "charImg":"YSLookaway.png"
+            },
+            {
+                "char": "you",
+                "content": "Everything alright?"
+            },
+            {
+                "char": "Yuri",
+                "content": "I'm so embarrassed..."
+            },
+            {
+                "char": "Yuri",
+                "content": "I can't believe I acted like that."
+            },
+            {
+                "char": "Yuri",
+                "content": "You probably hate me now..."
+            },
+            {
+                "char": "you",
+                "content": "No--Yuri!"
+            },
+            {
+                "char": "you",
+                "content": "How could anyone not have gotten frustrated after being treated like that?"
+            },
+            {
+                "char": "you",
+                "content": "You handled it as well as anyone could."
+            },
+            {
+                "char": "you",
+                "content": "I don't think any less of you."
+            },
+            {
+                "char": "Yuri",
+                "content": "Well...",
+                "charImg":"YSSad.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "...Alright, I believe you."
+            },
+            {
+                "char": "Yuri",
+                "usesVar": true,
+                "content": "Thanks, #var. You're too kind.",
+                "charImg":"Yuri_school_4.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "I'm thankful to have you a part of this club now."
+            },
+            {
+                "char": "you",
+                "content": "Er-- It's nothing."
+            },
+            {
+                "char": "Yuri",
+                "content": "One more thing...",
+                "charImg":"YSSad.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "Um, that one thing that Natsuki said..."
+            },
+            {
+                "char": "Yuri",
+                "content": "About...you know...",
+                "charImg":"YSShy1.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "I would never do anything...so shameful..."
+            },
+            {
+                "char": "Yuri",
+                "content": "So..."
+            },
+            {
+                "char": "you",
+                "content": "...Eh?"
+            },
+            {
+                "char": "you",
+                "content": "What thing did Natsuki say?"
+            },
+            {
+                "char": "Yuri",
+                "content": "--!",
+                "charImg":"YScared3.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "U-Um!"
+            },
+            {
+                "char": "Yuri",
+                "content": "Well, never mind that...",
+                "charImg":"YShy2.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "I-I'm going to go make some tea..."
+            },
+            {
+                "char": "you",
+                "content": "Ah, good idea."
+            },
+            {
+                "char": "you",
+                "content": "Make enough for more than one person, okay?"
+            },
+            {
+                "char": "Yuri",
+                "content": "Y-Yeah."
+            }
+        ],
+        "Sayori":[
+            {
+                "char": "you",
+                "content": "N-Natsuki..."
+            },
+            {
+                "content": "Natsuki glares at me, drying up any words I had in my mouth.","char":"nobody",
+                "charImg":"NatsukiCrossedArms7.png"
+            },
+            {
+                "content": "So instead, I turn to Yuri.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "Yuri...",
+                "charImg":"Yurifull1.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "..."
+            },
+            {
+                "content": "But Yuri's expression is so defenseless that I can't bring myself to say anything to her.","char":"nobody"
+            },
+            {
+                "char": "you",
+                "content": "..."
+            },
+            {
+                "char": "you",
+                "content": "...Sayori!"
+            },
+            {
+                "char": "Sayori",
+                "content": "Eh?!",
+                "newCharacter":[{"char":"Sayori","left":true,"new":true,"charImg":"Ori13.png"}]
+            },
+            {
+                "char": "you",
+                "content": "...Yeah!"
+            },
+            {
+                "char": "you",
+                "content": "Everyone's fighting is making Sayori uncomfortable."
+            },
+            {
+                "char": "you",
+                "content": "How can the two of you keep fighting when you know you're making your friend feel like this?"
+            },
+            {
+                "char": "Sayori",
+                "usesVar": true,
+                "content": "#var...",
+                "newCharacter":[{"char":"Sayori","charImg":"Ori4.png"}],
+                "animation":[{"char":"Sayori", "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Well... That's her problem! This isn't about her.",
+                "newCharacter":[{"char":"Natsuki","charImg":"Y26.png"}],
+                "animation":[{"char":"Sayori", "direction":"height","value":"100%"},{"char":"Sayori", "direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "I-I agree...",
+                "charImg":"Yuri_school_8.png",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "It's unfair for others to interject their own feelings into our conflict."
+            },
+            {
+                "char": "Natsuki",
+                "content": "Yeah, unless Sayori wants to tell Yuri what a stuck-up jerk she's being.",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"direction":"height","value":"100%"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Y14.png"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "She would never...!",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"direction":"height","value":"102%"}],
+                "charImg":"YAngry.png"
+            },
+            {
+                "char": "Yuri",
+                "content": "It's your immaturity that's made her upset in the first place!"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Excuse me?",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoold.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Are you listening to yourself?"
+            },
+            {
+                "char": "Natsuki",
+                "content": "This is exactly why...",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooly.png"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "Exactly why nobody likes--",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolv.png"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "Stop!!",
+                "newCharacter":[{"char":"Sayori","charImg":"Ori16.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"char":"Sayori","direction":"jump","value":""}]
+            },
+            {
+                "char": "Nat & Yuri",
+                "content": "--",
+                "charImg":"YSurp2.png",
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "Natsuki! Yuri!",
+                "newCharacter":[{"char":"Sayori","charImg":"Say8.png"}],
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"direction":"height","value":"100%"},{"char":"Sayori","direction":"height","value":"102%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "You guys are my friends!"
+            },
+            {
+                "char": "Sayori",
+                "content": "I-I just want everyone to get along and be happy!",
+                "newCharacter":[{"char":"Sayori","charImg":"Say22.png"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "My friends are wonderful people..."
+            },
+            {
+                "char": "Sayori",
+                "content": "And I love them because of their differences!"
+            },
+            {
+                "char": "Sayori",
+                "content": "Natsuki's poems..."
+            },
+            {
+                "char": "Sayori",
+                "content": "They're amazing because they give you so many feelings with just a few words!"
+            },
+            {
+                "char": "Sayori",
+                "content": "And Yuri's poems are amazing because they paint beautiful pictures in your head!"
+            },
+            {
+                "char": "Sayori",
+                "content": "Everyone's so talented...",
+                "newCharacter":[{"char":"Sayori","charImg":"Ori11.png"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "...So why are we fighting...?"
+            },
+            {
+                "char": "Natsuki",
+                "content": "Be-Because...",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"char":"Sayori","direction":"height","value":"100%"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Schoolq.png"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "Well...",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"direction":"height","value":"102%"}],
+                "charImg":"YSSad.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "Also!",
+                "newCharacter":[{"char":"Sayori","charImg":"Say10.png"}],
+                "animation":[{"char":"Sayori", "direction":"height","value":"102%"},{"direction":"height","value":"100%"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "Natsuki's cute and there's nothing wrong with that!"
+            },
+            {
+                "char": "Sayori",
+                "content": "And Yuri's boobs are the same as they always were!",
+                "newCharacter":[{"char":"Sayori","charImg":"Say9.png"}]
+            },
+            {
+                "char": "Sayori",
+                "content": "Big and beautiful!!",
+                "newCharacter":[{"char":"Sayori","charImg":"Say10.png"}],
+                "animation":[{"char":"Sayori", "direction":"jump"}]
+            },
+            {
+                "char": "Natsuki",
+                "content": "...",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"102%"},{"char":"Sayori","direction":"height","value":"100%"}],
+                "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}]
+            },
+            {
+                "char": "Yuri",
+                "content": "...",
+                "charImg":"YScared3.png",
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
+            },
+            {
+                "char": "you",
+                "content": "Sayori...",
+                "animation":[{"direction":"height","value":"100%"}]
+            },
+            {
+                "content": "Sayori stands triumphantly.","char":"nobody"
+            },
+            {
+                "content": "Monika stands behind her with a bewildered expression.","char":"nobody"
+            },
+            {
+                "char": "Yuri",
+                "content": "I'll...make some tea...",
+                "charImg":"YShy2.png"
+            },
+            {
+                "content": "Yuri rushes off.","char":"nobody",
+                "animation":[{"direction":"left","value":"-120%"}]
+            },
+            {
+                "content": "Natsuki sits down with a blank expression on her face, staring at nothing.","char":"nobody",
+                "newCharacter":[{"char":"Natsuki","hide":"hide"}],
+                "charImg":"non",
+                "animation":[{"direction":"left","value":"0%"}]
+            },
+            {
+                "char": "you",
+                "content": "So, this is why Sayori is Vice President...",
+                "charImg":"Mon9.png"
+            },
+            {
+                "content": "I whisper to Monika.","char":"nobody"
+            },
+            {
+                "content": "She nods in return.","char":"nobody"
+            },
+            {
+                "char": "Monika",
+                "content": "To be honest...",
+                "charImg":"Mon4.png"
+            },
+            {
+                "char": "Monika",
+                "content": "I might come off as a good leader, and I can organize things..."
+            },
+            {
+                "char": "Monika",
+                "content": "But I'm not very good with people...",
+                "charImg":"Ika5.png"
+            },
+            {
+                "char": "Monika",
+                "content": "I couldn't even bring myself to interject."
+            },
+            {
+                "char": "Monika",
+                "content": "As President, that's kind of embarrassing of me.",
+                "charImg":"Mon13.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Ahaha...",
+                "charImg":"Mon11.png"
+            },
+            {
+                "char": "you",
+                "content": "Nah..."
+            },
+            {
+                "char": "you",
+                "content": "It's not like I can blame you."
+            },
+            {
+                "char": "you",
+                "content": "I wasn't able to say anything, either."
+            },
+            {
+                "char": "Monika",
+                "content": "Well..."
+            },
+            {
+                "char": "Monika",
+                "content": "I guess that just means Sayori is amazing in her own ways, isn't she?",
+                "charImg":"Monika1.png"
+            },
+            {
+                "char": "you",
+                "content": "You could say that."
+            },
+            {
+                "char": "you",
+                "content": "She might be an airhead, but sometimes it's weirdly suspicious that she knows exactly what she's doing."
+            },
+            {
+                "char": "Monika",
+                "content": "I see~",
+                "charImg":"3aa.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Take good care of her, okay?"
+            },
+            {
+                "char": "Monika",
+                "content": "I would hate to see her get herself hurt."
+            },
+            {
+                "char": "you",
+                "content": "That makes two of us..."
+            },
+            {
+                "char": "you",
+                "content": "You can count on me."
+            },
+            {
+                "content": "Monika smiles sweetly at me, causing my stomach to knot.","char":"nobody"
+            },
+            {
+                "content": "Such a genuine person really does make a good President, regardless of what she says.","char":"nobody"
+            },
+            {
+                "content": "If only I could get the chance to talk to her a little more..."
+            }
+        ]
     },
     {
         "char": "Monika",
         "content": "Okay, everyone!",
-        "charImg":"Ika2.png"
+        "charImg":"Ika2.png",
+        "newBackground":"Club.png",
+        "newCharacter":"erase"
     },
     {
         "content": "It's just about time for us to leave."
