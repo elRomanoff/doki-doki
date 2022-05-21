@@ -265,7 +265,7 @@ function manageImage(img){
     }
 
     else{
-        if (img[img.length - 1] != g){ pngChar.src = ""; console.log(img)}
+        if (img[img.length - 1] != "g"){ pngChar.src = ""; console.log(img)}
         else {
             pngChar.src = dictionary[img]
             currentImg = img;

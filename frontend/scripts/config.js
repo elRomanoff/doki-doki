@@ -64,7 +64,7 @@ const config = {
         localStorage.setItem("doki_inScreenCharacters", JSON.stringify(characters))
     },
     getScreenCharacters: function(){
-        if(!this.inScreenCharacters) this.inScreenCharacters = '["char"]'
+        if(!this.inScreenCharacters || this.inScreenCharacters === "undefined") this.inScreenCharacters = '["char"]'
         return JSON.parse(this.inScreenCharacters);
     },
     
@@ -139,4 +139,3 @@ const config = {
 
 
 export {config as config} 
-

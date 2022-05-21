@@ -4371,7 +4371,7 @@
             },
             {
                 "content": "Natsuki glares at me, drying up any words I had in my mouth.","char":"nobody",
-                "charImg":"NatsukiCrossedArms7.png"
+                "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms7.png"}]
             },
             {
                 "content": "So instead, I turn to Yuri.","char":"nobody"
@@ -4603,7 +4603,8 @@
             {
                 "char": "you",
                 "content": "So, this is why Sayori is Vice President...",
-                "charImg":"Mon9.png"
+                "charImg":"Mon9.png",
+                "newCharacter":"erase"
             },
             {
                 "content": "I whisper to Monika.","char":"nobody"
