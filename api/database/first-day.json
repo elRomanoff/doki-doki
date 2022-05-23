@@ -421,7 +421,7 @@
 {
     "char": "nobody",
     "content": "Eh? I glance around the room.",
-    "insertImg":"s",
+    "charImg":"non",
     "animation": [
         {
             "direction": "left",
@@ -431,7 +431,6 @@
 },
 {
     "char":"Girl 1",
-    "insertImg": "Yuri",
     "content": "Welcome to the Literature Club. It's a pleasure meeting you.",
     "charImg":"Yuri_school_2.png"
 },
@@ -486,7 +485,6 @@
     "content": "IS FULL OF INCREDIBLY CUTE GIRLS!!!"
 },
 {
-    "insertImg":"Natsuki",
     "char": "Girl 2",
     "content":"What are you looking at?",
     "newCharacter": "erase",
@@ -615,7 +613,7 @@
     "char":"Monika",
     "content":"That's right.",
     "charImg": "Ika1.png",
-    "newCharacter":[{"char":"Sayori", "charImg":"Say1.png"},{"char":"Yuri", "charImg":"Yuri_school_2.png", "hide":"hide"}],
+    "newCharacter":[{"char":"Sayori","new":true,"left":true, "charImg":"Say1.png"},{"char":"Yuri","new":true, "charImg":"Yuri_school_2.png", "hide":"hide"}],
     "comment": "armar imagen de monika",
     "animation": [
         {
@@ -632,7 +630,6 @@
 {
     "char": "nobody",
     "content":"Monika smiles sweetly.",
-    "insertImg":"Monika", 
     "charImg":"3aa.png",
     "animation":[{
         "direction":"jump",
@@ -663,8 +660,9 @@
     "char":"Sayori",
     "content":"Come sit down, #var! We made room for you at the table, so you can sit next to me or Monika.",
     "usesVar":"true",
-    "charImg":"Ori24.png",
-    "newCharacter": "erase"
+    "newCharacter":[{"char":"Sayori","charImg":"Ori24.png"}],
+    "charImg":"non",
+    "animation":[{"char":"Sayori","direction":"height","value":"102%"}]
 },
 {
     "content":"I'll get the cupcakes~"
@@ -674,17 +672,13 @@
     "char":"Natsuki",
     "charImg":"Schoold.png",
     "content":"Hey! I made them, I'll get them!",
-    "newCharacter":[{"new":"true", "hide":"hide", "char":"Sayori","charImg":"3a.png","left":"true"},{
-            "new": "true",
-            "char": "Yuri",
-            "charImg": "Yuri_school_2.png"
-        }]
+    "animation":[{"char":"Sayori","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
 },
 {
     "char":"Sayori",
     "content":"Sorry, I got a little too exited~",
     "newCharacter":[{
-        "char":"Sayori","hide":"non"
+        "char":"Sayori","hide":"non","charImg": "3a.png"
     }],
     "animation": [
         {
@@ -766,6 +760,7 @@
 {
     "char":"Monika",
     "content":"I had no idea you were so good at baking, Natsuki!",
+    "newCharacter":[{"char":"Monika", "charImg":"Mon2.png"}],
     "animation":[{
         "char":"Sayori","direction":"height","value":"100%"
     },
@@ -800,6 +795,7 @@
 {
     "char":"Sayori",
     "content":"It's delicious!",
+    "newCharacter":[{"char":"Sayori","charImg":"Ori17.png"}],
         "animation": [
             {
                 "direction": "height",
@@ -824,7 +820,6 @@
     "char":"nobody",
     "content":"Natsuki is quiet.",
     "charImg":"Schoolb.png",
-    "insertImg":"Natsuki",
     "newCharacter":"erase"
 },
 {
@@ -1049,7 +1044,7 @@
 },
 {
     "char":"Monika",
-    "charImg":"Ika2.png",
+    "charImg":"Monika2.png",
     "content":"You could put it that way."
 },
 {
@@ -1074,6 +1069,7 @@
 },
 {
     "char":"Sayori",
+    "charImg":"Monika1.png",
     "content":"Yeah!",
     "newCharacter":[{"char":"Sayori","new":"true","charImg":"Ori18.png", "left":"true"}]
 },

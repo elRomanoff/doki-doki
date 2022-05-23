@@ -741,11 +741,6 @@
                 {
                     "char": "Natsuki",
                     "content": "Only because Monika will make me if I don't."
-                },
-                {
-                    "content": "Who should I show my poem to next?",
-                    "charImg": "non",
-                    "selectMenu": "continue"
                 }
             ],
             "like":[
@@ -910,7 +905,8 @@
             ],
             "end":[
                 {
-                    "poem":"poem goes here uwu"
+                    "poem":"poem goes here uwu",
+                    "content":".............................................................................."
                 },
                 {
                     "char": "Natsuki",

@@ -11,7 +11,16 @@ class Background {
         this.domImg.src = dictionary[src];
     }
     defineImgWithAnimation(src){
+        const prevImg = document.createElement("img")
+        prevImg.src = this.domImg.src;
+        prevImg.classList.add("char-bg", "char-bg-over")
+        mainScreen.appendChild(prevImg);
+
         this.domImg.src = dictionary[src];
+        prevImg.addEventListener("click", ()=> prevImg.classList.add("hidden"))
+        setTimeout(() => prevImg.classList.add("hidden"),100)
+        setTimeout(() =>{mainScreen.removeChild(prevImg)},1300)
+
     }
     append() {
         mainScreen.appendChild(this.domImg)

@@ -101,7 +101,7 @@ body{
     margin: 0 -10%
 }
 .hidden{
-    opacity:0;
+    opacity:0 !important;
 }
 .none{
     display:none !important
@@ -189,6 +189,10 @@ body{
     height: inherit;
     position: absolute;
     z-index: 2;
+}
+.char-bg-over{
+    z-index: 3!important;
+    transition: opacity 1s linear .1s;
 }
 
 @keyframes crosser {

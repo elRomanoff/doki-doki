@@ -6,6 +6,7 @@ import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
 import Background from "/scripts/backgrounds.js"
+import managePoem from "/scripts/managePoem.js"
 
 //config stuff
 const you = config.getName();
@@ -94,7 +95,9 @@ fetch(chapter)
             if (element.newRoute) {
                 arrDialog.push(...auxDialogArray)
             }
-            if (element.charImg) {encodeImg (dictionary[element.charImg]);
+            if (element.charImg) {
+                if(element.charImg.background) encodeImg(dictionary(element.charImg.background))
+                // encodeImg (dictionary[element.charImg]);
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
@@ -109,8 +112,7 @@ fetch(chapter)
 
 function runDialog(skipInterval) {
 
-
-    if (arrDialog[i]?.selectMenu && skipInterval === "skipping") return "stop"
+    if ((arrDialog[i]?.selectMenu || arrDialog[i]?.poem) && skipInterval === "skipping") return "stop"
 
     mainScreen.removeEventListener("click", runDialog)
 
@@ -118,13 +120,13 @@ function runDialog(skipInterval) {
     else {
         config.setRoute("")
         config.setAditionalRoute([])
+        config.setScore(0, 0, 0)
         config.setChapter(next);
         config.setGameIndex(0);
         window.location.reload()
     } 
     i++;
     if(enableMusic != "false"){
-        console.log(enableMusic)
         try{music.play();}catch(err){console.error(err.message)}
     }
 }
@@ -146,7 +148,10 @@ function manageProperties(objDialog){
         objDialog.animation.forEach(animation => manageAnimation(animation))
     }
     if(objDialog.music) {
-        try{music.pause()} catch{console.log("ahora mismo no hay musica sonando")}
+        try{
+            music.pause()
+            document.body.removeChild(music)
+        } catch{}
         music = cargarSonido("/api/sound/music/" + objDialog.music);
         song = objDialog.music
     }
@@ -175,6 +180,7 @@ function manageProperties(objDialog){
         }
         else createSelectionMenu(objDialog.selectMenu, objDialog, true)
     }
+    if(objDialog.poem)managePoem(objDialog.poem)
     if(objDialog.options) manageOptions(objDialog)
 }
 
@@ -265,7 +271,7 @@ function manageImage(img){
     }
 
     else{
-        if (img[img.length - 1] != "g"){ pngChar.src = ""; console.log(img)}
+        if (img[img.length - 1] != "g"){ pngChar.src = ""}
         else {
             pngChar.src = dictionary[img]
             currentImg = img;
@@ -275,7 +281,7 @@ function manageImage(img){
 function encodeImg(imgSrc) {
     const imgToInsert = document.createElement("img");
     imgToInsert.src = imgSrc
-    mainScreen.appendChild(imgToInsert);
+    document.body.appendChild(imgToInsert);
     imgToInsert.style.display = "none"
 }
 

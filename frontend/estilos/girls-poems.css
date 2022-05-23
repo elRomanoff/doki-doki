@@ -1,0 +1,8 @@
+.poem-bg{
+    width:50%;
+    height:100%;
+    background-image: url(../imagenes/paper.png);
+    background-repeat: repeat;
+    position: absolute;
+    z-index: 200
+}

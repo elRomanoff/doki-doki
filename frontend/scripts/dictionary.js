@@ -234,10 +234,10 @@ let dictionary = {
     //Sayori
     "sayori-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fsayori-bg-1.png?alt=media&token=f0c438d8-ecf3-4f30-b6e2-3a4b77af802b",
     //Natsuki
-    "natsuki-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fnatsuki-bg-1.png?alt=media&token=193a2891-9f96-4c32-bec1-e1893a332eba",
-    "natsuki-bg-2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fnatsuki-bg-2.png?alt=media&token=f35c8234-1810-4f2c-9a50-bc428f74fab0",
-    "natsuki-bg-3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fnatsuki-bg-3.png?alt=media&token=8470d3cf-5227-4bb5-b0a5-b44304e2cbf8",
-    "natsuki-bg-4.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fnatsuki-bg-4.png?alt=media&token=d44e3401-70bf-49bd-ab39-24a3d1b17a61",
+    "natsuki-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-1.png?alt=media&token=78be330a-7020-4488-acda-b91a906a6ed0",
+    "natsuki-bg-2.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-2.png?alt=media&token=e8e8efbe-c2f7-45a7-975f-65598cc7443f",
+    "natsuki-bg-3.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-3.png?alt=media&token=a413f155-99a0-40fe-93b6-6524017837c5",
+    "natsuki-bg-4.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-4.png?alt=media&token=4f976bf4-1aa2-4c40-90bb-6021a4b2b4f6",
     //yuri
     "yuri-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-1.png?alt=media&token=b106ef18-6170-4cbf-aac0-2ee7ace20782",
     "yuri-bg-2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-2.png?alt=media&token=330e77d5-7795-4ed2-be69-3c4cf199375c",
