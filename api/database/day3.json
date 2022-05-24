@@ -1,8 +1,19 @@
 [
     {
-        "usesRoute": true
+        "content":"ahora muestro un poema random"
     },
     {
-        "content":"ASdsad"
+        "poem": "poem goes here uwu",
+        "content": "..............................................................................",
+        "poemContent": "Monkeys can climb\n Crickets can leap\n Horses can race\n Owls can seek\n Cheetahs can run\n Eagles can fly\n People can try\n But that's about it"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Yeah...",
+        "charImg": "LeftArm4.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I told you that you weren't gonna like it."
     }
 ]

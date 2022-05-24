@@ -905,10 +905,15 @@
             ],
             "end":[
                 {
-                    "poem":"poem goes here uwu",
+                    "poem":{
+                        "content": "Monkeys can climb<br/> Crickets can leap<br/> Horses can race<br/> Owls can seek<br/> Cheetahs can run<br/> Eagles can fly<br/> People can try<br/> But that's about it",
+                        "title":"Eagles can fly",
+                        "char":"n"
+                    },
                     "content":".............................................................................."
                 },
                 {
+                    "poem":"quit",
                     "char": "Natsuki",
                     "content": "Yeah...",
                     "charImg":"LeftArm4.png"
@@ -1373,9 +1378,15 @@
                     "content": "We'll see about that."
                 },
                 {
-                    "poem":"poem goes here uwu"
+                    "content":"..................................................................",
+                    "poem":{
+                        "char":"s",
+                        "title":"Dear Sunshine",
+                        "content":"The way you glow through my blinds in the morning<br/>It makes me feel like you missed me.<br/>Kissing my forhead to help me out of bed.<br/>Making me rub the sleepy from my eyes.<br/><br/>Are you asking me to come out and play?<br/>Are you trusting me to wish away a rainy day?<br/>I look above. The sky is blue.<br/>It's a secret, but I trust you too.<br/><br/>If it wasn't for you, I could sleep forever.<br/>But I'm not mad.<br/><br/>I want breakfast."
+                    }
                 },
                 {
+                    "poem":"quit",
                     "char": "you",
                     "content": "Sayori..."
                 },
@@ -2024,11 +2035,18 @@
                     "content": "...After all, isn't this supposed to be a literature club?"
                 },
                 {
-                    "poem":"poem goes here uwu"
+                    "poem": {
+                        "content": "The tendrils of my hair illuminate beneath the amber glow.</br>Bathing.</br>It must be this one.</br>The last remaining streetlight to have withstood the test of time.</br>the last yet to be replaced by the sickening blue-green of the future.</br>I bathe. Calm; breathing air of the present but living in the past.</br>The light flickers.</br>I flicker back.",
+                        "title": "Ghost under the light",
+                        "char": "y"
+                    },
+                    "content": ".............................................................................."
                 },
                 {
                     "char": "Yuri",
-                    "content": "..."
+                    "poem":"quit",
+                    "content": "...",
+                    "charImg":"YSShy1.png"
                 },
                 {
                     "char": "Yuri",
@@ -2687,10 +2705,16 @@
                         "content": "Well, let's read it, then."
                     },
                     {
-                        "poem":"poem goes here uwu"
+                        "poem": {
+                            "content": "It couldn't have been me.<br/>See, the direction the spackle protrudes.<br/>A noisy neighbor? An angry boyfriend? I'll never know. I wasn't home.<br/>I peer inside for a clue.<br/>No! I can't see. I reel, blind, like a film left out in the sun.<br/>But it's too late. My retinas.<br/>Already scorched with a permanent copy of the meaningless image.<br/>It's just a little hole. It wasn't too bright.<br/>It was too deep.<br/>Stretching forever into everything.<br/>A hole of infinite choices.<br/>I realize now, that I wasn't looking in.<br/>I was looking out.<br/>And he, on the other side, was looking in.<br/><br/>",
+                            "title": "Hole in Wall",
+                            "char": "m"
+                        },
+                        "content": ".............................................................................."
                     },
 
                     {
+                        "poem":"quit",
                         "char": "Monika",
                         "content": "So...what do you think?"
                     },

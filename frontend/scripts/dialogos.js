@@ -6,11 +6,12 @@ import { Character } from "/scripts/characters.js"
 import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
 import Background from "/scripts/backgrounds.js"
-import managePoem from "/scripts/managePoem.js"
+import {managePoem} from "/scripts/managePoem.js"
 
 //config stuff
 const you = config.getName();
-const textSpeed = config.getTextSpeed();
+let enableMusic = config.getMusic();
+let textSpeed = config.getTextSpeed();
 const chapter = config.getChapter();
 const route = config.getRoute();
 const addRoute = config.getAditionalRoute();
@@ -20,7 +21,6 @@ const {sayScore,natScore,yuScore} = config.getScore()
 
 console.log(sayScore, natScore, yuScore)
 
-let enableMusic = config.getMusic();
 
 //GLOBALS
 
@@ -97,7 +97,7 @@ fetch(chapter)
             }
             if (element.charImg) {
                 if(element.charImg.background) encodeImg(dictionary(element.charImg.background))
-                // encodeImg (dictionary[element.charImg]);
+                encodeImg (dictionary[element.charImg]);
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
@@ -260,7 +260,7 @@ function manageBackground(background){
 function manageImage(img){
     if(!img) pngChar.src = "";
     else if (typeof img === "object"){
-        if (!img.background) mainScreen.removeChild(charBg.domImg)
+        if (!img.background) try{mainScreen.removeChild(charBg.domImg)}catch(e){}
         else if(charBg.domImg.src){
            charBg.defineImgWithAnimation(img.background)
         }
@@ -420,7 +420,6 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
         selectionOptions.Monika = objDialog.Monika
     }
     if(!selectionMenu.length){
-        console.log(arrDialog)
         textBox.innerHTML=""
         document.addEventListener("keydown", keyDownPress)
         return
@@ -501,7 +500,7 @@ function skip() {
                 clearInterval(skipInterval);
                 skipInterval = null;
             }
-        }, 300)
+        }, 150)
     }
     else {
         clearInterval(skipInterval)
