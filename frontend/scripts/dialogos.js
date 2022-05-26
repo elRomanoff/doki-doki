@@ -7,6 +7,7 @@ import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
 import Background from "/scripts/backgrounds.js"
 import {managePoem} from "/scripts/managePoem.js"
+import SimAudio from "/scripts/simAudio.js"
 
 //config stuff
 const you = config.getName();
@@ -38,6 +39,17 @@ let auxDialogArray = [];
 let selectionMenu = [];
 let selectionOptions = {};
 let next = "";
+
+const audioN = new SimAudio()
+const audioS = new SimAudio();
+const audioM = new SimAudio();
+const audioY = new SimAudio();
+const audioNeutral = new SimAudio();
+
+
+const audioCtxGroup = {sayori : new (AudioContext), natsuki : new (AudioContext), yuri : new (AudioContext), monika : new (AudioContext), neutral: new(AudioContext)}
+const audioGroup = {}
+const audioSourceGroup = { sayori:null, natsuki:null, yuri:null, monika:null, neutral:null }
 
 //variables to save game
 let {song, currentBackground, currentImg} = config.getExtra()
@@ -147,14 +159,8 @@ function manageProperties(objDialog){
     if(objDialog.animation){
         objDialog.animation.forEach(animation => manageAnimation(animation))
     }
-    if(objDialog.music) {
-        try{
-            music.pause()
-            document.body.removeChild(music)
-        } catch{}
-        music = cargarSonido("/api/sound/music/" + objDialog.music);
-        song = objDialog.music
-    }
+    if(objDialog.music) manageMusic(objDialog.music)
+    if(objDialog.musicGroup) manageMusicGroup(objDialog.musicGroup)
     if(objDialog.usesVar) {
         objDialog.content = objDialog.content.replace("#var", you)
     }
@@ -283,6 +289,117 @@ function encodeImg(imgSrc) {
     imgToInsert.src = imgSrc
     document.body.appendChild(imgToInsert);
     imgToInsert.style.display = "none"
+}
+
+function manageMusic(musicSrc) {
+    try {
+        music.pause()
+        document.body.removeChild(music)
+    } catch { }
+    music = cargarSonido("/api/sound/music/" + musicSrc);
+    song = musicSrc
+}
+
+function manageMusicGroup(group){
+    
+    if (group.new){
+        const notEncodedAudioN = fetch("/api/sound/music/" + group.nat)
+        const notEncodedAudioM = fetch("/api/sound/music/" + group.mon)
+        const notEncodedAudioS = fetch("/api/sound/music/" + group.say)
+        const notEncodedAudioY = fetch("/api/sound/music/" + group.yu)
+        const notEncodedAudioNeutral = fetch("/api/sound/music/" + group.neutral)
+
+        Promise.all([notEncodedAudioS,notEncodedAudioN,notEncodedAudioY,notEncodedAudioM,notEncodedAudioNeutral]).then(values =>{
+            values[0].arrayBuffer()
+                .then(arrayBuffer => audioS.ctx.decodeAudioData(arrayBuffer))
+                .then(decodedAudio => {
+                        audioS.audioBuffer = decodedAudio
+                        audioS.source = audioS.ctx.createBufferSource()
+                        audioS.source.buffer = audioS.audioBuffer;
+                        // audioS.source.connect(audioS.ctx.destination)
+
+                        audioS.gainNode = audioS.ctx.createGain();
+
+                        audioS.source.connect (audioS.gainNode)
+                        audioS.gainNode.gain.value = "0"
+                        audioS.gainNode.connect(audioS.ctx.destination)
+
+                        audioS.source.start()
+                    }
+                )
+            values[1].arrayBuffer()
+                .then(arrayBuffer => audioN.ctx.decodeAudioData(arrayBuffer))
+                    .then(decodedAudio => {
+                        audioN.audioBuffer = decodedAudio
+                        audioN.source = audioN.ctx.createBufferSource()
+                        audioN.source.buffer = audioN.audioBuffer;
+
+                        audioN.gainNode = audioN.ctx.createGain();
+
+                        audioN.source.connect(audioN.gainNode)
+                        audioN.gainNode.gain.value = "0"
+                        audioN.gainNode.connect(audioN.ctx.destination)
+
+                        audioN.source.start()
+                    }
+                )
+            values[2].arrayBuffer()
+                .then(arrayBuffer => audioY.ctx.decodeAudioData(arrayBuffer))
+                .then(decodedAudio => {
+                    audioY.audioBuffer = decodedAudio
+                    audioY.source = audioY.ctx.createBufferSource()
+                    audioY.source.buffer = audioY.audioBuffer;
+
+                    audioY.gainNode = audioY.ctx.createGain();
+
+                    audioY.source.connect(audioY.gainNode)
+                    audioY.gainNode.gain.value = "0"
+                    audioY.gainNode.connect(audioY.ctx.destination)
+
+                    audioY.source.start()
+                }
+                )
+            values[3].arrayBuffer()
+                .then(arrayBuffer => audioM.ctx.decodeAudioData(arrayBuffer))
+                .then(decodedAudio => {
+                    audioM.audioBuffer = decodedAudio
+                    audioM.source = audioM.ctx.createBufferSource()
+                    audioM.source.buffer = audioM.audioBuffer;
+
+                    audioM.gainNode = audioM.ctx.createGain();
+
+                    audioM.source.connect(audioM.gainNode)
+                    audioM.gainNode.gain.value = "0"
+                    audioM.gainNode.connect(audioM.ctx.destination)
+
+                    audioM.source.start()
+                }
+                )
+            values[4].arrayBuffer()
+                .then(arrayBuffer => audioNeutral.ctx.decodeAudioData(arrayBuffer))
+                .then(decodedAudio => {
+                    audioNeutral.audioBuffer = decodedAudio
+                    audioNeutral.source = audioNeutral.ctx.createBufferSource()
+                    audioNeutral.source.buffer = audioNeutral.audioBuffer;
+
+                    audioNeutral.gainNode = audioNeutral.ctx.createGain();
+
+                    audioNeutral.source.connect(audioNeutral.gainNode)
+                    audioNeutral.gainNode.connect(audioNeutral.ctx.destination)
+
+                    audioNeutral.source.start()
+                }
+                )  
+
+        })
+    }
+    else{
+        if(group === "n"){audioN.unMute(); audioNeutral.mute()} 
+        else if (group === "s") { audioS.unMute(); audioNeutral.mute() } 
+        else if (group === "m") { audioM.unMute(); audioNeutral.mute() }
+        else if (group === "y") { audioY.unMute(); audioNeutral.mute() }
+        else if (group === "neutral") { audioNeutral.unMute(); audioS.mute(); audioY.mute();audioM.mute();audioN.mute() }
+    }
 }
 
 //add new character to the Screen

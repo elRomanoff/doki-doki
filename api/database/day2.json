@@ -596,7 +596,15 @@
         "newCharacter":"erase",
         "content":"Who should I show my poem to first?",
         "char":"nobody",
-        "music":"okay-everyone.mp3",
+        "musicGroup":{
+            "new":"true",
+            "nat":"okay-everyoneN.mp3",
+            "mon":"okay-everyoneM.mp3",
+            "say":"okay-everyoneS.mp3",
+            "yu":"okay-everyoneY.mp3",
+            "neutral":"okay-everyone.mp3"
+
+        },
         "Natsuki":{
             "love":[
                 {
@@ -910,10 +918,12 @@
                         "title":"Eagles can fly",
                         "char":"n"
                     },
+                    "musicGroup":"n",
                     "content":".............................................................................."
                 },
                 {
                     "poem":"quit",
+                    "musicGroup":"neutral",
                     "char": "Natsuki",
                     "content": "Yeah...",
                     "charImg":"LeftArm4.png"
@@ -1378,7 +1388,8 @@
                     "content": "We'll see about that."
                 },
                 {
-                    "content":"..................................................................",
+                    "content":"..................................................................",   
+                    "musicGroup":"s",
                     "poem":{
                         "char":"s",
                         "title":"Dear Sunshine",
@@ -1387,6 +1398,7 @@
                 },
                 {
                     "poem":"quit",
+                    "musicGroup": "neutral",
                     "char": "you",
                     "content": "Sayori..."
                 },
@@ -2040,12 +2052,14 @@
                         "title": "Ghost under the light",
                         "char": "y"
                     },
+                    "musicGroup": "y",
                     "content": ".............................................................................."
                 },
                 {
                     "char": "Yuri",
                     "poem":"quit",
                     "content": "...",
+                    "musicGroup": "neutral",
                     "charImg":"YSShy1.png"
                 },
                 {
@@ -2710,11 +2724,13 @@
                             "title": "Hole in Wall",
                             "char": "m"
                         },
+                        "musicGroup": "m",
                         "content": ".............................................................................."
                     },
 
                     {
                         "poem":"quit",
+                        "musicGroup": "neutral",
                         "char": "Monika",
                         "content": "So...what do you think?"
                     },
