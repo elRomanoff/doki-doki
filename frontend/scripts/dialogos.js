@@ -7,7 +7,6 @@ import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
 import Background from "/scripts/backgrounds.js"
 import {managePoem} from "/scripts/managePoem.js"
-import SimAudio from "/scripts/simAudio.js"
 
 //config stuff
 const you = config.getName();
@@ -18,8 +17,11 @@ const route = config.getRoute();
 const addRoute = config.getAditionalRoute();
 let i = config.getGameIndex();
 const inScreenCharacters = config.getScreenCharacters();
-const {sayScore,natScore,yuScore} = config.getScore()
+const {sayScore,natScore,yuScore} = config.getScore();
+const choices = config.getChoices();
+let currentChoice = 0;
 
+console.log(choices)
 console.log(sayScore, natScore, yuScore)
 
 
@@ -40,22 +42,20 @@ let selectionMenu = [];
 let selectionOptions = {};
 let next = "";
 
-const audioN = new SimAudio()
-const audioS = new SimAudio();
-const audioM = new SimAudio();
-const audioY = new SimAudio();
-const audioNeutral = new SimAudio();
+let audioN
+let audioS 
+let audioM 
+let audioY 
+let audioNeutral 
 
-
-const audioCtxGroup = {sayori : new (AudioContext), natsuki : new (AudioContext), yuri : new (AudioContext), monika : new (AudioContext), neutral: new(AudioContext)}
-const audioGroup = {}
-const audioSourceGroup = { sayori:null, natsuki:null, yuri:null, monika:null, neutral:null }
 
 //variables to save game
 let {song, currentBackground, currentImg} = config.getExtra()
+
 manageImage(currentImg)
 manageBackground(currentBackground)
 music = cargarSonido("/api/sound/music/" + song)
+if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
 
 //instance of characters and background
 let sayori = new Character("sayori")
@@ -96,16 +96,20 @@ fetch(chapter)
             }
         }
     
+        let limit = i;
+        let sumIndex = 0;
+
         x.forEach((element, index) => {
             
-            if (index <= i && element.newCharacter && element.newCharacter !=="erase") {
+            if (index + sumIndex <= i && element.newCharacter && element.newCharacter !=="erase") {
                 //todo este quilombo es para arrancar el juego cuando cargas la partida y hay muchos personajes en pantalla
                 element.newCharacter.forEach(y => {
                     if (y.charImg) manageNewCharacter({ "char": y.char, "charImg": y.charImg })
                 })
             }
             if (element.newRoute) {
-                arrDialog.push(...auxDialogArray)
+                arrDialog.push(...auxDialogArray);
+                sumIndex = auxDialogArray.length
             }
             if (element.charImg) {
                 if(element.charImg.background) encodeImg(dictionary(element.charImg.background))
@@ -113,10 +117,62 @@ fetch(chapter)
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
+            if (index + sumIndex <= i && element.selectMenu){
+
+                selectionMenu = element.selectMenu.map(objChar => { return objChar })
+
+                if (element.dependsOnRoute) {
+                    selectionOptions.Monika = element.Monika.concat(element.Monika[0][route]);
+
+                    if (sayScore < 30) selectionOptions.Sayori = element.Sayori.dislike
+                    else if (sayScore >= 30 && sayScore < 45) selectionOptions.Sayori = element.Sayori.like
+                    else selectionOptions.Sayori = element.Sayori.love
+                    if (yuScore < 30) selectionOptions.Yuri = element.Yuri.dislike;
+                    else if (yuScore >= 30 && yuScore < 45) selectionOptions.Yuri = element.Yuri.like;
+                    else selectionOptions.Yuri = element.Yuri.love
+
+                    if (natScore < 30) selectionOptions.Natsuki = element.Natsuki.dislike;
+                    else if (natScore >= 30 && natScore < 45) selectionOptions.Natsuki = element.Natsuki.like;
+                    else selectionOptions.Natsuki = element.Natsuki.love;
+
+                    selectionOptions.Sayori = [...selectionOptions.Sayori, ...element.Sayori.end]
+                    selectionOptions.Yuri = [...selectionOptions.Yuri, ...element.Yuri.end]
+                    selectionOptions.Natsuki = [...selectionOptions.Natsuki, ...element.Natsuki.end]
+                    selectionOptions.Monika = [...selectionOptions.Monika, ...element.Monika[0].end]
+                }
+                else{
+                    selectionOptions.Sayori = element.Sayori;
+                    selectionOptions.Yuri = element.Yuri;
+                    selectionOptions.Natsuki = element.Natsuki;
+                    selectionOptions.Monika = element.Monika
+                }
+
+                for(currentChoice; currentChoice < choices.length; currentChoice++){
+                    if (selectionMenu.length >= 4) {
+                        arrDialog.splice(index + sumIndex, 0, ...selectionMenu.find(y => { return y.char === choices[currentChoice] }).message)
+                        sumIndex = sumIndex + 2
+                    }
+                    let finded = selectionMenu.find(x => x.char === choices[currentChoice]);
+                    let indexFinded = selectionMenu.indexOf(finded)
+                    selectionMenu.splice(indexFinded, 1)
+
+                    if (selectionOptions[choices[currentChoice]]){
+                        arrDialog.splice(index + sumIndex, 0, ...selectionOptions[choices[currentChoice]])
+
+                        sumIndex = sumIndex + selectionOptions[choices[currentChoice]].length
+                    }
+                    element = {}
+
+                    if(selectionMenu.length < 1) break;
+                }
+
+            }
+
             //
             arrDialog.push(element)
             //
         });
+        console.log(i, arrDialog)
     
         mainScreen.addEventListener("click",runDialog)
     })
@@ -135,12 +191,10 @@ function runDialog(skipInterval) {
         config.setScore(0, 0, 0)
         config.setChapter(next);
         config.setGameIndex(0);
+        config.setChoices([])
         window.location.reload()
     } 
     i++;
-    if(enableMusic != "false"){
-        try{music.play();}catch(err){console.error(err.message)}
-    }
 }
 
 function manageProperties(objDialog){
@@ -160,7 +214,7 @@ function manageProperties(objDialog){
         objDialog.animation.forEach(animation => manageAnimation(animation))
     }
     if(objDialog.music) manageMusic(objDialog.music)
-    if(objDialog.musicGroup) manageMusicGroup(objDialog.musicGroup)
+    if(objDialog.musicGroup && (enableMusic !== "false" || !enableMusic) )  manageMusicGroup(objDialog.musicGroup)
     if(objDialog.usesVar) {
         objDialog.content = objDialog.content.replace("#var", you)
     }
@@ -246,18 +300,26 @@ function addAnimatedText(text) {
 
 function manageBackground(background){
 
-    currentBackground = background;
     let overScreen = document.createElement("div")
     overScreen.classList.add("crosser");
-    mainScreen.appendChild(overScreen);
     if(background === "transition"){
+        mainScreen.appendChild(overScreen);
         setTimeout(() => mainScreen.removeChild(overScreen), 500)
     }
+    else if (background.noTransition){
+        mainScreen.style.backgroundImage = "url('" + dictionary[background.src] + "')"
+        currentBackground = mainScreen.style.backgroundImage;
+    }
     else{
+        mainScreen.appendChild(overScreen);
         setTimeout(() => {
-            mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
+            if (background[background.length - 1] === ")") mainScreen.style.backgroundImage = background
+            else mainScreen.style.backgroundImage = "url('" + dictionary[background] + "')"
             setTimeout(() => mainScreen.removeChild(overScreen), 500)
         }, 500)
+
+        if(dictionary[background]) currentBackground = "url('" + dictionary[background] + "')"
+        else currentBackground = background
         pngChar.src = "";
         textBox.innerHTML = "";
     }
@@ -267,12 +329,15 @@ function manageImage(img){
     if(!img) pngChar.src = "";
     else if (typeof img === "object"){
         if (!img.background) try{mainScreen.removeChild(charBg.domImg)}catch(e){}
-        else if(charBg.domImg.src){
-           charBg.defineImgWithAnimation(img.background)
-        }
-        else{
-            charBg.defineImg(img.background)
-            charBg.append();
+        else{ 
+            if(charBg.domImg.src){
+            charBg.defineImgWithAnimation(img.background)
+            }
+            else{
+                charBg.defineImg(img.background)
+                charBg.append();
+            }
+        currentBackground = "url(" + dictionary[img.background] + ")"
         }
     }
 
@@ -296,110 +361,59 @@ function manageMusic(musicSrc) {
         music.pause()
         document.body.removeChild(music)
     } catch { }
-    music = cargarSonido("/api/sound/music/" + musicSrc);
-    song = musicSrc
+    if(musicSrc !=="stop"){
+        music = cargarSonido("/api/sound/music/" + musicSrc, true);
+        song = musicSrc
+        if (enableMusic !== "false" || !enableMusic) music.play()
+    }
 }
 
 function manageMusicGroup(group){
     
     if (group.new){
-        const notEncodedAudioN = fetch("/api/sound/music/" + group.nat)
-        const notEncodedAudioM = fetch("/api/sound/music/" + group.mon)
-        const notEncodedAudioS = fetch("/api/sound/music/" + group.say)
-        const notEncodedAudioY = fetch("/api/sound/music/" + group.yu)
-        const notEncodedAudioNeutral = fetch("/api/sound/music/" + group.neutral)
+        audioN = cargarSonido("/api/sound/music/" + group.nat, true)
+        audioM = cargarSonido("/api/sound/music/" + group.mon, true)
+        audioS = cargarSonido("/api/sound/music/" + group.say, true)
+        audioY = cargarSonido("/api/sound/music/" + group.yu, true)
+        audioNeutral = cargarSonido("/api/sound/music/" + group.neutral, true)
 
-        Promise.all([notEncodedAudioS,notEncodedAudioN,notEncodedAudioY,notEncodedAudioM,notEncodedAudioNeutral]).then(values =>{
-            values[0].arrayBuffer()
-                .then(arrayBuffer => audioS.ctx.decodeAudioData(arrayBuffer))
-                .then(decodedAudio => {
-                        audioS.audioBuffer = decodedAudio
-                        audioS.source = audioS.ctx.createBufferSource()
-                        audioS.source.buffer = audioS.audioBuffer;
-                        // audioS.source.connect(audioS.ctx.destination)
-
-                        audioS.gainNode = audioS.ctx.createGain();
-
-                        audioS.source.connect (audioS.gainNode)
-                        audioS.gainNode.gain.value = "0"
-                        audioS.gainNode.connect(audioS.ctx.destination)
-
-                        audioS.source.start()
-                    }
-                )
-            values[1].arrayBuffer()
-                .then(arrayBuffer => audioN.ctx.decodeAudioData(arrayBuffer))
-                    .then(decodedAudio => {
-                        audioN.audioBuffer = decodedAudio
-                        audioN.source = audioN.ctx.createBufferSource()
-                        audioN.source.buffer = audioN.audioBuffer;
-
-                        audioN.gainNode = audioN.ctx.createGain();
-
-                        audioN.source.connect(audioN.gainNode)
-                        audioN.gainNode.gain.value = "0"
-                        audioN.gainNode.connect(audioN.ctx.destination)
-
-                        audioN.source.start()
-                    }
-                )
-            values[2].arrayBuffer()
-                .then(arrayBuffer => audioY.ctx.decodeAudioData(arrayBuffer))
-                .then(decodedAudio => {
-                    audioY.audioBuffer = decodedAudio
-                    audioY.source = audioY.ctx.createBufferSource()
-                    audioY.source.buffer = audioY.audioBuffer;
-
-                    audioY.gainNode = audioY.ctx.createGain();
-
-                    audioY.source.connect(audioY.gainNode)
-                    audioY.gainNode.gain.value = "0"
-                    audioY.gainNode.connect(audioY.ctx.destination)
-
-                    audioY.source.start()
-                }
-                )
-            values[3].arrayBuffer()
-                .then(arrayBuffer => audioM.ctx.decodeAudioData(arrayBuffer))
-                .then(decodedAudio => {
-                    audioM.audioBuffer = decodedAudio
-                    audioM.source = audioM.ctx.createBufferSource()
-                    audioM.source.buffer = audioM.audioBuffer;
-
-                    audioM.gainNode = audioM.ctx.createGain();
-
-                    audioM.source.connect(audioM.gainNode)
-                    audioM.gainNode.gain.value = "0"
-                    audioM.gainNode.connect(audioM.ctx.destination)
-
-                    audioM.source.start()
-                }
-                )
-            values[4].arrayBuffer()
-                .then(arrayBuffer => audioNeutral.ctx.decodeAudioData(arrayBuffer))
-                .then(decodedAudio => {
-                    audioNeutral.audioBuffer = decodedAudio
-                    audioNeutral.source = audioNeutral.ctx.createBufferSource()
-                    audioNeutral.source.buffer = audioNeutral.audioBuffer;
-
-                    audioNeutral.gainNode = audioNeutral.ctx.createGain();
-
-                    audioNeutral.source.connect(audioNeutral.gainNode)
-                    audioNeutral.gainNode.connect(audioNeutral.ctx.destination)
-
-                    audioNeutral.source.start()
-                }
-                )  
-
-        })
+        audioNeutral.play()
     }
-    else{
-        if(group === "n"){audioN.unMute(); audioNeutral.mute()} 
-        else if (group === "s") { audioS.unMute(); audioNeutral.mute() } 
-        else if (group === "m") { audioM.unMute(); audioNeutral.mute() }
-        else if (group === "y") { audioY.unMute(); audioNeutral.mute() }
-        else if (group === "neutral") { audioNeutral.unMute(); audioS.mute(); audioY.mute();audioM.mute();audioN.mute() }
+    else if(group === "n"){
+        audioN.play();
+        audioN.currentTime = audioNeutral.currentTime
+        audioNeutral.muted = true;
     }
+    else if (group === "s") {
+        audioS.play();
+        audioS.currentTime = audioNeutral.currentTime
+        audioNeutral.muted = true;
+    }
+    else if (group === "y") {
+        audioY.play();
+        audioY.currentTime = audioNeutral.currentTime
+        audioNeutral.muted = true;
+    }
+    else if (group === "m") {
+        audioM.play();
+        audioM.currentTime = audioNeutral.currentTime
+        audioNeutral.muted = true;
+    }
+    else if (group === "neutral"){
+        audioNeutral.muted = false;
+        audioM.pause();
+        audioY.pause();
+        audioN.pause();
+        audioS.pause();
+    }
+    else if (group ==="end"){
+        document.body.removeChild(audioM)
+        document.body.removeChild(audioN)
+        document.body.removeChild(audioS)
+        document.body.removeChild(audioY)
+        document.body.removeChild(audioNeutral)
+    }
+    
 }
 
 //add new character to the Screen
@@ -487,6 +501,11 @@ function manageAnimation(objAnimation){
                 char.classList.remove("jump-animation");
             },600)
         }
+        else if (objAnimation.direction === "return"){
+            char.style.left = "0%"
+            char.style.top="0%"
+            char.style.height ="100%"
+        }
     }
     else if(objAnimation.char === "Yuri"){
         yuri.animation(objAnimation.direction, objAnimation.value)
@@ -565,6 +584,7 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
             mainScreen.dispatchEvent(event)
             //
             selectionMenu = selectionMenu.filter(filtered => filtered.char !== e.target.classList[1])
+            choices.push(e.target.classList[1])
         })
         selectContainer.appendChild(charSelect) 
     })
@@ -579,7 +599,19 @@ function saveGame(option) {
     const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
-    const objectToSave = {inScreenCharacters:[], doki_currentGame: i, background: mainScreen.style.backgroundImage, date: fullDate, chapter: chapter, route:route, addRoute: addRoute, song:song, img:currentImg, currentBackground:currentBackground}
+    const objectToSave = {
+        inScreenCharacters:[], 
+        doki_currentGame: i,
+        date: fullDate,
+        chapter: chapter,
+        choices:choices,
+        route:route,
+        addRoute: addRoute, 
+        song:song, 
+        img:currentImg, 
+        background:currentBackground,
+        score:[sayScore, natScore, yuScore]
+    }
     
     for (let index = 0; index < inScreenCharacters.length; index++) {
         if(inScreenCharacters[index].id) objectToSave.inScreenCharacters.push("char")

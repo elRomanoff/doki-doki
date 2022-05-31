@@ -10,7 +10,10 @@ const rawArray = (rawText.split("\n"))
 
 const arr = rawArray.map(x =>{
     const rawObj = {}
-    if(x[0] === "m" && x[1] === "c") {
+    if ((x[0] === "s" && x[1] === "h" && x[2] === "o") || (x[0] === "h" && x[1] === "i" && x[2] === "d")){
+        x = ""
+    }
+    else if(x[0] === "m" && x[1] === "c") {
         rawObj.char = "you";  
         x = x.slice(0, -1); 
         x = x.split(`"`);

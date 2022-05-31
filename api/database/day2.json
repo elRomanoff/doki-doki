@@ -596,6 +596,7 @@
         "newCharacter":"erase",
         "content":"Who should I show my poem to first?",
         "char":"nobody",
+        "music":"stop",
         "musicGroup":{
             "new":"true",
             "nat":"okay-everyoneN.mp3",
@@ -1112,7 +1113,8 @@
             "dislike":[
                     {
                         "char": "Sayori",
-                        "content": "..."
+                        "content": "...",
+                        "charImg":"Say26.png"
                     },
                     {
                         "char": "Sayori",
@@ -1125,7 +1127,8 @@
                     },
                     {
                         "char": "Sayori",
-                        "content": "Your poem is really bad!"
+                        "content": "Your poem is really bad!",
+                        "charImg": "Ori18.png"  
                     },
                     {
                         "char": "Sayori",
@@ -1137,7 +1140,8 @@
                     },
                     {
                         "char": "Sayori",
-                        "content": "It's fine, it's fine~"
+                        "content": "It's fine, it's fine~",
+                        "charImg":"Ori1.png"
                     },
                     {
                         "char": "Sayori",
@@ -2944,6 +2948,7 @@
     },
     {
         "music":"main-theme.mp3",
+        "musicGroup":"end",
         "char": "you",
         "content": "Phew..."
     },  
@@ -3287,7 +3292,8 @@
     },
     {
         "char": "Yuri",
-        "content": "He even told me he was impressed by it."
+        "content": "He even told me he was impressed by it.",
+        "music": "stop"
     },
     {
         "char":"nobody",
@@ -3316,6 +3322,7 @@
     {
         "char": "Yuri",
         "content": "E-Eh?!",
+        "music":"poem-panic.mp3",
         "animation": [
             {
                 "char": "Natsuki",
@@ -3513,7 +3520,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "If she could get over herself and learn to appreciate that {i}simple{/i} writing is more effective...",
+        "content": "If she could get over herself and learn to appreciate that simple writing is more effective...",
         "newCharacter":[{"char":"Natsuki","charImg":"Y16.png"}]
     },
     {
@@ -3619,6 +3626,7 @@
     {
         "char":"nobody",
         "content": "So, of course that's going to be...!",
+        "music":"stop",
         "selectMenu":[{"char":"Natsuki", "content":"Natsuki."},{"char":"Yuri","content":"Yuri."},{"char":"Sayori", "content":"Help me, Sayori!"}],
         "Natsuki":[
             {
@@ -3631,7 +3639,8 @@
             },
             {
                 "char": "you",
-                "content": "You're really talented."
+                "content": "You're really talented.",
+                "music":"daijoubu.mp3"
             },
             {
                 "char": "Yuri",
@@ -3849,7 +3858,7 @@
             },
             {
                 "char": "Natsuki",
-                "content": "{i}Would everyone stop staring at me??{/i}",
+                "content": "Would everyone stop staring at me??",
                 "animation":[{"char":"Natsuki","direction":"jump"}],
                 "newCharacter":[{"char":"Natsuki","charImg":"Schooly.png"}]
             },
@@ -4060,7 +4069,8 @@
                 "char": "you",
                 "content": "Wait!",
                 "newCharacter":[{"char":"Natsuki","charImg":"Schoolf.png"}],
-                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"}]
+                "animation":[{"char":"Natsuki", "direction":"height","value":"100%"}],
+                "music": "daijoubu.mp3"
             },
             {
                 "char": "you",
@@ -4443,7 +4453,8 @@
             },
             {
                 "char": "you",
-                "content": "Everyone's fighting is making Sayori uncomfortable."
+                "content": "Everyone's fighting is making Sayori uncomfortable.",
+                "music": "daijoubu.mp3"
             },
             {
                 "char": "you",

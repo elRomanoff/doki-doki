@@ -88,6 +88,15 @@ const config = {
         if(!this.aditionalRoute) this.aditionalRoute = [];
         return this.aditionalRoute;
     },
+    //choices
+
+    choices: localStorage.getItem("choices"),
+    getChoices: function(){
+        if(!this.choices || !this.choices.length || this.choices === "undefined") return []
+        else return JSON.parse(this.choices)
+    },
+    setChoices: function(choices){localStorage.setItem("choices", JSON.stringify(choices))},
+
     //extra
     setExtra: function(song, img, background){
         localStorage.setItem("currentSong", song)
@@ -121,7 +130,8 @@ const config = {
         this.setChapter("")
         this.setScreenCharacters(["char"]);
         this.setAditionalRoute([])
-        this.setExtra({})
+        this.setExtra({}),
+        this.setChoices([])
     },
     //loadGame
     setLoadGame: function(obj){
@@ -130,7 +140,10 @@ const config = {
         this.setChapter(obj?.chapter)
         this.setAditionalRoute(obj?.aditionalRoute)
         this.setScreenCharacters(obj?.inScreenCharacters)
-        this.setExtra(obj.song, obj.img, obj.currentBackground)
+        this.setExtra(obj.song, obj.img, obj.background)
+        if (Array.isArray(obj.score))this.setScore(obj?.score[0], obj?.score[1], obj?.score[2])
+        else(this.setScore(0,0,0))
+        this.setChoices(obj?.choices)
     }
 
 }

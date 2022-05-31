@@ -680,11 +680,15 @@
     {
         "char": "Yuri",
         "content": "I-I see...",
-        "charImg":"YSSad3.png"
+        "newBackground": {
+            "noTransition": true,
+            "src": "Club.png"
+        }
     },
     {
         "content": "Yuri remains silent for a moment.", "char":"nobody",
-        "charImg":{"background":""}
+        "charImg":{"background":""},
+        "newBackground": "Club.png"
     },
     {
         "usesVar":true,

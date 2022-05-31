@@ -1,8 +1,9 @@
-function cargarSonido(fuente) {
+function cargarSonido(fuente, loop) {
     const sonido = document.createElement("audio");
     sonido.src = fuente;
     sonido.setAttribute("preload", "auto");
     sonido.setAttribute("controls", "none");
+    if(loop) sonido.setAttribute("loop", true);
     sonido.style.display = "none"; // <-- oculto
     document.body.appendChild(sonido);
     return sonido;

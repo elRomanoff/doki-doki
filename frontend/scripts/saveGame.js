@@ -1,4 +1,5 @@
 import { config } from "/scripts/config.js";
+import { dictionary } from "/scripts/dictionary.js"
 
 let arrSave = [
     findSave(0),
@@ -71,7 +72,8 @@ function createSaveScreen(option, objectToSave){
                     loadDiv.addEventListener("click", (e)=>{
                         let saveNum = e.target.classList[1]
                         localStorage.setItem(`doki_save${saveNum}`, JSON.stringify(objectToSave))
-                        arrSave[saveNum] = findSave(saveNum)  
+                        console.log(localStorage.getItem(`doki_save${saveNum}`))
+                        arrSave[saveNum] = findSave(saveNum) 
                         e.target.style.backgroundImage = objectToSave.background
                         e.target.firstChild.innerHTML = objectToSave.date
                     })

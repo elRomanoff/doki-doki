@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body id="body">
-    <button id="say">Sayori</button>
-    <button id="nat">Natsuki</button>
-    <button id="yu">Yuri</button>
-    <button id="mon">Monika</button>
+<body>
+    <div id="body">
+        <button id="say">Sayori</button>
+        <button id="nat">Natsuki</button>
+        <button id="yu">Yuri</button>
+        <button id="mon">Monika</button>
+    </div>
 
-    <audio id="audio-mon" muted src="./okay-everyoneM.mp3"></audio>
-    <audio id="audio-say" muted src="./okay-everyoneS.mp3"></audio>
-    <audio id="audio-nat" muted  src="./okay-everyoneN.mp3"></audio>
-    <audio id="audio-yu" muted src="./okay-everyoneY.mp3"></audio>
+    <audio id="audio-mon" src="./okay-everyoneM.mp3"></audio>
+    <audio id="audio-say" src="./okay-everyoneS.mp3"></audio>
+    <audio id="audio-nat"  src="./okay-everyoneN.mp3"></audio>
+    <audio id="audio-yu" src="./okay-everyoneY.mp3"></audio>
 
 </body>
 
@@ -31,33 +33,6 @@
     const audioNat = document.getElementById("audio-nat");
     const audioYu = document.getElementById("audio-yu")
 
-
-    body.addEventListener("click", ()=>{
-        audioSay.play();
-        audioMon.play();
-        audioYu.play();
-        audioNat.play();
-    })
-
-
-
-    say.addEventListener("click", ()=>{
-        if(audioSay.muted) audioSay.muted = false
-        else audioSay.muted = true
-    })
-    yu.addEventListener("click", ()=>{
-        if(audioYu.muted) audioYu.muted = false
-        else audioYu.muted = true
-    })
-    nat.addEventListener("click", () => {
-        if (audioNat.muted) audioNat.muted = false
-        else audioNat.muted = true
-    })
-    mon.addEventListener("click", () => {
-        if (audioMon.muted) audioMon.muted = false
-        else audioMon.muted = true
-    })
-    
 
 </script>
 

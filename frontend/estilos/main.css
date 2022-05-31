@@ -82,10 +82,24 @@ body{
     top: 0%;
     left: 0%;
     margin: 0 -5%;
+    z-index: 2;
     transition: top .2s linear, height .2s linear, left .5s linear, opacity .15s linear;
         /* transition: top .4s;
         transition: left .7s; */
 }
+.natsuki{
+    z-index:3;
+}
+.yuri{
+    z-index:3;
+}
+.natsuki{
+    z-index:3;
+}
+.monika{
+    z-index:3;
+}
+
 .fast{
     transition: all .3s;
 }
@@ -188,10 +202,10 @@ body{
     width: inherit;
     height: inherit;
     position: absolute;
-    z-index: 2;
+    z-index: 4;
 }
 .char-bg-over{
-    z-index: 3!important;
+    z-index: 4!important;
     transition: opacity 1s linear .1s;
 }
 

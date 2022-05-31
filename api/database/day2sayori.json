@@ -757,7 +757,8 @@
         "content": "It's not worth it at all!"
     },
     {
-        "content": "Sayori hastily unbuttons her blazer once more."
+        "content": "Sayori hastily unbuttons her blazer once more.",
+        "newBackground":{"noTransition": true, "src":"Club.png"}
     },
     {
         "char": "Sayori",

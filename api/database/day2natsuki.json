@@ -739,7 +739,11 @@
     {
         "char": "Natsuki",
         "content": "Just finish this chapter!",
-        "charImg":"non"
+        "charImg":"non",
+        "newBackground": {
+            "noTransition": true,
+            "src": "Club.png"
+        }
     },
     {
         "content": "Natsuki's voice sparkles with excitement.", "char":"nobody",
