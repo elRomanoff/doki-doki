@@ -21,7 +21,6 @@ const {sayScore,natScore,yuScore} = config.getScore();
 const choices = config.getChoices();
 let currentChoice = 0;
 
-console.log(choices)
 console.log(sayScore, natScore, yuScore)
 
 
@@ -54,8 +53,6 @@ let {song, currentBackground, currentImg} = config.getExtra()
 
 manageImage(currentImg)
 manageBackground(currentBackground)
-music = cargarSonido("/api/sound/music/" + song)
-if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
 
 //instance of characters and background
 let sayori = new Character("sayori")
@@ -96,7 +93,6 @@ fetch(chapter)
             }
         }
     
-        let limit = i;
         let sumIndex = 0;
 
         x.forEach((element, index) => {
@@ -116,6 +112,10 @@ fetch(chapter)
                 encodeImg (dictionary[element.charImg]);
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
+
+            if (index + sumIndex <= i && element.musicGroup && (enableMusic !== "false" || !enableMusic)) {
+                manageMusicGroup(element.musicGroup)
+            }
 
             if (index + sumIndex <= i && element.selectMenu){
 
@@ -172,11 +172,14 @@ fetch(chapter)
             arrDialog.push(element)
             //
         });
-        console.log(i, arrDialog)
     
         mainScreen.addEventListener("click",runDialog)
     })
 
+
+music = cargarSonido("/api/sound/music/" + song)
+
+if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
 
 function runDialog(skipInterval) {
 
@@ -369,8 +372,13 @@ function manageMusic(musicSrc) {
 }
 
 function manageMusicGroup(group){
-    
+
     if (group.new){
+
+        try {
+            music.pause()
+        } catch(e){}
+
         audioN = cargarSonido("/api/sound/music/" + group.nat, true)
         audioM = cargarSonido("/api/sound/music/" + group.mon, true)
         audioS = cargarSonido("/api/sound/music/" + group.say, true)
@@ -407,6 +415,7 @@ function manageMusicGroup(group){
         audioS.pause();
     }
     else if (group ==="end"){
+        music.play()
         document.body.removeChild(audioM)
         document.body.removeChild(audioN)
         document.body.removeChild(audioS)

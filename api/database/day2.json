@@ -598,7 +598,7 @@
         "char":"nobody",
         "music":"stop",
         "musicGroup":{
-            "new":"true",
+            "new":true,
             "nat":"okay-everyoneN.mp3",
             "mon":"okay-everyoneM.mp3",
             "say":"okay-everyoneS.mp3",
