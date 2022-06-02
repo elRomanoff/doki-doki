@@ -2,6 +2,7 @@
     {
         "content": "Another day passes, and it's time for the club meeting already.", "char":"nobody",
         "usesRoute":true,
+        "usesPrevScore":true,
         "newBackground": "Club.png",
         "music": "ohayou-sayori.mp3"
     },
@@ -625,7 +626,9 @@
     
     {
         "content": "Yuri and I laugh as well.", "char":"nobody",
-        "newCharacter":[{"char":"Yuri","charImg":"Yuri_school_3.png"}]
+        "newCharacter":[{"char":"Yuri","charImg":"Yuri_school_3.png"}],
+        "charImg":"non",
+        "animation":[{"direction":"return"}]
     },
     {
         "char": "Natsuki",
@@ -1023,5 +1026,9 @@
     },
     {
         "content": "Yuri is back to her book, and Natsuki disappeared into the closet."
+    },
+    {
+        "newBackground": "Club.png",
+        "newRoute": true
     }
 ]

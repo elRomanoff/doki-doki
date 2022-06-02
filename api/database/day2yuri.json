@@ -687,8 +687,7 @@
     },
     {
         "content": "Yuri remains silent for a moment.", "char":"nobody",
-        "charImg":{"background":""},
-        "newBackground": "Club.png"
+        "charImg":{"background":""}
     },
     {
         "usesVar":true,

@@ -123,6 +123,21 @@ const config = {
             yuScore: localStorage.getItem("doki_currentYuriScore")
         }
     },
+
+    setPrevScore: function (say, nat, yu) {
+        localStorage.setItem("doki_prevSayoriScore", say)
+        localStorage.setItem("doki_prevNatsukiScore", nat)
+        localStorage.setItem("doki_prevYuriScore", yu)
+    },
+    getPrevScore: function () {
+        return {
+            prevSScore: localStorage.getItem("doki_prevSayoriScore"),
+            prevNScore: localStorage.getItem("doki_prevNatsukiScore"),
+            prevYScore: localStorage.getItem("doki_prevYuriScore")
+        }
+    },
+
+
     //newGame
     setNewGame: function(){
         this.setRoute("")
@@ -143,6 +158,10 @@ const config = {
         this.setExtra(obj.song, obj.img, obj.background)
         if (Array.isArray(obj.score))this.setScore(obj?.score[0], obj?.score[1], obj?.score[2])
         else(this.setScore(0,0,0))
+
+        if (Array.isArray(obj.prevScore)) this.setPrevScore(obj?.prevScore[0], obj?.prevScore[1], obj?.prevScore[2])
+        else (this.setPrevScore(0,0,0))
+
         this.setChoices(obj?.choices)
     }
 

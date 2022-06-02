@@ -18,10 +18,12 @@ const addRoute = config.getAditionalRoute();
 let i = config.getGameIndex();
 const inScreenCharacters = config.getScreenCharacters();
 const {sayScore,natScore,yuScore} = config.getScore();
+const {prevSScore, prevNScore, prevYScore} = config.getPrevScore();
+
 const choices = config.getChoices();
 let currentChoice = 0;
 
-console.log(sayScore, natScore, yuScore)
+console.log(config.getScore(), config.getPrevScore())
 
 
 //GLOBALS
@@ -87,7 +89,19 @@ fetch(chapter)
         if( x[0].usesRoute) {
             if(!route) window.open("/Poem", "_self")
             else{
-                const res = await fetch(chapter + "/" + route)
+                let fetchCall = ""
+
+                if(x[0].usesPrevScore){
+                    if ((route === "sayori" && prevSScore > prevNScore && prevSScore > prevYScore) || (route === "yuri" && prevYScore > prevSScore && prevYScore > prevNScore)){
+                        fetchCall = chapter + "/" + route
+                    }
+                    else fetchCall = `day${parseInt(chapter[chapter.length - 1]) - 1}/${route}`;
+                }
+                else{
+                    fetchCall = chapter + "/" + route
+                }
+
+                const res = await fetch(fetchCall)
                 const resJson = await res.json();
                 resJson.forEach(y => auxDialogArray.push(y))
             }
@@ -123,7 +137,7 @@ fetch(chapter)
 
                 if (element.dependsOnRoute) {
                     selectionOptions.Monika = element.Monika.concat(element.Monika[0][route]);
-
+                    
                     if (sayScore < 30) selectionOptions.Sayori = element.Sayori.dislike
                     else if (sayScore >= 30 && sayScore < 45) selectionOptions.Sayori = element.Sayori.like
                     else selectionOptions.Sayori = element.Sayori.love
@@ -172,6 +186,7 @@ fetch(chapter)
             arrDialog.push(element)
             //
         });
+        console.log(arrDialog)
     
         mainScreen.addEventListener("click",runDialog)
     })
@@ -191,7 +206,6 @@ function runDialog(skipInterval) {
     else {
         config.setRoute("")
         config.setAditionalRoute([])
-        config.setScore(0, 0, 0)
         config.setChapter(next);
         config.setGameIndex(0);
         config.setChoices([])
@@ -619,7 +633,8 @@ function saveGame(option) {
         song:song, 
         img:currentImg, 
         background:currentBackground,
-        score:[sayScore, natScore, yuScore]
+        score:[sayScore, natScore, yuScore],
+        prevScore:[prevSScore, prevNScore, prevYScore]
     }
     
     for (let index = 0; index < inScreenCharacters.length; index++) {

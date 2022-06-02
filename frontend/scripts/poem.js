@@ -5,6 +5,9 @@ const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
 const selectSound = cargarSonido("/api/sound/sfx/select");
 const music = cargarSonido("/api/sound/music/dreams.mp3");
 const enableMusic = config.getMusic()
+const prevScore = config.getScore();
+
+console.log(prevScore)
 
 const screen = document.querySelector(".screen")
 const poemAlert = document.createElement("div")
@@ -260,6 +263,7 @@ const resize = () => {
 }
 
 function openNext(character){
+    config.setPrevScore(prevScore?.sayScore, prevScore?.natScore, prevScore?.yuScore)
     config.setRoute(character);
     config.setScore(sayori.score, natsuki.score, yuri.score)
     config.setAditionalRoute([]),
