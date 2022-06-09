@@ -12,7 +12,6 @@
   font-weight: normal;
 }
 
-
 *{
     box-sizing: border-box;
     font-family: principal;
@@ -198,6 +197,14 @@ body{
     left: -90%;
     animation: crosser 1s linear;
 } 
+.white-screen{
+    background: white;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    animation: disapear .3s linear;
+}
+
 .char-bg{
     width: inherit;
     height: inherit;
@@ -212,6 +219,11 @@ body{
 @keyframes crosser {
     100%{
         left: 99%;
+    }
+}
+@keyframes disapear{
+    100%{
+        opacity: 0
     }
 }
 

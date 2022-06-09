@@ -30,6 +30,7 @@ console.log(config.getScore(), config.getPrevScore())
 
 const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
 const selectSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fselect.ogg?alt=media&token=02f9acb0-aa26-41f4-97c8-68eac0a0a5e7");
+const slap = cargarSonido("https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2Fslap.ogg?alt=media&token=f0248221-f60e-41b2-a757-ed0cce40331f")
 
 const mainScreen = document.querySelector(".mainScreen");
 const pngChar = document.getElementById("char");
@@ -163,7 +164,7 @@ fetch(chapter)
 
                 for(currentChoice; currentChoice < choices.length; currentChoice++){
                     if (selectionMenu.length >= 4) {
-                        arrDialog.splice(index + sumIndex, 0, ...selectionMenu.find(y => { return y.char === choices[currentChoice] }).message)
+                        try{arrDialog.splice(index + sumIndex, 0, ...selectionMenu.find(y => { return y.char === choices[currentChoice] }).message)}catch(e){}
                         sumIndex = sumIndex + 2
                     }
                     let finded = selectionMenu.find(x => x.char === choices[currentChoice]);
@@ -228,7 +229,8 @@ function manageProperties(objDialog){
         manageBackground(objDialog.newBackground);
     }
     if(objDialog.animation){
-        objDialog.animation.forEach(animation => manageAnimation(animation))
+        if (objDialog.animation === "return") manageAnimation("return")
+        else objDialog.animation.forEach(animation => manageAnimation(animation))
     }
     if(objDialog.music) manageMusic(objDialog.music)
     if(objDialog.musicGroup && (enableMusic !== "false" || !enableMusic) )  manageMusicGroup(objDialog.musicGroup)
@@ -259,20 +261,58 @@ function manageProperties(objDialog){
     }
     if(objDialog.poem)managePoem(objDialog.poem)
     if(objDialog.options) manageOptions(objDialog)
+    if(objDialog.sound) manageSound(objDialog.sound)
+}
+
+function manageSound(sound){
+    if(sound === "slap"){
+        slap.play();
+        const whiteScreen = document.createElement("div");
+        whiteScreen.classList.add("white-screen");
+        mainScreen.appendChild(whiteScreen);
+        setTimeout(()=>{mainScreen.removeChild(whiteScreen);},250)
+    }
 }
 
 function manageOptions(optionObj){
+
     //si la opcion es "ya entregaste el poema a"
     if(optionObj.shownCharacter){
-        if (selectionMenu.filter(filtered => filtered.char === optionObj.shownCharacter)[0]) addAnimatedText(optionObj.optionalText[1])
+        if (selectionMenu.filter(filtered => filtered.char === optionObj.shownCharacter)[0]) {
+            if(optionObj.optionalText) addAnimatedText(optionObj.optionalText[1])
+            else arrDialog.splice(i + 1, 0, ...optionObj.option1)
+        }
+
         else if (optionObj.optionalText[0]) {
             addAnimatedText(optionObj.optionalText[0])
         }
+        else if (optionObj.option2) arrDialog.splice(i + 1, 0, ...optionObj.option2)
         else { i++; runDialog() }
     }
+    //la opcion aca es "si estas siguiendo la ruta de tal", independientemente de si le gusto o amó el poema
     else if (optionObj.route){
         if(optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
         else arrDialog.splice(i + 1, 0, ...optionObj.option2)
+    }
+    
+    //option "previous route"
+
+    else if(optionObj.prevRoute){
+        if(optionObj.prevRoute === "s"){
+            if(prevSScore >= 45) arrDialog.splice(i+1,0, ...optionObj.option1)
+            else if (prevSScore >= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
+            else arrDialog.splice(i + 1, 0, ...optionObj.option3)
+        }
+        else if (optionObj.prevRoute === "n") {
+            if (prevNScore >= 45) { }
+            else if (prevNScore === "tanto") { }
+            else arrDialog.splice(i + 1, 0, ...optionObj.option3)
+        }
+        else if (optionObj.prevRoute === "y") {
+            if (prevYScore <= 45) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else if (prevYScore === "tanto") arrDialog.splice(i + 1, 0, ...optionObj.option2)
+            else arrDialog.splice(i + 1, 0, ...optionObj.option3)
+        }
     }
 
 }
@@ -343,14 +383,16 @@ function manageBackground(background){
 }
 
 function manageImage(img){
+
     if(!img) pngChar.src = "";
     else if (typeof img === "object"){
-        if (!img.background) try{mainScreen.removeChild(charBg.domImg)}catch(e){}
+        if (!img.background) try{mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
         else{ 
-            if(charBg.domImg.src){
-            charBg.defineImgWithAnimation(img.background)
+            if(charBg.inScreen){
+                charBg.defineImgWithAnimation(img.background)
             }
             else{
+                charBg.inScreen = true
                 charBg.defineImg(img.background)
                 charBg.append();
             }
@@ -507,6 +549,26 @@ function manageNewCharacter(obj){
     
 //animations
 function manageAnimation(objAnimation){
+    if(objAnimation === "return"){
+        char.style.left = "0%"
+        char.style.top = "0%"
+        char.style.height = "100%"  
+        yuri.animation("height", "100%")
+        yuri.animation("top", "0%")
+        yuri.animation("left", "0%")
+
+        natsuki.animation("height", "100%")
+        natsuki.animation("top", "0%")
+        natsuki.animation("left", "0%")
+
+        monika.animation("height", "100%")
+        monika.animation("top", "0%")
+        monika.animation("left", "0%")
+
+        sayori.animation("height", "100%")
+        sayori.animation("top", "0%")
+        sayori.animation("left", "0%")
+    }
     if(!objAnimation.char){
         if (objAnimation.direction === "height") {
             char.style.height = objAnimation.value;
@@ -600,7 +662,7 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
             document.addEventListener("keydown", keyDownPress)
             arrDialog.splice(i,0,...selectionOptions[e.target.classList[1]])
 
-            if (selectionMenu.length >= 4) arrDialog.splice(i, 0, ...selectionMenu.find(y => { return y.char === e.target.innerHTML }).message)
+            try {if (selectionMenu.length >= 4) arrDialog.splice(i, 0, ...selectionMenu.find(y => { return y.char === e.target.innerHTML }).message)} catch(e){}
 
             //fake click
             const event = new MouseEvent("click", {})

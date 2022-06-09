@@ -604,7 +604,6 @@
             "say":"okay-everyoneS.mp3",
             "yu":"okay-everyoneY.mp3",
             "neutral":"okay-everyone.mp3"
-
         },
         "Natsuki":{
             "love":[
@@ -2206,7 +2205,6 @@
                     "content": "That's impressive."
                 },
                 {
-
                     "options":true,
                     "route":"yuri",
                     "option1":[

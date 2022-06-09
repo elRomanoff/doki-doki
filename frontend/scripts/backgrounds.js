@@ -4,7 +4,8 @@ import { dictionary } from "/scripts/dictionary.js"
 class Background {
     constructor() {
         this.domImg = document.createElement("img");
-        this.domImg.classList.add("char-bg")   
+        this.domImg.classList.add("char-bg");
+        this.inScreen = false
     }
     defineImg(src) {
         console.log(src)
