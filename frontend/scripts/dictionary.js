@@ -68,6 +68,8 @@ let dictionary = {
     "LeftArm3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm3.png?alt=media&token=80b91e14-5bc1-4b75-b03a-1485d30eb433",
     "LeftArm4.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm4.png?alt=media&token=d03ce2cd-4971-43d9-bb85-41cba711daea",
     "LeftArm5.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm5.png?alt=media&token=e9d57eab-bc0b-46d1-8b14-3648ebd1a12d",
+    "LeftArmc.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FLeftArmc.png?alt=media&token=0550cddc-f54d-41d4-a854-4c10d24984d2", 
+    "LeftArmj.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FLeftArmj.png?alt=media&token=6ce90201-ec06-4c5e-a0e4-7fadc13a551b",
     "NatsukiCrossedArms.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms.png?alt=media&token=90fb9946-ce0e-4eec-a470-60947b0b57ed",
     "NatsukiCrossedArms2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms2.png?alt=media&token=f9ae6407-3e30-4731-b590-ed236001bdf1",
     "NatsukiCrossedArms3.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FNatsukiCrossedArms3.png?alt=media&token=ed291190-e69a-4827-93b4-85d2a99fd246",

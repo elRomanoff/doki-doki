@@ -289,6 +289,22 @@ function manageOptions(optionObj){
         else if (optionObj.option2) arrDialog.splice(i + 1, 0, ...optionObj.option2)
         else { i++; runDialog() }
     }
+
+    else if(optionObj.route && optionObj.prevRoute){
+        if(optionObj.prevRoute === "y") {
+            if (prevYScore >= prevSScore && prevYScore >= prevNScore && optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else arrDialog.splice(i + 1, 0, ...optionObj.option2)
+        }
+        else if (optionObj.prevRoute === "n") {
+            if (prevNScore >= prevSScore && prevNScore >= prevYScore && optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else arrDialog.splice(i + 1, 0, ...optionObj.option2)
+        }
+        else if (optionObj.prevRoute === "y") {
+            if (prevSScore >= prevYScore && prevSScore >= prevNScore && optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else arrDialog.splice(i + 1, 0, ...optionObj.option2)
+        }
+    }
+
     //la opcion aca es "si estas siguiendo la ruta de tal", independientemente de si le gusto o amó el poema
     else if (optionObj.route){
         if(optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
@@ -304,13 +320,13 @@ function manageOptions(optionObj){
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
         else if (optionObj.prevRoute === "n") {
-            if (prevNScore >= 45) { }
-            else if (prevNScore === "tanto") { }
+            if (prevNScore >= 45) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else if (prevNScore >= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
         else if (optionObj.prevRoute === "y") {
             if (prevYScore <= 45) arrDialog.splice(i + 1, 0, ...optionObj.option1)
-            else if (prevYScore === "tanto") arrDialog.splice(i + 1, 0, ...optionObj.option2)
+            else if (prevYScore <= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
     }

@@ -36,6 +36,12 @@ router.get("/day3/:char", (req, res) => {
     if (req.params.char === "sayori") {
         res.sendFile(path.join(__dirname, '../database/day3sayori.json'))
     }
+    else if (req.params.char === "yuri") {
+        res.sendFile(path.join(__dirname, '../database/day3yuri.json'))
+    }
+    else if (req.params.char === "natsuki") {
+        res.sendFile(path.join(__dirname, '../database/day3natsuki.json'))
+    }
 })
 
 
