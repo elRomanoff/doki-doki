@@ -257,7 +257,12 @@ let dictionary = {
     //yuri
     "yuri-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-1.png?alt=media&token=b106ef18-6170-4cbf-aac0-2ee7ace20782",
     "yuri-bg-2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-2.png?alt=media&token=330e77d5-7795-4ed2-be69-3c4cf199375c",
-    "yuri-bg-3.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-3.png?alt=media&token=ac705016-f8cc-4cab-89da-e1dfd15f7030"
+    "yuri-bg-3.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-3.png?alt=media&token=ac705016-f8cc-4cab-89da-e1dfd15f7030",
+    "yuri-bg2-1.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-1.png?alt=media&token=062f9fc9-03fc-4298-947e-dc9d6630349b",
+    "yuri-bg2-2.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-2.png?alt=media&token=ac7ec63a-decd-4738-bc8f-7b601e89852b",
+    "yuri-bg2-3.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-3.png?alt=media&token=cdb3d5a8-101d-4b8b-b0bf-116d5a689921",
+    "yuri-bg2-4.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-4.png?alt=media&token=95597abd-18f6-45c4-af8c-642967145f04",
+    "yuri-bg2-5.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-5.png?alt=media&token=8025b559-18f4-49bd-ad3a-6a4476119ab0",
 }
 
 export {dictionary as dictionary}

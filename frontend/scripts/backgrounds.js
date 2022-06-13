@@ -26,6 +26,9 @@ class Background {
     append() {
         mainScreen.appendChild(this.domImg)
     }
+    break(){
+        mainScreen.removeChild(this.domImg)
+    }
 }
 
 export default Background

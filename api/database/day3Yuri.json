@@ -1,0 +1,1022 @@
+[
+    {
+        "char": "Yuri",
+        "content": "Eh?",
+        "charImg":"YSurp2.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "content": "\"I suddenly notice that Yuri is reading a different book from the one we've been reading together.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Sorry! I didn't mean to interrupt..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, no...",
+        "charImg":"Yuvu2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was kind of just waiting for you..."
+    },
+    {
+        "char": "you",
+        "content": "Ah, if that's the case...",
+        "charImg":"2l1.png"
+    },
+    {
+        "char": "you",
+        "content": "Why don't we go ahead and get started?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Yes, let's!",
+        "charImg":"Yuri_school_9.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Actually, I have a request...",
+        "charImg":"2l1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "...Do you mind if I make some tea first?"
+    },
+    {
+        "char": "you",
+        "content": "Not at all."
+    },
+    {
+        "char": "Yuri",
+        "content": "Thanks very much.",
+        "charImg":"Yuri_school_3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "If there's one thing that can make my reading time here any better, it's a nice cup of tea.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Not to mention for yourself, as well."
+    },
+    {
+        "content": "\"Yuri stands up and makes her way to the closet.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"I follow and watch as she retrieves a small water pitcher from the shelf - the kind with a filter inside.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Can you hold this for a second?",
+        "charImg":"YSurp.png"
+    },
+    {
+        "char": "you",
+        "content": "Sure..."
+    },
+    {
+        "content": "\"Yuri hands me the water pitcher and also fetches an electric kettle.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm going to plug this in at the teacher's desk, and then we'll go get some water."
+    },
+    {
+        "content": "\"She walks past me and sets the kettle down on the teacher's desk.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"I simply watch her movements.\"\r"
+    },
+    {
+        "content": "\"To my surprise, the way she moves really contrasts her speaking mannerisms.\"\r"
+    },
+    {
+        "content": "\"Especially because of her long legs, Yuri appears elegant and methodical.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Okay, may I have the water pitcher?",
+        "charImg":"YSurp.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Thanks. I'll be right back.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, I might as well walk with you..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Yeah...why not?",
+        "charImg":"Yuri_school_4.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Shall we go, then?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah...",
+        "newCharacter":[{"char":"Monika","charImg":"Monika1.png","left":true,"new":true,"hide":"hide"},{"char":"Natsuki","charImg":"Y12.png","hide":"hide","new":true}],
+        "animation":[{"char":"Monika","direction":"left","value":"-40%"}]
+    }, 
+    {
+        "char": "Monika",
+        "content": "Hm? Where are you two off to?",
+        "animation":[{"char":"Monika","direction":"left","value":"0%"}],
+        "newCharacter":[{"char":"Monika","hide":"non"}]
+    },
+    {
+        "char": "you",
+        "content": "Eh?",
+        "charImg":"YLook.png"
+    },
+    {
+        "char": "you",
+        "content": "We're just...Yuri was going to make some tea, so..."
+    },
+    {
+        "content": "\"I suddenly realize how weird it sounds to explain this to Monika.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "We're just filling the water pitcher..."
+    },
+    {
+        "char": "Monika",
+        "content": "Ah, okay!",
+        "animation":[{"char":"Monika","direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "Sorry, I was just a bit curious...",
+        "newCharacter":[{"char":"Monika","charImg":"Ika9.png"}]
+    },
+    {
+        "char": "Monika",
+        "content": "That's kind of a one-person job, isn't it?"
+    },
+    {
+        "char": "you",
+        "content": "That's--",
+        "animation":"return",
+        "newCharacter":[{"char":"Monika","charImg":"Ika1.png"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "Monika, please mind your own business for once.",
+        "animation":[{"direction":"height","value":"103%"},{"direction":"height","value":"100%","char":"Monika"}],
+        "charImg":"Yuu.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Or do you want to tell me there's something wrong with helping involve [player] in club activities?"
+    },
+    {
+        "char": "Monika",
+        "content": "E-Eh...?",
+        "animation":[{"direction":"return"},{"direction":"height","value":"103%","char":"Monika"}],
+        "newCharacter":[{"char":"Monika","charImg":"Mon7.png"}]
+    },
+    {
+        "char": "you",
+        "content": "--!",
+        "animation":"return"
+    },
+    {
+        "content": "\"My mouth gapes.\"\r"
+    },
+    {
+        "char": "Monika",
+        "content": "I...",
+        "newCharacter":[{"char":"Monika","charImg":"3aa.png"}],
+        "animation":[{"char":"Monika", "direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "I suppose there's nothing wrong with that..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Hmph...",
+        "animation":[{"direction":"height","value":"103%"},{"char":"Monika", "direction":"height","value":"100%"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "Then let's go, [player]."
+    },
+    {
+        "char": "you",
+        "content": "Ah...",
+        "animation":"return"
+    },
+    {
+        "content": "\"Yuri quickly exits the room, and I follow.\"\r"
+    },
+    {
+        "newCharacter":"erase",
+        "content": "\"Once in the hallway, she suddenly puts her forehead against the wall.\"\r",
+        "newBackground":"Corridor.png",
+        "charImg":"YSShy1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I spoke without thinking..."
+    },
+    {
+        "char": "Yuri",
+        "content": "How could I say something like that...?"
+    },
+    {
+        "char": "you",
+        "content": "Yuri..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I just...",
+        "charImg":"YSLookaway.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Something about the way she said that..."
+    },
+    {
+        "char": "Yuri",
+        "content": "It made me feel so...irritated."
+    },
+    {
+        "char": "Yuri",
+        "content": "What's wrong with me...?"
+    },
+    {
+        "char": "you",
+        "content": "No, Yuri."
+    },
+    {
+        "char": "you",
+        "content": "I think...you did the right thing!"
+    },
+    {
+        "char": "you",
+        "content": "I wasn't expecting it, but..."
+    },
+    {
+        "char": "you",
+        "content": "It's also not right for Monika to judge people like that."
+    },
+    {
+        "char": "Yuri",
+        "content": "[player]...",
+        "charImg":"Yurifull1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "How come even when I do something bad..."
+    },
+    {
+        "char": "Yuri",
+        "content": "You're being nice to me?"
+    },
+    {
+        "char": "you",
+        "content": "Because."
+    },
+    {
+        "char": "you",
+        "content": "Nothing that you do is as bad as you make it seem in your head."
+    },
+    {
+        "char": "you",
+        "content": "Nobody's perfect."
+    },
+    {
+        "char": "you",
+        "content": "We have emotions, and we can't always hide them away."
+    },
+    {
+        "char": "you",
+        "content": "But you always amplify things in your head..."
+    },
+    {
+        "char": "you",
+        "content": "Your mind turns a light rain shower into a hurricane."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YShy2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "N-No..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Wouldn't you hate me for something as terrible as that...?"
+    },
+    {
+        "char": "you",
+        "content": "Why would I hate you?"
+    },
+    {
+        "char": "you",
+        "content": "I can't hate someone for having emotions..."
+    },
+    {
+        "char": "you",
+        "content": "What kind of friend would do that?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Friend...you say?",
+        "charImg":"YSShy1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...um..."
+    },
+    {
+        "content": "\"Yuri lifts her head.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "[player]...",
+        "charImg":"Yunu2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I really like...being friends with you!",
+        "charImg":"YSSad3.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha..."
+    },
+    {
+        "char": "you",
+        "content": "Thanks, Yuri."
+    },
+    {
+        "char": "you",
+        "content": "I like being friends with you too..."
+    },
+    {
+        "content": "\"I feel kind of awkward saying something like that...\"\r"
+    },
+    {
+        "content": "\"But I'm doing my best to help Yuri feel better.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Anyway...!"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah-- Yeah...",
+        "charImg":"YBashful_Smile.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Shall we go?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah."
+    },
+    {
+        "content": "\"Yuri and I walk to the nearest water fountain.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"Once we fill up the water pitcher, we return to the classroom.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "[player], do you like oolong tea?",
+        "charImg":"Yuri_school_2.png",
+        "newBackground":"Club.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, yeah."
+    },
+    {
+        "char": "you",
+        "content": "Anything is fine."
+    },
+    {
+        "char": "Yuri",
+        "content": "Very well."
+    },
+    {
+        "content": "\"Yuri sets the temperature on the kettle to 200 degrees.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Now it's time to get the teapot.",
+        "charImg":"YSurp.png"
+    },
+    {
+        "char": "you",
+        "content": "You really do this properly, don't you?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Of course...",
+        "charImg":"YBashful_Smile_3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I shouldn't do any less when I'm making tea for others."
+    },
+    {
+        "char": "you",
+        "content": "Even if I'm not an expert on tea or anything...?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Huhu.",
+        "charImg":"Yuvu2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "In that case, you'll only be even more impressed.",
+        "charImg":"2l1.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah...perhaps I will!"
+    },
+    {
+        "content": "\"Yuri fetches the teapot and begins measuring the tea leaves.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"To my surprise, she even starts humming a little to herself.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "You must be in a good mood now...",
+        "charImg":"Yuri_school_3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Is that so?",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was letting it show..."
+    },
+    {
+        "char": "Yuri",
+        "content": "And you noticed."
+    },
+    {
+        "char": "Yuri",
+        "content": "I was doing a bit of thinking...",
+        "charImg":"YBashful_Smile_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "And I decided that I would try expressing myself a little bit more."
+    },
+    {
+        "char": "Yuri",
+        "content": "It turns out it's not very hard for me to do..."
+    },
+    {
+        "char": "Yuri",
+        "content": "When it's you who's around, anyway.",
+        "charImg":"Yuri_school_3.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "That's great, Yuri!"
+    },
+    {
+        "char": "you",
+        "content": "Just don't push yourself too much."
+    },
+    {
+        "char": "Yuri",
+        "content": "You're always worrying about me, [player]...",
+        "charImg":"YBashful_Smile.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's very endearing."
+    },
+    {
+        "char": "you",
+        "content": "That's..."
+    },
+    {
+        "content": "\"Yuri wasn't kidding...\"\r"
+    },
+    {
+        "content": "\"I don't even know if I can keep up with this...!\"\r"
+    },
+    {
+        "content": "\"I watch Yuri pour a cup of tea for each of us.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "[player], I have another request.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Do you mind if we sit on the floor today?"
+    },
+    {
+        "char": "you",
+        "content": "Eh? Why's that?"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's a little bit easier on my back...",
+        "charImg":"Yuri_school_7.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I can read with my back against the wall rather than bending over at my desk."
+    },
+    {
+        "char": "you",
+        "content": "Ah, sorry, I didn't realize."
+    },
+    {
+        "char": "Yuri",
+        "content": "No worries.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I just have back pain fairly regularly, so I do my best to manage it."
+    },
+    {
+        "char": "you",
+        "content": "Is that so?"
+    },
+    {
+        "char": "you",
+        "content": "I wonder why that is..."
+    },
+    {
+        "char": "Yuri",
+        "content": "It's most likely because my--",
+        "charImg":"YSurp.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah--",
+        "charImg":"YScared3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "M-My...",
+        "charImg":"YWorried.png"
+    },
+    {
+        "char": "you",
+        "content": "Your posture, right?"
+    },
+    {
+        "char": "you",
+        "content": "Always hunched over like that while reading..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Yes!",
+        "charImg":"YScared.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I have terrible reading posture!",
+        "charImg":"YShy1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "So that's why we should sit on the floor."
+    },
+    {
+        "char": "you",
+        "content": "Fair enough."
+    },
+    {
+        "char": "you",
+        "content": "I'll go ahead and get the book."
+    },
+    {
+        "content": "\"I retrieve the book from my bag.\"\r",
+        "charImg":"non"
+    },
+    {
+        "char": "you",
+        "content": "Ah, I have some chocolate as well..."
+    },
+    {
+        "content": "\"It's a bag of small chocolate candies that I kept hidden from Sayori's candy radar.\"\r"
+    },
+    {
+        "content": "\"I take it, since it'll go well with the tea.\"\r"
+    },
+    {
+        "content": "\"Yuri and I then sit against the wall, teacups at our sides.\"\r"
+    },
+    {
+        "content": "\"As if in sync, we assume the same reading position as last time, each holding one half of the book.\"\r"
+    },
+    {
+        "content": "\"Except this time...\"\r"
+    },
+    {
+        "content": "\"Our bodies are even closer to each other.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "I can't see too well...",
+        "charImg":"Yuri_school_8.png"
+    },
+    {
+        "char": "you",
+        "content": "--!"
+    },
+    {
+        "content": "\"Yuri slides closer until our shoulders are touching.\"\r",
+        "charImg":"YLook.png",
+        "animation":[{"direction":"jump"}]
+    },
+    {
+        "content": "\"How am I supposed to focus on reading like this...?!\"\r"
+    },
+    {
+        "content": "\"Yuri was always kind of cute, but...\"\r"
+    },
+    {
+        "content": "\"When she's being less apprehensive, it's almost more than I can handle!\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Your teacup...",
+        "charImg":"YSurp2.png"
+    },
+    {
+        "content": "\"Yuri hands me my teacup.\"\r"
+    },
+    {
+        "content": "\"Holding it with my hand that's not holding the book, I end up in a position that makes it even harder to focus.\"\r"
+    },
+    {
+        "content": "\"Because now I need to worry about making sure I don't accidentally touch her chest...!\"\r"
+    },
+    {
+        "content": "\"Meanwhile, Yuri hasn't noticed a single thing.\"\r"
+    },
+    {
+        "content": "\"She wears her intense reading expression, and I can only presume the world around her has faded away.\"\r"
+    },
+    {
+        "content": "\"I use all of my willpower to focus on reading.\"\r"
+    },
+    {
+        "content": "\"...\"\r"
+    },
+    {
+        "content": "\"After a few minutes, I finally manage to relax a little.\"\r"
+    },
+    {
+        "content": "\"I put the teacup between my legs and fumble with the chocolate wrapper.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Ah, sorry..."
+    },
+    {
+        "content": "\"I briefly let go of the book to finish opening the wrapper.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "You can have as much as you want."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, that's...",
+        "charImg":"Yuri_school_4.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "That's okay, I won't take any..."
+    },
+    {
+        "char": "you",
+        "content": "Eh? Are you sure?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YSSad.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "If I touch it, then it might get smudges on the pages..."
+    },
+    {
+        "char": "you",
+        "content": "Ah, you're right..."
+    },
+    {
+        "char": "you",
+        "content": "I didn't even think about that."
+    },
+    {
+        "char": "you",
+        "content": "My bad..."
+    },
+    {
+        "char": "Yuri",
+        "content": "No need to apologize.",
+        "charImg":"Yuri_school_2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'll hold the book, okay?"
+    },
+    {
+        "char": "you",
+        "content": "Are you sure...?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Of course."
+    },
+    {
+        "charImg":{"background":"yuri-bg2-1.png"},
+        "content": "\"Yuri opens the book with both hands.\"\r"
+    },
+    {
+        "content": "\"She holds it so that I don't have any harder of a time reading from it.\"\r"
+    },
+    {
+        "content": "\"But as a result, her left arm is practically resting on top of my leg.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Well, in that case..."
+    },
+    {
+        "content": "\"Yuri is already totally focused on reading again.\"\r"
+    },
+    {
+        "content": "\"I take a chocolate candy and pop it into my mouth.\"\r"
+    },
+    {
+        "content": "\"Then, I take another chocolate...\"\r"
+    },
+    {
+        "content": "\"And I hold it up to Yuri.\"\r"
+    },
+    {
+        "content": "\"She doesn't even look away from the book.\"\r"
+    },
+    {
+        "content": "\"She simply parts her lips, as if this situation was completely natural.\"\r"
+    },
+    {
+        "content": "\"But that means I can't stop here!\"\r"
+    },
+    {
+        "charImg":{"background":"yuri-bg2-2.png"},
+        "content": "\"I apprehensively place the chocolate in her mouth.\"\r"
+    },
+    {
+        "content": "\"Just like that, Yuri closes her lips over it.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Eh...?"
+    },
+    {        
+        "charImg":{"background":"yuri-bg2-3.png"},
+        "content": "\"Yuri's expression suddenly breaks.\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Did..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Did I just..."
+    },
+    {
+        "content": "\"Yuri looks at me like she needs to confirm what just happened.\"\r"
+    },
+    {
+        "charImg":{"background":"yuri-bg2-4.png"},
+        "char": "Yuri",
+        "content": "U-Um..."
+    },
+    {
+        "char": "Yuri",
+        "content": "[player]..."
+    },
+    {
+        "char": "you",
+        "content": "S-Sorry!"
+    },
+    {
+        "char": "you",
+        "content": "I guess I shouldn't have done that..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, that's..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Well..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Y-You were just helping..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's something that...friends do..."
+    },
+    {
+        "char": "Yuri",
+        "content": "...Right?"
+    },
+    {
+        "char": "you",
+        "content": "I mean..."
+    },
+    {
+        "content": "\"Not really in this kind of context, but...\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Yeah..."
+    },
+    {
+        "char": "you",
+        "content": "...That's all it was."
+    },
+    {
+        "char": "Yuri",
+        "content": "Yeah..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Then..."
+    },
+    {
+        "char": "Yuri",
+        "content": "You don't need to stop or anything..."
+    },
+    {
+        "char": "you",
+        "content": "I-I see..."
+    },
+    {
+        "charImg":{"background":"yuri-bg2-1.png"},
+        "content": "\"The situation has gotten really tense...\"\r"
+    },
+    {
+        "content": "\"Yuri tries to return to the book.\"\r"
+    },
+    {
+        "content": "\"But I can tell just by her expression that even she can't focus now.\"\r"
+    },
+    {
+        "content": "\"My heart is pounding...\"\r"
+    },
+    {
+        "content": "\"I nervously take another chocolate between my fingers.\"\r"
+    },
+    {
+        "content": "\"But this time, Yuri's eyes meet mine.\"\r"
+    },
+    {
+        "charImg":{"background":"yuri-bg2-4.png"},
+        "char": "Yuri",
+        "content": "..."
+    },
+    {
+        "content": "\"How did it even come to this...?\"\r"
+    },
+    {
+        "content": "\"Yuri doesn't avert her gaze.\"\r"
+    },
+    {
+        "content": "\"I notice her chest rising and falling to the rhythm of her breaths.\"\r"
+    },
+    {
+        "content": "\"I raise my arm...\"\r"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah..."
+    },
+    {
+        "content": "\"Like before, Yuri parts her lips.\"\r"
+    },
+    {
+        "content": "\"But...it's different this time.\"\r"
+    },
+    {
+        "content": "\"I take the chocolate and place it in her mouth.\"\r",
+        "charImg":{"background":"yuri-bg2-5.png"}
+    },
+    {
+        "content": "\"I feel her hot breath on my fingers.\"\r",
+        "newCharacter":[{"char":"Monika","charImg":"Ika1.png","left":true,"new":true,"hide":"hide"},{"char":"Natsuki","charImg":"Schools.png","hide":"hide","new":true}],
+        "charImg":"non",
+        "animation":[{"char":"Monika","direction":"left", "value":"-40%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "Okay, everyone!",
+        "charImg":{"background":"break"},
+        "newBackground":{"noTransition": true, "src": "Club.png"},
+        "animation":"return",
+        "newCharacter":[{"char":"Monika","hide":"non"}]
+    },
+    {
+        "char": "you",
+        "content": "Uwa--"
+    },
+    {
+        "char": "Yuri",
+        "content": "A-Ah!",
+        "charImg":"YScared2.png"
+    },
+    {
+        "content": "\"Yuri jolts back.\"\r"
+    },
+    {
+        "char": "Monika",
+        "content": "It's time to share poems!",
+        "animation":[{"char":"Monika","direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "[player], you can help Yuri put away the tea stuff, right?"
+    },
+    {
+        "char": "you",
+        "content": "Y-Yeah...of course.",
+        "animation":"return"
+    },
+    {
+        "char": "Monika",
+        "content": "Okay, thanks!",
+        "animation":[{"char":"Monika","direction":"height","value":"103%"}]
+    },
+    {
+        "content": "\"The spell is abruptly broken.\"\r",
+        "newCharacter":"erase"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'll...",
+        "charImg":"YSShy1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'll take care of the cups..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah..."
+    },
+    {
+        "content": "\"Yuri picks up the teacups from the floor.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"I pick up the bag of chocolates.\"\r"
+    },
+    {
+        "content": "\"In the end, we hastily clean up without so much as a word between us.\"\r"
+    },
+    {
+        "content": "\"I get the feeling this is something neither of us will have the courage to bring up...\"" 
+    }
+]

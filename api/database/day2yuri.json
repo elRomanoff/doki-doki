@@ -740,7 +740,7 @@
         "char": "Yuri",
         "content": "I...!",
         "newCharacter":[{"char":"Monika","new":"true","left":true,"hide":"hide","charImg":"Ika2.png"},{"char":"Natsuki","new":"true","hide":"hide","charImg":"Y20.png"}],
-        "animation":[{"char":"Monika","direction":"left", "value":"30%"}]
+        "animation":[{"char":"Monika","direction":"left", "value":"-40%"}]
     },
     {
         "char": "Monika",

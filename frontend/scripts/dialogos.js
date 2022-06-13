@@ -244,12 +244,6 @@ function manageProperties(objDialog){
         else charName.innerHTML = objDialog.char;
     }
     if (objDialog.charImg) manageImage(objDialog.charImg);
-    
-    if (!objDialog.content){
-        i++;
-        runDialog();
-    }
-    else addAnimatedText(objDialog.content);
 
     if(objDialog.selectMenu){
         document.removeEventListener("keydown", keyDownPress)
@@ -262,6 +256,14 @@ function manageProperties(objDialog){
     if(objDialog.poem)managePoem(objDialog.poem)
     if(objDialog.options) manageOptions(objDialog)
     if(objDialog.sound) manageSound(objDialog.sound)
+
+
+    if (!objDialog.content) {
+        i++;
+        runDialog();
+    }
+    else addAnimatedText(objDialog.content);
+    return
 }
 
 function manageSound(sound){
@@ -394,7 +396,6 @@ function manageBackground(background){
         if(dictionary[background]) currentBackground = "url('" + dictionary[background] + "')"
         else currentBackground = background
         pngChar.src = "";
-        textBox.innerHTML = "";
     }
 }
 
@@ -403,6 +404,7 @@ function manageImage(img){
     if(!img) pngChar.src = "";
     else if (typeof img === "object"){
         if (!img.background) try{mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
+        else if (img.background === "break") charBg.break();
         else{ 
             if(charBg.inScreen){
                 charBg.defineImgWithAnimation(img.background)
