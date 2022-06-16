@@ -767,7 +767,7 @@
     {
         "char": "Monika",
         "content": "Okay, everyone!",
-        "newCharacter":[{"char":"Monika", "charImg":"Ika2.png", "left":"true", "new":"true"}]
+        "newCharacter":[{"char":"Monika", "charImg":"Ika2.png", "left":"true", "new":"true", "hide":"non"}]
     },
     {
         "char": "you",

@@ -10,7 +10,7 @@ optionsMenu.classList.add("options-menu")
 const loadMenu = document.createElement("div");
 loadMenu.classList.add("load-menu")
 
-alert("Welcome to Doki Doki Literature Club Browser Edition! - Developed by El Papu Misterioso (ig: @facu_roman0)")
+alert("Welcome to Doki Doki Literature Club Browser Edition! - Developed by El Papu Misterioso (Reddit:'TrunksDelFuturo'")
 
 //cargar las canciones
 const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
@@ -160,13 +160,13 @@ menuBtns.addEventListener("click", (e) => {
 
                 speedOptions.addEventListener("click", (e) =>{
                     if(e.target.innerHTML ==="Fast"){
-                        config.setTextSpeed(9)
+                        config.setTextSpeed(10)
                     }
                     else if(e.target.innerHTML ==="Normal"){
-                        config.setTextSpeed(20)
+                        config.setTextSpeed(22)
                     }
                     else if (e.target.innerHTML ==="Slow"){
-                        config.setTextSpeed(44)
+                        config.setTextSpeed(35)
                     }
                 });
 

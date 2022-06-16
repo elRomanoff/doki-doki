@@ -18,7 +18,7 @@ const config = {
         localStorage.setItem("doki_textSpeed", speed)
     },
     getTextSpeed : function (){
-        if(!this.textSpeed) this.textSpeed = 20
+        if(!this.textSpeed) this.textSpeed = 22
         return this.textSpeed;
     },
 

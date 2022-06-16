@@ -1,1 +1,1107 @@
-    
+[
+    {
+        "char": "Natsuki",
+        "content": "...",
+        "charImg":"Y14.png"
+    },
+    {
+        "content": "It's not long before Natsuki comes up to me expectantly.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, yeah."
+    },
+    {
+        "char": "you",
+        "content": "Don't worry, I kept my promise."
+    },
+    {
+        "content": "I pull the first volume of Parfait Girls out from my bag.","char":"nobody"
+    },
+    {
+        "content": "Natsuki takes it from my hands, then quickly turns it over, presumably to check for wrinkles.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Hey, I'm not that careless..."
+    },
+    {
+        "char": "you",
+        "content": "I handle manga all the time, you know.",
+        "music": "stop"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I just wanted to make sure!",
+        "charImg":"Schooll.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Can you blame me for being paranoid?",
+        "charImg":"Schoolb.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I don't give people my manga every day, you know."
+    },
+    {
+        "char": "you",
+        "content": "That's true..."
+    },
+    {
+        "char": "you",
+        "content": "I don't blame you."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well anyway, let me put this one back.",
+        "charImg":"Y21.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm gonna get the next one, okay?"
+    },
+    {
+        "content": "Natsuki makes her way to the closet.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "I follow.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "So you're gonna tell me everything you thought, right??",
+        "charImg":"Y23.png",
+        "newBackground": {
+            "noTransition": true,
+            "src": "Closet.png"
+        },
+        "music":"playwithme.mp3"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Where did this volume leave off again? I forget.",
+        "charImg":"LeftArmj.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, the chapter ended when Minori and Alice found--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Monika!!",
+        "animation":[{"direction":"jump"}],
+        "charImg":"Schoold.png"
+    },
+    {
+        "content": "Natsuki's voice resonates out from inside the closet.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Eh...?"
+    },
+    {
+        "content": "I peer inside.","char":"nobody"
+    },
+    {
+        "content": "All of Natsuki's books are lined up on the top shelf.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Did you move my manga again?!",
+        "newCharacter":[{"char":"Monika","charImg":"Ika11.png","new":true,"left":"true","hide":"hide"},{"char":"Sayori","new":true,"charImg":"Say2.png","hide":"hide"}],
+        "animation":[{"char":"Monika","direction":"left","value":"-40%"}]
+    },
+    {
+        "char": "Monika",
+        "content": "Ah, sorry, sorry!",
+        "animation":"return",
+        "newCharacter":[{"char":"Monika","hide":"non"}]
+    },
+    {
+        "char": "Monika",
+        "content": "The teacher got mad at me for taking up so much space in her closet..."
+    },
+    {
+        "char": "Monika",
+        "content": "So I had to move some stuff around and clean up a little bit."
+    },
+    {
+        "char": "Monika",
+        "content": "It's all still there, I just had to organize it a bit!",
+        "newCharacter":[{"char":"Monika","charImg":"Ika2.png"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ugh...",
+        "newCharacter":"erase",
+        "charImg":"Schoolq.png"
+    },
+    {
+        "content": "The top shelf is far above Natsuki's head.","char":"nobody"
+    },
+    {
+        "content": "She makes a futile hop, trying to figure out how to reach her manga.","char":"nobody",
+        "animation":[{"direction":"jump"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez...!",
+        "charImg":"Schoolp.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "This is so inconvenient!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm moving these all back down.",
+        "charImg":"Schoolb.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "There's plenty of room on these shelves."
+    },
+    {
+        "char": "Natsuki",
+        "content": "And besides..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "They're really pretty to look at when they're all lined up!",
+        "charImg":"Y26.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Why would you waste that on the top shelf?"
+    },
+    {
+        "char": "you",
+        "content": "Ah, Natsuki..."
+    },
+    {
+        "char": "you",
+        "content": "There's a stool on the wall there."
+    },
+    {
+        "content": "In the closet, there's a collapsible stool that's hanging on the wall.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "If you want, I can reach up there and hand them to you..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I can get them myself!",
+        "charImg":"Schoolf.png"
+    },
+    {
+        "content": "Natsuki grabs the stool from the wall and unfolds it.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You think I'm too short or something?"
+    },
+    {
+        "char": "you",
+        "content": "I mean--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I {i}knew{/i} it!",
+        "charImg":"NatsukiCrossedArms5.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, you know what?",
+        "charImg":"NatsukiCrossedArms6.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just watch me!"
+    },
+    {
+        "content": "Natsuki hops onto the stool, which ends up being a little wobbly because of its collapsible design.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah...",
+        "charImg":"Schoole.png"
+    },
+    {
+        "char": "you",
+        "content": "Careful..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I know what I'm doing!!",
+        "charImg":"Schoolp.png"
+    },
+    {
+        "content": "Standing on the stool, Natsuki's fingertips reach the top shelf.","char":"nobody"
+    },
+    {
+        "content": "The stool would be enough for me to easily grab the books, but Natsuki is being stubborn as usual.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "U-Uuuh..."
+    },
+    {
+        "content": "Natsuki uses her fingers to scoot one of the smaller boxes to the edge of the shelf.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "See...?",
+        "charImg":"Schoolt.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Kyah--!",
+        "charImg":"Schools.png"
+    },
+    {
+        "content": "The box suddenly tips.","char":"nobody"
+    },
+    {
+        "content": "Natsuki barely catches it before it falls to the floor.","char":"nobody"
+    },
+    {
+        "content": "The stool wobbles.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Wawaa--",
+        "animation":[{"direction":"jump"}]
+    },
+    {
+        "content": "Losing balance, Natsuki hops off the stool.","char":"nobody"
+    },
+    {
+        "content": "Thankfully, she was able to stay on her feet.","char":"nobody"
+    },
+    {
+        "content": "She holds the box triumphantly.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "T-There!",
+        "charImg":"Y27.png"
+    },
+    {
+        "content": "Having almost fell, Natsuki is a bit shaken up.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Jeez..."
+    },
+    {
+        "char": "you",
+        "content": "No need to prove yourself to me."
+    },
+    {
+        "char": "you",
+        "content": "There's no way you'll be able to get the bigger boxes like that."
+    },
+    {
+        "char": "you",
+        "content": "I can reach them, so just--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I said I can do it!",
+        "charImg":"LeftArm5.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I don't want your help, okay?"
+    },
+    {
+        "char": "you",
+        "content": "Sigh..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm gonna get a chair, so just hang on."
+    },
+    {
+        "content": "Natsuki forces her way past me out of the closet.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Let's see..."
+    },
+    {
+        "content": "The classroom chairs have the desks attached, so they're too inconvenient to fit into the closet.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Aha!",
+        "charImg":"Y1.png"
+    },
+    {
+        "content": "Natsuki trots over to the teacher's desk, which has a computer chair behind it.","char":"nobody"
+    },
+    {
+        "content": "She rolls it on its wheels back over to the closet.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah--"
+    },
+    {
+        "content": "It's a little dangerous, since the chair swivels and rolls.","char":"nobody"
+    },
+    {
+        "content": "But I've already learned my lesson, so I keep my mouth shut.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ush--",
+        "charImg":"Y0.png"
+    },
+    {
+        "content": "Natsuki climbs onto the chair, then slowly balances onto her feet.","char":"nobody"
+    },
+    {
+        "content": "Since she refuses my help, I take a seat with my back against the side of the doorway and simply watch.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Aha! There we go!",
+        "charImg":{"background":"natsuki-bg2-1.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "See? I can easily do it now."
+    },
+    {
+        "content": "Natsuki grabs a stack of manga and bends down to put it on the shelf below.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "W-Wahh--",
+        "comment":"aca tiembla"
+    },
+    {
+        "content": "The chair swivels.","char":"nobody"
+    },
+    {
+        "content": "Natsuki catches herself on the shelf.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What are you doing??",
+        "charImg":{"background":"natsuki-bg2-2.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "Can you at least hold the chair steady instead of sitting and doing nothing?"
+    },
+    {
+        "content": "{i}(Who was it who told me not to help...?){/i}","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, yeah...I got you."
+    },
+    {
+        "content": "I hold the chair while Natsuki reaches back up.","char":"nobody",
+        "charImg":{"background":"natsuki-bg2-1.png"}
+    },
+    {
+        "char": "you",
+        "content": "--!"
+    },
+    {
+        "content": "I can...","char":"nobody"
+    },
+    {
+        "content": "I can almost see up her skirt?!","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Guh--"
+    },
+    {
+        "content": "I force myself to turn away.","char":"nobody"
+    },
+    {
+        "content": "Natsuki seriously didn't think this through...!","char":"nobody"
+    },
+    {
+        "content": "Once she realizes, I'll be dead!","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hup--",
+        "comment":"aca tiembla"
+    },
+    {
+        "content": "Natsuki wraps her arms around the Parfait Girls box set, easily the largest one on the shelf.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Uu...heavy..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hey, [player]...",
+        "charImg":{"background":"natsuki-bg2-2.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "I-I don't think I can bend down without falling...!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hurry and take this one..."
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "you",
+        "content": "But then I have to let go of the chair..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "That's fine...!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just for a second!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hurry up..."
+    },
+    {
+        "char": "you",
+        "content": "Alright...!"
+    },
+    {
+        "char": "you",
+        "content": "Let me just stand up."
+    },
+    {
+        "content": "I slowly release my grip from the chair.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What do you mean 'stand up'?"
+    },
+    {
+        "content": "Natsuki looks down at me.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Why are you all the way back--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "E-Eh...?"
+    },
+    {
+        "content": "Natsuki looks like she just realized something, but she'll lose her balance if she moves.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Natsuki, the box--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "{i}W-What are you looking at?!{/i}",
+        "charImg":{"background":"natsuki-bg2-3.png"},
+        "music":"poem-panic.mp3"
+    },
+    {
+        "char": "you",
+        "content": "--!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're trying to look at my...m-my...",
+        "comment":"aca tiembla"
+    },
+    {
+        "content": "Natsuki's legs shake.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I-I'm not! I was just--"
+    },
+    {
+        "char": "you",
+        "content": "--Natsuki, don't try to move!"
+    },
+    {
+        "char": "you",
+        "content": "Just give me the box!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You...you perv!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You set me up!!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Go away!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Get out!"
+    },
+    {
+        "char": "you",
+        "content": "But--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'll do it myself!!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah--",
+        "charImg":{"background":"natsuki-bg2-2.png"}
+    },
+    {
+        "content": "The chair suddenly swivels beneath Natsuki's feet.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Natsuki--!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "{i}Kyaaaaa!{/i}",
+        "charImg":{"background":"natsuki-bg2-3.png"}
+    },
+    {
+        "content": "The scene turns to chaos in a split second.","char":"nobody"
+    },
+    {
+        "content": "The chair flies from under Natsuki's feet.","char":"nobody"
+    },
+    {
+        "content": "Frantically, I try to catch her.","char":"nobody"
+    },
+    {
+        "content": "The box topples out of her hands, and the books go flying.","char":"nobody",
+        "charImg": "non"
+    },
+    {
+        "char": "you",
+        "content": "I got you--"
+    },
+    {
+        "content": "CRASH!","char":"nobody",
+        "comment":"aca termina toda la gilada y bueno, el efecto es raro y dificil",
+        "charImg":{"background":""},
+        "newBackground":{"noTransition":true,"src":"non"},
+        "music":"stop"
+    },
+    {
+        "content": "The full force of Natsuki's body against me throws me to the ground.","char":"nobody"
+    },
+    {
+        "content": "A whole bunch of books pelt me in the face.","char":"nobody"
+    },
+    {
+        "content": "Natsuki tries to shield herself with her own arms as her face lands straight on my chest.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ungh..."
+    },
+    {
+        "content": "My right arm and my back seriously felt the impact.","char":"nobody",
+        "animation":[{"direction":"height", "value": "200%"},{"direction":"top","value":"60%"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "U-Uu...",
+        "charImg":"Schools.png",
+        "newBackground":{"noTransition": true, "src":"Closet.png"},
+        "music":"daijoubu.mp3"
+    },
+    {
+        "content": "Slowly, Natsuki comes to her senses.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ghk--!"
+    },
+    {
+        "content": "She presses her arms straight into me to prop herself up.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh...?",
+        "charImg":"Schoolg.png"
+    },
+    {
+        "content": "Natsuki seems to realize that it's not the floor that's beneath her.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "G-Guuuuu...!!",
+        "charImg":"Schooln.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Gross! Gross!"
+    },
+    {
+        "char": "you",
+        "content": "Ghak--!"
+    },
+    {
+        "content": "A fist pounds into my chest.","char":"nobody",
+        "animation":"return"
+    },
+    {
+        "content": "Natsuki then hoists herself to her feet.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What were you thinking?!",
+        "charImg":"Schooly.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You sicko!"
+    },
+    {
+        "char": "Monika",
+        "content": "Everything okay over there...?",
+        "newCharacter":[{"char":"Monika","charImg":"Mon4.png","left":true,"new":true},{"char":"Sayori","charImg":"Y12.png","hide":"hide","new":true}]
+    },
+    {
+        "char": "Monika",
+        "content": "I heard a loud noise..."
+    },
+    {
+        "content": "Monika suddenly peers in.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Monika!",
+        "charImg":"Schoold.png",
+        "animation":[{"direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "See what happens when you put the manga on the top shelf?!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Are you trying to kill your club members or something?",
+        "charImg":"Schoolv.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez!"
+    },
+    {
+        "char": "Monika",
+        "content": "S-Sorry, sorry!",
+        "animation":[{"direction":"return"},{"char":"Monika","direction":"height","value":"103%"}],
+        "newCharacter":[{"char":"Monika","charImg":"3aa.png"}]
+    },
+    {
+        "char": "Monika",
+        "content": "Ahaha..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Oh, and one more thing.",
+        "animation":[{"direction":"height","value":"103%"},{"direction":"height","value":"100%","char":"Monika"}],
+        "charImg":"NatsukiCrossedArms6.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It seems like your most recent club member is a total pervert."
+    },
+    {
+        "char": "Natsuki",
+        "content": "So I hope you're happy."
+    },
+    {
+        "char": "you",
+        "content": "I didn't--!",
+        "animation":"return"
+    },
+    {
+        "content": "Somehow, it's impossible for me to explain this whole bizarre situation to Monika.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I didn't do anything, I swear...!"
+    },
+    {
+        "char": "Monika",
+        "content": "I know, I know, don't worry~",
+        "newCharacter":[{"char":"Monika","charImg":"Mon12.png"}]
+    },
+    {
+        "content": "Monika says that quietly to me.","char":"nobody",
+        "newCharacter":"erase"
+    },
+    {
+        "content": "Looks like I'm off the hook...","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Oh no...!",
+        "charImg":"Schoolo.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "My...my..."
+    },
+    {
+        "char": "you",
+        "content": "Eh?",
+        "charImg":"Schooll.png"
+    },
+    {
+        "content": "I look down.","char":"nobody"
+    },
+    {
+        "content": "Natsuki is kneeling on the floor, holding one of the books that are scattered all over.","char":"nobody"
+    },
+    {
+        "content": "There's a large diagonal crease along the page that she's desperately trying to smooth out.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah, it must have landed on the page..."
+    },
+    {
+        "content": "Natsuki tries a bit more to fix the crease, but she can't get it out.","char":"nobody"
+    },
+    {
+        "content": "Suddenly, she gives up and slams the book shut, then throws it to the floor.","char":"nobody",
+        "charImg":"Turnedaway3.png"
+    },
+    {
+        "content": "Instead of continuing to yell, she just lowers her head.","char":"nobody",
+        "music":"stop"
+    },
+    {
+        "char": "Natsuki",
+        "content": "{i}*Sob*{/i}",
+        "charImg":"Turnedaway5.png",
+        "animation":[{"direction":"top","value":"3%"}],
+        "music":"my-feelings.mp3"
+    },
+    {
+        "char": "you",
+        "content": "...Natsuki, are you--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "No!",
+        "animation":"return",
+        "charImg":"Turnedaway7.png"
+    },
+    {
+        "content": "Natsuki's voice squeaks.","char":"nobody"
+    },
+    {
+        "content": "I see tears on her face.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "I'll help get the crease out, okay?"
+    },
+    {
+        "char": "you",
+        "content": "It's partially my fault, so..."
+    },
+    {
+        "content": "Natsuki shakes her head, still looking down.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "No..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I don't even care that much..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm just..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Having a really bad day today..."
+    },
+    {
+        "content": "Natsuki sobs again.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I didn't mean to take it out on you...",
+        "charImg":"Turnedaway10.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I really didn't mean to!"
+    },
+    {
+        "char": "you",
+        "content": "It's...it's fine."
+    },
+    {
+        "char": "you",
+        "content": "...Is there anything you want to talk about?"
+    },
+    {
+        "content": "Natsuki shakes her head.","char":"nobody",
+        "charImg":"Turnedaway7.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Every day..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...is...so hard."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I just want to..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...come to the club and..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "..."
+    },
+    {
+        "content": "Natsuki falls silent again.","char":"nobody"
+    },
+    {
+        "content": "I can't press her, so I can only do what I know how to do.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright..."
+    },
+    {
+        "char": "you",
+        "content": "Well, I'll help clean this up."
+    },
+    {
+        "char": "you",
+        "content": "And I'll move the rest of your manga for you."
+    },
+    {
+        "char": "you",
+        "content": "Ah."
+    },
+    {
+        "content": "I pick up volume 2 of Parfait Girls.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "We'll set this one aside."
+    },
+    {
+        "char": "you",
+        "content": "This'll help cheer you up a bit, right?"
+    },
+    {
+        "char": "you",
+        "content": "We can get started on it once I'm done here."
+    },
+    {
+        "content": "Natsuki looks up with her glossy eyes.","char":"nobody",
+        "charImg":"Turnedaway9.png"
+    },
+    {
+        "content": "Her lip quivers.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're really nice to me..."
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "content": "That sounds really strange, coming from Natsuki.","char":"nobody"
+    },
+    {
+        "content": "I didn't expect it at all.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Well..."
+    },
+    {
+        "char": "you",
+        "content": "I'm just treating you like a friend, you know?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Nn...",
+        "charImg":"Turnedaway5.png"
+    },
+    {
+        "content": "Natsuki lowers her head and stifles another sob.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "I'm not sure what happened to her today, but being nice is the least I could do.","char":"nobody"
+    },
+    {
+        "content": "The next couple minutes are silent between us as I begin gathering the scattered books.","char":"nobody"
+    },
+    {
+        "content": "I make sure to slip them into the box in their correct order.","char":"nobody"
+    },
+    {
+        "content": "After a little bit, Natsuki starts helping.","char":"nobody"
+    },
+    {
+        "content": "It isn't long before we're done, and I hoist the box onto the shelf where Natsuki wanted to put it.","char":"nobody"
+    },
+    {
+        "content": "Then, I get on the stool and quickly finish moving the rest of her books from the top shelf.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright--!"
+    },
+    {
+        "char": "you",
+        "content": "That should do it."
+    },
+    {
+        "content": "I hop off the stool.","char":"nobody"
+    },
+    {
+        "content": "Natsuki averts her gaze.","char":"nobody"
+    },
+    {
+        "char": "Natsuki",
+        "content": "T-Thanks...",
+        "charImg":"LeftArm4.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha..."
+    },
+    {
+        "char": "you",
+        "content": "It's nothing."
+    },
+    {
+        "content": "Natsuki is holding the volume I set aside in her hands.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright, I'm ready."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Good.",
+        "charImg":"LeftArm3.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Even if you weren't, I'd make you anyway."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're taking responsibility for what you said.",
+        "charImg":"LeftArm4.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "The thing about cheering me up."
+    },
+    {
+        "char": "you",
+        "content": "If you insist!"
+    },
+    {
+        "newBackground":"Club.png",
+        "content": "We sit in the same spot as last time, and I open the second volume.","char":"nobody",
+        "music":"stop"
+    },
+    {
+        "content": "Natsuki's mood quickly improves, laughing and pointing things out to me.","char":"nobody",
+        "music":"daijoubu.mp3"
+    },
+    {
+        "content": "She's surprisingly sharp, making note of a lot of subtle repeated jokes and background elements.","char":"nobody"
+    },
+    {
+        "content": "In the end, I'm pretty impressed by how everything ties together in this manga.","char":"nobody"
+    },
+    {
+        "content": "I guess Natsuki has good taste after all.","char":"nobody"
+    },
+    {
+        "content": "After some time, Monika gets our attention as usual, and it's time to share poems again.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Guess I'll be holding onto this for now.",
+        "charImg":"LeftArm0.pg"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Yep!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Even you sound more enthusiastic this time."
+    },
+    {
+        "char": "you",
+        "content": "Well, I'm starting to get into it, you know."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ehehe.",
+        "charImg":"Natsuki_Grin2.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Told you."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, yeah..."
+    },
+    {
+        "content": "I return to my seat and slip the book into my bag.\"",
+        "charImg":"non"
+    }
+]

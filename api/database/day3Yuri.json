@@ -9,7 +9,7 @@
         "content": "Ah..."
     },
     {
-        "content": "\"I suddenly notice that Yuri is reading a different book from the one we've been reading together.\"\r"
+        "content": "I suddenly notice that Yuri is reading a different book from the one we've been reading together.", "char":"nobody"
     },
     {
         "char": "you",
@@ -66,11 +66,11 @@
         "content": "Not to mention for yourself, as well."
     },
     {
-        "content": "\"Yuri stands up and makes her way to the closet.\"\r",
+        "content": "Yuri stands up and makes her way to the closet.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"I follow and watch as she retrieves a small water pitcher from the shelf - the kind with a filter inside.\"\r"
+        "content": "I follow and watch as she retrieves a small water pitcher from the shelf - the kind with a filter inside.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -82,24 +82,24 @@
         "content": "Sure..."
     },
     {
-        "content": "\"Yuri hands me the water pitcher and also fetches an electric kettle.\"\r"
+        "content": "Yuri hands me the water pitcher and also fetches an electric kettle.", "char":"nobody"
     },
     {
         "char": "Yuri",
         "content": "I'm going to plug this in at the teacher's desk, and then we'll go get some water."
     },
     {
-        "content": "\"She walks past me and sets the kettle down on the teacher's desk.\"\r",
+        "content": "She walks past me and sets the kettle down on the teacher's desk.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"I simply watch her movements.\"\r"
+        "content": "I simply watch her movements.", "char":"nobody"
     },
     {
-        "content": "\"To my surprise, the way she moves really contrasts her speaking mannerisms.\"\r"
+        "content": "To my surprise, the way she moves really contrasts her speaking mannerisms.", "char":"nobody"
     },
     {
-        "content": "\"Especially because of her long legs, Yuri appears elegant and methodical.\"\r"
+        "content": "Especially because of her long legs, Yuri appears elegant and methodical.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -146,7 +146,7 @@
         "content": "We're just...Yuri was going to make some tea, so..."
     },
     {
-        "content": "\"I suddenly realize how weird it sounds to explain this to Monika.\"\r"
+        "content": "I suddenly realize how weird it sounds to explain this to Monika.", "char":"nobody"
     },
     {
         "char": "you",
@@ -194,7 +194,7 @@
         "animation":"return"
     },
     {
-        "content": "\"My mouth gapes.\"\r"
+        "content": "My mouth gapes.", "char":"nobody"
     },
     {
         "char": "Monika",
@@ -221,11 +221,11 @@
         "animation":"return"
     },
     {
-        "content": "\"Yuri quickly exits the room, and I follow.\"\r"
+        "content": "Yuri quickly exits the room, and I follow.", "char":"nobody"
     },
     {
         "newCharacter":"erase",
-        "content": "\"Once in the hallway, she suddenly puts her forehead against the wall.\"\r",
+        "content": "Once in the hallway, she suddenly puts her forehead against the wall.", "char":"nobody",
         "newBackground":"Corridor.png",
         "charImg":"YSShy1.png"
     },
@@ -346,7 +346,7 @@
         "content": "Ah...um..."
     },
     {
-        "content": "\"Yuri lifts her head.\"\r"
+        "content": "Yuri lifts her head.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -371,10 +371,10 @@
         "content": "I like being friends with you too..."
     },
     {
-        "content": "\"I feel kind of awkward saying something like that...\"\r"
+        "content": "I feel kind of awkward saying something like that...", "char":"nobody"
     },
     {
-        "content": "\"But I'm doing my best to help Yuri feel better.\"\r"
+        "content": "But I'm doing my best to help Yuri feel better.", "char":"nobody"
     },
     {
         "char": "you",
@@ -394,11 +394,11 @@
         "content": "Yeah."
     },
     {
-        "content": "\"Yuri and I walk to the nearest water fountain.\"\r",
+        "content": "Yuri and I walk to the nearest water fountain.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"Once we fill up the water pitcher, we return to the classroom.\"\r"
+        "content": "Once we fill up the water pitcher, we return to the classroom.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -419,7 +419,7 @@
         "content": "Very well."
     },
     {
-        "content": "\"Yuri sets the temperature on the kettle to 200 degrees.\"\r"
+        "content": "Yuri sets the temperature on the kettle to 200 degrees.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -458,11 +458,11 @@
         "content": "Ah...perhaps I will!"
     },
     {
-        "content": "\"Yuri fetches the teapot and begins measuring the tea leaves.\"\r",
+        "content": "Yuri fetches the teapot and begins measuring the tea leaves.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"To my surprise, she even starts humming a little to herself.\"\r"
+        "content": "To my surprise, she even starts humming a little to herself.", "char":"nobody"
     },
     {
         "char": "you",
@@ -526,13 +526,13 @@
         "content": "That's..."
     },
     {
-        "content": "\"Yuri wasn't kidding...\"\r"
+        "content": "Yuri wasn't kidding...", "char":"nobody"
     },
     {
-        "content": "\"I don't even know if I can keep up with this...!\"\r"
+        "content": "I don't even know if I can keep up with this...!", "char":"nobody"
     },
     {
-        "content": "\"I watch Yuri pour a cup of tea for each of us.\"\r"
+        "content": "I watch Yuri pour a cup of tea for each of us.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -623,7 +623,7 @@
         "content": "I'll go ahead and get the book."
     },
     {
-        "content": "\"I retrieve the book from my bag.\"\r",
+        "content": "I retrieve the book from my bag.", "char":"nobody",
         "charImg":"non"
     },
     {
@@ -631,22 +631,22 @@
         "content": "Ah, I have some chocolate as well..."
     },
     {
-        "content": "\"It's a bag of small chocolate candies that I kept hidden from Sayori's candy radar.\"\r"
+        "content": "It's a bag of small chocolate candies that I kept hidden from Sayori's candy radar.", "char":"nobody"
     },
     {
-        "content": "\"I take it, since it'll go well with the tea.\"\r"
+        "content": "I take it, since it'll go well with the tea.", "char":"nobody"
     },
     {
-        "content": "\"Yuri and I then sit against the wall, teacups at our sides.\"\r"
+        "content": "Yuri and I then sit against the wall, teacups at our sides.", "char":"nobody"
     },
     {
-        "content": "\"As if in sync, we assume the same reading position as last time, each holding one half of the book.\"\r"
+        "content": "As if in sync, we assume the same reading position as last time, each holding one half of the book.", "char":"nobody"
     },
     {
-        "content": "\"Except this time...\"\r"
+        "content": "Except this time...", "char":"nobody"
     },
     {
-        "content": "\"Our bodies are even closer to each other.\"\r"
+        "content": "Our bodies are even closer to each other.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -658,18 +658,18 @@
         "content": "--!"
     },
     {
-        "content": "\"Yuri slides closer until our shoulders are touching.\"\r",
+        "content": "Yuri slides closer until our shoulders are touching.", "char":"nobody",
         "charImg":"YLook.png",
         "animation":[{"direction":"jump"}]
     },
     {
-        "content": "\"How am I supposed to focus on reading like this...?!\"\r"
+        "content": "How am I supposed to focus on reading like this...?!", "char":"nobody"
     },
     {
-        "content": "\"Yuri was always kind of cute, but...\"\r"
+        "content": "Yuri was always kind of cute, but...", "char":"nobody"
     },
     {
-        "content": "\"When she's being less apprehensive, it's almost more than I can handle!\"\r"
+        "content": "When she's being less apprehensive, it's almost more than I can handle!", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -677,38 +677,38 @@
         "charImg":"YSurp2.png"
     },
     {
-        "content": "\"Yuri hands me my teacup.\"\r"
+        "content": "Yuri hands me my teacup.", "char":"nobody"
     },
     {
-        "content": "\"Holding it with my hand that's not holding the book, I end up in a position that makes it even harder to focus.\"\r"
+        "content": "Holding it with my hand that's not holding the book, I end up in a position that makes it even harder to focus.", "char":"nobody"
     },
     {
-        "content": "\"Because now I need to worry about making sure I don't accidentally touch her chest...!\"\r"
+        "content": "Because now I need to worry about making sure I don't accidentally touch her chest...!", "char":"nobody"
     },
     {
-        "content": "\"Meanwhile, Yuri hasn't noticed a single thing.\"\r"
+        "content": "Meanwhile, Yuri hasn't noticed a single thing.", "char":"nobody"
     },
     {
-        "content": "\"She wears her intense reading expression, and I can only presume the world around her has faded away.\"\r"
+        "content": "She wears her intense reading expression, and I can only presume the world around her has faded away.", "char":"nobody"
     },
     {
-        "content": "\"I use all of my willpower to focus on reading.\"\r"
+        "content": "I use all of my willpower to focus on reading.", "char":"nobody"
     },
     {
-        "content": "\"...\"\r"
+        "content": "...", "char":"nobody"
     },
     {
-        "content": "\"After a few minutes, I finally manage to relax a little.\"\r"
+        "content": "After a few minutes, I finally manage to relax a little.", "char":"nobody"
     },
     {
-        "content": "\"I put the teacup between my legs and fumble with the chocolate wrapper.\"\r"
+        "content": "I put the teacup between my legs and fumble with the chocolate wrapper.", "char":"nobody"
     },
     {
         "char": "you",
         "content": "Ah, sorry..."
     },
     {
-        "content": "\"I briefly let go of the book to finish opening the wrapper.\"\r"
+        "content": "I briefly let go of the book to finish opening the wrapper.", "char":"nobody"
     },
     {
         "char": "you",
@@ -767,45 +767,45 @@
     },
     {
         "charImg":{"background":"yuri-bg2-1.png"},
-        "content": "\"Yuri opens the book with both hands.\"\r"
+        "content": "Yuri opens the book with both hands.", "char":"nobody"
     },
     {
-        "content": "\"She holds it so that I don't have any harder of a time reading from it.\"\r"
+        "content": "She holds it so that I don't have any harder of a time reading from it.", "char":"nobody"
     },
     {
-        "content": "\"But as a result, her left arm is practically resting on top of my leg.\"\r"
+        "content": "But as a result, her left arm is practically resting on top of my leg.", "char":"nobody"
     },
     {
         "char": "you",
         "content": "Well, in that case..."
     },
     {
-        "content": "\"Yuri is already totally focused on reading again.\"\r"
+        "content": "Yuri is already totally focused on reading again.", "char":"nobody"
     },
     {
-        "content": "\"I take a chocolate candy and pop it into my mouth.\"\r"
+        "content": "I take a chocolate candy and pop it into my mouth.", "char":"nobody"
     },
     {
-        "content": "\"Then, I take another chocolate...\"\r"
+        "content": "Then, I take another chocolate...", "char":"nobody"
     },
     {
-        "content": "\"And I hold it up to Yuri.\"\r"
+        "content": "And I hold it up to Yuri.", "char":"nobody"
     },
     {
-        "content": "\"She doesn't even look away from the book.\"\r"
+        "content": "She doesn't even look away from the book.", "char":"nobody"
     },
     {
-        "content": "\"She simply parts her lips, as if this situation was completely natural.\"\r"
+        "content": "She simply parts her lips, as if this situation was completely natural.", "char":"nobody"
     },
     {
-        "content": "\"But that means I can't stop here!\"\r"
+        "content": "But that means I can't stop here!", "char":"nobody"
     },
     {
         "charImg":{"background":"yuri-bg2-2.png"},
-        "content": "\"I apprehensively place the chocolate in her mouth.\"\r"
+        "content": "I apprehensively place the chocolate in her mouth.", "char":"nobody"
     },
     {
-        "content": "\"Just like that, Yuri closes her lips over it.\"\r"
+        "content": "Just like that, Yuri closes her lips over it.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -813,7 +813,7 @@
     },
     {        
         "charImg":{"background":"yuri-bg2-3.png"},
-        "content": "\"Yuri's expression suddenly breaks.\"\r"
+        "content": "Yuri's expression suddenly breaks.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -824,7 +824,7 @@
         "content": "Did I just..."
     },
     {
-        "content": "\"Yuri looks at me like she needs to confirm what just happened.\"\r"
+        "content": "Yuri looks at me like she needs to confirm what just happened.", "char":"nobody"
     },
     {
         "charImg":{"background":"yuri-bg2-4.png"},
@@ -868,7 +868,7 @@
         "content": "I mean..."
     },
     {
-        "content": "\"Not really in this kind of context, but...\"\r"
+        "content": "Not really in this kind of context, but...", "char":"nobody"
     },
     {
         "char": "you",
@@ -896,22 +896,22 @@
     },
     {
         "charImg":{"background":"yuri-bg2-1.png"},
-        "content": "\"The situation has gotten really tense...\"\r"
+        "content": "The situation has gotten really tense...", "char":"nobody"
     },
     {
-        "content": "\"Yuri tries to return to the book.\"\r"
+        "content": "Yuri tries to return to the book.", "char":"nobody"
     },
     {
-        "content": "\"But I can tell just by her expression that even she can't focus now.\"\r"
+        "content": "But I can tell just by her expression that even she can't focus now.", "char":"nobody"
     },
     {
-        "content": "\"My heart is pounding...\"\r"
+        "content": "My heart is pounding...", "char":"nobody"
     },
     {
-        "content": "\"I nervously take another chocolate between my fingers.\"\r"
+        "content": "I nervously take another chocolate between my fingers.", "char":"nobody"
     },
     {
-        "content": "\"But this time, Yuri's eyes meet mine.\"\r"
+        "content": "But this time, Yuri's eyes meet mine.", "char":"nobody"
     },
     {
         "charImg":{"background":"yuri-bg2-4.png"},
@@ -919,33 +919,33 @@
         "content": "..."
     },
     {
-        "content": "\"How did it even come to this...?\"\r"
+        "content": "How did it even come to this...?", "char":"nobody"
     },
     {
-        "content": "\"Yuri doesn't avert her gaze.\"\r"
+        "content": "Yuri doesn't avert her gaze.", "char":"nobody"
     },
     {
-        "content": "\"I notice her chest rising and falling to the rhythm of her breaths.\"\r"
+        "content": "I notice her chest rising and falling to the rhythm of her breaths.", "char":"nobody"
     },
     {
-        "content": "\"I raise my arm...\"\r"
+        "content": "I raise my arm...", "char":"nobody"
     },
     {
         "char": "Yuri",
         "content": "Ah..."
     },
     {
-        "content": "\"Like before, Yuri parts her lips.\"\r"
+        "content": "Like before, Yuri parts her lips.", "char":"nobody"
     },
     {
-        "content": "\"But...it's different this time.\"\r"
+        "content": "But...it's different this time.", "char":"nobody"
     },
     {
-        "content": "\"I take the chocolate and place it in her mouth.\"\r",
+        "content": "I take the chocolate and place it in her mouth.", "char":"nobody",
         "charImg":{"background":"yuri-bg2-5.png"}
     },
     {
-        "content": "\"I feel her hot breath on my fingers.\"\r",
+        "content": "I feel her hot breath on my fingers.", "char":"nobody",
         "newCharacter":[{"char":"Monika","charImg":"Ika1.png","left":true,"new":true,"hide":"hide"},{"char":"Natsuki","charImg":"Schools.png","hide":"hide","new":true}],
         "charImg":"non",
         "animation":[{"char":"Monika","direction":"left", "value":"-40%"}]
@@ -953,6 +953,7 @@
     {
         "char": "Monika",
         "content": "Okay, everyone!",
+        "music":"stop",
         "charImg":{"background":"break"},
         "newBackground":{"noTransition": true, "src": "Club.png"},
         "animation":"return",
@@ -965,10 +966,11 @@
     {
         "char": "Yuri",
         "content": "A-Ah!",
-        "charImg":"YScared2.png"
+        "charImg":"YScared2.png",
+        "music":"main-theme.mp3"
     },
     {
-        "content": "\"Yuri jolts back.\"\r"
+        "content": "Yuri jolts back.", "char":"nobody"
     },
     {
         "char": "Monika",
@@ -990,7 +992,7 @@
         "animation":[{"char":"Monika","direction":"height","value":"103%"}]
     },
     {
-        "content": "\"The spell is abruptly broken.\"\r",
+        "content": "The spell is abruptly broken.", "char":"nobody",
         "newCharacter":"erase"
     },
     {
@@ -1007,16 +1009,16 @@
         "content": "Yeah..."
     },
     {
-        "content": "\"Yuri picks up the teacups from the floor.\"\r",
+        "content": "Yuri picks up the teacups from the floor.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"I pick up the bag of chocolates.\"\r"
+        "content": "I pick up the bag of chocolates.", "char":"nobody"
     },
     {
-        "content": "\"In the end, we hastily clean up without so much as a word between us.\"\r"
+        "content": "In the end, we hastily clean up without so much as a word between us.", "char":"nobody"
     },
     {
-        "content": "\"I get the feeling this is something neither of us will have the courage to bring up...\"" 
+        "content": "I get the feeling this is something neither of us will have the courage to bring up...", "char":"nobody" 
     }
 ]

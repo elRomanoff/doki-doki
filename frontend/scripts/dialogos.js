@@ -93,7 +93,7 @@ fetch(chapter)
                 let fetchCall = ""
 
                 if(x[0].usesPrevScore){
-                    if ((route === "sayori" && prevSScore > prevNScore && prevSScore > prevYScore) || (route === "yuri" && prevYScore > prevSScore && prevYScore > prevNScore)){
+                    if ((route === "sayori" && prevSScore > prevNScore && prevSScore > prevYScore) || (route === "yuri" && prevYScore > prevSScore && prevYScore > prevNScore) || (route === "natsuki" && prevNScore > prevSScore && prevNScore > prevYScore)){
                         fetchCall = chapter + "/" + route
                     }
                     else fetchCall = `day${parseInt(chapter[chapter.length - 1]) - 1}/${route}`;
@@ -236,12 +236,19 @@ function manageProperties(objDialog){
     if(objDialog.musicGroup && (enableMusic !== "false" || !enableMusic) )  manageMusicGroup(objDialog.musicGroup)
     if(objDialog.usesVar) {
         objDialog.content = objDialog.content.replace("#var", you)
+        if(route !== "sayori") objDialog.content = objDialog.content.replace("#route", route)
+        else objDialog.content = objDialog.content.replace("#route", "Yuri")
     }
     if(objDialog.char) {
         if(charName.classList.contains("toggler")) charName.classList.remove("toggler");
-        if (objDialog.char === "nobody") charName.classList.add("toggler")
-        else if (objDialog.char === "you") charName.innerHTML = you; 
-        else charName.innerHTML = objDialog.char;
+        if(objDialog.char !== "nobody"){
+            objDialog.content = `"${objDialog.content}"`
+            if (objDialog.char === "you") charName.innerHTML = you; 
+            else charName.innerHTML = objDialog.char;
+        }
+
+        else charName.classList.add("toggler")
+
     }
     if (objDialog.charImg) manageImage(objDialog.charImg);
 
@@ -285,7 +292,7 @@ function manageOptions(optionObj){
             else arrDialog.splice(i + 1, 0, ...optionObj.option1)
         }
 
-        else if (optionObj.optionalText[0]) {
+        else if (optionObj.optionalText) {
             addAnimatedText(optionObj.optionalText[0])
         }
         else if (optionObj.option2) arrDialog.splice(i + 1, 0, ...optionObj.option2)
@@ -629,7 +636,6 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
 
     if(arrChar) selectionMenu = arrChar.map(objChar => {return objChar})
 
-
     if(isNew && objDialog.dependsOnRoute) {
 
         selectionOptions.Monika = objDialog.Monika.concat(objDialog.Monika[0][route]);
@@ -670,9 +676,13 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
     selectContainer.addEventListener("click",(e) =>{e.stopPropagation()})
 
     selectionMenu.forEach( x => {
+
+        if(route === "natsuki") x.content = x.content.replace("#route", "Natsuki")
+        else x.content = x.content.replace("#route", "Yuri")
+
         const charSelect = document.createElement("div");
         charSelect.classList.add("selection-btn", x.char)
-        charSelect.innerHTML = x.content;
+        charSelect.innerHTML = x.content
         charSelect.addEventListener("mouseover",()=> hoverSound.play())
         charSelect.addEventListener("click",(e)=>{ 
             selectSound.play();

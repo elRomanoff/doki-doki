@@ -62,6 +62,7 @@ let dictionary = {
     "Sayori10.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2FSayori10.png?alt=media&token=19e57496-31ee-40ac-9d90-aadb10d25ab1",
 
     //NATSUKI
+    "LeftArm0.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FLeftArm0.png?alt=media&token=9fd474f0-3cac-4df5-baa6-d877e5cc9a56",
     "LeftArm.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm1.png?alt=media&token=87ec8efb-a233-4079-8b6c-685bc7381a62",
     "LeftArm1.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm1.png?alt=media&token=87ec8efb-a233-4079-8b6c-685bc7381a62",
     "LeftArm2.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FLeftArm2.png?alt=media&token=c4a37732-09cf-483b-84c8-c9e6a7582a2a",
@@ -107,9 +108,14 @@ let dictionary = {
     "Schoolx.png":"",
     "Schooly.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FSchooly.png?alt=media&token=e321eb27-0e27-4be2-a223-96cb0ba5c8b7",
     "Schoolz.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FSchoolz.png?alt=media&token=f27dad52-38c1-4b9b-a50d-df3d77134825",
-    "turnedaway3.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FTurnedaway3.png?alt=media&token=e024b6bd-029f-4a06-832b-0536881259e3",
-    "turnedaway4.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway4.png?alt=media&token=4a94744f-68dc-4117-bc56-dc7887a60dfb",
-    "turnedaway9.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FTurnedaway9.png?alt=media&token=c451f2e5-5810-420f-b975-08b3a0dfe40f",
+    "Turnedaway3.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway3.png?alt=media&token=a38f7b81-e112-4a66-9be9-5b2b683a1dc0",
+    "Turnedaway4.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway4.png?alt=media&token=fe9f58a5-e97d-404e-83e8-73aa197cba73",
+    "Turnedaway5.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway5.png?alt=media&token=2b4d3148-94e4-4e5d-b6b1-6adf1203eb8c",
+    "Turnedaway6.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway6.png?alt=media&token=5d6a525e-1614-4837-839b-44bb50c1f16c",
+    "Turnedaway7.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway7.png?alt=media&token=1086dee0-78ef-47b3-bee9-73ac86cf4895",
+    "Turnedaway8.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway8.png?alt=media&token=aaa89f8b-77d0-4a64-b1f8-220a3d28d182",
+    "Turnedaway9.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway9.png?alt=media&token=d29108a1-d9e2-4581-873f-9c4ebbf6f564",
+    "Turnedaway10.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FTurnedaway10.png?alt=media&token=b12cd7d9-3cc6-4cef-aa9c-04b4f931d848",
     "Y0.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY0.png?alt=media&token=93e08caf-4696-4788-8a3e-7bfc4c2c59af",
     "Y1.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY1.png?alt=media&token=6a5ed4ba-dd50-4bc8-853f-4d0b3320bc42",
     "Y2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY2.png?alt=media&token=843e8389-f62b-4f32-8561-1d602c5f46de",
@@ -138,6 +144,7 @@ let dictionary = {
     "Y27.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY27.png?alt=media&token=938bee9d-64f2-49a3-a6d6-4fa17f5ea57c",
     "Y28.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY28.png?alt=media&token=2eec5e04-cd9e-4a3e-aaf5-d73ce4c266dd",
     "Y29.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fnatsuki%2Fschool%2FY29.png?alt=media&token=01818ce1-1914-4598-94b9-f30ec21d1b99",
+    "Y30.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/nat%2FY30.png?alt=media&token=d4aab963-f016-4770-a772-ac38b274f009",
 
     //YURI
     "Casualclothes1-0.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2FYuri%2Fcasual%2FCasualclothes1-0.png?alt=media&token=612bdb39-724c-4246-8f62-ad5ae7ae72ac",
@@ -254,6 +261,10 @@ let dictionary = {
     "natsuki-bg-2.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-2.png?alt=media&token=e8e8efbe-c2f7-45a7-975f-65598cc7443f",
     "natsuki-bg-3.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-3.png?alt=media&token=a413f155-99a0-40fe-93b6-6524017837c5",
     "natsuki-bg-4.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg-4.png?alt=media&token=4f976bf4-1aa2-4c40-90bb-6021a4b2b4f6",
+    
+    "natsuki-bg2-1.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg2-1.png?alt=media&token=5c01fcce-c514-44c6-8dde-7f271caeb8ea",
+    "natsuki-bg2-2.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg2-2.png?alt=media&token=4f0aa3f3-440a-4d34-9bc5-9e73c2537cd0",
+    "natsuki-bg2-3.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg2-3.png?alt=media&token=34776601-a906-4675-b0cb-2e1483687613",
     //yuri
     "yuri-bg-1.png":"https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-1.png?alt=media&token=b106ef18-6170-4cbf-aac0-2ee7ace20782",
     "yuri-bg-2.png": "https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/imagenes%2Fbackgrounds%2Fyuri-bg-2.png?alt=media&token=330e77d5-7795-4ed2-be69-3c4cf199375c",
