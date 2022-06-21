@@ -242,7 +242,6 @@ function manageProperties(objDialog){
     if(objDialog.char) {
         if(charName.classList.contains("toggler")) charName.classList.remove("toggler");
         if(objDialog.char !== "nobody"){
-            objDialog.content = `"${objDialog.content}"`
             if (objDialog.char === "you") charName.innerHTML = you; 
             else charName.innerHTML = objDialog.char;
         }
@@ -269,7 +268,10 @@ function manageProperties(objDialog){
         i++;
         runDialog();
     }
-    else addAnimatedText(objDialog.content);
+    else{
+        // if(objDialog?.char !== "nobody") objDialog.content = `"${objDialog.content}"` 
+        addAnimatedText(objDialog.content);
+    }
     return
 }
 

@@ -446,8 +446,9 @@
         "content": "Uu...heavy..."
     },
     {
+        "usesVar": true,
         "char": "Natsuki",
-        "content": "Hey, [player]...",
+        "content": "Hey, #var...",
         "charImg":{"background":"natsuki-bg2-2.png"}
     },
     {

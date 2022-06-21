@@ -179,8 +179,9 @@
         "charImg":"Yuu.png"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "Or do you want to tell me there's something wrong with helping involve [player] in club activities?"
+        "content": "Or do you want to tell me there's something wrong with helping involve #var in club activities?"
     },
     {
         "char": "Monika",
@@ -212,8 +213,9 @@
         "animation":[{"direction":"height","value":"103%"},{"char":"Monika", "direction":"height","value":"100%"}]
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "Then let's go, [player]."
+        "content": "Then let's go, #var."
     },
     {
         "char": "you",
@@ -275,8 +277,9 @@
         "content": "It's also not right for Monika to judge people like that."
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player]...",
+        "content": "#var...",
         "charImg":"Yurifull1.png"
     },
     {
@@ -349,8 +352,9 @@
         "content": "Yuri lifts her head.", "char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player]...",
+        "content": "#var...",
         "charImg":"Yunu2.png"
     },
     {
@@ -401,8 +405,9 @@
         "content": "Once we fill up the water pitcher, we return to the classroom.", "char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player], do you like oolong tea?",
+        "content": "#var, do you like oolong tea?",
         "charImg":"Yuri_school_2.png",
         "newBackground":"Club.png"
     },
@@ -513,8 +518,9 @@
         "content": "Just don't push yourself too much."
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "You're always worrying about me, [player]...",
+        "content": "You're always worrying about me, #var...",
         "charImg":"YBashful_Smile.png"
     },
     {
@@ -535,8 +541,9 @@
         "content": "I watch Yuri pour a cup of tea for each of us.", "char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player], I have another request.",
+        "content": "#var, I have another request.",
         "charImg":"Yuri_school_2.png"
     },
     {
@@ -832,8 +839,9 @@
         "content": "U-Um..."
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player]..."
+        "content": "#var..."
     },
     {
         "char": "you",
@@ -978,8 +986,9 @@
         "animation":[{"char":"Monika","direction":"height","value":"103%"}]
     },
     {
+        "usesVar": true,
         "char": "Monika",
-        "content": "[player], you can help Yuri put away the tea stuff, right?"
+        "content": "#var, you can help Yuri put away the tea stuff, right?"
     },
     {
         "char": "you",

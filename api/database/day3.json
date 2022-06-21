@@ -4,7 +4,8 @@
         "usesRoute":true,
         "usesPrevScore":true,
         "newBackground": "Club.png",
-        "music": "ohayou-sayori.mp3"
+        "music": "ohayou-sayori.mp3",
+        "next":"day4"
     },
     {
         "content": "I've gotten a little more comfortable here over the past couple days.", "char":"nobody"
@@ -1279,8 +1280,9 @@
                             "content": "I'm surprised you know her taste so well already."
                         },
                         {
+                            "usesVar":true,
                             "char": "Monika",
-                            "content": "Are you sure you're not cheating, [player]?",
+                            "content": "Are you sure you're not cheating, #var?",
                             "charImg": "Ika1.png"
                         },
                         {
@@ -1360,8 +1362,9 @@
                             "charImg":"Mon4.png"
                         },
                         {
+                            "usesVar":true,
                             "char": "Monika",
-                            "content": "But [player] wrote this poem."
+                            "content": "But #var wrote this poem."
                         },
                         {
                             "char": "Monika",
@@ -1380,8 +1383,9 @@
                             "content": "She apparently forgot that my poem is technically for everyone to read.", "char":"nobody"
                         },
                         {
+                            "usesVar":true,
                             "char": "Natsuki",
-                            "content": "Okay, well, I think [player] is done sharing this poem with everyone.",
+                            "content": "Okay, well, I think #var is done sharing this poem with everyone.",
                             "newCharacter":[{"char":"Natsuki","charImg":"Y5.png"}]
                         },
                         {
@@ -2731,8 +2735,9 @@
                             "content": "Mm..."
                         },
                         {
+                            "usesVar": true,
                             "char": "Yuri",
-                            "content": "This is pretty good, [player]."
+                            "content": "This is pretty good, #var."
                         },
                         {
                             "char": "Yuri",
@@ -2932,8 +2937,9 @@
                             "content": "It's a bit different."
                         },
                         {
+                            "usesVar": true,
                             "char": "Yuri",
-                            "content": "I respect you for trying different things, [player].",
+                            "content": "I respect you for trying different things, #var.",
                             "charImg": "2l1.png"
                         },
                         {
@@ -3104,8 +3110,9 @@
                             "content": "It's a bit different."
                         },
                         {
+                            "usesVar": true,
                             "char": "Yuri",
-                            "content": "I respect you for trying different things, [player].",
+                            "content": "I respect you for trying different things, #var.",
                             "charImg":"2l1.png"
                         },
                         {
@@ -3576,8 +3583,9 @@
                             "content": "And people would make fun of me."
                         },
                         {
+                            "usesVar": true,
                             "char": "Yuri",
-                            "content": "Don't you have anything like that, [player]?"
+                            "content": "Don't you have anything like that, #var?"
                         },
                         {
                             "char": "you",
@@ -4292,8 +4300,9 @@
                     "content": "Maybe I'm getting better at expressing my feelings after all!"
                 },
                 {
+                    "usesVar": true,
                     "char": "Sayori",
-                    "content": "Thanks, [player]!",
+                    "content": "Thanks, #var!",
                     "charImg":"Say17.png"
                 },
                 {
@@ -4502,8 +4511,9 @@
                     "content": "Maybe I'm getting better at expressing my feelings after all!"
                 },
                 {
+                    "usesVar": true,
                     "char": "Sayori",
-                    "content": "Thanks, [player]!",
+                    "content": "Thanks, #var!",
                     "charImg": "Say17.png"
                 },
                 {
@@ -6970,8 +6980,9 @@
                 "content": "I wouldn't just ruin that for you."
             },
             {
+                "usesVar": true,
                 "char": "Sayori",
-                "content": "You're so silly, [player]...",
+                "content": "You're so silly, #var...",
                 "charImg":"Say25.png"
             },
             {

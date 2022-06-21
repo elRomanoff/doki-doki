@@ -31,6 +31,9 @@ router.get("/day2", (req, res) => {
 router.get("/day3", (req, res) => {
     res.sendFile(path.join(__dirname, '../database/day3.json'))
 })
+router.get("/day4",(req,res) => {
+    res.sendFile(path.join(__dirname, '../database/day4.json'))
+})
 
 router.get("/day3/:char", (req, res) => {
     if (req.params.char === "sayori") {
@@ -56,6 +59,19 @@ router.get("/day2/:char", (req,res) =>{
         res.sendFile(path.join(__dirname, '../database/day2natsuki.json'))
     }
 })
+
+router.get("/day4/:char", (req, res) => {
+    if (req.params.char === "sayori") {
+        res.sendFile(path.join(__dirname, '../database/day4sayori.json'))
+    }
+    else if (req.params.char === "yuri") {
+        res.sendFile(path.join(__dirname, '../database/day4yuri.json'))
+    }
+    else if (req.params.char === "natsuki") {
+        res.sendFile(path.join(__dirname, '../database/day4natsuki.json'))
+    }
+})
+
 
 
 //media routes
