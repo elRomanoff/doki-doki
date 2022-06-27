@@ -122,8 +122,9 @@ fetch(chapter)
                 arrDialog.push(...auxDialogArray);
                 sumIndex = auxDialogArray.length
             }
+            if (element.nextRoute) next = next + element.nextRoute
             if (element.charImg) {
-                if(element.charImg.background) encodeImg(dictionary(element.charImg.background))
+                if(element.charImg.background) encodeImg(dictionary[element.charImg.background])
                 encodeImg (dictionary[element.charImg]);
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
@@ -165,7 +166,7 @@ fetch(chapter)
                 for(currentChoice; currentChoice < choices.length; currentChoice++){
                     if (selectionMenu.length >= 4) {
                         try{arrDialog.splice(index + sumIndex, 0, ...selectionMenu.find(y => { return y.char === choices[currentChoice] }).message)}catch(e){}
-                        sumIndex = sumIndex + 2
+                        if(chapter === "day2") sumIndex = sumIndex + 2
                     }
                     let finded = selectionMenu.find(x => x.char === choices[currentChoice]);
                     let indexFinded = selectionMenu.indexOf(finded)
@@ -216,6 +217,7 @@ function runDialog(skipInterval) {
 }
 
 function manageProperties(objDialog){
+    if (objDialog.nextRoute) next = next + objDialog.nextRoute
     if(objDialog.newCharacter){
         if (objDialog.newCharacter == "erase") {
             try{mainScreen.removeChild(sayori.png)}catch{}
@@ -238,6 +240,7 @@ function manageProperties(objDialog){
         objDialog.content = objDialog.content.replace("#var", you)
         if(route !== "sayori") objDialog.content = objDialog.content.replace("#route", route)
         else objDialog.content = objDialog.content.replace("#route", "Yuri")
+        objDialog.content = objDialog.content.replace("#choice", choices[choices.length -1])
     }
     if(objDialog.char) {
         if(charName.classList.contains("toggler")) charName.classList.remove("toggler");
@@ -414,6 +417,7 @@ function manageImage(img){
     else if (typeof img === "object"){
         if (!img.background) try{mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
         else if (img.background === "break") charBg.break();
+        else if (img.background === "black") charBg.black();
         else{ 
             if(charBg.inScreen){
                 charBg.defineImgWithAnimation(img.background)

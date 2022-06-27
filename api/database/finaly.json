@@ -1,0 +1,3109 @@
+[
+    {
+        "content": "It's already Sunday.","char":"nobody",
+        "newBackground": "barrio.png",
+        "newCharacter": "erase"
+    },
+    {
+        "content": "I've been getting increasingly anxious about Natsuki's upcoming visit.","char":"nobody"
+    },
+    {
+        "content": "I keep telling myself there's no reason to be nervous, but it doesn't help much.","char":"nobody"
+    },
+    {
+        "content": "I wonder if she'll act any different when it's just the two of us?","char":"nobody"
+    },
+    {
+        "content": "Meanwhile, she's been texting me a lot.","char":"nobody"
+    },
+    {
+        "content": "We sent each other one after exchanging numbers to double-check, but it turned into conversation.","char":"nobody"
+    },
+    {
+        "content": "She's almost a different personality on the phone, using tons of emoji and cute language.","char":"nobody"
+    },
+    {
+        "content": "She also really likes complaining about things, but I kind of saw that one coming.","char":"nobody"
+    },
+    {
+        "content": "But putting Natsuki aside...","char":"nobody"
+    },
+    {
+        "content": "I haven't heard a thing from Sayori since she left club early the other day.","char":"nobody"
+    },
+    {
+        "content": "It's not like we text each other all the time or anything...","char":"nobody"
+    },
+    {
+        "content": "But I've been worried about her in the back of my mind.","char":"nobody"
+    },
+    {
+        "content": "Between what Sayori said, and what Monika said...","char":"nobody"
+    },
+    {
+        "content": "Is it really okay for me to put Sayori's feelings aside when she might need me?","char":"nobody"
+    },
+    {
+        "content": "I decide to visit Sayori before +Yuri comes over.","char":"nobody",
+        "newBackground": "house.png"
+    },
+    {
+        "content": "Rather than asking, I simply tell her \\I'm coming over\\, much like we've done in the past.","char":"nobody"
+    },
+    {
+        "content": "Once I reach Sayori's house, I knock on the door before entering it myself.","char":"nobody"
+    },
+    {
+        "content": "Again, we used to play so often that we've made it a habit of simply entering each other's houses like we were family.","char":"nobody"
+    },
+    {
+        "content": "The house is quiet.","char":"nobody",
+        "newBackground": "none"
+    },
+    {
+        "content": "Sayori isn't anywhere on the first floor, so I assume she's up in her room.","char":"nobody"
+    },
+    {
+        "content": "It's already strange of her not to run down and greet me.","char":"nobody"
+    },
+    {
+        "content": "I head up to her bedroom, where I finally find her.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Sayori?",
+        "newBackground": "sayori.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Hi [player]~",
+        "charImg": "Yori1.png"
+    },
+    {
+        "content": "I sit down in her room.","char":"nobody",
+        "charImg": "Yori25.png"
+    },
+    {
+        "content": "Sayori forces a smile, but it's easy to tell that she's different.","char":"nobody"
+    },
+    {
+        "content": "There's a minute of silence between us.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "You haven't come over like this in a long time, have you?"
+    },
+    {
+        "char": "you",
+        "content": "Ah... I guess you're right."
+    },
+    {
+        "char": "you",
+        "content": "It has been a long time."
+    },
+    {
+        "char": "you",
+        "content": "Not much has really changed, has it?"
+    },
+    {
+        "content": "Sayori's room is as messy as it's always been.","char":"nobody"
+    },
+    {
+        "content": "I also recognize the same stuffed animals and wall decorations that she's had for years now.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Yori12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If you came over more often, it wouldn't be such a mess."
+    },
+    {
+        "char": "you",
+        "content": "That's because I end up cleaning it for you..."
+    },
+    {
+        "char": "Sayori",
+        "content": "How come you suddenly wanted to come over today?",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Aren't you supposed to see [ch4_name] today?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, but..."
+    },
+    {
+        "char": "you",
+        "content": "...Wait, how did you know that?"
+    },
+    {
+        "content": "Sayori had already left by the time we decided that last meeting.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "Monika told me.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's only natural for her to keep me informed about the festival preparations, right?"
+    },
+    {
+        "char": "you",
+        "content": "Ah, that's true..."
+    },
+    {
+        "char": "you",
+        "content": "But what about you?"
+    },
+    {
+        "char": "you",
+        "content": "Aren't you going to be helping Monika today?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Of course!",
+        "charImg": "Z2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But I'm just helping her online."
+    },
+    {
+        "char": "Sayori",
+        "content": "We didn't plan to meet up or anything."
+    },
+    {
+        "char": "you",
+        "content": "Ah, so it's just me and [ch4_name], then..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Yep~",
+        "charImg": "Yori1.png"
+    },
+    {
+        "content": "There's more silence between us.","char":"nobody"
+    },
+    {
+        "content": "Sayori stares in a random direction.","char":"nobody",
+        "charImg": "Yori11.png"
+    },
+    {
+        "content": "Everything about her behavior is really uncharacteristic.","char":"nobody"
+    },
+    {
+        "content": "I finally get to the point.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I just...wanted to see how you were doing."
+    },
+    {
+        "char": "you",
+        "content": "After you left on Friday."
+    },
+    {
+        "char": "you",
+        "content": "When something's wrong, you can't hide it from me!"
+    },
+    {
+        "char": "you",
+        "content": "I know you too well."
+    },
+    {
+        "char": "you",
+        "content": "So..."
+    },
+    {
+        "content": "Sayori smiles, shaking her head.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's no good, [player].",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why can't it just be like it's always been?"
+    },
+    {
+        "char": "Sayori",
+        "content": "This is all my fault.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If I didn't get so weak and accidentally express my feelings..."
+    },
+    {
+        "char": "Sayori",
+        "content": "If I didn't make that stupid mistake...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Then you wouldn't have been worried about me at all."
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have come here."
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have even been thinking about me right now.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But this...is just my punishment, isn't it?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm getting punished for being so selfish."
+    },
+    {
+        "char": "Sayori",
+        "content": "I think that's why the world decided to have you come over today."
+    },
+    {
+        "char": "Sayori",
+        "content": "It just wants to torture me."
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Z17.png"
+    },
+    {
+        "char": "you",
+        "content": "Sayori!",
+        "charImg": "Z2.png"
+    },
+    {
+        "content": "I grab Sayori by the shoulders.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "What on Earth are you saying?!"
+    },
+    {
+        "char": "you",
+        "content": "Are you listening to yourself right now?"
+    },
+    {
+        "char": "you",
+        "content": "I know something happened to you."
+    },
+    {
+        "char": "you",
+        "content": "There's no other explanation for you to be like this."
+    },
+    {
+        "char": "you",
+        "content": "So tell me, already...!"
+    },
+    {
+        "char": "you",
+        "content": "Until I know, I won't be able to stop thinking about it!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah...",
+        "charImg": "Z12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha..."
+    },
+    {
+        "content": "Sayori gives me an empty smile.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "You really put me in a trap, [player].",
+        "charImg": "Z25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But..."
+    },
+    {
+        "char": "Sayori",
+        "content": "You're wrong.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Nothing happened to me."
+    },
+    {
+        "char": "Sayori",
+        "content": "I've always been like this."
+    },
+    {
+        "char": "Sayori",
+        "content": "You're just seeing it for the first time."
+    },
+    {
+        "char": "you",
+        "content": "Seeing what?"
+    },
+    {
+        "char": "you",
+        "content": "What are you talking about, Sayori?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Yori17.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "You're really just going to make me say it, aren't you, [player]?",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I guess I have no choice this time."
+    },
+    {
+        "char": "Sayori",
+        "content": "The thing is...",
+        "charImg": "Yori3.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I've had really bad depression my whole life."
+    },
+    {
+        "char": "Sayori",
+        "content": "Did you know that?",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why do you think I'm late to school every day?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Because most days, I can't even find a reason to get out of bed."
+    },
+    {
+        "char": "Sayori",
+        "content": "What reason is there to do anything when I fully know how worthless I am?",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why go to school?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why eat?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why make friends?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why make other people put their energy and caring to waste by having them spend it on me?"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's what it feels like."
+    },
+    {
+        "char": "Sayori",
+        "content": "And that's why I just want to make everyone happy..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Without anyone worrying about me."
+    },
+    {
+        "char": "you",
+        "content": "..."
+    },
+    {
+        "content": "I'm in shock.","char":"nobody"
+    },
+    {
+        "content": "I can't even figure out how to respond.","char":"nobody"
+    },
+    {
+        "content": "How is it possible that Sayori kept this from me the entire time that I've known her?","char":"nobody"
+    },
+    {
+        "content": "Did she really want so badly for me to just not think about her?","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "...Why, Sayori?",
+        "charImg": "Yori7.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Eh...?"
+    },
+    {
+        "char": "you",
+        "content": "Why is it that you've never told me about this?"
+    },
+    {
+        "char": "you",
+        "content": "It almost feels like I've been betrayed as your close friend."
+    },
+    {
+        "char": "you",
+        "content": "Because if I knew, I would have done everything I could to support you!"
+    },
+    {
+        "char": "you",
+        "content": "Even if there's only so much that I could do..."
+    },
+    {
+        "char": "you",
+        "content": "I would have tried a little bit harder to make every day a little better for you."
+    },
+    {
+        "char": "you",
+        "content": "That's why I'm your friend!"
+    },
+    {
+        "char": "you",
+        "content": "All you had to do was tell me!"
+    },
+    {
+        "char": "Sayori",
+        "content": "You don't understand at all, [player].",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why do you think I didn't tell you?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Because if I told you, then you would have to waste effort caring about me instead of doing important things.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't want to be cared about."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's bittersweet, when people try to care about me."
+    },
+    {
+        "char": "Sayori",
+        "content": "It feels nice sometimes.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But it also feels like a bat being swung against my head."
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha~",
+        "charImg": "Z17.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's why I wanted so badly for you to make friends with everyone else...",
+        "charImg": "Z1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Helping everyone be happy together is the best thing for me."
+    },
+    {
+        "char": "Sayori",
+        "content": "But then, I discovered something else, too.",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Seeing you make friends and get closer with everyone in the club..."
+    },
+    {
+        "char": "Sayori",
+        "content": "It feels like a spear going through my heart.",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "So, that's why."
+    },
+    {
+        "char": "Sayori",
+        "content": "That's why I decided the world just wants to torture me."
+    },
+    {
+        "char": "Sayori",
+        "content": "Every path leads to nothing but hurt.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha~"
+    },
+    {
+        "char": "you",
+        "content": "You're right that I don't understand..."
+    },
+    {
+        "char": "you",
+        "content": "I don't understand your feelings at all, Sayori."
+    },
+    {
+        "char": "you",
+        "content": "But I don't need to understand."
+    },
+    {
+        "char": "you",
+        "content": "Whatever it takes for me to help you stop hurting..."
+    },
+    {
+        "char": "you",
+        "content": "That's what I'll do."
+    },
+    {
+        "char": "Sayori",
+        "content": "No, [player].",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "There's nothing."
+    },
+    {
+        "char": "Sayori",
+        "content": "Nothing at all."
+    },
+    {
+        "char": "Sayori",
+        "content": "The only thing that could have helped is if everything could be like it always was."
+    },
+    {
+        "char": "Sayori",
+        "content": "But I was selfish.",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I finally showed you what a horrible person I am."
+    },
+    {
+        "content": "Tears streak down Sayori's face.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "I made you join the literature club because I was selfish.",
+        "charImg": "Yori21.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "And I was punished by my heart hurting in a way that I couldn't understand."
+    },
+    {
+        "char": "Sayori",
+        "content": "And now you came here and I made you hurt, too."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm just weak and selfish.",
+        "charImg": "Yori20.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all I am."
+    },
+    {
+        "char": "Sayori",
+        "content": "And that's why I'm going to accept these punishments."
+    },
+    {
+        "char": "Sayori",
+        "content": "Because I deserve every last one...!",
+        "charImg": "Yori21.png"
+    },
+    {
+        "content": "Without thinking, I once again grab Sayori's shoulders.","char":"nobody"
+    },
+    {
+        "content": "This time, I pull her into a tight embrace.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "A-Ah--",
+        "charImg": {
+            "background": "black"
+        }
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori."
+    },
+    {
+        "char": "you",
+        "content": "I don't care if you feel selfish."
+    },
+    {
+        "char": "you",
+        "content": "I'm really happy that you convinced me to join the club."
+    },
+    {
+        "char": "you",
+        "content": "Seeing you every day makes it worthwhile enough."
+    },
+    {
+        "char": "you",
+        "content": "If I make friends with everyone else, then that's just a bonus."
+    },
+    {
+        "char": "you",
+        "content": "But please never underestimate how much I care about you."
+    },
+    {
+        "char": "you",
+        "content": "I wouldn't have it any other way."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "content": "Sayori isn't hugging me back.","char":"nobody"
+    },
+    {
+        "content": "Despite my arms being wrapped around her, Sayori's arms remain at her sides.","char":"nobody"
+    },
+    {
+        "content": "She starts sobbing next to my ear.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "No..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Don't do this...to me..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Please don't do this..."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I..."
+    },
+    {
+        "content": "Sayori barely manages to speak between her sobs.","char":"nobody"
+    },
+    {
+        "content": "I don't know if I'm doing the right thing.","char":"nobody"
+    },
+    {
+        "content": "But all I want is for her to know that I care.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "If you have it in you to call yourself selfish, then you have to let me be selfish too."
+    },
+    {
+        "char": "you",
+        "content": "No matter what it takes, I'll figure out what needs to change."
+    },
+    {
+        "char": "you",
+        "content": "I'll make these feelings go away."
+    },
+    {
+        "char": "you",
+        "content": "And if there's anything that you need me to do..."
+    },
+    {
+        "char": "you",
+        "content": "Then you'd better tell me."
+    },
+    {
+        "char": "you",
+        "content": "I'll get mad if you don't."
+    },
+    {
+        "char": "Sayori",
+        "content": "..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I...don't know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know."
+    },
+    {
+        "content": "Gently, Sayori finally puts her arms around me in return.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know anything."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's all really scary..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't understand any of my feelings, [player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "The only time I'm not feeling nothing is when I'm feeling pain."
+    },
+    {
+        "char": "Sayori",
+        "content": "But..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Your hugs are so warm..."
+    },
+    {
+        "char": "Sayori",
+        "content": "...And that's really scary, too."
+    },
+    {
+        "content": "Sayori lets me go.","char":"nobody",
+        "charImg": {
+            "background": "break"
+        }
+    },
+    {
+        "content": "As she does so, I let her go as well.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "The festival is tomorrow."
+    },
+    {
+        "char": "Sayori",
+        "content": "Yeah...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "you",
+        "content": "It's going to be fun, right?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Yeah."
+    },
+    {
+        "char": "you",
+        "content": "How would you like for me to spend it all with you?"
+    },
+    {
+        "char": "Sayori",
+        "content": "U-Um...",
+        "charImg": "Yori8.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah--"
+    },
+    {
+        "char": "you",
+        "content": "It's what I want."
+    },
+    {
+        "char": "you",
+        "content": "I promise."
+    },
+    {
+        "char": "Sayori",
+        "content": "I...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I think that would be nice, then..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah."
+    },
+    {
+        "content": "Sayori wipes her eyes.","char":"nobody"
+    },
+    {
+        "content": "If I could spend the whole day here, I would.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Of all days, this has to be the one where I have other plans..."
+    },
+    {
+        "char": "you",
+        "content": "Maybe I should cancel--"
+    },
+    {
+        "char": "Sayori",
+        "content": "No, don't--!",
+        "charImg": "Yori8.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Please don't...",
+        "charImg": "Yori7.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If you did that...then I really wouldn't forgive you."
+    },
+    {
+        "char": "you",
+        "content": "But..."
+    },
+    {
+        "char": "you",
+        "content": "It's almost time for [ch4_name] to meet me at my house..."
+    },
+    {
+        "char": "you",
+        "content": "At the very least, do you want to come along and help out?"
+    },
+    {
+        "char": "you",
+        "content": "It would be fun."
+    },
+    {
+        "content": "To my surprise, Sayori shakes her head.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm sorry.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know if that would be very good for me today."
+    },
+    {
+        "char": "Sayori",
+        "content": "You understand, right?"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "It's...kind of hard for me to fully understand."
+    },
+    {
+        "char": "you",
+        "content": "But I'm trying my hardest."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's okay."
+    },
+    {
+        "char": "Sayori",
+        "content": "Don't worry too much about it."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'll see you tomorrow, okay?",
+        "charImg": "Z1.png"
+    },
+    {
+        "char": "you",
+        "content": "...Alright."
+    },
+    {
+        "char": "you",
+        "content": "I look forward to it."
+    },
+    {
+        "content": "I say goodbye to Sayori and exit her house.","char":"nobody",
+        "charImg": "non",
+        "newBackground": "barrio.png"
+    },
+    {
+        "content": "On the way home, I find myself still feeling uneasy.","char":"nobody"
+    },
+    {
+        "content": "But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too...","char":"nobody"
+    },
+    {
+        "content": "I think Sayori is right.","char":"nobody"
+    },
+    {
+        "content": "I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow.","char":"nobody"
+    },
+    {
+        "content": "I should just focus on what's ahead of me!",
+        "char":"nobody"
+    },
+    {
+        "content": "As I approach my house, I see something that makes me feel a moment of panic.","char":"nobody",
+        "newBackground": "house.png"
+    },
+    {
+        "char": "you",
+        "content": "Yuri--?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YCd2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Thank goodness..."
+    },
+    {
+        "char": "you",
+        "content": "You're a little early..."
+    },
+    {
+        "char": "you",
+        "content": "I'm sorry I wasn't home yet!"
+    },
+    {
+        "char": "you",
+        "content": "Were you waiting for a long time?"
+    },
+    {
+        "char": "Yuri",
+        "content": "No, I just got here.",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "But I started to get really nervous when nobody answered the doorbell...",
+        "charImg":"YCf1.png"
+    },
+    {
+        "char": "you",
+        "content": "You always could have texted me."
+    },
+    {
+        "char": "you",
+        "content": "If I had known, I would have reassured you and hurried more on my way home."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...I suppose that's true...",
+        "charImg":"YCb1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I didn't think of that...for some reason."
+    },
+    {
+        "content": "It should be common sense to do that, but I decide to ignore it.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Anyway...let's go inside."
+    },
+    {
+        "char": "you",
+        "content": "I see you brought a lot of stuff with you."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's right.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "And did you manage to find everything I asked you to buy as well?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, pretty much."
+    },
+    {
+        "char": "you",
+        "content": "At least, I hope I got everything right."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sure it will be fine."
+    },
+    {
+        "content": "I take Yuri to my room.","char":"nobody",
+        "newBackground":"bedroom.png",
+        "charImg":"non"
+    },
+    {
+        "content": "The first thing she does is glance around curiously, which makes me feel anxious.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's so clean...",
+        "charImg":"YCh2.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha..."
+    },
+    {
+        "char": "you",
+        "content": "I cleaned it before you came over, so..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's very considerate of you to do.",
+        "charImg":"YCg2.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, no..."
+    },
+    {
+        "char": "you",
+        "content": "I would be really embarrassed for my room to be a mess while you were here."
+    },
+    {
+        "char": "Yuri",
+        "content": "Hmm...",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, I do enjoy cleaning..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I would have gladly helped you clean."
+    },
+    {
+        "char": "you",
+        "content": "Ah--"
+    },
+    {
+        "char": "you",
+        "content": "That would be even more embarrassing!"
+    },
+    {
+        "char": "you",
+        "content": "Wait, don't look in there--!",
+        "charImg":"YCLook.png"
+    },
+    {
+        "content": "I snatch Yuri's wrist, which was in the process of opening a desk drawer of mine.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "A-Ah...",
+        "charImg":"YCScared.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry...!"
+    },
+    {
+        "char": "Yuri",
+        "content": "I wasn't thinking for some reason...",
+        "charImg":"YOutShy.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was just spacing out!"
+    },
+    {
+        "char": "you",
+        "content": "It's fine, it's fine..."
+    },
+    {
+        "content": "I let go of Yuri's wrist. \r"
+    },
+    {
+        "content": "She puts both of her hands firmly in her lap, as if making sure she's keeping track of them.","char":"nobody",
+        "charImg":"YCi1.png"
+    },
+    {
+        "char": "you",
+        "content": "So, um..."
+    },
+    {
+        "char": "you",
+        "content": "Should we...get started?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YCa2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Yes..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Um, I have a few things planned that you can help with..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Decorations and other atmospheric enhancements.",
+        "charImg":"YCe2.png"
+    },
+    {
+        "char": "you",
+        "content": "Atmospheric enhancements...?"
+    },
+    {
+        "char": "Yuri",
+        "content": "You know...",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Mood lighting, aromatherapy candles..."
+    },
+    {
+        "char": "you",
+        "content": "Oh, wow."
+    },
+    {
+        "char": "you",
+        "content": "I didn't know you planned on taking it that far."
+    },
+    {
+        "char": "Yuri",
+        "content": "Of course.",
+        "charImg":"YCnun.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I want to help take our guests to a faraway place."
+    },
+    {
+        "char": "Yuri",
+        "content": "Although many will stop by just out of curiosity...",
+        "charImg":"YCg1.png"    
+    },
+    {
+        "char": "Yuri",
+        "content": "And for...cupcakes, I guess...",
+        "charImg":"YCo1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm determined to provide an experience that will leave them wanting more.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "That's great."
+    },
+    {
+        "char": "you",
+        "content": "It's easy to forget that you're a pretty intense person."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah--",
+        "charImg":"YCp1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Intense...?",
+        "charImg":"YCp2.png"
+    },
+    {
+        "char": "you",
+        "content": "I guess that's the best way to put it."
+    },
+    {
+        "char": "Yuri",
+        "content": "Is that...a bad thing?"
+    },
+    {
+        "char": "you",
+        "content": "No, not at all."
+    },
+    {
+        "char": "you",
+        "content": "It's something that I like about you, actually."
+    },
+    {
+        "char": "Yuri",
+        "content": "I-Is that so...?",
+        "charImg":"YCa3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "That makes me feel relieved..."
+    },
+    {
+        "char": "Yuri",
+        "content": "And kind of happy..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, no need to be so anxious."
+    },
+    {
+        "char": "you",
+        "content": "You can relax a little."
+    },
+    {
+        "char": "Yuri",
+        "content": "Relax...",
+        "charImg":"YCi3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I brought some things for relaxation.",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was going to use them during the poetry event..."
+    },
+    {
+        "char": "you",
+        "content": "Oh yeah? Like what?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Let's see..."
+    },
+    {
+        "content": "Yuri rummages through her bag.","char":"nobody"
+    },
+    {
+        "content": "She pulls out a few candles and a wooden cylinder-shaped object.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I did some shopping on the way here, so I happen to have these in my bag."
+    },
+    {
+        "char": "Yuri",
+        "content": "I planned to cover the windows in black paper and use the candles to light the room."
+    },
+    {
+        "char": "Yuri",
+        "content": "I think that would be amazing, don't you?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, that would be really neat."
+    },
+    {
+        "char": "you",
+        "content": "What's that wooden thing, though?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Oh, this?",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's a diffuser for essential oils."
+    },
+    {
+        "char": "Yuri",
+        "content": "How familiar are you with aromatherapy?"
+    },
+    {
+        "char": "you",
+        "content": "Not familiar at all..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, is that so?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's one of my favorite contributors to a positive atmosphere."
+    },
+    {
+        "char": "Yuri",
+        "content": "Depending on the oils or herbs you choose, you can change the mood of the air itself."
+    },
+    {
+        "char": "Yuri",
+        "content": "You can even feel it permeate through your body."
+    },
+    {
+        "char": "Yuri",
+        "content": "Relaxation, positive energy, romance, reflection...",
+        "charImg":"YCh3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's almost like magic."
+    },
+    {
+        "content": "Yuri takes the cylinder and pushes a switch on the bottom.","char":"nobody",
+        "charImg":"YCg3.png"
+    },
+    {
+        "content": "In just a moment, a thin ray of vapor begins to spout through a small hole on the top.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Wow, that smells wonderful."
+    },
+    {
+        "char": "you",
+        "content": "What kind of mood is that one for?"
+    },
+    {
+        "char": "Yuri",
+        "content": "This is a Jasmine essential oil.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It smells a little sweet and flowery, right?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, that's a good way to describe it."
+    },
+    {
+        "char": "Yuri",
+        "content": "I chose Jasmine for the event because it provides more than relaxation.",
+        "charImg":"YCq1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Jasmine enhances your emotions and helps you feel them flow through your body."
+    },
+    {
+        "char": "Yuri",
+        "content": "You feel warmer, and your heart pounds more heavily.",
+        "charImg":"YCa1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Don't you think that will be perfect for sharing our poems?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "It does sound suitable..."
+    },
+    {
+        "char": "you",
+        "content": "But you seem to know a lot about this, so I'll trust your opinion with anything."
+    },
+    {
+        "content": "Yuri smiles gently, clearly enjoying herself.","char":"nobody",
+        "charImg":"YCnun.png"
+    },
+    {
+        "content": "She again reaches into her bag and pulls out several spools of thin ribbon.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "What are those for?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Did you purchase the origami paper I asked you to get?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I have it over here..."
+    },
+    {
+        "char": "Yuri",
+        "content": "We won't be using the paper for folding origami."
+    },
+    {
+        "char": "Yuri",
+        "content": "What I'd like to do is write a different kanji character on each paper."
+    },
+    {
+        "char": "Yuri",
+        "content": "We'll need about a hundred of them."
+    },
+    {
+        "char": "you",
+        "content": "Oh yeah?"
+    },
+    {
+        "char": "you",
+        "content": "What will those be used for?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, I'm going to cut pieces of ribbon to hang from the doorway of the classroom.",
+        "charImg":"YCe2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Then, we can fasten the kanji paper onto the ribbons to create a doorway curtain."
+    },
+    {
+        "char": "Yuri",
+        "content": "Wouldn't that be beautiful?",
+        "charImg":"YCh2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It would also catch the eye of those passing by the room..."
+    },
+    {
+        "char": "Yuri",
+        "content": "It may attract some to peek inside.",
+        "charImg":"YCg2.png"
+    },
+    {
+        "char": "you",
+        "content": "That's really creative!"
+    },
+    {
+        "char": "you",
+        "content": "I had no idea you'd be so good at this, Yuri."
+    },
+    {
+        "char": "Yuri",
+        "content": "Is...that so?",
+        "charImg":"YOutGlance.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, I suppose I do get a little intense...as you'd put it."
+    },
+    {
+        "char": "Yuri",
+        "content": "Uhuhu.",
+        "charImg":"YCa3.png"
+    },
+    {
+        "content": "Yuri giggles with red cheeks.","char":"nobody"
+    },
+    {
+        "content": "Is it just me, or is she more relaxed when it's just the two of us?","char":"nobody"
+    },
+    {
+        "content": "Or maybe it's the excitement she feels from sharing something that she enjoys.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Here's a marker, [player].",
+        "charImg":"YCa1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "You can write any characters you want."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'll help you once I finish cutting the ribbons."
+    },
+    {
+        "char": "you",
+        "content": "Ah, alright."
+    },
+    {
+        "content": "Sitting on the floor together, the two of us get to work.","char":"nobody"
+    },
+    {
+        "content": "I carefully draw a different character on each paper, doing my best to manage my bad handwriting.","char":"nobody"
+    },
+    {
+        "content": "Yuri unravels a long strand of red ribbon to her desired length.","char":"nobody"
+    },
+    {
+        "content": "Then, she reaches into her bag once more and pulls out a pocket knife.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Eh...?"
+    },
+    {
+        "content": "The knife is strangely beautiful.","char":"nobody"
+    },
+    {
+        "content": "The silver handle has an intricate pattern of waves etched into it.","char":"nobody"
+    },
+    {
+        "content": "The blade itself is gently tinted blue.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "That's no ordinary pocket knife..."
+    },
+    {
+        "char": "you",
+        "content": "It looks really fancy."
+    },
+    {
+        "char": "Yuri",
+        "content": "A-Ah...",
+        "charImg":"YOutShy.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well..."
+    },
+    {
+        "content": "Embarrassed, Yuri looks away.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "What is it?"
+    },
+    {
+        "char": "Yuri",
+        "content": "You're going to think it's weird..."
+    },
+    {
+        "char": "you",
+        "content": "Yuri, whatever it is, I have no reason to judge."
+    },
+    {
+        "char": "you",
+        "content": "To each their own, you know?"
+    },
+    {
+        "char": "Yuri",
+        "content": "If you promise you won't be weirded out..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I promise."
+    },
+    {
+        "char": "Yuri",
+        "content": "Alright...",
+        "charImg":"YCo2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "The thing is, I'm kind of into knives..."
+    },
+    {
+        "char": "Yuri",
+        "content": "They're just...so pretty..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I-I can't help it!",
+        "charImg":"YCb2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I don't know what it is..."
+    },
+    {
+        "char": "Yuri",
+        "content": "The combination of craftsmanship and feeling of danger, maybe..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Uu, what am I saying...?",
+        "charImg":"YOutShy.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Please don't think I'm weird for this..."
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "Yuri",
+        "content": "You're laughing at me..."
+    },
+    {
+        "char": "you",
+        "content": "No, I'm not laughing at you."
+    },
+    {
+        "char": "you",
+        "content": "It's just funny how nervous you got about sharing."
+    },
+    {
+        "char": "you",
+        "content": "It's...well, it's an interesting thing to be into, I guess."
+    },
+    {
+        "char": "you",
+        "content": "But I think it kind of suits you."
+    },
+    {
+        "char": "Yuri",
+        "content": "Suits me...?",
+        "charImg":"YCp2.png"
+    },
+    {
+        "char": "you",
+        "content": "Yeah... It's kind of intense. Ahaha."
+    },
+    {
+        "char": "you",
+        "content": "Besides, it's a really cool-looking knife, I can't deny that."
+    },
+    {
+        "char": "Yuri",
+        "content": "It is, isn't it...?",
+        "charImg":"YCa2.png"
+    },
+    {
+        "content": "Yuri relaxes her expression once again.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Would you like to hold it?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "Sure, I'll check it out."
+    },
+    {
+        "content": "Yuri carefully hands me the knife, with the handle facing me.","char":"nobody"
+    },
+    {
+        "content": "I take it and turn it around in my hands.","char":"nobody"
+    },
+    {
+        "content": "It feels heavy, and extremely solid.","char":"nobody"
+    },
+    {
+        "content": "Where do you even get a knife like this...?","char":"nobody"
+    },
+    {
+        "content": "Curious of its sharpness, I feel the point of the knife with my index finger.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ow--!"
+    },
+    {
+        "char": "Yuri",
+        "content": "[player]--!!",
+        "charImg":"YCScared.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Why did you do that?!"
+    },
+    {
+        "char": "you",
+        "content": "I didn't expect it to be that sharp...!"
+    },
+    {
+        "char": "you",
+        "content": "I barely touched it at all."
+    },
+    {
+        "char": "Yuri",
+        "content": "I-It's my fault!"
+    },
+    {
+        "char": "Yuri",
+        "content": "I should have warned you...",
+        "charImg":"YCWorried.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "This knife is extremely sharp..."
+    },
+    {
+        "char": "Yuri",
+        "content": "It can cut through skin like it's paper."
+    },
+    {
+        "char": "Yuri",
+        "content": "Oh no...",
+        "charImg":"YCb2.png"
+    },
+    {
+        "content": "A small drop of blood trickles down the side of my finger.","char":"nobody"
+    },
+    {
+        "content": "Yuri takes my hand and gives the wound a closer look.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YCp2.png"
+    },
+    {
+        "content": "She stares at it and noticeably fidgets.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "If you're squeamish, I'll go wash it off now--"
+    },
+    {
+        "char": "you",
+        "content": "A-Ah!"
+    },
+    {
+        "content": "Without warning, Yuri puts my finger in her mouth and licks the wound.","char":"nobody"
+    },
+    {
+        "content": "I feel her tongue curl around my finger.","char":"nobody"
+    },
+    {
+        "content": "Startled, I instinctively pull my hand back.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "O-Oh..."
+    },
+    {
+        "char": "Yuri",
+        "content": "P-Please forgive me!",
+        "charImg":"YCWorried.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I wasn't thinking!"
+    },
+    {
+        "char": "Yuri",
+        "content": "I...",
+        "charImg":"YOutShy2.png"
+    },
+    {
+        "content": "Yuri lowers her head, her face burning up.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Yuri..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's the most embarrassing thing I've ever done..."
+    },
+    {
+        "char": "Yuri",
+        "content": "How could I do something like that??"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry, I'm sorry..."
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "content": "Sure, it was a little weird, and it took me by surprise...","char":"nobody"
+    },
+    {
+        "content": "But I guess she was just trying to help, right...?","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Yuri, I think you're overreacting a little..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Uuuh..."
+    },
+    {
+        "content": "She doesn't lift her head.","char":"nobody"
+    },
+    {
+        "content": "What if she doesn't recover from this for the rest of the afternoon?","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Alright, you know what..."
+    },
+    {
+        "content": "This might be a stupid thing to do, but I do it anyway.","char":"nobody"
+    },
+    {
+        "content": "I take Yuri's hand and lick her index finger in return.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "[player]--!!",
+        "charImg":"YCScared.png",
+        "animation":[{"direction":"jump"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "D-Did you really just do that?"
+    },
+    {
+        "char": "you",
+        "content": "N-Now we're even..."
+    },
+    {
+        "char": "Yuri",
+        "content": "...",
+        "charImg":"YCb3.png"
+    },
+    {
+        "content": "Yuri just looks at me like I did something wrong.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha..."
+    },
+    {
+        "char": "you",
+        "content": "I knew that would be a bad idea..."
+    },
+    {
+        "content": "If not for the sweet aroma of the Jasmine oil, the air would be extremely heavy right now.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "You're so weird, [player].",
+        "charImg":"YCa1.png"
+    },
+    {
+        "content": "Yuri giggles shyly.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Eh...?"
+    },
+    {
+        "content": "Yuri calling {i}me{/i} weird?","char":"nobody"
+    },
+    {
+        "content": "I have no response to that...","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Where do you keep your bandages?",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "I don't think I need one, actually."
+    },
+    {
+        "char": "you",
+        "content": "It was a tiny cut."
+    },
+    {
+        "char": "you",
+        "content": "Look, it already stopped bleeding."
+    },
+    {
+        "char": "Yuri",
+        "content": "I see..."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's relieving.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "content": "The tension is quickly lifted.","char":"nobody"
+    },
+    {
+        "content": "We each resume our respective activities.","char":"nobody"
+    },
+    {
+        "content": "I watch Yuri's knife cut through the ribbon like it's nothing but air.","char":"nobody"
+    },
+    {
+        "content": "Meanwhile, I continue to make progress on the kanji.","char":"nobody"
+    },
+    {
+        "content": "After we finish attaching the paper to the ribbons, we lay them all out side by side.","char":"nobody",
+        "charImg":"non",
+        "newBackground":"transition"
+    },
+    {
+        "content": "It looks better than I expected and will be very effective as a door curtain.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "It looks great."
+    },
+    {
+        "char": "you",
+        "content": "Good thinking coming up with this, Yuri."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, thanks...",
+        "charImg":"YCd1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's just something I saw online, really."
+    },
+    {
+        "char": "Yuri",
+        "content": "Are you ready to move onto the next task?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, let's do it."
+    },
+    {
+        "char": "you",
+        "content": "What do you have in mind?"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'd like to create a banner."
+    },
+    {
+        "char": "Yuri",
+        "content": "That's why I asked you to buy the paint tablets."
+    },
+    {
+        "char": "you",
+        "content": "Ah, that's right."
+    },
+    {
+        "content": "One of the items Yuri had asked me to buy was a kit of watercolor paint tablets.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "We'll need about six cups of water to put each of the tablets in.",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Do you mind fetching those for us?"
+    },
+    {
+        "char": "you",
+        "content": "Of course not."
+    },
+    {
+        "char": "you",
+        "content": "Six cups of water..."
+    },
+    {
+        "char": "you",
+        "content": "I'll be right back in a minute."
+    },
+    {
+        "char": "Yuri",
+        "content": "Thank you very much.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Oh, and just a little bit of water is okay.",
+        "charImg":"YCe2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "If you fill the cups too much, it will be too diluted."
+    },
+    {
+        "content": "Taking Yuri's advice, I decide to use small plastic bathroom cups rather than full-sized glasses.","char":"nobody",
+        "newBackground":"transition",
+        "charImg":"non"
+    },
+    {
+        "content": "I put them on a plate to catch any paint that drips, then bring it back into my room.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Yuri?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Yes?",
+        "charImg":"YCnun.png"
+    },
+    {
+        "content": "I come in to see Yuri quickly unrolling her sleeve, pulling it back over her arm.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Ah, nothing..."
+    },
+    {
+        "char": "you",
+        "content": "Your face is a little red."
+    },
+    {
+        "char": "you",
+        "content": "Is it too hot in here, or anything?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah--",
+        "charImg":"YCd3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "No, not at all!"
+    },
+    {
+        "char": "Yuri",
+        "content": "There's nothing wrong, so..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Let's mix the paint."
+    },
+    {
+        "content": "Yuri hurriedly dismisses me and takes it upon herself to unwrap the tablets, dropping them into the cups.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "So...",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I thought we would do something simple that would look very nice."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'd like to paint a gradient across the banner..."
+    },
+    {
+        "char": "Yuri",
+        "content": "Starting with the colors for a sunrise, then daytime, then sunset and nighttime."
+    },
+    {
+        "char": "Yuri",
+        "content": "Once it dries, I'll write an inspirational quote across the banner."
+    },
+    {
+        "char": "Yuri",
+        "content": "We can hang it on the wall behind the podium at the front of the classroom."
+    },
+    {
+        "char": "you",
+        "content": "Ah, neat."
+    },
+    {
+        "char": "you",
+        "content": "What are you going to write?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YCh2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "...It will be more fun to surprise you."
+    },
+    {
+        "content": "Yuri smiles at me.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "If you say so..."
+    },
+    {
+        "content": "After rolling out the banner, Yuri and I kneel on opposite sides so we don't get in the way of each other.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "Yuri uses a brush and adds a few dots of different colors across the banner to serve as a color guide when we paint.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "This kind of reminds me of elementary school..."
+    },
+    {
+        "content": "Painting on a banner with watercolors feels a lot like the art class projects we had back then.","char":"nobody"
+    },
+    {
+        "content": "It's relaxing.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah...",
+        "charImg":"YCp2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry if this feels too childish...!"
+    },
+    {
+        "char": "you",
+        "content": "No, I didn't mean that at all."
+    },
+    {
+        "char": "you",
+        "content": "It's kind of fun, you know?"
+    },
+    {
+        "char": "Yuri",
+        "content": "...Yeah.",
+        "charImg":"YCc1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It is fun."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm glad you feel that way, too."
+    },
+    {
+        "content": "Yuri stops painting for a moment, thinking to herself.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "For me...",
+        "charImg":"YCi2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I don't need to go out and do crazy things to have fun."
+    },
+    {
+        "char": "Yuri",
+        "content": "In fact, I usually don't even want to."
+    },
+    {
+        "char": "Yuri",
+        "content": "I just like when I can spend time with one other person...",
+        "charImg":"YCe2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Even if it's something simple, like reading - it doesn't even matter if we don't talk much."
+    },
+    {
+        "char": "Yuri",
+        "content": "Just having a friend next to me makes things feel a little bit nicer.",
+        "charImg":"YCg2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I think that's all it takes for me to be happy."
+    },
+    {
+        "char": "you",
+        "content": "Is that so...?"
+    },
+    {
+        "content": "Even if Yuri and I are quite different, I can understand where she's coming from.","char":"nobody"
+    },
+    {
+        "content": "I feel that way about things like anime and games, where simply sharing the experience with someone can make me happy.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "I think I feel the same way."
+    },
+    {
+        "content": "Yuri smiles gently.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I knew you'd understand...",
+        "charImg":"YCh1.png"
+    },
+    {
+        "content": "Yuri leans over the banner to grab an unused paintbrush.","char":"nobody"
+    },
+    {
+        "content": "But I move at the same time, causing my head to bump into hers.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Kya--!",
+        "charImg":"YCScared.png"
+    },
+    {
+        "char": "you",
+        "content": "S-Sorry!"
+    },
+    {
+        "content": "Yuri reels back, and I quickly lift my hands in surprise.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Are you hurt?"
+    },
+    {
+        "char": "Yuri",
+        "content": "N-No, I'm not hurt.",
+        "charImg":"YCb2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It just startled me...that's all."
+    },
+    {
+        "char": "Yuri",
+        "content": "Sorry, I should have asked you to get it for me..."
+    },
+    {
+        "char": "you",
+        "content": "It's not your fault."
+    },
+    {
+        "char": "you",
+        "content": "Ah, your face..."
+    },
+    {
+        "content": "There are droplets of paint on Yuri's face and neck.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Is there something on my face?",
+        "charImg":"YCp3.png"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I accidentally got paint on you..."
+    },
+    {
+        "char": "you",
+        "content": "Sorry, it's totally my fault!"
+    },
+    {
+        "char": "you",
+        "content": "I'll get a towel right away."
+    },
+    {
+        "content": "I rush out and fetch a small towel, then I dampen it with hot water.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "I return to my room and kneel back down in front of her.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Here...",
+        "charImg":{"background":"yuri-bg3-1.png"}
+    },
+    {
+        "content": "I pat down Yuri's face and neck with the towel.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah--",
+        "charImg":{"background":"yuri-bg3-2.png"}
+    },
+    {
+        "char": "you",
+        "content": "Is something wrong?"
+    },
+    {
+        "char": "Yuri",
+        "content": "It's hot...I just didn't expect it."
+    },
+    {
+        "char": "you",
+        "content": "Sorry..."
+    },
+    {
+        "char": "you",
+        "content": "I didn't want to use cold water."
+    },
+    {
+        "content": "Having finished, I start to retract my hand.","char":"nobody"
+    },
+    {
+        "content": "But Yuri suddenly holds my wrist.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Wait--",
+        "charImg":{"background":"yuri-bg3-1.png"}
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Just...for a little longer.",
+        "charImg":{"background":"yuri-bg3-2.png"}
+    },
+    {
+        "char": "Yuri",
+        "content": "It feels really nice..."
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "content": "I keep my hand still against Yuri's neck.","char":"nobody"
+    },
+    {
+        "content": "She looks into my eyes.","char":"nobody",
+        "charImg":{"background":"yuri-bg3-1.png"}  
+    },
+    {
+        "content": "It's an intense expression that I recognize from when she reads her books...","char":"nobody"
+    },
+    {
+        "content": "Almost as if she's lost in a daze, enveloped by her own thoughts.","char":"nobody"
+    },
+    {
+        "content": "She breathes gently, half through slightly-parted lips.","char":"nobody"
+    },
+    {
+        "content": "What is happening...?","char":"nobody"
+    },
+    {
+        "content": "Is it the aroma of the Jasmine oil giving me this dizzy feeling?","char":"nobody"
+    },
+    {
+        "content": "Yuri's gentle fingers, wrapped around my wrist, send a tingling sensation through my arm.","char":"nobody"
+    },
+    {
+        "content": "And suddenly, her face seems to be much closer to mine than it was just a moment ago...","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah..."
+    },
+    {
+        "content": "Yuri slowly pulls away.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Sorry..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I've been feeling a little light-headed today."
+    },
+    {
+        "char": "Yuri",
+        "content": "I didn't mean to space out..."
+    },
+    {
+        "char": "you",
+        "content": "I-It's fine...",
+        "newBackground":"bedroom.png"
+    },
+    {
+        "content": "The moment is over as soon as it began.","char":"nobody",
+        "charImg":{"background":null}
+    },
+    {
+        "content": "Yuri picks up her brush again.","char":"nobody"
+    },
+    {
+        "content": "But her movements seem clumsier, like she's unable to focus.","char":"nobody"
+    },
+    {
+        "content": "I remain silent, forced to ignore the event that just transpired.","char":"nobody"
+    },
+    {
+        "content": "I hesitantly retrieve my own brush and continue following Yuri's example.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "That should do it...",
+        "newBackground":"transition"
+    },
+    {
+        "content": "I finish filling the night sky with white dots that looks like stars.","char":"nobody"
+    },
+    {
+        "content": "Looking at the banner as a whole, it's very pretty and natural-looking.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I think it came out better than I expected.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm really happy with the results."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, me too."
+    },
+    {
+        "char": "you",
+        "content": "Are you going to add the lettering now?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Ah, not yet...",
+        "charImg":"YCe1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "It needs to dry first."
+    },
+    {
+        "char": "you",
+        "content": "That's true, but won't that take a while?"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YCf2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Perhaps it would be best to leave it here, then have you bring it in the morning."
+    },
+    {
+        "char": "Yuri",
+        "content": "I can do the lettering in the classroom before our event starts.",
+        "charImg":"YCe2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Is that okay?"
+    },
+    {
+        "char": "you",
+        "content": "That's totally fine."
+    },
+    {
+        "char": "Yuri",
+        "content": "Wonderful.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "In that case..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I don't think there's anything more for us to do here."
+    },
+    {
+        "char": "you",
+        "content": "Phew."
+    },
+    {
+        "char": "Yuri",
+        "content": "Ahaha.",
+        "charImg":"YCnun.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "You say that like you're glad it's over."
+    },
+    {
+        "char": "Yuri",
+        "content": "Was I wrong to assume that you were at least enjoying yourself a little bit?",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, no, it's not that."
+    },
+    {
+        "char": "you",
+        "content": "I'm just glad that we managed to get everything done."
+    },
+    {
+        "char": "Yuri",
+        "content": "I see.",
+        "charImg":"YCg2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I am, too."
+    },
+    {
+        "char": "Yuri",
+        "content": "I was a little concerned about time..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I need to start making dinner soon."
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "So you don't have any time left?"
+    },
+    {
+        "content": "I was secretly hoping we would have extra time after finishing the work...","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well...",
+        "charImg":"YCi2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "..."
+    },
+    {
+        "content": "Yuri thinks to herself.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I-I think it would be too irresponsible of me to wait much longer...",
+        "charImg":"YCb3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry!"
+    },
+    {
+        "char": "Yuri",
+        "content": "I was hoping there would be more time as well..."
+    },
+    {
+        "char": "you",
+        "content": "It's probably my fault."
+    },
+    {
+        "char": "you",
+        "content": "Sorry for being such a slow worker."
+    },
+    {
+        "char": "Yuri",
+        "content": "No, it's not your fault at all.",
+        "charImg":"YCp1.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "And...the important thing is that we got everything done, right?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah..."
+    },
+    {
+        "char": "Yuri",
+        "content": "So..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I shouldn't be disappointed...or anything.",
+        "charImg":"YCa1.png"
+    },
+    {
+        "content": "Gathering all her things, Yuri seems to look a little downcast.","char":"nobody"
+    },
+    {
+        "content": "I understand why.","char":"nobody"
+    },
+    {
+        "content": "It sounded like she rarely gets the opportunity to spend time with friends in a relaxed environment.","char":"nobody"
+    },
+    {
+        "content": "But that doesn't mean this is the last time it can happen...","char":"nobody"
+    },
+    {
+        "content": "Once Yuri packs up, I walk her out the front door.","char":"nobody",
+        "charImg":"non",
+        "newBackground":"house.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Thank you very much for having me today.",
+        "charImg":"YCg1.png"
+    },
+    {
+        "char": "you",
+        "content": "No problem, I'm glad I was able to help."
+    },
+    {
+        "char": "you",
+        "content": "Just let me know if there's anything else you need me to bring tomorrow."
+    },
+    {
+        "char": "Yuri",
+        "content": "I will."
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, then...",
+        "charImg":"YCa1.png"
+    },
+    {
+        "content": "Yuri fidgets.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I guess...I'll see you tomorrow.",
+        "charImg":"YCa2.png"
+    },
+    {
+        "char": "you",
+        "content": "Wait--"
+    },
+    {
+        "content": "I kind of say that without thinking.","char":"nobody",
+        "charImg":"YCp2.png"
+    },
+    {
+        "char": "you",
+        "content": "About today..."
+    },
+    {
+        "char": "you",
+        "content": "It's fine that we didn't have as much time as we wanted."
+    },
+    {
+        "char": "you",
+        "content": "Because we can do this again."
+    },
+    {
+        "char": "you",
+        "content": "Whenever you want, you can come over, or we can go out somewhere--"
+    },
+    {
+        "char": "you",
+        "content": "Ah, I forgot you don't like going out much--"
+    },
+    {
+        "content": "As I stumble over my words, Yuri simply smiles bashfully.","char":"nobody",
+        "charImg":"YCc2.png"
+    },
+    {
+        "char": "you",
+        "content": "Anyway..."
+    },
+    {
+        "char": "you",
+        "content": "You know what I'm trying to say, so..."
+    },
+    {
+        "char": "Yuri",
+        "content": "You're very thoughtful, [player].",
+        "charImg":"YCc2.png"
+    },
+    {
+        "content": "Yuri takes a step closer to me, then briefly squeezes my hand.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "I kind of like that about you...",
+        "animation":[{"direction":"top","value":"70%"},{"direction":"height","value":"200%"}]
+    },
+    {
+        "char": "you",
+        "content": "Well..."
+    },
+    {
+        "content": "How am I supposed to respond to that?","char":"nobody"
+    },
+    {
+        "content": "But I don't even get a chance to, as Yuri suddenly pulls back.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "S-Sayori--?",
+        "charImg":"YCScared.png",
+        "animation":"return",
+        "comment":"aaaa jump back"
+    },
+    {
+        "char": "you",
+        "content": "Eh?!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah...",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori12.png","new":true,"left":true}]
+    },
+    {
+        "char": "Sayori",
+        "content": "H-Hi, [player]..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori--!"
+    },
+    {
+        "char": "you",
+        "content": "Just now, we weren't--"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori17.png"}]
+    },
+    {
+        "char": "Sayori",
+        "content": "It's okay, [player]."
+    },
+    {
+        "char": "Sayori",
+        "content": "I just stopped by to say hi~",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori1.png"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "U-Um...",
+        "animation":[{"direction":"height","value":"103%"}],
+        "charImg":"YCd3.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "Well, it's nice to see you..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry, but I'm already on my way to leave!",
+        "charImg":"YCb3.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Aw, really?",
+        "animation":[{"direction":"height","value":"103%","char":"Sayori"},{"direction":"height","value":"100%"}],
+        "newCharacter":[{"char":"Sayori","charImg":"Yori8.png"}]
+    },
+    {
+        "char": "Sayori",
+        "content": "That's too bad..."
+    },
+    {
+        "char": "Yuri",
+        "content": "I'm sorry...",
+        "charImg":"YCp3.png",
+        "animation":[{"direction":"height","value":"100%","char":"Sayori"},{"direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Yuri",
+        "content": "But we'll all be together at the festival tomorrow, so..."
+    },
+    {
+        "char": "Yuri",
+        "content": "So that's fine, right?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Of course!",
+        "animation":[{"direction":"height","value":"103%","char":"Sayori"},{"direction":"height","value":"100%"}],
+        "newCharacter":[{"char":"Sayori","charImg":"Z17.png"}]
+    },
+    {
+        "content": "Sayori beams.","char":"nobody"
+    },
+    {
+        "char": "Yuri",
+        "content": "Y-Yeah, so...",
+        "animation":[{"direction":"height","value":"100%","char":"Sayori"},{"direction":"height","value":"103%"}],
+        "newCharacter":[{"char":"Sayori","charImg":"Z1.png"}],
+        "charImg":"YOutShy2.png"
+    },
+    {
+        "char": "Yuri",
+        "content": "I'll see you tomorrow!"
+    },
+    {
+        "content": "Clearly embarrassed, Yuri hurries off.","char":"nobody",
+        "charImg":"non"
+    },
+    {
+        "content": "Sayori waves goodbye after her."
+    },
+    {
+        "char": "you",
+        "content": "Sayori--",
+        "charImg": "Yori1.png",
+        "newCharacter": "erase"
+    },
+    {
+        "char": "you",
+        "content": "I thought you didn't want to come over today!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha, well...",
+        "charImg": "Z12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I tried staying in my room..."
+    },
+    {
+        "char": "Sayori",
+        "content": "But my imagination was being really mean to me..."
+    },
+    {
+        "char": "Sayori",
+        "content": "So I had to come here and see it for myself.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "you",
+        "content": "See what?"
+    },
+    {
+        "char": "you",
+        "content": "What are you talking about?"
+    },
+    {
+        "char": "Sayori",
+        "content": "You know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "How much fun you were having with [ch4_name]."
+    },
+    {
+        "char": "Sayori",
+        "content": "And how close you got to her."
+    },
+    {
+        "char": "Sayori",
+        "content": "It makes me...really happy...",
+        "charImg": "Yori20.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That you've made such good friends."
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all that matters to me."
+    },
+    {
+        "content": "Tears start to fall down Sayori's face.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all that matters to me--!",
+        "charImg": "Z22.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why am I feeling this way, [player]?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm supposed to be happy for you."
+    },
+    {
+        "char": "Sayori",
+        "content": "Why does it feel like my heart is splitting in half?",
+        "charImg": "Z23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "It hurts so much..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Everything hurts so much...",
+        "charImg": "Yori23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "This would be so much better if I could just disappear!"
+    },
+    {
+        "char": "you",
+        "content": "Sayori, don't say that!"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's true, [player]!"
+    },
+    {
+        "char": "Sayori",
+        "content": "If I wasn't here, then you wouldn't have to waste your sympathy on me!"
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have to put up with me being selfish!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Monika was right...",
+        "charImg": "Yori21.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I should just..."
+    },
+    {
+        "char": "you",
+        "content": "Monika...?"
+    },
+    {
+        "char": "you",
+        "content": "Monika was right about what?"
+    },
+    {
+        "char": "Sayori",
+        "content": "..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori..."
+    },
+    {
+        "char": "you",
+        "content": "What I said before is true."
+    },
+    {
+        "char": "you",
+        "content": "I'm not going to let this continue."
+    },
+    {
+        "char": "you",
+        "content": "Caring about you like this isn't the burden your mind is making it out to be."
+    },
+    {
+        "char": "you",
+        "content": "It's something that makes me happy."
+    },
+    {
+        "char": "you",
+        "content": "It's something that I wouldn't trade for anything else."
+    },
+    {
+        "char": "you",
+        "content": "So, even if it takes an entire lifetime..."
+    },
+    {
+        "char": "you",
+        "content": "I'm going to be by your side until you don't feel any more pain."
+    },
+    {
+        "char": "Sayori",
+        "content": "B-But...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "content": "Sayori looks away.","char":"nobody"
+    },
+    {
+        "content": "I put a hand on her shoulder to reassure her.","char":"nobody"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm scared, [player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm really scared..."
+    },
+    {
+        "char": "you",
+        "content": "What are you scared of, Sayori?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm scared that..."
+    },
+    {
+        "char": "Sayori",
+        "content": "That I might like you more than you like me..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori...?"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's true, isn't it?",
+        "charImg": "Yori22.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I was weak and started to like you too much..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I did this to myself."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I like you so much that I want to die!",
+        "charImg": "Z23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's how I feel!"
+    },
+    {
+        "char": "Sayori",
+        "content": "And...and...",
+        "charImg": "Z22.png"
+    },
+    {
+        "char": "you",
+        "content": "That's enough, Sayori..."
+    },
+    {
+        "char": "you",
+        "content": "I don't want you to hurt anymore."
+    },
+    {
+        "content": "I slide my hand down Sayori's arm and squeeze her hand in my own.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Do you remember how I said I always know what's best for you?"
+    },
+    {
+        "char": "you",
+        "content": "Do you still believe me?"
+    },
+    {
+        "content": "Wordlessly, Sayori nods.","char":"nobody"
+    },
+    {
+        "char": "you",
+        "content": "Even if you don't understand all of your own feelings..."
+    },
+    {
+        "char": "you",
+        "content": "I know what you need the most right now."
+    },
+    {
+        "char": "you",
+        "content": "And that's what I'm going to give to you."
+    }
+]

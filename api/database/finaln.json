@@ -1,0 +1,2708 @@
+[
+    {
+        "content": "\"It's already Sunday.\"\r",
+        "newBackground": "barrio.png",
+        "newCharacter": "erase"
+    },
+    {
+        "content": "\"I've been getting increasingly anxious about Natsuki's upcoming visit.\"\r"
+    },
+    {
+        "content": "\"I keep telling myself there's no reason to be nervous, but it doesn't help much.\"\r"
+    },
+    {
+        "content": "\"I wonder if she'll act any different when it's just the two of us?\"\r"
+    },
+    {
+        "content": "\"Meanwhile, she's been texting me a lot.\"\r"
+    },
+    {
+        "content": "\"We sent each other one after exchanging numbers to double-check, but it turned into conversation.\"\r"
+    },
+    {
+        "content": "\"She's almost a different personality on the phone, using tons of emoji and cute language.\"\r"
+    },
+    {
+        "content": "\"She also really likes complaining about things, but I kind of saw that one coming.\"\r"
+    },
+    {
+        "content": "\"But putting Natsuki aside...\"\r"
+    },
+    {
+        "content": "\"I haven't heard a thing from Sayori since she left club early the other day.\"\r"
+    },
+    {
+        "content": "\"It's not like we text each other all the time or anything...\"\r"
+    },
+    {
+        "content": "\"But I've been worried about her in the back of my mind.\"\r"
+    },
+    {
+        "content": "\"Between what Sayori said, and what Monika said...\"\r"
+    },
+    {
+        "content": "\"Is it really okay for me to put Sayori's feelings aside when she might need me?\"\r"
+    },
+    {
+        "content": "\"I decide to visit Sayori before +Yuri comes over.\"\r",
+        "newBackground": "house.png"
+    },
+    {
+        "content": "\"Rather than asking, I simply tell her \\\"I'm coming over\\\", much like we've done in the past.\"\r"
+    },
+    {
+        "content": "\"Once I reach Sayori's house, I knock on the door before entering it myself.\"\r"
+    },
+    {
+        "content": "\"Again, we used to play so often that we've made it a habit of simply entering each other's houses like we were family.\"\r"
+    },
+    {
+        "content": "\"The house is quiet.\"\r",
+        "newBackground": "none"
+    },
+    {
+        "content": "\"Sayori isn't anywhere on the first floor, so I assume she's up in her room.\"\r"
+    },
+    {
+        "content": "\"It's already strange of her not to run down and greet me.\"\r"
+    },
+    {
+        "content": "\"I head up to her bedroom, where I finally find her.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Sayori?",
+        "newBackground": "sayori.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Hi [player]~",
+        "charImg": "Yori1.png"
+    },
+    {
+        "content": "\"I sit down in her room.\"\r",
+        "charImg": "Yori25.png"
+    },
+    {
+        "content": "\"Sayori forces a smile, but it's easy to tell that she's different.\"\r"
+    },
+    {
+        "content": "\"There's a minute of silence between us.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "You haven't come over like this in a long time, have you?"
+    },
+    {
+        "char": "you",
+        "content": "Ah... I guess you're right."
+    },
+    {
+        "char": "you",
+        "content": "It has been a long time."
+    },
+    {
+        "char": "you",
+        "content": "Not much has really changed, has it?"
+    },
+    {
+        "content": "\"Sayori's room is as messy as it's always been.\"\r"
+    },
+    {
+        "content": "\"I also recognize the same stuffed animals and wall decorations that she's had for years now.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Yori12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If you came over more often, it wouldn't be such a mess."
+    },
+    {
+        "char": "you",
+        "content": "That's because I end up cleaning it for you..."
+    },
+    {
+        "char": "Sayori",
+        "content": "How come you suddenly wanted to come over today?",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Aren't you supposed to see [ch4_name] today?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, but..."
+    },
+    {
+        "char": "you",
+        "content": "...Wait, how did you know that?"
+    },
+    {
+        "content": "\"Sayori had already left by the time we decided that last meeting.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "Monika told me.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's only natural for her to keep me informed about the festival preparations, right?"
+    },
+    {
+        "char": "you",
+        "content": "Ah, that's true..."
+    },
+    {
+        "char": "you",
+        "content": "But what about you?"
+    },
+    {
+        "char": "you",
+        "content": "Aren't you going to be helping Monika today?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Of course!",
+        "charImg": "Z2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But I'm just helping her online."
+    },
+    {
+        "char": "Sayori",
+        "content": "We didn't plan to meet up or anything."
+    },
+    {
+        "char": "you",
+        "content": "Ah, so it's just me and [ch4_name], then..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Yep~",
+        "charImg": "Yori1.png"
+    },
+    {
+        "content": "\"There's more silence between us.\"\r"
+    },
+    {
+        "content": "\"Sayori stares in a random direction.\"\r",
+        "charImg": "Yori11.png"
+    },
+    {
+        "content": "\"Everything about her behavior is really uncharacteristic.\"\r"
+    },
+    {
+        "content": "\"I finally get to the point.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "I just...wanted to see how you were doing."
+    },
+    {
+        "char": "you",
+        "content": "After you left on Friday."
+    },
+    {
+        "char": "you",
+        "content": "When something's wrong, you can't hide it from me!"
+    },
+    {
+        "char": "you",
+        "content": "I know you too well."
+    },
+    {
+        "char": "you",
+        "content": "So..."
+    },
+    {
+        "content": "\"Sayori smiles, shaking her head.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's no good, [player].",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why can't it just be like it's always been?"
+    },
+    {
+        "char": "Sayori",
+        "content": "This is all my fault.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If I didn't get so weak and accidentally express my feelings..."
+    },
+    {
+        "char": "Sayori",
+        "content": "If I didn't make that stupid mistake...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Then you wouldn't have been worried about me at all."
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have come here."
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have even been thinking about me right now.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But this...is just my punishment, isn't it?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm getting punished for being so selfish."
+    },
+    {
+        "char": "Sayori",
+        "content": "I think that's why the world decided to have you come over today."
+    },
+    {
+        "char": "Sayori",
+        "content": "It just wants to torture me."
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Z17.png"
+    },
+    {
+        "char": "you",
+        "content": "Sayori!",
+        "charImg": "Z2.png"
+    },
+    {
+        "content": "\"I grab Sayori by the shoulders.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "What on Earth are you saying?!"
+    },
+    {
+        "char": "you",
+        "content": "Are you listening to yourself right now?"
+    },
+    {
+        "char": "you",
+        "content": "I know something happened to you."
+    },
+    {
+        "char": "you",
+        "content": "There's no other explanation for you to be like this."
+    },
+    {
+        "char": "you",
+        "content": "So tell me, already...!"
+    },
+    {
+        "char": "you",
+        "content": "Until I know, I won't be able to stop thinking about it!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah...",
+        "charImg": "Z12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha..."
+    },
+    {
+        "content": "\"Sayori gives me an empty smile.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "You really put me in a trap, [player].",
+        "charImg": "Z25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But..."
+    },
+    {
+        "char": "Sayori",
+        "content": "You're wrong.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Nothing happened to me."
+    },
+    {
+        "char": "Sayori",
+        "content": "I've always been like this."
+    },
+    {
+        "char": "Sayori",
+        "content": "You're just seeing it for the first time."
+    },
+    {
+        "char": "you",
+        "content": "Seeing what?"
+    },
+    {
+        "char": "you",
+        "content": "What are you talking about, Sayori?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "charImg": "Yori17.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "You're really just going to make me say it, aren't you, [player]?",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I guess I have no choice this time."
+    },
+    {
+        "char": "Sayori",
+        "content": "The thing is...",
+        "charImg": "Yori3.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I've had really bad depression my whole life."
+    },
+    {
+        "char": "Sayori",
+        "content": "Did you know that?",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why do you think I'm late to school every day?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Because most days, I can't even find a reason to get out of bed."
+    },
+    {
+        "char": "Sayori",
+        "content": "What reason is there to do anything when I fully know how worthless I am?",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why go to school?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why eat?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why make friends?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why make other people put their energy and caring to waste by having them spend it on me?"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's what it feels like."
+    },
+    {
+        "char": "Sayori",
+        "content": "And that's why I just want to make everyone happy..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Without anyone worrying about me."
+    },
+    {
+        "char": "you",
+        "content": "..."
+    },
+    {
+        "content": "\"I'm in shock.\"\r"
+    },
+    {
+        "content": "\"I can't even figure out how to respond.\"\r"
+    },
+    {
+        "content": "\"How is it possible that Sayori kept this from me the entire time that I've known her?\"\r"
+    },
+    {
+        "content": "\"Did she really want so badly for me to just not think about her?\"\r"
+    },
+    {
+        "char": "you",
+        "content": "...Why, Sayori?",
+        "charImg": "Yori7.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Eh...?"
+    },
+    {
+        "char": "you",
+        "content": "Why is it that you've never told me about this?"
+    },
+    {
+        "char": "you",
+        "content": "It almost feels like I've been betrayed as your close friend."
+    },
+    {
+        "char": "you",
+        "content": "Because if I knew, I would have done everything I could to support you!"
+    },
+    {
+        "char": "you",
+        "content": "Even if there's only so much that I could do..."
+    },
+    {
+        "char": "you",
+        "content": "I would have tried a little bit harder to make every day a little better for you."
+    },
+    {
+        "char": "you",
+        "content": "That's why I'm your friend!"
+    },
+    {
+        "char": "you",
+        "content": "All you had to do was tell me!"
+    },
+    {
+        "char": "Sayori",
+        "content": "You don't understand at all, [player].",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why do you think I didn't tell you?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Because if I told you, then you would have to waste effort caring about me instead of doing important things.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't want to be cared about."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's bittersweet, when people try to care about me."
+    },
+    {
+        "char": "Sayori",
+        "content": "It feels nice sometimes.",
+        "charImg": "Yori1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "But it also feels like a bat being swung against my head."
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha~",
+        "charImg": "Z17.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's why I wanted so badly for you to make friends with everyone else...",
+        "charImg": "Z1.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Helping everyone be happy together is the best thing for me."
+    },
+    {
+        "char": "Sayori",
+        "content": "But then, I discovered something else, too.",
+        "charImg": "Yori2.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Seeing you make friends and get closer with everyone in the club..."
+    },
+    {
+        "char": "Sayori",
+        "content": "It feels like a spear going through my heart.",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "So, that's why."
+    },
+    {
+        "char": "Sayori",
+        "content": "That's why I decided the world just wants to torture me."
+    },
+    {
+        "char": "Sayori",
+        "content": "Every path leads to nothing but hurt.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha~"
+    },
+    {
+        "char": "you",
+        "content": "You're right that I don't understand..."
+    },
+    {
+        "char": "you",
+        "content": "I don't understand your feelings at all, Sayori."
+    },
+    {
+        "char": "you",
+        "content": "But I don't need to understand."
+    },
+    {
+        "char": "you",
+        "content": "Whatever it takes for me to help you stop hurting..."
+    },
+    {
+        "char": "you",
+        "content": "That's what I'll do."
+    },
+    {
+        "char": "Sayori",
+        "content": "No, [player].",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "There's nothing."
+    },
+    {
+        "char": "Sayori",
+        "content": "Nothing at all."
+    },
+    {
+        "char": "Sayori",
+        "content": "The only thing that could have helped is if everything could be like it always was."
+    },
+    {
+        "char": "Sayori",
+        "content": "But I was selfish.",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I finally showed you what a horrible person I am."
+    },
+    {
+        "content": "\"Tears streak down Sayori's face.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "I made you join the literature club because I was selfish.",
+        "charImg": "Yori21.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "And I was punished by my heart hurting in a way that I couldn't understand."
+    },
+    {
+        "char": "Sayori",
+        "content": "And now you came here and I made you hurt, too."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm just weak and selfish.",
+        "charImg": "Yori20.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all I am."
+    },
+    {
+        "char": "Sayori",
+        "content": "And that's why I'm going to accept these punishments."
+    },
+    {
+        "char": "Sayori",
+        "content": "Because I deserve every last one...!",
+        "charImg": "Yori21.png"
+    },
+    {
+        "content": "\"Without thinking, I once again grab Sayori's shoulders.\"\r"
+    },
+    {
+        "content": "\"This time, I pull her into a tight embrace.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "A-Ah--",
+        "charImg": {
+            "background": "black"
+        }
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori."
+    },
+    {
+        "char": "you",
+        "content": "I don't care if you feel selfish."
+    },
+    {
+        "char": "you",
+        "content": "I'm really happy that you convinced me to join the club."
+    },
+    {
+        "char": "you",
+        "content": "Seeing you every day makes it worthwhile enough."
+    },
+    {
+        "char": "you",
+        "content": "If I make friends with everyone else, then that's just a bonus."
+    },
+    {
+        "char": "you",
+        "content": "But please never underestimate how much I care about you."
+    },
+    {
+        "char": "you",
+        "content": "I wouldn't have it any other way."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "content": "\"Sayori isn't hugging me back.\"\r"
+    },
+    {
+        "content": "\"Despite my arms being wrapped around her, Sayori's arms remain at her sides.\"\r"
+    },
+    {
+        "content": "\"She starts sobbing next to my ear.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "No..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Don't do this...to me..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Please don't do this..."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I..."
+    },
+    {
+        "content": "\"Sayori barely manages to speak between her sobs.\"\r"
+    },
+    {
+        "content": "\"I don't know if I'm doing the right thing.\"\r"
+    },
+    {
+        "content": "\"But all I want is for her to know that I care.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "If you have it in you to call yourself selfish, then you have to let me be selfish too."
+    },
+    {
+        "char": "you",
+        "content": "No matter what it takes, I'll figure out what needs to change."
+    },
+    {
+        "char": "you",
+        "content": "I'll make these feelings go away."
+    },
+    {
+        "char": "you",
+        "content": "And if there's anything that you need me to do..."
+    },
+    {
+        "char": "you",
+        "content": "Then you'd better tell me."
+    },
+    {
+        "char": "you",
+        "content": "I'll get mad if you don't."
+    },
+    {
+        "char": "Sayori",
+        "content": "..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I...don't know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know."
+    },
+    {
+        "content": "\"Gently, Sayori finally puts her arms around me in return.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know anything."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's all really scary..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't understand any of my feelings, [player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "The only time I'm not feeling nothing is when I'm feeling pain."
+    },
+    {
+        "char": "Sayori",
+        "content": "But..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Your hugs are so warm..."
+    },
+    {
+        "char": "Sayori",
+        "content": "...And that's really scary, too."
+    },
+    {
+        "content": "\"Sayori lets me go.\"\r",
+        "charImg": {
+            "background": "break"
+        }
+    },
+    {
+        "content": "\"As she does so, I let her go as well.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "The festival is tomorrow."
+    },
+    {
+        "char": "Sayori",
+        "content": "Yeah...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "you",
+        "content": "It's going to be fun, right?"
+    },
+    {
+        "char": "Sayori",
+        "content": "Yeah."
+    },
+    {
+        "char": "you",
+        "content": "How would you like for me to spend it all with you?"
+    },
+    {
+        "char": "Sayori",
+        "content": "U-Um...",
+        "charImg": "Yori8.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah--"
+    },
+    {
+        "char": "you",
+        "content": "It's what I want."
+    },
+    {
+        "char": "you",
+        "content": "I promise."
+    },
+    {
+        "char": "Sayori",
+        "content": "I...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I think that would be nice, then..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah."
+    },
+    {
+        "content": "\"Sayori wipes her eyes.\"\r"
+    },
+    {
+        "content": "\"If I could spend the whole day here, I would.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Of all days, this has to be the one where I have other plans..."
+    },
+    {
+        "char": "you",
+        "content": "Maybe I should cancel--"
+    },
+    {
+        "char": "Sayori",
+        "content": "No, don't--!",
+        "charImg": "Yori8.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Please don't...",
+        "charImg": "Yori7.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "If you did that...then I really wouldn't forgive you."
+    },
+    {
+        "char": "you",
+        "content": "But..."
+    },
+    {
+        "char": "you",
+        "content": "It's almost time for [ch4_name] to meet me at my house..."
+    },
+    {
+        "char": "you",
+        "content": "At the very least, do you want to come along and help out?"
+    },
+    {
+        "char": "you",
+        "content": "It would be fun."
+    },
+    {
+        "content": "\"To my surprise, Sayori shakes her head.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm sorry.",
+        "charImg": "Yori4.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I don't know if that would be very good for me today."
+    },
+    {
+        "char": "Sayori",
+        "content": "You understand, right?"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "It's...kind of hard for me to fully understand."
+    },
+    {
+        "char": "you",
+        "content": "But I'm trying my hardest."
+    },
+    {
+        "char": "Sayori",
+        "content": "It's okay."
+    },
+    {
+        "char": "Sayori",
+        "content": "Don't worry too much about it."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'll see you tomorrow, okay?",
+        "charImg": "Z1.png"
+    },
+    {
+        "char": "you",
+        "content": "...Alright."
+    },
+    {
+        "char": "you",
+        "content": "I look forward to it."
+    },
+    {
+        "content": "\"I say goodbye to Sayori and exit her house.\"\r",
+        "charImg": "non",
+        "newBackground": "barrio.png"
+    },
+    {
+        "content": "\"On the way home, I find myself still feeling uneasy.\"\r"
+    },
+    {
+        "content": "\"But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too...\"\r"
+    },
+    {
+        "content": "\"I think Sayori is right.\"\r"
+    },
+    {
+        "content": "\"I shouldn't be worrying too much, and we're definitely going to have a great time tomorrow.\"\r"
+    },
+    {
+        "content": "\"I should just focus on what's ahead of me!\""
+    },
+    {
+        "newBackground":"house.png",
+        "content":"I spend only a few minutes back at home anxiously awaiting Natsuki's arrival.\"\r"
+    },
+    {
+        "content": "\"Before I know it, she texts me to let me know she's outside the front door.\"\r"
+    },
+    {
+        "content": "\"Without delay, I open the front door to let her in.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "...",
+        "charImg":"Arm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "'Sup?"
+    },
+    {
+        "char": "you",
+        "content": "...Hey."
+    },
+    {
+        "content": "\"I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off.\"\r"
+    },
+    {
+        "content": "\"Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez, don't make it feel so awkward already!",
+        "charImg":"S14.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's gonna be a long afternoon, so don't be weird just because you're not used to seeing me outside of school."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Anyway, I'm coming in."
+    },
+    {
+        "char": "you",
+        "content": "I see you brought a lot of stuff...",
+        "charImg":"Casual1.png",
+        "newBackground":"kitchen.png"
+    },
+    {
+        "content": "\"Natsuki is carrying a large bag that is probably full of baking supplies.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, I didn't want to come all this way to find out that your kitchen isn't equipped for the job."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You bought everything I asked you to, right?"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I did."
+    },
+    {
+        "content": "\"Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Good!",
+        "charImg":"Arm12.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Glad I could count on you to do your part."
+    },
+    {
+        "char": "you",
+        "content": "Well...of course."
+    },
+    {
+        "content": "\"I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does.\"\r"
+    },
+    {
+        "content": "\"Could it be that she is a little different outside of school after all?\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Anyway, let's go to the kitchen..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "What, you're not even gonna offer to take this heavy bag from me?",
+        "charImg":"Arm25.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Where's your hospitality, [player]?"
+    },
+    {
+        "char": "you",
+        "content": "Come on..."
+    },
+    {
+        "char": "you",
+        "content": "Since when did I need to be a gentleman?"
+    },
+    {
+        "content": "\"I grab the bag Natsuki holds out to me.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Ghk--"
+    },
+    {
+        "char": "you",
+        "content": "This is ridiculously heavy--!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahaha!",
+        "charImg":"S12.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I carried that all the way here."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Are you impressed?",
+        "charImg":"S24.png"
+    },
+    {
+        "char": "you",
+        "content": "I see now..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I am impressed, Natsuki."
+    },
+    {
+        "char": "you",
+        "content": "It seems like I always underestimate you."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ehehe~",
+        "charImg":"Casual25.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's because I'm so small, isn't it?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You jerk.",
+        "charImg":"S1.png"
+    },
+    {
+        "content": "\"Natsuki hits a fist into my chest.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Hey, hey."
+    },
+    {
+        "char": "you",
+        "content": "Your size has nothing to do with it."
+    },
+    {
+        "char": "you",
+        "content": "Do you really hate being small that much?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?",
+        "charImg":"Casual11.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Um..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's not like I hate it...",
+        "charImg":"Casual3.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I mean, sometimes I like proving people wrong when they only think I'm worth my size."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's fun when I get to be small and also better than other people.",
+        "charImg":"Casual1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "But..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...Jeez, never mind!",
+        "charImg":"S4.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "What are you making me say?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't think you can make me talk about weird things just because we're not at school!",
+        "charImg":"S26.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Are we getting started, or what? There's a lot of stuff I gotta teach you."
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "Natsuki",
+        "content": "What??",
+        "charImg":"Casual21.png"
+    },
+    {
+        "char": "you",
+        "content": "That's a little bit more like you."
+    },
+    {
+        "char": "you",
+        "content": "You're more fun when you just speak your mind like that."
+    },
+    {
+        "char": "Natsuki",
+        "content": "H-Hey!",
+        "charImg":"Casual14.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Now you <i>are</i> treating me like a kid!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I was just trying to be a little nicer to you, you know."
+    },
+    {
+        "char": "Natsuki",
+        "content": "And just because I don't have a mature and sexy figure like Yuri doesn't mean you should treat me like--",
+        "charImg":"Casual18.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah--",
+        "charImg":"Casual15.png"
+    },
+    {
+        "content": "\"Natsuki catches her words, and her face turns red.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Natsuki..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Forget it!",
+        "charImg":"Casual16.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I didn't say anything!"
+    },
+    {
+        "char": "you",
+        "content": "I should apologize."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?",
+        "charImg":"Casual8.png"
+    },
+    {
+        "char": "you",
+        "content": "I appreciate that you were trying to be nicer."
+    },
+    {
+        "char": "you",
+        "content": "I should have been a little more considerate, too."
+    },
+    {
+        "char": "you",
+        "content": "But also..."
+    },
+    {
+        "char": "you",
+        "content": "If that's what you're thinking, then you should know that there are tons of guys who are into body types like yours."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ah...",
+        "charImg":"Casual17.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "How would...you know that, anyway?"
+    },
+    {
+        "char": "you",
+        "content": "Just trust me on this one."
+    },
+    {
+        "char": "Natsuki",
+        "content": "..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...Gross.",
+        "charImg":"Casual24.png"
+    },
+    {
+        "char": "you",
+        "content": "Hey!"
+    },
+    {
+        "char": "you",
+        "content": "Was that to me?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Who else?",
+        "charImg":"Casual23.png"
+    },
+    {
+        "char": "you",
+        "content": "Man..."
+    },
+    {
+        "char": "you",
+        "content": "Let's just get started already."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahaha!",
+        "charImg":"Arm12.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You get all sour when a girl calls you gross."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I finally found your weakness, [player].",
+        "charImg":"Arm4.png"
+    },
+    {
+        "content": "\"Natsuki smiles deviously.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Please spare me..."
+    },
+    {
+        "content": "\"Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back.\"\r"
+    },
+    {
+        "content": "\"But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started.\"\r"
+    },
+    {
+        "content": "\"Before long, the whole kitchen is a mess.\"\r",
+        "charImg":"non",
+        "newBackground":"transition"
+    },
+    {
+        "content": "\"Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop.\"\r"
+    },
+    {
+        "content": "\"The mixer isn't big enough to make all the batter at once, so we've had to do it several times.\"\r"
+    },
+    {
+        "content": "\"Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "[player], where did you put the food coloring?",
+        "charImg":"Arm11.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "The batter's going in the oven soon, so I need to fill the trays."
+    },
+    {
+        "char": "you",
+        "content": "I think it's still in the bag next to the table."
+    },
+    {
+        "char": "you",
+        "content": "What are you using it for?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "To color the batter, of course!",
+        "charImg":"S24.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm making each tray a different color.",
+        "charImg":"S21.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "That way, even if the flavors aren't different, everyone can still pick their favorite."
+    },
+    {
+        "char": "you",
+        "content": "Ah, that's a cute idea."
+    },
+    {
+        "char": "you",
+        "content": "Are we doing anything like that with the icing?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Do you want to?",
+        "charImg":"S22.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "You're asking me?"
+    },
+    {
+        "char": "you",
+        "content": "I don't really have a preference, so..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Come on...",
+        "charImg":"Casual13.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You're not putting any heart into this at all!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Can't you at least try to have fun?"
+    },
+    {
+        "char": "you",
+        "content": "I'm having fun..."
+    },
+    {
+        "content": "\"I'm not really sure what Natsuki is trying to get out of me.\"\r"
+    },
+    {
+        "content": "\"Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Ah, that does look pretty cool."
+    },
+    {
+        "char": "Natsuki",
+        "content": "See?",
+        "charImg":"S21.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's not like baking is just about following instructions."
+    },
+    {
+        "char": "Natsuki",
+        "content": "The presentation is where you get to be creative and have the most fun."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's a million times more worth it in the end if just looking at it makes everyone's eyes lighten up."
+    },
+    {
+        "char": "you",
+        "content": "Like the ones you made on my first day, huh?"
+    },
+    {
+        "content": "\"I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions.\"\r"
+    },
+    {
+        "content": "\"I wonder if I can make Natsuki proud like that, too.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Yeah..."
+    },
+    {
+        "char": "you",
+        "content": "Maybe I will use the food coloring, then."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Sounds like you're starting to understand."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just make sure you completely finish mixing the icing before you mess with the food coloring."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, it's getting there."
+    },
+    {
+        "content": "\"We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?",
+        "charImg":"S14.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "The icing's still all lumpy!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Are you even trying?"
+    },
+    {
+        "char": "you",
+        "content": "Well, yeah..."
+    },
+    {
+        "char": "you",
+        "content": "It'll just take a little longer."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez, I'll be here all night if you do it like that.",
+        "charImg":"S18.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Here, look."
+    },
+    {
+        "content": "\"Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You really need to...beat...the crap out of it!",
+        "charImg":"S16.png"
+    },
+    {
+        "content": "\"After a few seconds, the consistency of the icing has already improved.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "See?",
+        "charImg":"S1.png"
+    },
+    {
+        "content": "\"As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth.\"\r"
+    },
+    {
+        "content": "\"I reluctantly start to do the same.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Hey!",
+        "charImg":"Casual8.png"
+    },
+    {
+        "content": "\"Natsuki suddenly grabs my wrist.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I don't want <i>your</i> gross fingers in my icing.",
+        "charImg":"S19.png"
+    },
+    {
+        "char": "you",
+        "content": "Your icing, eh?"
+    },
+    {
+        "char": "you",
+        "content": "Are you forgetting who did all the work?"
+    },
+    {
+        "content": "\"I start to fight back, trying to inch my finger toward the bowl.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't make me beat the crap out of you next!",
+        "charImg":"Casual25.png"
+    },
+    {
+        "char": "you",
+        "content": "I'd like to see you try!"
+    },
+    {
+        "content": "\"I push harder, just enough for my finger to reach the icing.\"\r"
+    },
+    {
+        "content": "\"I triumphantly scoop some with my finger just as Natsuki tugs with all her might.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Ah--!"
+    },
+    {
+        "content": "\"The force of Natsuki pulling me causes me to stumble, making her stumble in turn.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Gross!",
+        "charImg":"Casual24.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You got it on my face!"
+    },
+    {
+        "char": "you",
+        "content": "Whose fault is that?!"
+    },
+    {
+        "content": "\"There's a big glob of icing on Natsuki's cheek.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Nnn--",
+        "charImg":"Casual23.png"
+    },
+    {
+        "content": "\"She tries to reach it with her tongue, but it's too far away.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez...",
+        "charImg":"Casual18.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You know what?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Take this!",
+        "charImg":"S15.png"
+    },
+    {
+        "content": "\"Natsuki instead wipes it off with her finger before shoving her finger toward my own face.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "You wish--!"
+    },
+    {
+        "content": "\"I'm faster.\"\r"
+    },
+    {
+        "content": "\"I grab her wrist with my hand before it reaches my face.\"\r"
+    },
+    {
+        "content": "\"Natsuki tries to use her other hand to fight back, but I grab that one as well.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahahaha! Stop!",
+        "charImg":{"background":"natsuki-bg3-1.png"}
+    },
+    {
+        "char": "you",
+        "content": "Not until you apologize for calling me gross!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Fine, fine!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm sorry for calling you gross."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You know I don't mean it."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's just fun seeing you react to it."
+    },
+    {
+        "char": "Natsuki",
+        "content": "...You do that to me all the time, you know!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Saying dumb things just to get a reaction out of me."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You really shouldn't tease girls like that."
+    },
+    {
+        "char": "you",
+        "content": "Is that so?"
+    },
+    {
+        "char": "you",
+        "content": "In that case, I probably shouldn't do this, either..."
+    },
+    {
+        "content": "\"I take Natsuki's finger and put it in my mouth, licking off the icing.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "W-W-What--?",
+        "charImg":{"background":"natsuki-bg3-2.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "D-Did you seriously just--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah--"
+    },
+    {
+        "content": "\"Natsuki is so surprised that she can't even figure out how to get mad at me.\"\r"
+    },
+    {
+        "content": "\"Her face is entirely red.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "[player]...",
+        "charImg":{"background":"natsuki-bg3-3.png"}
+    },
+    {
+        "char": "Natsuki",
+        "content": "You really shouldn't do that kind of thing to girls...unless you really like them..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You know that...right?"
+    },
+    {
+        "char": "you",
+        "content": "..."
+    },
+    {
+        "content": "\"What kind of question is she asking me, just like that?\"\r"
+    },
+    {
+        "content": "\"How did the mood turn to this so quickly?\"\r"
+    },
+    {
+        "char": "you",
+        "content": "I..."
+    },
+    {
+        "content": "\"Natsuki gazes at me in silence.\"\r"
+    },
+    {
+        "content": "\"I notice her shallow breaths.\"\r"
+    },
+    {
+        "content": "\"Why am I starting to feel dizzy...?\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?!",
+        "charImg":"non"
+    },
+    {
+        "newBackground":{"src":"kitchen.png","noTransition": true},
+        "content": "\"Out of nowhere, the fire alarm starts going off.\"\r",
+        "charImg":{"background":""}
+    },
+    {
+        "content": "\"Natsuki rushes over to the oven.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Is something burning?"
+    },
+    {
+        "char": "you",
+        "content": "I thought you didn't put the cupcakes in yet."
+    },
+    {
+        "char": "Natsuki",
+        "content": "{i}*Cough*{/i}",
+        "charImg":"Casual23.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "No wonder..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "You left a dirty tray in here, dummy!",
+        "charImg":"Casual2.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "How could you make a mistake like that?"
+    },
+    {
+        "char": "you",
+        "content": "You should have checked before turning the oven on!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Don't blame me for your mistakes!",
+        "charImg":"Casual19.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Jeez..."
+    },
+    {
+        "content": "\"Natsuki uses an oven mitt to grab the blackened tray out of the oven.\"\r"
+    },
+    {
+        "content": "\"She sets it on top of the stove.\"\r"
+    },
+    {
+        "content": "\"In another moment, the fire alarm stops.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "charImg":"Casual17.png",
+        "content": "Anyway..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm...putting them in the oven now."
+    },
+    {
+        "char": "you",
+        "content": "Yeah..."
+    },
+    {
+        "content": "\"The tension from the moment before still lingers over our heads.\"\r"
+    },
+    {
+        "content": "\"But the moment has already been lost.\"\r"
+    },
+    {
+        "content": "\"I watch as Natsuki slides the cupcake trays into the oven.\"\r"
+    },
+    {
+        "content": "\"Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened.\"\r"
+    },
+    {
+        "char":"nobody",
+        "content":" ",
+        "charImg":"non",
+        "newBackground":"transition"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahh, that smells so good!",
+        "charImg":"S12.png"
+    },
+    {
+        "content": "\"The cupcakes are ready to be pulled out of the oven.\"\r"
+    },
+    {
+        "content": "\"As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Look at how cute they all look!",
+        "charImg":"S24.png"
+    },
+    {
+        "content": "\"She proudly shows off the different-colored cupcakes in each of the trays.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "They'll look even better once we add the icing."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Not like you need to tell {i}me{/i} that!",
+        "charImg":"Arm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I brought decorating stuff, so I hope you can get creative."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Here, scoop the icing into these bags."
+    },
+    {
+        "content": "\"Natsuki hands me some plastic bags.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I have these nozzles that will make it look nice and fluffy.",
+        "charImg":"S21.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "This one can even make flowers!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "We probably won't be using it this time, though."
+    },
+    {
+        "char": "you",
+        "content": "What's this one for?"
+    },
+    {
+        "content": "\"I pick up one of the nozzles that has a much thinner tip than the others.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "That one's really thin, so you can use it to make stripes or other patterns.",
+        "charImg":"S22.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "But you can also use it to write stuff on a cake."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Like, 'happy birthday!' or whatever."
+    },
+    {
+        "char": "you",
+        "content": "Huh, I see..."
+    },
+    {
+        "char": "you",
+        "content": "That gives me an idea, actually."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?"
+    },
+    {
+        "char": "you",
+        "content": "Well, it's a literature event, right?"
+    },
+    {
+        "char": "you",
+        "content": "We could make it more literature-themed by writing a different word on each of the cupcakes."
+    },
+    {
+        "char": "you",
+        "content": "It would be fun to see people choose their cupcake based on a word they like."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Uu...",
+        "charImg":"Casual17.png"
+    },
+    {
+        "char": "you",
+        "content": "Hm?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I was kind of expecting you to say something really stupid..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "But that's actually...a really cute idea, so...",
+        "charImg":"Casual19.png"
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "you",
+        "content": "Maybe I'm getting it from you."
+    },
+    {
+        "char": "Natsuki",
+        "content": "W-What's that supposed to mean?",
+        "charImg":"S19.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm not cute!"
+    },
+    {
+        "char": "you",
+        "content": "Come on..."
+    },
+    {
+        "char": "you",
+        "content": "We're not at school, nobody's judging."
+    },
+    {
+        "char": "you",
+        "content": "You can't dress and act like this and not expect me to think you're cute."
+    },
+    {
+        "char": "Natsuki",
+        "content": "W-Well...",
+        "charImg":"Casual19.png"
+    },
+    {
+        "content": "\"Natsuki's voice trails off.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Same with you..."
+    },
+    {
+        "char": "you",
+        "content": "Eh?"
+    },
+    {
+        "char": "you",
+        "content": "Did you say something?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "N-No, nothing!",
+        "charImg":"Casual23.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Let's just do the icing!"
+    },
+    {
+        "content": "\"Natsuki picks up the pace and fastens a nozzle onto each of the bags.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "There's a lot to do, so we shouldn't be wasting time!",
+        "charImg":"Casual8.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Here, I'll show you how to do it."
+    },
+    {
+        "content": "\"Without giving me a chance to think about before, Natsuki quickly moves on.\"\r"
+    },
+    {
+        "content": "\"She shows me how to apply the icing, and then we each get to work.\"\r"
+    },
+    {
+        "content": "\"When we're finally finished, Natsuki puts them all side by side to admire our work.\"\r",
+        "charImg":"non",
+        "newBackground":"transition"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Look at how pretty they are together!",
+        "charImg":"S24.png"
+    },
+    {
+        "char": "you",
+        "content": "Yeah, they are, aren't they?"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Uu... I wish I could have one now!",
+        "charImg":"Casual13.png"
+    },
+    {
+        "char": "you",
+        "content": "Well, there's no reason you can't, right?"
+    },
+    {
+        "char": "you",
+        "content": "I don't see any harm in that."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well, yeah, but...",
+        "charImg":"Casual3.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "My dad's making dinner tonight, so I really need to save my appetite."
+    },
+    {
+        "char": "you",
+        "content": "Ahaha."
+    },
+    {
+        "char": "you",
+        "content": "Sayori's the exact opposite in that regard."
+    },
+    {
+        "char": "you",
+        "content": "If she was here, we'd probably be down ten cupcakes already."
+    },
+    {
+        "char": "you",
+        "content": "And she would still eat dinner."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Come on, that's just unhealthy!",
+        "charImg":"S18.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Besides, when my dad cooks, I need to eat as much of it as I can...",
+        "charImg":"Casual17.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "...Well, anyway!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I was hoping we would have time for manga, but I need to be home for dinner...",
+        "charImg":"S14.png"
+    },
+    {
+        "char": "you",
+        "content": "Ah, already?"
+    },
+    {
+        "char": "you",
+        "content": "That's a shame."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's your fault for working so slowly!",
+        "charImg":"Casual7.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You should have thought about that."
+    },
+    {
+        "char": "Natsuki",
+        "content": "It's not like you'll always have this chance."
+    },
+    {
+        "char": "you",
+        "content": "Man..."
+    },
+    {
+        "content": "\"As usual, Natsuki places the blame on me.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "You can bring the cupcakes tomorrow, right?",
+        "charImg":"Arm11.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "If you and Sayori each carry some, then you can probably do it in one trip."
+    },
+    {
+        "char": "you",
+        "content": "Yeah, I can do that."
+    },
+    {
+        "char": "you",
+        "content": "And don't worry, I won't let her eat any."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Ahaha.",
+        "charImg":"Arm1.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I wish she would listen to me the way she listens to you."
+    },
+    {
+        "char": "you",
+        "content": "Ah..."
+    },
+    {
+        "char": "you",
+        "content": "Yeah."
+    },
+    {
+        "content": "\"I again think back to the conversation I had with Sayori earlier today.\"\r",
+        "charImg":"non"
+    },
+    {
+        "content": "\"I felt so helpless.\"\r"
+    },
+    {
+        "content": "\"Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Okay, I'm all packed up.",
+        "charImg":"S24.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Good work today!"
+    },
+    {
+        "char": "you",
+        "content": "You too."
+    },
+    {
+        "char": "you",
+        "content": "I'll walk you out...I guess."
+    },
+    {
+        "content": "\"Just like that, Natsuki is already about to leave.\"\r",
+        "charImg":"non",
+        "newBackground":"house.png"
+    },
+    {
+        "content": "\"It feels like the afternoon went by in a flash.\"\r"
+    },
+    {
+        "content": "\"More than that...\"\r"
+    },
+    {
+        "content": "\"Did I even take the opportunity to get closer to her, like I wanted?\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well...",
+        "charImg":"Casual8.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I guess I'll be off, then..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Thanks for all the help and everything...",
+        "charImg":"Casual17.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'll see you tomorrow."
+    },
+    {
+        "char": "you",
+        "content": "Wait, Natsuki.",
+        "charImg":"Casual8.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Eh?"
+    },
+    {
+        "char": "you",
+        "content": "What you said before...about not always having this chance."
+    },
+    {
+        "char": "you",
+        "content": "It doesn't have to be that way at all!"
+    },
+    {
+        "char": "you",
+        "content": "I had fun today."
+    },
+    {
+        "char": "you",
+        "content": "You showed me how fun baking can be, like you wanted."
+    },
+    {
+        "char": "you",
+        "content": "But aside from that..."
+    },
+    {
+        "char": "you",
+        "content": "You can come over anytime, okay?"
+    },
+    {
+        "char": "you",
+        "content": "I think that if possible, I'd like to spend more time like this."
+    },
+    {
+        "char": "you",
+        "content": "If you want to read manga, or go out somewhere--"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Um--",
+        "charImg":"Casual13.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Do you...really mean that?"
+    },
+    {
+        "content": "\"Natsuki looks at me tensely, like she's trying to hide her expression.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Yeah."
+    },
+    {
+        "char": "you",
+        "content": "I want to spend more time with you."
+    },
+    {
+        "char": "Natsuki",
+        "content": "[player]...",
+        "charImg":"Casual17.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I thought you only cared about getting this done..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Uu...",
+        "charImg":"Casual18.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm sorry I had to leave so early today.",
+        "charImg":"Casual14.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I really didn't want to!"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I would really...stay here longer if I could."
+    },
+    {
+        "char": "Natsuki",
+        "content": "I feel the same way as you, so..."
+    },
+    {
+        "content": "\"Natsuki suddenly gets closer to me.\"\r",
+        "animation":[{"direction":"height","value":"200%"},{"direction":"top","value":"70%"}],
+        "charImg":"Casual9.png"
+    },
+    {
+        "char": "you",
+        "content": "Wait, Natsuki--"
+    },
+    {
+        "content": "\"Standing inches from me, Natsuki looks up at me.\"\r"
+    },
+    {
+        "content": "\"I feel her fingers gently clutch at the sides of my shirt, as if holding onto me.\"\r"
+    },
+    {
+        "content": "\"Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips.\"\r"
+    },
+    {
+        "content": "\"What is happening...?\"\r"
+    },
+    {
+        "content": "\"My head starts to go dizzy as I feel her soft breaths against me.\"\r"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I've felt it...",
+        "charImg":"Casual8.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "For a while now..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "--!!",
+        "charImg":"Casual15.png"
+    },
+    {
+        "content": "\"Natsuki suddenly jumps back.\"\r",
+        "comment":"jump back :v",
+        "animation":"return"
+    },
+    {
+        "char": "Natsuki",
+        "content": "S-Sayori?!"
+    },
+    {
+        "char": "you",
+        "content": "Eh?!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ah...",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori12.png","new":true,"left":true}]
+    },
+    {
+        "char": "Sayori",
+        "content": "H-Hi, [player]..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori--!"
+    },
+    {
+        "char": "you",
+        "content": "Just now, we weren't--"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ehehe~",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori17.png"}]
+    },
+    {
+        "char": "Sayori",
+        "content": "It's okay, [player]."
+    },
+    {
+        "char": "Sayori",
+        "content": "I just stopped by to say hi~",
+        "newCharacter":[{"char": "Sayori","charImg":"Yori1.png"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "A-Ah...",
+        "charImg":"Casual17.png",
+        "animation":[{"char":"Natsuki","direction":"height","value":"103%"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "Well..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Y-You should have come a little earlier!",
+        "charImg":"Casual23.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'm already on my way out, so..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Aw, really?",
+        "animation":[{"direction":"height","value":"103%","char":"Sayori"},{"direction":"height","value":"100%"}],
+        "newCharacter":[{"char":"Sayori","charImg":"Yori8.png"}]
+    },
+    {
+        "char": "Sayori",
+        "content": "That's too bad..."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Yeah, well...",
+        "charImg":"Casual17.png",
+        "animation":[{"direction":"height","value":"103%","char":"Natsuki"},{"direction":"height","value":"100%"}]
+    },
+    {
+        "char": "Natsuki",
+        "content": "I'll still see you at the festival tomorrow, so it's fine."
+    },
+    {
+        "char": "Natsuki",
+        "content": "Just don't eat any cupcakes before then!",
+        "charImg":"Casual2.png"
+    },
+    {
+        "char": "Natsuki",
+        "content": "Anyway, later!"
+    },
+    {
+        "content": "\"Clearly flustered, Natsuki hurries off, and Sayori waves goodbye.\"",
+        "charImg":"non"
+    },
+    {
+        "char": "you",
+        "content": "Sayori--",
+        "charImg": "Yori1.png",
+        "newCharacter":"erase"
+    },
+    {
+        "char": "you",
+        "content": "I thought you didn't want to come over today!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Ahaha, well...",
+        "charImg": "Z12.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I tried staying in my room..."
+    },
+    {
+        "char": "Sayori",
+        "content": "But my imagination was being really mean to me..."
+    },
+    {
+        "char": "Sayori",
+        "content": "So I had to come here and see it for myself.",
+        "charImg": "Yori25.png"
+    },
+    {
+        "char": "you",
+        "content": "See what?"
+    },
+    {
+        "char": "you",
+        "content": "What are you talking about?"
+    },
+    {
+        "char": "Sayori",
+        "content": "You know..."
+    },
+    {
+        "char": "Sayori",
+        "content": "How much fun you were having with [ch4_name]."
+    },
+    {
+        "char": "Sayori",
+        "content": "And how close you got to her."
+    },
+    {
+        "char": "Sayori",
+        "content": "It makes me...really happy...",
+        "charImg": "Yori20.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That you've made such good friends."
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all that matters to me."
+    },
+    {
+        "content": "\"Tears start to fall down Sayori's face.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's all that matters to me--!",
+        "charImg": "Z22.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "Why am I feeling this way, [player]?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm supposed to be happy for you."
+    },
+    {
+        "char": "Sayori",
+        "content": "Why does it feel like my heart is splitting in half?",
+        "charImg": "Z23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "It hurts so much..."
+    },
+    {
+        "char": "Sayori",
+        "content": "Everything hurts so much...",
+        "charImg": "Yori23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "This would be so much better if I could just disappear!"
+    },
+    {
+        "char": "you",
+        "content": "Sayori, don't say that!"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's true, [player]!"
+    },
+    {
+        "char": "Sayori",
+        "content": "If I wasn't here, then you wouldn't have to waste your sympathy on me!"
+    },
+    {
+        "char": "Sayori",
+        "content": "You wouldn't have to put up with me being selfish!"
+    },
+    {
+        "char": "Sayori",
+        "content": "Monika was right...",
+        "charImg": "Yori21.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I should just..."
+    },
+    {
+        "char": "you",
+        "content": "Monika...?"
+    },
+    {
+        "char": "you",
+        "content": "Monika was right about what?"
+    },
+    {
+        "char": "Sayori",
+        "content": "..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori..."
+    },
+    {
+        "char": "you",
+        "content": "What I said before is true."
+    },
+    {
+        "char": "you",
+        "content": "I'm not going to let this continue."
+    },
+    {
+        "char": "you",
+        "content": "Caring about you like this isn't the burden your mind is making it out to be."
+    },
+    {
+        "char": "you",
+        "content": "It's something that makes me happy."
+    },
+    {
+        "char": "you",
+        "content": "It's something that I wouldn't trade for anything else."
+    },
+    {
+        "char": "you",
+        "content": "So, even if it takes an entire lifetime..."
+    },
+    {
+        "char": "you",
+        "content": "I'm going to be by your side until you don't feel any more pain."
+    },
+    {
+        "char": "Sayori",
+        "content": "B-But...",
+        "charImg": "Yori11.png"
+    },
+    {
+        "content": "\"Sayori looks away.\"\r"
+    },
+    {
+        "content": "\"I put a hand on her shoulder to reassure her.\"\r"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm scared, [player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm really scared..."
+    },
+    {
+        "char": "you",
+        "content": "What are you scared of, Sayori?"
+    },
+    {
+        "char": "Sayori",
+        "content": "I'm scared that..."
+    },
+    {
+        "char": "Sayori",
+        "content": "That I might like you more than you like me..."
+    },
+    {
+        "char": "you",
+        "content": "Sayori...?"
+    },
+    {
+        "char": "Sayori",
+        "content": "It's true, isn't it?",
+        "charImg": "Yori22.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "I was weak and started to like you too much..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I did this to myself."
+    },
+    {
+        "char": "Sayori",
+        "content": "[player]..."
+    },
+    {
+        "char": "Sayori",
+        "content": "I like you so much that I want to die!",
+        "charImg": "Z23.png"
+    },
+    {
+        "char": "Sayori",
+        "content": "That's how I feel!"
+    },
+    {
+        "char": "Sayori",
+        "content": "And...and...",
+        "charImg": "Z22.png"
+    },
+    {
+        "char": "you",
+        "content": "That's enough, Sayori..."
+    },
+    {
+        "char": "you",
+        "content": "I don't want you to hurt anymore."
+    },
+    {
+        "content": "\"I slide my hand down Sayori's arm and squeeze her hand in my own.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Do you remember how I said I always know what's best for you?"
+    },
+    {
+        "char": "you",
+        "content": "Do you still believe me?"
+    },
+    {
+        "content": "\"Wordlessly, Sayori nods.\"\r"
+    },
+    {
+        "char": "you",
+        "content": "Even if you don't understand all of your own feelings..."
+    },
+    {
+        "char": "you",
+        "content": "I know what you need the most right now."
+    },
+    {
+        "char": "you",
+        "content": "And that's what I'm going to give to you."
+    }
+]

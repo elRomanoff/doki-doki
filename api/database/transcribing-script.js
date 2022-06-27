@@ -10,8 +10,8 @@ const rawArray = (rawText.split("\n"))
 
 const arr = rawArray.map(x =>{
     const rawObj = {}
-    if ((x[0] === "s" && x[1] === "h" && x[2] === "o") || (x[0] === "h" && x[1] === "i" && x[2] === "d")){
-        x = ""
+    if ((x[0] === "s" && x[1] === "h" && x[2] === "o") || (x[0] === "h" && x[1] === "i" && x[2] === "d") || (x[0] === "p" && x[1] === "l" && x[2] === "a")){
+        return
     }
     else if(x[0] === "m" && x[1] === "c") {
         rawObj.char = "you";  
@@ -51,4 +51,6 @@ const arr = rawArray.map(x =>{
     return rawObj
 })
 
-fs.writeFileSync("./algo.json", JSON.stringify(arr))
+const bestArr = arr.filter(x => x != null)
+
+fs.writeFileSync("./algo.json", JSON.stringify(bestArr))

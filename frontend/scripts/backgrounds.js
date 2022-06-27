@@ -3,7 +3,10 @@ import { dictionary } from "/scripts/dictionary.js"
 //prototype of the characters
 class Background {
     constructor() {
+        this.blackBg = document.createElement("div")
         this.domImg = document.createElement("img");
+        this.blackBg.classList.add("char-bg", "black");
+        this.blackBg.style.backgroundColor = "rgba(0,0,0)"
         this.domImg.classList.add("char-bg");
         this.inScreen = false
     }
@@ -27,7 +30,11 @@ class Background {
         mainScreen.appendChild(this.domImg)
     }
     break(){
-        mainScreen.removeChild(this.domImg)
+        try{mainScreen.removeChild(this.domImg)}catch(e){}
+        try{mainScreen.removeChild(this.blackBg)}catch(e){}
+    }
+    black(){
+        mainScreen.appendChild(this.blackBg)
     }
 }
 

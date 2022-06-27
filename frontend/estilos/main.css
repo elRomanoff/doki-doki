@@ -81,7 +81,7 @@ body{
     top: 0%;
     left: 0%;
     margin: 0 -5%;
-    z-index: 2;
+    z-index: 3;
     transition: top .2s linear, height .2s linear, left .5s linear, opacity .15s linear;
         /* transition: top .4s;
         transition: left .7s; */
@@ -196,6 +196,7 @@ body{
     position: absolute;
     left: -90%;
     animation: crosser 1s linear;
+    z-index: 4;
 } 
 .white-screen{
     background: white;
@@ -215,6 +216,9 @@ body{
     z-index: 4!important;
     transition: opacity 1s linear .1s;
 }
+.black{
+    animation: append 1s linear
+}
 
 @keyframes crosser {
     100%{
@@ -225,6 +229,13 @@ body{
     100%{
         opacity: 0
     }
+}
+@keyframes append {
+    0%{
+        opacity: 0;
+    }    
+    50%{opacity: .5}
+    100%{opacity: 1}
 }
 
 
