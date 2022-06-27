@@ -393,7 +393,7 @@ function manageBackground(background){
         mainScreen.appendChild(overScreen);
         setTimeout(() => mainScreen.removeChild(overScreen), 500)
     }
-    else if (background.noTransition){
+    else if (background?.noTransition){
         mainScreen.style.backgroundImage = "url('" + dictionary[background.src] + "')"
         currentBackground = mainScreen.style.backgroundImage;
     }

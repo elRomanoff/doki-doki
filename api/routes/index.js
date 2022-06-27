@@ -96,32 +96,11 @@ router.get("/api/sound/sfx/select", (req,res) =>{
 })
 
 
-        //img routes
-        //background routes
-router.get("/api/img/background/:img", (req, res) =>{
-    const { img } = req.params;
-    res.sendFile(path.join(__dirname, '../imagenes/fondos/' + img))
-})
+//img routes
 
-        //sayori routes
-router.get("/api/img/sayori/:img", (req, res) => {
+router.get("/api/img/:img", (req, res) => {
     const { img } = req.params;
-    res.sendFile(path.join(__dirname, '../imagenes/sayori/school/' + img))
-})
-        //yuri routes
-router.get("/api/img/yuri/:img", (req, res) => {
-    const { img } = req.params;
-    res.sendFile(path.join(__dirname, '../imagenes/yuri/' + img))
-})
-        //Natsuki routes
-router.get("/api/img/natsuki/:img", (req, res) => {
-    const { img } = req.params;
-    res.sendFile(path.join(__dirname, '../imagenes/natsuki/' + img))
-})
-        //Monika routes 
-router.get("/api/img/monika/:img",(req, res)=>{
-    const { img } = req.params;
-    res.sendFile(path.join(__dirname, '../imagenes/monika/' + img))
+    res.sendFile(path.join(__dirname, '../img/' + img))
 })
 
 

@@ -10,7 +10,7 @@ optionsMenu.classList.add("options-menu")
 const loadMenu = document.createElement("div");
 loadMenu.classList.add("load-menu")
 
-alert("Welcome to Doki Doki Literature Club Browser Edition! - Developed by El Papu Misterioso (Github:'github.com/elRomanoff')")
+alert("Welcome to Doki Doki Literature Club Browser Edition! - Original game by Dan Salvato, Adapted to web browsers by elpapu (Github:'github.com/elRomanoff')")
 
 //cargar las canciones
 const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
