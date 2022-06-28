@@ -196,6 +196,7 @@ fetch(chapter)
 
 music = cargarSonido("/api/sound/music/" + song)
 
+
 if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
 
 function runDialog(skipInterval) {
