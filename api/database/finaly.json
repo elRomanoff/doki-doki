@@ -2,7 +2,8 @@
     {
         "content": "It's already Sunday.","char":"nobody",
         "newBackground": "barrio.png",
-        "newCharacter": "erase"
+        "newCharacter": "erase",
+        "music":"playwithme.mp3"
     },
     {
         "content": "I've been getting increasingly anxious about Natsuki's upcoming visit.","char":"nobody"
@@ -44,8 +45,9 @@
         "content": "Is it really okay for me to put Sayori's feelings aside when she might need me?","char":"nobody"
     },
     {
-        "content": "I decide to visit Sayori before +Yuri comes over.","char":"nobody",
-        "newBackground": "house.png"
+        "content": "I decide to visit Sayori before Natsuki comes over.","char":"nobody",
+        "newBackground": "house.png",
+        "music":"stop"
     },
     {
         "content": "Rather than asking, I simply tell her \\I'm coming over\\, much like we've done in the past.","char":"nobody"
@@ -75,9 +77,11 @@
         "newBackground": "sayori.png"
     },
     {
+        "usesVar":true,
         "char": "Sayori",
-        "content": "Hi [player]~",
-        "charImg": "Yori1.png"
+        "content": "Hi #var~",
+        "charImg": "Yori1.png",
+        "music":"my-feelings.mp3"
     },
     {
         "content": "I sit down in her room.","char":"nobody",
@@ -131,7 +135,7 @@
     },
     {
         "char": "Sayori",
-        "content": "Aren't you supposed to see [ch4_name] today?"
+        "content": "Aren't you supposed to see Yuri today?"
     },
     {
         "char": "you",
@@ -180,7 +184,7 @@
     },
     {
         "char": "you",
-        "content": "Ah, so it's just me and [ch4_name], then..."
+        "content": "Ah, so it's just me and Yuri, then..."
     },
     {
         "char": "Sayori",
@@ -224,8 +228,9 @@
         "content": "Sayori smiles, shaking her head.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "That's no good, [player].",
+        "content": "That's no good, #var.",
         "charImg": "Yori4.png"
     },
     {
@@ -329,8 +334,9 @@
         "content": "Sayori gives me an empty smile.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "You really put me in a trap, [player].",
+        "content": "You really put me in a trap, #var.",
         "charImg": "Z25.png"
     },
     {
@@ -369,8 +375,9 @@
     },
     {
         "char": "Sayori",
-        "content": "You're really just going to make me say it, aren't you, [player]?",
-        "charImg": "Yori1.png"
+        "content": "You're really just going to make me say it, aren't you, #var?",
+        "charImg": "Yori1.png",
+        "usesVar": true
     },
     {
         "char": "Sayori",
@@ -485,8 +492,9 @@
         "content": "All you had to do was tell me!"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "You don't understand at all, [player].",
+        "content": "You don't understand at all, #var.",
         "charImg": "Yori11.png"
     },
     {
@@ -581,8 +589,9 @@
         "content": "That's what I'll do."
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "No, [player].",
+        "content": "No, #var.",
         "charImg": "Yori4.png"
     },
     {
@@ -654,8 +663,9 @@
         }
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "[player]..."
+        "content": "#var..."
     },
     {
         "char": "you",
@@ -686,8 +696,9 @@
         "content": "I wouldn't have it any other way."
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "[player]..."
+        "content": "#var..."
     },
     {
         "content": "Sayori isn't hugging me back.","char":"nobody"
@@ -711,8 +722,9 @@
         "content": "Please don't do this..."
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "[player]..."
+        "content": "#var..."
     },
     {
         "char": "Sayori",
@@ -779,8 +791,9 @@
         "content": "It's all really scary..."
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "I don't understand any of my feelings, [player]..."
+        "content": "I don't understand any of my feelings, #var..."
     },
     {
         "char": "Sayori",
@@ -892,7 +905,7 @@
     },
     {
         "char": "you",
-        "content": "It's almost time for [ch4_name] to meet me at my house..."
+        "content": "It's almost time for Yuri to meet me at my house..."
     },
     {
         "char": "you",
@@ -960,7 +973,7 @@
         "content": "On the way home, I find myself still feeling uneasy.","char":"nobody"
     },
     {
-        "content": "But it's hard for me to keep thinking about it when [ch4_name] is about to come over, too...","char":"nobody"
+        "content": "But it's hard for me to keep thinking about it when Yuri is about to come over, too...","char":"nobody"
     },
     {
         "content": "I think Sayori is right.","char":"nobody"
@@ -974,7 +987,8 @@
     },
     {
         "content": "As I approach my house, I see something that makes me feel a moment of panic.","char":"nobody",
-        "newBackground": "house.png"
+        "newBackground": "house.png",
+        "music":"playwithme.mp3"
     },
     {
         "char": "you",
@@ -1525,8 +1539,9 @@
         "content": "Or maybe it's the excitement she feels from sharing something that she enjoys.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "Here's a marker, [player].",
+        "content": "Here's a marker, #var.",
         "charImg":"YCa1.png"
     },
     {
@@ -1719,8 +1734,9 @@
         "content": "Ow--!"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player]--!!",
+        "content": "#var--!!",
         "charImg":"YCScared.png"
     },
     {
@@ -1860,8 +1876,9 @@
         "content": "I take Yuri's hand and lick her index finger in return.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "[player]--!!",
+        "content": "#var--!!",
         "charImg":"YCScared.png",
         "animation":[{"direction":"jump"}]
     },
@@ -1893,8 +1910,9 @@
         "content": "If not for the sweet aroma of the Jasmine oil, the air would be extremely heavy right now.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "You're so weird, [player].",
+        "content": "You're so weird, #var.",
         "charImg":"YCa1.png"
     },
     {
@@ -2712,8 +2730,9 @@
         "content": "You know what I'm trying to say, so..."
     },
     {
+        "usesVar": true,
         "char": "Yuri",
-        "content": "You're very thoughtful, [player].",
+        "content": "You're very thoughtful, #var.",
         "charImg":"YCc2.png"
     },
     {
@@ -2722,7 +2741,8 @@
     {
         "char": "Yuri",
         "content": "I kind of like that about you...",
-        "animation":[{"direction":"top","value":"70%"},{"direction":"height","value":"200%"}]
+        "animation":[{"direction":"top","value":"70%"},{"direction":"height","value":"200%"}],
+        "music":"stop"
     },
     {
         "char": "you",
@@ -2751,8 +2771,9 @@
         "newCharacter":[{"char": "Sayori","charImg":"Yori12.png","new":true,"left":true}]
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "H-Hi, [player]..."
+        "content": "H-Hi, #var..."
     },
     {
         "char": "you",
@@ -2768,8 +2789,9 @@
         "newCharacter":[{"char": "Sayori","charImg":"Yori17.png"}]
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "It's okay, [player]."
+        "content": "It's okay, #var."
     },
     {
         "char": "Sayori",
@@ -2846,7 +2868,8 @@
         "char": "you",
         "content": "Sayori--",
         "charImg": "Yori1.png",
-        "newCharacter": "erase"
+        "newCharacter": "erase",
+        "music":"my-feelings.mp3"
     },
     {
         "char": "you",
@@ -2884,7 +2907,7 @@
     },
     {
         "char": "Sayori",
-        "content": "How much fun you were having with [ch4_name]."
+        "content": "How much fun you were having with Yuri."
     },
     {
         "char": "Sayori",
@@ -2912,8 +2935,9 @@
         "charImg": "Z22.png"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "Why am I feeling this way, [player]?"
+        "content": "Why am I feeling this way, #var?"
     },
     {
         "char": "Sayori",
@@ -2942,8 +2966,9 @@
         "content": "Sayori, don't say that!"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "It's true, [player]!"
+        "content": "It's true, #var!"
     },
     {
         "char": "Sayori",
@@ -3018,8 +3043,9 @@
         "content": "I put a hand on her shoulder to reassure her.","char":"nobody"
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "I'm scared, [player]..."
+        "content": "I'm scared, #var..."
     },
     {
         "char": "Sayori",
@@ -3055,8 +3081,9 @@
         "content": "I did this to myself."
     },
     {
+        "usesVar": true,
         "char": "Sayori",
-        "content": "[player]..."
+        "content": "#var..."
     },
     {
         "char": "Sayori",
@@ -3105,5 +3132,514 @@
     {
         "char": "you",
         "content": "And that's what I'm going to give to you."
+    },
+    {
+        "selectMenu":[{"char":"Sayori","content":"I love you."},{"char":"Monika", "content":"You'll always be my dearest friend."}],
+        "char":"you",
+        "content":"Sayori...",
+        "charImg":{"background":"black"},
+        "Sayori":[
+            {
+                "char": "you",
+                "content": "I love you.",
+                "charImg":{"background":"break"}
+            },
+            {
+                "char": "Sayori",
+                "content": "Eh--?",
+                "charImg":"Yori21.png"
+            },
+            {
+                "char": "you",
+                "content": "Those are my true feelings."
+            },
+            {
+                "char": "you",
+                "content": "So...there's no way you could like me more than I like you."
+            },
+            {
+                "char": "you",
+                "content": "I should have realized it sooner."
+            },
+            {
+                "char": "you",
+                "content": "But spending time with everyone at the club..."
+            },
+            {
+                "char": "you",
+                "content": "Making new friends..."
+            },
+            {
+                "char": "you",
+                "content": "And having fun with you every day..."
+            },
+            {
+                "char": "you",
+                "content": "It helped me realize that you are truly the most important person to me."
+            },
+            {
+                "char": "you",
+                "content": "That's why I'll accept any of your burdens."
+            },
+            {
+                "char": "you",
+                "content": "As long as we continue like this every day..."
+            },
+            {
+                "char": "you",
+                "content": "With you by my side..."
+            },
+            {
+                "char": "you",
+                "content": "Then I know we'll both be happy."
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "#var..."
+            },
+            {
+                "content": "\"Suddenly, Sayori wraps her arms tightly around me.\"\r",
+                "charImg":{"background":"abreazo sayori"}
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "#var..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Is this...really okay?"
+            },
+            {
+                "char": "you",
+                "content": "Yeah."
+            },
+            {
+                "content": "\"I hold Sayori in my arms and pull her closer.\"\r"
+            },
+            {
+                "char": "you",
+                "content": "You'll never have to let go of me again."
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "I love you, #var..."
+            },
+            {
+                "char": "Sayori",
+                "content": "I want to be with you forever."
+            },
+            {
+                "char": "you",
+                "content": "Me too."
+            },
+            {
+                "char": "Sayori",
+                "content": "..."
+            },
+            {
+                "content": "\"I feel Sayori's grip around me weaken a little bit.\"\r"
+            },
+            {
+                "char": "Sayori",
+                "content": "What is this...?"
+            },
+            {
+                "char": "you",
+                "content": "Sayori...?"
+            },
+            {
+                "char": "Sayori",
+                "content": "I'm supposed to be happy right now..."
+            },
+            {
+                "char": "Sayori",
+                "content": "I always thought this would be the happiest moment for me."
+            },
+            {
+                "char": "Sayori",
+                "content": "But why...?"
+            },
+            {
+                "char": "Sayori",
+                "content": "Even now..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Why won't the rainclouds go away?"
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "They're not going away at all, #var..."
+            },
+            {
+                "char": "you",
+                "content": "It's okay, Sayori..."
+            },
+            {
+                "char": "you",
+                "content": "It might take some time for things to get better again."
+            },
+            {
+                "char": "you",
+                "content": "But no matter how long it takes, I'll be there every step of the way."
+            },
+            {
+                "char": "you",
+                "content": "That's all that matters right now."
+            },
+            {
+                "char": "Sayori",
+                "content": "O-Okay..."
+            },
+            {
+                "char": "Sayori",
+                "content": "I...trust you..."
+            },
+            {
+                "content": "\"Sayori and I slowly release each other.\"\r"
+            },
+            {
+                "char": "you",
+                "content": "So..."
+            },
+            {
+                "char": "you",
+                "content": "I guess that makes the festival tomorrow...our first date, huh?"
+            },
+            {
+                "char": "Sayori",
+                "content": "Ehehe...",
+                "charImg":"Yori25.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "What are you saying?"
+            },
+            {
+                "char": "Sayori",
+                "content": "I don't want to think about those things, you know?"
+            },
+            {
+                "char": "Sayori",
+                "content": "I want everything to be the same as it always has been."
+            },
+            {
+                "char": "Sayori",
+                "content": "Even if we really are...a couple."
+            },
+            {
+                "char": "Sayori",
+                "content": "I don't know if I could handle anything more right now...",
+                "charImg":"Yori11.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "It's really new and scary to me."
+            },
+            {
+                "char": "you",
+                "content": "I understand."
+            },
+            {
+                "char": "you",
+                "content": "We'll go at whatever pace suits you best."
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "Hey, #var...",
+                "charImg":"Yori4.png"
+            },
+            {
+                "content": "\"Sayori gazes at me once again, smiling sadly.\"\r"
+            },
+            {
+                "char": "Sayori",
+                "content": "Even if I get really, really sad...",
+                "charImg":"Z4.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "This is the best thing for me...right?"
+            },
+            {
+                "char": "you",
+                "content": "Eh...?"
+            },
+            {
+                "content": "\"I don't really understand what Sayori means by that.\"\r"
+            },
+            {
+                "char": "you",
+                "content": "Are you saying that this is making you feel sad, Sayori?"
+            },
+            {
+                "char": "Sayori",
+                "content": "I-I don't know...",
+                "charImg":"Z11.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "I don't understand what I'm feeling."
+            },
+            {
+                "char": "Sayori",
+                "content": "It felt like a bunch of thorns when you told me you love me..."
+            },
+            {
+                "char": "Sayori",
+                "content": "But that's why I want to trust you.",
+                "charImg":"Z4.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "You know what's best for me..."
+            },
+            {
+                "char": "you",
+                "content": "...Yeah."
+            },
+            {
+                "char": "you",
+                "content": "I do."
+            },
+            {
+                "char": "you",
+                "content": "That's my promise."
+            },
+            {
+                "content": "\"I say that, but in reality, I've never felt more uncertain when it comes to Sayori.\"\r",
+                "charImg":"non"
+            },
+            {
+                "content": "\"I know that I love her, and she loves me.\"\r"
+            },
+            {
+                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+            },
+            {
+                "content": "\"Even though I can comfort her...\"\r"
+            },
+            {
+                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+            },
+            {
+                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+            },
+            {
+                "content": "\"Is that what Sayori meant by not wanting anything to change?\"\r"
+            },
+            {
+                "content": "\"I don't know.\"\r"
+            },
+            {
+                "content": "\"But I know that I'll give it everything I've got.\"\r"
+            },
+            {
+                "content": "\"Sayori is the most important person to me.\"\r"
+            },
+            {
+                "content": "\"And I'll do whatever it takes to have a happy future with her.\""
+            }
+        ],
+        "Monika":[{
+                "char": "you",
+                "content": "You'll always be my dearest friend."
+            },
+            {
+                "char": "you",
+                "content": "What you need most is for things to be like they've always been."
+            },
+            {
+                "char": "you",
+                "content": "Monika told me the truth..."
+            },
+            {
+                "char": "you",
+                "content": "She told me how much happier you seemed after I joined the club."
+            },
+            {
+                "char": "you",
+                "content": "I know you're struggling with some really difficult feelings right now."
+            },
+            {
+                "char": "you",
+                "content": "But..."
+            },
+            {
+                "char": "you",
+                "content": "Please trust me that I know what's best...and what will make you happy in the end."
+            },
+            {
+                "char": "you",
+                "content": "I promise I'll help get things back to the way they were."
+            },
+            {
+                "char": "Sayori",
+                "content": "I...",
+                "charImg":"Yori20.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "I...see..."
+            },
+            {
+                "content": "\"Sayori forces a smile through an incredibly pained expression.\"\r"
+            },
+            {
+                "char": "Sayori",
+                "content": "Ahaha..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Is this what it feels like...to get stabbed in the chest?"
+            },
+            {
+                "char": "Sayori",
+                "content": "I should write a poem about this..."
+            },
+            {
+                "char": "you",
+                "content": "Sayori--"
+            },
+            {
+                "char": "Sayori",
+                "content": "It's okay."
+            },
+            {
+                "char": "Sayori",
+                "content": "This is just my punishment...remember?"
+            },
+            {
+                "char": "Sayori",
+                "content": "For being so selfish..."
+            },
+            {
+                "char": "Sayori",
+                "content": "So please..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Please don't worry about these stupid feelings."
+            },
+            {
+                "char": "Sayori",
+                "content": "I know you're right."
+            },
+            {
+                "char": "Sayori",
+                "content": "I knew this whole time that there's no happiness down that path."
+            },
+            {
+                "char": "Sayori",
+                "content": "That's why I came here..."
+            },
+            {
+                "char": "Sayori",
+                "content": "Just so I could get the answer I needed to hear."
+            },
+            {
+                "char": "Sayori",
+                "content": "And the other thing..."
+            },
+            {
+                "char": "Sayori",
+                "content": "You're also right that I just want it to go back to the way it was."
+            },
+            {
+                "char": "Sayori",
+                "content": "I realize that now."
+            },
+            {
+                "usesVar": true,
+                "char": "Sayori",
+                "content": "You really do know me better than anyone, #var."
+            },
+            {
+                "char": "Sayori",
+                "content": "I'll trust you with anything...",
+                "charImg":"Z22.png"
+            },
+            {
+                "char": "Sayori",
+                "content": "Anything at all..."
+            },
+            {
+                "char": "Sayori",
+                "content": "So..."
+            },
+            {
+                "content": "\"Sayori's smile finally breaks.\"\r",
+                "charImg":"non"
+            },
+            {
+                "content": "\"All of a sudden, she turns around and drops to her knees.\"\r"
+            },
+            {
+                "char": "Sayori",
+                "content": "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
+            },
+            {
+                "content": "\"Clutching her head with both hands, she screams as loudly as she can.\"\r"
+            },
+            {
+                "content": "\"I'm so shocked that I don't know how to react.\"\r"
+            },
+            {
+                "char": "Sayori",
+                "content": "...",
+                "charImg":"Z20.png"
+            },
+            {
+                "content": "\"Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off.\"\r",
+                "animation":[{"direction":"left","value":"-200%"}]
+            },
+            {
+                "char": "you",
+                "content": "Sayori!",
+                "charImg":"non"
+            },
+            {
+                "content": "\"...\"\r",
+                "animation":"return"
+            },
+            {
+                "content": "\"I'm left helplessly standing in the front of my house.\"\r"
+            },
+            {
+                "content": "\"Why am I feeling so horrible about this?\"\r"
+            },
+            {
+                "content": "\"There's nothing more that I could have done.\"\r"
+            },
+            {
+                "content": "\"The most I can do is support Sayori through her feelings and help her on the path that's right.\"\r"
+            },
+            {
+                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+            },
+            {
+                "content": "\"Even though I can comfort her...\"\r"
+            },
+            {
+                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+            },
+            {
+                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+            },
+            {
+                "content": "\"I'm going to give it everything I've got.\"\r"
+            },
+            {
+                "content": "\"Sayori will always be my dearest friend.\"\r"
+            },
+            {
+                "content": "\"And I'll do whatever it takes to put a smile on her face every day.\""
+            }
+        ]
     }
 ]

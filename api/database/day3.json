@@ -3640,10 +3640,6 @@
                 "prevRoute":"s",
                 "option1":[
                     {
-                        "char": "Sayori",
-                        "content": "..."
-                    },
-                    {
                         "usesVar":true,
                         "char": "Sayori",
                         "content": "#var...",
@@ -3985,9 +3981,371 @@
                     }
                 ],
                 "option2":[
-                    
+                    {
+                        "char": "Sayori",
+                        "content": "...Oh my goodness!",
+                        "charImg": "Say14.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "usesVar": true,
+                        "content": "This is sooooo good, #var!",
+                        "charImg": "Ori2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I love it~!",
+                        "charImg": "Ori18.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Especially after yesterday's poem!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ugh..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You're too honest sometimes, Sayori."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "No, but really!!",
+                        "charImg": "Ori13.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I wanna put this on my wall~"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Can I?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Sayori..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You must be seriously overreacting."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm not a good writer at all."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I honestly have no idea what I'm doing."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Well...",
+                        "charImg": "Say24.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Maybe that's why!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Because I have no idea what I like, either!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ahahaha!",
+                        "charImg": "Say18.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Jeez..."
+                    },
+                    {
+                        "char": "nobody",
+                        "options": true,
+                        "optionalText": [
+                            "Yuri's opinion was way more constructive than this...",
+                            "I'm sure Yuri's opinion has to be a little more constructive than this."
+                        ],
+                        "shownCharacter": "Yuri",
+                        "content": " "
+                    },
+                    {
+                        "char": "nobody",
+                        "content": " ",
+                        "options": true,
+                        "optionalText": [
+                            "",
+                            "Maybe even Natsuki's."
+                        ],
+                        "shownCharacter": "Natsuki"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Are you sure you don't like it just because I wrote it?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Eh?",
+                        "charImg": "Say26.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Well, I'm sure that's part of it."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I think I understand you better than a lot of other people, you know?",
+                        "charImg": "Say24.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "So when I read your poem..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It's not just a poem..."
+                    },
+                    {
+                        "usesVar": true,
+                        "char": "Sayori",
+                        "content": "It's a #var poem!",
+                        "charImg": "Ori17.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "And that makes it feel extra special!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Like I can feel your feelings in it~"
+                    },
+                    {
+                        "content": "Sayori hugs the sheet against her chest.",
+                        "char": "nobody"
+                    },
+                    {
+                        "char": "you",
+                        "content": "You're so weird, Sayori..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ehehe..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Anyway, I still haven't read your poem..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Oh!",
+                        "charImg": "Ori2.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Sorry, I forgot about that~"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "But it's not as good as yours!!",
+                        "charImg": "Say8.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Jeez, don't worry."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'll like it."
+                    }
                 ],
-                "option3":[],
+                "option3":[
+                    {
+                        "char": "Sayori",
+                        "content": "...Oh my goodness!",
+                        "charImg": "Say14.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "usesVar": true,
+                        "content": "This is sooooo good, #var!",
+                        "charImg": "Ori2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I love it~!",
+                        "charImg": "Ori18.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Especially after yesterday's poem!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ugh..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You're too honest sometimes, Sayori."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "No, but really!!",
+                        "charImg": "Ori13.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I wanna put this on my wall~"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Can I?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Sayori..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You must be seriously overreacting."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm not a good writer at all."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I honestly have no idea what I'm doing."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Well...",
+                        "charImg": "Say24.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Maybe that's why!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Because I have no idea what I like, either!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ahahaha!",
+                        "charImg": "Say18.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Jeez..."
+                    },
+                    {
+                        "char": "nobody",
+                        "options": true,
+                        "optionalText": [
+                            "Yuri's opinion was way more constructive than this...",
+                            "I'm sure Yuri's opinion has to be a little more constructive than this."
+                        ],
+                        "shownCharacter": "Yuri",
+                        "content": " "
+                    },
+                    {
+                        "char": "nobody",
+                        "content": " ",
+                        "options": true,
+                        "optionalText": [
+                            "",
+                            "Maybe even Natsuki's."
+                        ],
+                        "shownCharacter": "Natsuki"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Are you sure you don't like it just because I wrote it?"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Eh?",
+                        "charImg": "Say26.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Well, I'm sure that's part of it."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "I think I understand you better than a lot of other people, you know?",
+                        "charImg": "Say24.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "So when I read your poem..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "It's not just a poem..."
+                    },
+                    {
+                        "usesVar": true,
+                        "char": "Sayori",
+                        "content": "It's a #var poem!",
+                        "charImg": "Ori17.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "And that makes it feel extra special!"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Like I can feel your feelings in it~"
+                    },
+                    {
+                        "content": "Sayori hugs the sheet against her chest.",
+                        "char": "nobody"
+                    },
+                    {
+                        "char": "you",
+                        "content": "You're so weird, Sayori..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Ehehe..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Anyway, I still haven't read your poem..."
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Oh!",
+                        "charImg": "Ori2.png"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "Sorry, I forgot about that~"
+                    },
+                    {
+                        "char": "Sayori",
+                        "content": "But it's not as good as yours!!",
+                        "charImg": "Say8.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Jeez, don't worry."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'll like it."
+                    }
+                ],
                 "char":"Sayori",
                 "content":"...",
                 "charImg":"Say1.png"

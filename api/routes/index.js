@@ -102,7 +102,10 @@ router.get("/api/img/:img", (req, res) => {
     const { img } = req.params;
     res.sendFile(path.join(__dirname, '../img/' + img))
 })
-
+router.get("/api/img/bg/:img", (req, res) => {
+    const { img } = req.params;
+    res.sendFile(path.join(__dirname, '../img/bg/' + img))
+})
 
 
 

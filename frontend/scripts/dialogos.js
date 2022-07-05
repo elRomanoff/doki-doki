@@ -28,9 +28,9 @@ console.log(config.getScore(), config.getPrevScore())
 
 //GLOBALS
 
-const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
-const selectSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fselect.ogg?alt=media&token=02f9acb0-aa26-41f4-97c8-68eac0a0a5e7");
-const slap = cargarSonido("https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2Fslap.ogg?alt=media&token=f0248221-f60e-41b2-a757-ed0cce40331f")
+const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
+const selectSound = cargarSonido("/api/sound/sfx/select");
+// const slap = cargarSonido("https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2Fslap.ogg?alt=media&token=f0248221-f60e-41b2-a757-ed0cce40331f")
 
 const mainScreen = document.querySelector(".mainScreen");
 const pngChar = document.getElementById("char");
@@ -76,7 +76,6 @@ function takeCharactersToScreen () {
         else left = false;
     })
     
-
 };
 takeCharactersToScreen()
 
@@ -88,6 +87,7 @@ fetch(chapter)
         // el programa observa el primer elemento en busca de configuraciones globales
         next = x[0]?.next;
         if( x[0].usesRoute) {
+            console.log(route)
             if(!route) window.open("/Poem", "_self")
             else{
                 let fetchCall = ""
@@ -122,10 +122,11 @@ fetch(chapter)
                 arrDialog.push(...auxDialogArray);
                 sumIndex = auxDialogArray.length
             }
-            if (element.nextRoute) next = next + element.nextRoute
+            if (element.nextRoute) console.log("HOLA?")//next = next + element.nextRoute
             if (element.charImg) {
                 if(element.charImg.background) encodeImg(dictionary[element.charImg.background])
                 encodeImg (dictionary[element.charImg]);
+                if (index + sumIndex <= i) manageImage(element.charImg)
             }
             if (element.newCharacter) encodeImg (dictionary[element.newCharacter.charImg])
 
@@ -183,7 +184,7 @@ fetch(chapter)
                 }
 
             }
-
+            if (index + sumIndex <= i && element.option) manageOptions(element)
             //
             arrDialog.push(element)
             //
@@ -416,7 +417,7 @@ function manageImage(img){
 
     if(!img) pngChar.src = "";
     else if (typeof img === "object"){
-        if (!img.background) try{mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
+        if (!img.background) try { mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
         else if (img.background === "break") charBg.break();
         else if (img.background === "black") charBg.black();
         else{ 
@@ -715,6 +716,7 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
 //options
 function saveGame(option) {
     const inScreenCharacters = document.querySelectorAll(".char")
+    console.log(inScreenCharacters)
     const arrDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
     const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let dateToSave = new Date()

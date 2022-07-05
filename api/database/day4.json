@@ -654,9 +654,9 @@
             "neutral": "okay-everyone.mp3"
         },
         "Natsuki":{
-            "love":[],
-            "like":[],
-            "dislike":[],
+            "love":[{}],
+            "like":[{}],
+            "dislike":[{}],
             "end":[
                 {
                     "content": "Who should I show my poem to next?",
@@ -666,38 +666,1675 @@
                 }]
         },
         "Yuri":{
-            "love": [],
-            "like": [],
-            "dislike": [],
-            "end": [                {
+            "love": [{}],
+            "like": [{}],
+            "dislike": [{}],
+            "end": [
+                {
                     "content": "Who should I show my poem to next?",
                     "char": "nobody",
                     "charImg": "non",
                     "selectMenu": "continue"
-                }]
+                }
+            ]
         },
         "Sayori":{
-            "love": [],
-            "like": [],
-            "dislike": [],
-            "end": [                {
+            "love": [
+                
+            ],
+            "like": [
+                {
+                    "char": "Sayori",
+                    "content": "...",
+                    "charImg": "Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "...Hm.",
+                    "charImg": "Say11.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "It's nice, I guess~"
+                },
+                {
+                    "char": "you",
+                    "content": "Come on, I can already tell you don't like it."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Well...",
+                    "charImg": "Say4.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You don't need to worry about what I think."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "After all, you wrote this for someone else, didn't you?",
+                    "charImg": "Ori25.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Probably #route...",
+                    "usesVar": true
+                },
+                {
+                    "char": "you",
+                    "content": "Eh??"
+                },
+                {
+                    "char": "you",
+                    "content": "I didn't write this for anyone specifically!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Maybe..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That's not really what I meant, though.",
+                    "charImg": "Say5.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "But it's okay."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You're making new friends, just like I was hoping."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That makes me...really happy.",
+                    "charImg": "Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "And you're happy too, right?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "In this club?",
+                    "charImg": "Say1.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Well..."
+                },
+                {
+                    "char": "you",
+                    "content": "Of course I am."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Good~",
+                    "charImg": "Ori17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That's all that matters to me."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Thank you, #var.",
+                    "charImg": "Say5.png",
+                    "usesVar": true
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori..."
+                },
+                {
+                    "char": "you",
+                    "content": "Is there something wrong?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Huh?",
+                    "charImg": "Say26.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "No, nothing.",
+                    "charImg": "Say11.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'm just a little tired today."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe.",
+                    "charImg": "Say12.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Alright..."
+                },
+                {
+                    "char": "you",
+                    "content": "Just tell me if you need anything."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I will.",
+                    "charImg": "Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Don't worry about me, okay?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You can go play with everyone else now."
+                },
+                {
+                    "char": "you",
+                    "content": "If you insist..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Yaay~",
+                    "charImg": "Ori17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'm gonna go home a little bit early today.",
+                    "charImg": "Ori1.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori...?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Tell Monika I wasn't feeling well, okay?",
+                    "charImg": "Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'll see you tomorrow~"
+                },
+                {
+                    "content": "\"Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                }
+            ],
+            "dislike": [
+                {
+                    "char": "Sayori",
+                    "content": "...",
+                    "charImg":"Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "...Hm.",
+                    "charImg":"Say11.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "It's nice, I guess~"
+                },
+                {
+                    "char": "you",
+                    "content": "Come on, I can already tell you don't like it."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Well...",
+                    "charImg":"Say4.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You don't need to worry about what I think."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "After all, you wrote this for someone else, didn't you?",
+                    "charImg":"Ori25.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Probably #route...",
+                    "usesVar":true
+                },
+                {
+                    "char": "you",
+                    "content": "Eh??"
+                },
+                {
+                    "char": "you",
+                    "content": "I didn't write this for anyone specifically!"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Maybe..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That's not really what I meant, though.",
+                    "charImg":"Say5.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "But it's okay."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You're making new friends, just like I was hoping."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That makes me...really happy.",
+                    "charImg":"Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "And you're happy too, right?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "In this club?",
+                    "charImg":"Say1.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Well..."
+                },
+                {
+                    "char": "you",
+                    "content": "Of course I am."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Good~",
+                    "charImg":"Ori17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "That's all that matters to me."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Thank you, #var.",
+                    "charImg":"Say5.png",
+                    "usesVar":true
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori..."
+                },
+                {
+                    "char": "you",
+                    "content": "Is there something wrong?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Huh?",
+                    "charImg":"Say26.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "No, nothing.",
+                    "charImg":"Say11.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'm just a little tired today."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Ehehe.",
+                    "charImg":"Say12.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Alright..."
+                },
+                {
+                    "char": "you",
+                    "content": "Just tell me if you need anything."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I will.",
+                    "charImg":"Say1.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Don't worry about me, okay?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "You can go play with everyone else now."
+                },
+                {
+                    "char": "you",
+                    "content": "If you insist..."
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Yaay~",
+                    "charImg":"Ori17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'm gonna go home a little bit early today.",
+                    "charImg":"Ori1.png"
+                },
+                {
+                    "char": "you",
+                    "content": "Sayori...?"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "Tell Monika I wasn't feeling well, okay?",
+                    "charImg":"Say17.png"
+                },
+                {
+                    "char": "Sayori",
+                    "content": "I'll see you tomorrow~"
+                },
+                {
+                    "content": "\"Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                }
+            ],
+            "end": [
+                {
                     "content": "Who should I show my poem to next?",
                     "char": "nobody",
                     "charImg": "non",
                     "selectMenu": "continue"
-                }]
+                }
+            ]
         },
         "Monika":[
             {
-                "sayori":[],
-                "natsuki":[],
-                "yuri":[],
-                "end":[                {
-                    "content": "Who should I show my poem to next?",
-                    "char": "nobody",
-                    "charImg": "non",
-                    "selectMenu": "continue"
-                }]
+                "sayori":[
+                    {
+                        "options": true,
+                        "prevRoute": "s",
+                        "content": " ",
+                        "option1":[
+                            {
+                                "char": "Monika",
+                                "content": "Ahaha.",
+                                "charImg":"Mon11.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "It's kind of funny..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "How so?"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "No, not the poem...",
+                                "charImg":"Mon1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I mean, it's funny how your poems and Sayori's poems have been getting more and more similar to each other every day.",
+                                "charImg":"Monika1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I'm surprised you're so in sync with her."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Then again, you've been spending a lot of time together lately, haven't you?",
+                                "charImg":"Monika4.png"
+                            },
+                            {
+                                "char": "you",
+                                "content": "Ah, I guess you could say that..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Although we kind of grew up as best friends, I haven't been seeing as much of her this past year..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "But since I joined the club, we've been spending a lot of time together again."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I see, I see~",
+                                "charImg":"Mon1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "That reminds me..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "About how Sayori's been a little bit off today..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Yeah? Did she tell you something?"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Ah...",
+                                "charImg":"Mon14.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Well..."
+                            },
+                            {
+                                "usesVar": true,
+                                "char": "Monika",
+                                "content": "#var, you haven't been flirting with her, have you?",
+                                "charImg":"Ika11.png"
+                            },
+                            {
+                                "char": "you",
+                                "content": "O-Of course not!"
+                            },
+                            {
+                                "char": "you",
+                                "content": "I've been treating her like I always do."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Alright.",
+                                "charImg":"Monika1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Just making sure~",
+                                "charImg":"3aa.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I know how much you care about her..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "It would be terrible if something bad happened to her, so keep an eye on her."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Sayori's been acting so much happier ever since you joined the club.",
+                                "charImg":"Monika4.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "What could have happened all of a sudden...?"
+                            },
+                            {
+                                "char": "you",
+                                "content": "..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "...Well, never mind.",
+                                "charImg":"Mon12.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "This really isn't the time to be talking about this..."
+                            }
+                        ],
+                        "option2":[
+                            {
+                        "char": "Monika",
+                        "content": "I like this one!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It makes me think of something Sayori would like."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Is that so?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You and Sayori are really good friends, right?",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I wouldn't be surprised if you had those sorts of things in common."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ah, well..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "We may be good friends, but Sayori and I are actually really different."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, that may be the case."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But maybe there are also some similarities that you wouldn't expect.",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "The way she talks about you..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It sounds like the two of you really care about each other's well-being."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Even if you show it in different ways, it ends up being more similar than you'd think."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I think that's the kind of vibe I get when reading your poem.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You sure you're not reading into it too much?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! I could be!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Oh gosh, I sound like Yuri..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "...But in any case, Sayori's writing has kind of a gentle feel to it.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I can tell that she likes exploring with emotions, like happiness and sadness."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Who knew that someone so happy would enjoy sad things, too?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Yeah... That's totally unexpected."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, to each their own~",
+                        "charImg":"Ika10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And you shouldn't be afraid to experiment a little bit, either.",
+                        "charImg":"Ika1.png"
+                    }
+                        ],
+                        "option3":[
+                            {
+                        "char": "Monika",
+                        "content": "I like this one!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It makes me think of something Sayori would like."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Is that so?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You and Sayori are really good friends, right?",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I wouldn't be surprised if you had those sorts of things in common."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ah, well..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "We may be good friends, but Sayori and I are actually really different."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, that may be the case."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But maybe there are also some similarities that you wouldn't expect.",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "The way she talks about you..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It sounds like the two of you really care about each other's well-being."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Even if you show it in different ways, it ends up being more similar than you'd think."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I think that's the kind of vibe I get when reading your poem.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Hmm..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You sure you're not reading into it too much?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! I could be!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Oh gosh, I sound like Yuri..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "...But in any case, Sayori's writing has kind of a gentle feel to it.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I can tell that she likes exploring with emotions, like happiness and sadness."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Who knew that someone so happy would enjoy sad things, too?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Yeah... That's totally unexpected."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, to each their own~",
+                        "charImg":"Ika10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And you shouldn't be afraid to experiment a little bit, either.",
+                        "charImg":"Ika1.png"
+                    }
+                        ]
+                    }
+                ],
+                "natsuki":[
+                    {
+                        "options":true,
+                        "prevRoute":"n",
+                        "content":" ",
+                        "option1":[
+                            {
+                                "char": "Monika",
+                                "content": "Sticking with the Natsuki style once more, I see~",
+                                "charImg":"Monika11.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Hmm...",
+                                "charImg":"Monika4.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "You really like Natsuki, don't you?"
+                            },
+                            {
+                                "char": "you",
+                                "content": "Eh? That's--"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Oh, come on, #var.",
+                                "charImg":"3aa.png",
+                                "usesVar":true
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "It's awfully suspicious, you know?"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Spending time with her in the clubroom every day..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Pretending to like the manga that she's into..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Y-You know how Natsuki is...!"
+                            },
+                            {
+                                "char": "you",
+                                "content": "If I don't indulge her, she'll end up hating me."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Eh?",
+                                "charImg":"Mon5.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "No, I think you're misunderstanding, #var.",
+                                "charImg":"Mon1.png",
+                                "usesVar":true
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "It's not like Natsuki just hates anyone who doesn't give her what she wants.",
+                                "charImg":"Monika4.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Yeah, she's assertive, but she's not that selfish..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "In fact, I think you're the only one who's indulged her as much as you have."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Is that so..."
+                            },
+                            {
+                                "content": "\"I kind of knew that, but I just didn't want to admit it.\"\r"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "So, I just need to ask one thing of you..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "...Be careful. Please?",
+                                "charImg":"Mon5.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Natsuki is kind of unpredictable."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "A lot of times, she doesn't even know what she wants."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "After all, she's the youngest one here.",
+                                "charImg":"Monika9.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "She might not know how to handle her own feelings properly."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "What I'm saying is..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "If something bad happens, then it could end up damaging the club, too...",
+                                "charImg":"Mon13.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "And you wouldn't do that to me...right?",
+                                "charImg":"3aa.png"
+                            },
+                            {
+                                "char": "you",
+                                "content": "That's--"
+                            },
+                            {
+                                "content": "\"I'm not sure how to respond to Monika.\"\r"
+                            },
+                            {
+                                "content": "\"While I care about her and the club, it's also kind of unfair to bring that up.\"\r"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Well...you're smart."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I'm sure you'll do the right thing."
+                            },
+                            {
+                                "content": "\"Monika smiles sweetly.\""
+                            }
+                        ],
+                        "option2":[
+                    {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "I like it, #var!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Really...?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's a lot cuter than I expected.",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahahaha!",
+                        "charImg":"Mon11.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Oh jeez..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "No, no!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It kind of makes me think of something Natsuki would write."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And she's a good writer, too."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So take that as a compliment!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ahaha..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "If you say so."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yep!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "By any chance have you read anything by Shel Silverstein?",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Maybe a long time ago..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "He's famous for telling all kinds of stories in just a few simple words."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "His poems can be funny, endearing, or even sad..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And sometimes they're only a few lines long.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might even feel like they're written for kids, but if you think about them..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They can express views of the world that would apply to anybody."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I see..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "So you're saying that Natsuki is kind of like that?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Sort of.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Maybe she's not an expert..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But you probably won't find much filler in her poems."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might be easy to write, but they're super challenging to get the meaning through."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I can see why it would be your kind of poem to explore!",
+                        "charImg":"Monika2.png"
+                    }
+                        ],
+                        "option3":[
+                    {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "I like it, #var!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Really...?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's a lot cuter than I expected.",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahahaha!",
+                        "charImg":"Mon11.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Oh jeez..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "No, no!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It kind of makes me think of something Natsuki would write."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And she's a good writer, too."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So take that as a compliment!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ahaha..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "If you say so."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yep!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "By any chance have you read anything by Shel Silverstein?",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Maybe a long time ago..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "He's famous for telling all kinds of stories in just a few simple words."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "His poems can be funny, endearing, or even sad..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "And sometimes they're only a few lines long.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might even feel like they're written for kids, but if you think about them..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They can express views of the world that would apply to anybody."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I see..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "So you're saying that Natsuki is kind of like that?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Sort of.",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Maybe she's not an expert..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But you probably won't find much filler in her poems."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They might be easy to write, but they're super challenging to get the meaning through."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "So I can see why it would be your kind of poem to explore!",
+                        "charImg":"Monika2.png"
+                    }
+                        ]
+                    }
+                ],
+                "yuri":[
+                    {
+                        "options":true,
+                        "prevRoute":"y",
+                        "option1":[
+                             {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "Great job, #var!",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I was going 'Ooh' in my head while reading it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's really metaphorical!",
+                        "charImg":"Mon10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'm not sure why, but I didn't expect you to go for something so deep.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I guess I underestimated you!",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "It's easiest for me to keep everyone's expectations low."
+                    },
+                    {
+                        "char": "you",
+                        "content": "That way, it always counts when I put in some effort."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! That's not very fair!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, I guess it worked, anyway."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You know that Yuri likes this kind of writing, right?",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Writing that's full of imagery and symbolism."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Unlike Sayori, who likes using simple and direct words to describe happiness and sadness...",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yuri likes it when readers are left to derive their own meaning out of it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's very challenging to write like that effectively.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Both allowing people to get something out of it just by feel..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Or letting them deeply analyze all of the nuances."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It can take years of practice, which I'm assuming Yuri has at this point."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I never really asked, though...",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'm nowhere near her level yet."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Don't worry so much about that!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You do your own thing."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Just keep exploring, and learn by trying new things!"
+                    }
+                        ],
+                        "option2":[
+                             {
+                        "usesVar":true,
+                        "char": "Monika",
+                        "content": "Great job, #var!",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I was going 'Ooh' in my head while reading it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's really metaphorical!",
+                        "charImg":"Mon10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'm not sure why, but I didn't expect you to go for something so deep.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I guess I underestimated you!",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "It's easiest for me to keep everyone's expectations low."
+                    },
+                    {
+                        "char": "you",
+                        "content": "That way, it always counts when I put in some effort."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha! That's not very fair!",
+                        "charImg":"3aa.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Well, I guess it worked, anyway."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You know that Yuri likes this kind of writing, right?",
+                        "charImg":"Monika1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Writing that's full of imagery and symbolism."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Unlike Sayori, who likes using simple and direct words to describe happiness and sadness...",
+                        "charImg":"Monika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Yuri likes it when readers are left to derive their own meaning out of it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's very challenging to write like that effectively.",
+                        "charImg":"Ika4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Both allowing people to get something out of it just by feel..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Or letting them deeply analyze all of the nuances."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It can take years of practice, which I'm assuming Yuri has at this point."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I never really asked, though...",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "I'm sure I'm nowhere near her level yet."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Don't worry so much about that!",
+                        "charImg":"Mon2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You do your own thing."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Just keep exploring, and learn by trying new things!"
+                    }
+                        ],
+                        "option3":[
+                            {
+                                "char": "Monika",
+                                "content": "Your style's gotten so refined, #var.",
+                                "charImg": "Mon5.png",
+                                "usesVar": true
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Yuri's been teaching you a lot of things, hasn't she?"
+                            },
+                            {
+                                "char": "you",
+                                "content": "Well--"
+                            },
+                            {
+                                "char": "you",
+                                "content": "I guess so."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Yeah... I've been noticing how much time you spend with her.",
+                                "charImg": "Monika1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I think I've heard her say more words these past couple days than she's talked in the whole year.",
+                                "charImg": "Monika4.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Not sure how you did it, but that's pretty impressive..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Well, she just needs some patience and a way to talk about all the things in her head, I guess..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "I'm still getting the hang of it, myself."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Hm...",
+                                "charImg": "monika1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "You're certainly putting in a lot of effort."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "You must really like her.",
+                                "charImg": "Mon5.png"
+                            },
+                            {
+                                "char": "you",
+                                "content": "Eh? That's--"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Ahaha!",
+                                "charImg": "3aa.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "It's awfully suspicious, you know?"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Spending time with her in the clubroom every day..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Reading that edgy novel with her..."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Well--!"
+                            },
+                            {
+                                "char": "you",
+                                "content": "I just...feel bad that she has a hard time socializing."
+                            },
+                            {
+                                "char": "you",
+                                "content": "It makes me want to make sure she doesn't spend all her time alone."
+                            },
+                            {
+                                "char": "you",
+                                "content": "Besides, the novel isn't too bad either, you know..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Alright, alright~",
+                                "charImg": "Mon11.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I get you."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Just...be careful, alright?",
+                                "charImg": "Mon1.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "I know that Yuri isn't used to opening herself up..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "So if something bad happens while she's vulnerable...",
+                                "charImg": "Monika4.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Then it could be really hard for her."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Her books aren't a total escape from reality."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "They're just a bandage."
+                            },
+                            {
+                                "char": "you",
+                                "content": "You say that like I'm going to hurt her..."
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "Sorry, I didn't really mean that~",
+                                "charImg": "Mon12.png"
+                            },
+                            {
+                                "char": "Monika",
+                                "content": "If anything, she might accidentally hurt herself."
+                            }
+                            
+                        ],
+                        "content":" "
+                    }    
+                ],
+                "end":[
+                    {
+                        "char": "Monika",
+                        "content": "Anyway...!",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I'll share my poem with you now, alright?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Er..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Alright..."
+                    },
+                    {
+                        "comment":"poem goes here"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "You know..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I feel like learning and looking for answers are the sorts of things that give life meaning."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Not to get too philosophical or anything...",
+                        "charImg":"Mon5.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But it was kind of on my mind, so that's what I wrote about.",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "I see..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I never really put much thought into it."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "In a way, it's almost paradoxical.",
+                        "charImg":"Mon4.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Because if we had all the answers, wouldn't the world start to lose its meaning?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "You know, there's one thing I noticed..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "It seems like everyone in the club prefers writing about things that are more sad than happy."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ahaha. Are you surprised?",
+                        "charImg":"Mon11.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I mean, if everything was okay...",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "We wouldn't really have anything to write about, would we?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Humans aren't two-dimensional creatures."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "I think you'd know that better than anyone."
+                    },
+                    {
+                        "char": "you",
+                        "content": "You mean one-dimensional...?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Ah...yeah, that!",
+                        "charImg":"Mon12.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Anyway...",
+                        "charImg":"Mon1.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Here's Monika's Writing Tip of the Day!",
+                        "charImg":"Monika2.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Are you ever too shy to share your writing because you're afraid it's not that good?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It can be really disheartening to get a lukewarm response to something you put so much into."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "But if you find other people who enjoy writing, then sharing becomes a lot easier!"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Because instead of just telling you that your writing is good, or okay, or bad..."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "They'll want to focus more on everything that went into it, and the things you can work on."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's much more encouraging that way, and it will make you want to continue improving."
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "It's almost like having your own little Literature Club, don't you think?"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "...That's my advice for today!",
+                        "charImg":"Ika10.png"
+                    },
+                    {
+                        "char": "Monika",
+                        "content": "Thanks for listening~"
+                    },
+                    {
+                        "content": "Who should I show my poem to next?",
+                        "char": "nobody",
+                        "charImg": "non",
+                        "selectMenu": "continue"
+                    }
+                ]
+            },
+            {
+                "usesVar": true,
+                "char": "Monika",
+                "content": "Hi #var~",
+                "charImg": "Monika1.png",
+                "newBackground":"transition"
+            },
+            {
+                "char": "Monika",
+                "content": "Have you thought about what you want to submit to perform at the festival?"
+            },
+            {
+                "char": "you",
+                "content": "Well..."
+            },
+            {
+                "content": "\"Being in this club is one thing, but performing in front of a bunch of people...\"\r"
+            },
+            {
+                "char": "you",
+                "content": "...I'll have to give it some more thought."
+            },
+            {
+                "char": "Monika",
+                "content": "Okay, no pressure!",
+                "charImg": "Ika2.png"
+            },
+            {
+                "char": "Monika",
+                "content": "But whatever you do, I'm sure it'll turn out great."
+            },
+            {
+                "char": "Monika",
+                "content": "It would also make me happy to see."
+            },
+            {
+                "char": "Monika",
+                "content": "Ahaha!",
+                "charImg": "Ika10.png"
+            },
+            {
+                "char": "Monika",
+                "content": "Anyway, let's take a look at today's poem!",
+                "charImg": "Mon1.png"
+            },
+            {
+                "char": "you",
+                "content": "Sure..."
+            },
+            {
+                "content": "\"I let Monika take the poem I'm holding in my hands.\"\r"
+            },
+            {
+                "char": "Monika",
+                "content": "..."
             }
         ]
     },
@@ -1383,7 +3020,6 @@
         "char": "nobody",
         "Natsuki":[
             {
-                "nextRoute":"n",
                 "char": "you",
                 "content": "Well, baking sounds like it could be fun..."
             },
@@ -1399,7 +3035,8 @@
             },
             {
                 "char": "Natsuki",
-                "content": "Baking is a ton of fun!"
+                "content": "Baking is a ton of fun!",
+                "nextRoute": "n"
             },
             {
                 "char": "Natsuki",
@@ -1764,7 +3401,8 @@
             {
                 "char": "Natsuki",
                 "content": "Um, where are you going?",
-                "charImg":"Y18.png"
+                "charImg":"Y18.png",
+                "music":"stop"
             },
             {
                 "char": "you",
@@ -1773,7 +3411,8 @@
             {
                 "char": "Natsuki",
                 "content": "We still need to figure out our plans for this weekend.",
-                "charImg":"Y14.png"
+                "charImg":"Y14.png",
+                "music":"playwithme.mp3"
             },
             {
                 "char": "Natsuki",
@@ -1993,7 +3632,6 @@
             }],
         "Yuri":[
             {
-                "nextRoute":"y",
                 "char": "you",
                 "content": "Well, I'll probably be most useful helping out Yuri..."
             },
@@ -2014,6 +3652,7 @@
                 "content": "Why would you--"
             },
             {
+                "nextRoute": "y",
                 "char": "Monika",
                 "content": "Natsuki.",
                 "charImg":"Mon9.png",
@@ -2631,7 +4270,7 @@
                 "char": "Monika",
                 "content": "Sorry, I didn't mean for this to be difficult...",
                 "animation":[{"direction":"height","value":"103%"}],
-                "charImg":"Mon5"
+                "charImg":"Mon5.png"
             },
             {
                 "content":"Just think of the club, okay?",
