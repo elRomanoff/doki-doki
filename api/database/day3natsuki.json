@@ -208,7 +208,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "I {i}knew{/i} it!",
+        "content": "I <i>knew</i> it!",
         "charImg":"NatsukiCrossedArms5.png"
     },
     {
@@ -400,7 +400,7 @@
         "content": "Can you at least hold the chair steady instead of sitting and doing nothing?"
     },
     {
-        "content": "{i}(Who was it who told me not to help...?){/i}","char":"nobody"
+        "content": "<i>(Who was it who told me not to help...?)</i>","char":"nobody"
     },
     {
         "char": "you",
@@ -514,7 +514,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "{i}W-What are you looking at?!{/i}",
+        "content": "<i>W-What are you looking at?!</i>",
         "charImg":{"background":"natsuki-bg2-3.png"},
         "music":"poem-panic.mp3"
     },
@@ -580,7 +580,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "{i}Kyaaaaa!{/i}",
+        "content": "<i>Kyaaaaa!</i>",
         "charImg":{"background":"natsuki-bg2-3.png"}
     },
     {
@@ -797,7 +797,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "{i}*Sob*{/i}",
+        "content": "<i>*Sob*</i>",
         "charImg":"Turnedaway5.png",
         "animation":[{"direction":"top","value":"3%"}],
         "music":"my-feelings.mp3"
@@ -1102,7 +1102,8 @@
         "content": "Yeah, yeah..."
     },
     {
-        "content": "I return to my seat and slip the book into my bag.\"",
-        "charImg":"non"
+        "content": "I return to my seat and slip the book into my bag.",
+        "charImg":"non",
+        "char":"nobody"
     }
 ]

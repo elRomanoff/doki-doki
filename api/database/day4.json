@@ -216,20 +216,20 @@
         "content": "Oh, there you are."
     },
     {
-        "content": "\"Sayori is sitting at a desk in the corner of the room, looking down at nothing.\"\r",
+        "content": "Sayori is sitting at a desk in the corner of the room, looking down at nothing.", "char":"nobody",
         "newBackground":"transition",
         "newCharacter":"erase",
         "charImg":"non"
     },
     {
-        "content": "\"I walk over to her.\"\r"
+        "content": "I walk over to her.", "char":"nobody"
     },
     {
         "char": "you",
         "content": "Hey, Sayori."
     },
     {
-        "content": "\"I wave my hand in front of her face.\"\r",
+        "content": "I wave my hand in front of her face.", "char":"nobody",
         "charImg":"Say11.png"
     },
     {
@@ -294,7 +294,7 @@
         "charImg":"Ori18.png"
     },
     {
-        "content": "\"Sayori shows me a big smile.\"\r",
+        "content": "Sayori shows me a big smile.", "char":"nobody",
         "animation":[{"direction":"jump"}]
     },
     {
@@ -311,20 +311,20 @@
         "content": "If you say so."
     },
     {
-        "content": "\"I worriedly glance at Sayori before turning back toward everyone else.\"\r",
+        "content": "I worriedly glance at Sayori before turning back toward everyone else.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"But the conversation has already dispersed, with everyone back at their usual activities.\"\r"
+        "content": "But the conversation has already dispersed, with everyone back at their usual activities.", "char":"nobody"
     },
     {
-        "content": "\"Maybe I should ask Monika if she's noticed anything about Sayori recently...\"\r"
+        "content": "Maybe I should ask Monika if she's noticed anything about Sayori recently...", "char":"nobody"
     },
     {
-        "content": "\"Since they've been preparing for the festival, they must be spending a lot of time together.\"\r"
+        "content": "Since they've been preparing for the festival, they must be spending a lot of time together.", "char":"nobody"
     },
     {
-        "content": "\"I timidly approach Monika, who is shuffling through some papers at her desk.\"\r"
+        "content": "I timidly approach Monika, who is shuffling through some papers at her desk.", "char":"nobody"
     },
     {
         "char": "Monika",
@@ -361,7 +361,7 @@
         "content": "I can't say I've noticed anything about her..."
     },
     {
-        "content": "\"Monika peers across the room at Sayori, who is idly dragging a rubber eraser up and down her desk.\"\r"
+        "content": "Monika peers across the room at Sayori, who is idly dragging a rubber eraser up and down her desk.", "char":"nobody"
     },
     {
         "char": "Monika",
@@ -551,41 +551,42 @@
         "content": "Alright..."
     },
     {
-        "content": "\"Monika smiles meaningfully.\"\r"
+        "content": "Monika smiles meaningfully.", "char":"nobody"
     },
     {
-        "content": "\"I know she said to forget about it...\"\r"
+        "content": "I know she said to forget about it...", "char":"nobody"
     },
     {
-        "content": "\"But I already know that I won't be able to get her words out of my head.\"\r"
+        "content": "But I already know that I won't be able to get her words out of my head.", "char":"nobody"
     },
     {
-        "content": "\"Monika stands up from her desk and walks across the room to where Sayori is sitting.\"\r",
+        "content": "Monika stands up from her desk and walks across the room to where Sayori is sitting.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"I watch her kneel down next to Sayori and gently talk to her.\"\r"
+        "content": "I watch her kneel down next to Sayori and gently talk to her.", "char":"nobody"
     },
     {
-        "content": "\"But she's keeping her voice so quiet that I can't hear her from here.\"\r"
+        "content": "But she's keeping her voice so quiet that I can't hear her from here.", "char":"nobody"
     },
     {
-        "content": "\"I sigh and sit myself down.\"\r"
+        "content": "I sigh and sit myself down.", "char":"nobody"
     },
     {
-        "content": "\"I know Sayori told me not to worry about her, and to have fun with everyone else...\"\r"
+        "content": "I know Sayori told me not to worry about her, and to have fun with everyone else...", "char":"nobody"
     },
     {
-        "content": "\"But that's impossible to do when she's behaving like this.\"\r"
+        "content": "But that's impossible to do when she's behaving like this.", "char":"nobody"
     },
     {
-        "content": "\"Exactly how much do I care about her, that I'm letting this weigh me down so much?\"\r"
+        "content": "Exactly how much do I care about her, that I'm letting this weigh me down so much?", "char":"nobody"
     },
     {
-        "content": "\"Now it feels like I'm the one behaving out of the ordinary...\"\r"
+        "content": "Now it feels like I'm the one behaving out of the ordinary...", "char":"nobody"
     },
     {
-        "content": "\"But there's nothing I can do besides wait for Monika.\""
+        "content": "But there's nothing I can do besides wait for Monika.\"",
+        "char":"nobody"
     },
     {
         "newBackground": "Club.png",
@@ -601,24 +602,25 @@
         "charImg":"Ika1.png"
     },
     {
-        "content": "\"After some time passes, Monika calls out to the clubroom.\"\r"
+        "content": "After some time passes, Monika calls out to the clubroom.", "char":"nobody"
     },
     {
         "char": "Monika",
         "content": "Why don't we share our poems now?"
     },
     {
-        "content": "\"Before I know it, everything is back to normal.\"\r",
+        "content": "Before I know it, everything is back to normal.", "char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"Everyone goes to retrieve their poems, and I do the same.\"\r"
+        "content": "Everyone goes to retrieve their poems, and I do the same.", "char":"nobody"
     },
     {
-        "content": "\"I make eye contact with Monika, and she smiles at me.\"\r"
+        "content": "I make eye contact with Monika, and she smiles at me.", "char":"nobody"
     },
     {
-        "content": "\"I wonder what she was talking about with Sayori...\""
+        "content": "I wonder what she was talking about with Sayori...\"",
+        "char":"nobody"
     },
     {
         "selectMenu": [
@@ -654,6 +656,7 @@
             "neutral": "okay-everyone.mp3"
         },
         "Natsuki":{
+            "musicGroup":"my-feelings-end",
             "love":[{}],
             "like":[{}],
             "dislike":[{}],
@@ -666,9 +669,74 @@
                 }]
         },
         "Yuri":{
-            "love": [{}],
-            "like": [{}],
-            "dislike": [{}],
+            "musicGroup":"my-feelings-end",
+            "love": [{
+                "content":"",
+                "options":true,
+                "prevRoute":"y",
+                "option1":[],
+                "option2":[],
+                "option3":[
+                    {
+                        "char": "Yuri",
+                        "content": "...",
+                        "charImg":"YSShy1.png"
+                    },
+                    {
+                        "content": "\"Yuri doesn't look too enthusiastic about spending time with me...\"\r"
+                    },
+                    {
+                        "content": "\"I guess if she changes her mind, she'll come to me.\"\r"
+                    },
+                    {
+                        "content": "\"But I should leave her be for now.\""
+                    }
+                ]
+            }],
+            "like": [{
+                "content":"",
+                "options":true,
+                "prevRoute":"y",
+                "option1":[],
+                "option2":[],
+                "option3":[
+                    {
+                        "char": "Yuri",
+                        "content": "..."
+                    },
+                    {
+                        "content": "\"Yuri doesn't look too enthusiastic about spending time with me...\"\r"
+                    },
+                    {
+                        "content": "\"I guess if she changes her mind, she'll come to me.\"\r"
+                    },
+                    {
+                        "content": "\"But I should leave her be for now.\""
+                    }
+                ]
+            }],
+            "dislike": [{
+                "content":"",
+                "options":true,
+                "prevRoute":"y",
+                "option1":[],
+                "option2":[],
+                "option3":[
+                    {
+                        "char": "Yuri",
+                        "content": "..."
+                    },
+                    {
+                        "content": "\"Yuri doesn't look too enthusiastic about spending time with me...\"\r"
+                    },
+                    {
+                        "content": "\"I guess if she changes her mind, she'll come to me.\"\r"
+                    },
+                    {
+                        "content": "\"But I should leave her be for now.\""
+                    }
+                ]
+            }],
             "end": [
                 {
                     "content": "Who should I show my poem to next?",
@@ -679,8 +747,654 @@
             ]
         },
         "Sayori":{
+            "musicGroup":"my-feelings-end",
             "love": [
-                
+                {
+                    "content":"",
+                    "options":true,
+                    "prevRoute":"s",
+                    "option1":
+                    [
+                        {
+                            "char": "Sayori",
+                            "content": "...",
+                            "charImg":"say4.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "This is your best one so far."
+                          },
+                          {
+                            "usesVar":true,
+                            "char": "Sayori",
+                            "content": "It's really really nice, #var~"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Er-- Thanks."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Mhm~",
+                            "charImg":"Say17.png"
+                          },
+                          {
+                            "char": "you",
+                            "content": "..."
+                          },
+                          {
+                            "char": "you",
+                            "content": "Sayori, you've been a little quiet today."
+                          },
+                          {
+                            "char": "you",
+                            "content": "Is everything alright?"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "E-Eh??",
+                            "charImg":"Ori13.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Of course!"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Everything is fine~",
+                            "charImg":"Ori12.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Maybe I'm just a little tired today."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Ehehe.",
+                            "charImg":"Say12.png"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Do you want to nap or something?"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "No, that's silly!",
+                            "charImg":"Say8.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Don't worry about me, okay?"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I only want to see smiles on your face~",
+                            "charImg":"Say17.png"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Well, alright..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Hey, #var...",
+                            "charImg":"Say26.png",
+                            "usesVar":true
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I'm still a little surprised."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I really thought that you would try writing your poems like the way Yuri does..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Or even Natsuki...",
+                            "charImg":"Say25.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "But in the end..."
+                          },
+                          {
+                            "char": "you",
+                            "content": "...Yeah."
+                          },
+                          {
+                            "char": "you",
+                            "content": "I guess you're the one who likes this one the most."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "...Why?",
+                            "music":"stop",
+                            "charImg":"Say11.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "You don't want to get closer with everyone else?"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Wait!",
+                            "musicGroup": "my-feelings.mp3"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Of course I do!"
+                          },
+                          {
+                            "char": "you",
+                            "content": "But that doesn't mean I need to try so hard to impress them."
+                          },
+                          {
+                            "char": "you",
+                            "content": "I still understand you the most, Sayori."
+                          },
+                          {
+                            "char": "you",
+                            "content": "I know you have to sometimes put up with me."
+                          },
+                          {
+                            "char": "you",
+                            "content": "And I have to sometimes put up with you."
+                          },
+                          {
+                            "char": "you",
+                            "content": "But we have...a wavelength or something."
+                          },
+                          {
+                            "char": "you",
+                            "content": "And this is how the poem came out."
+                          },
+                          {
+                            "char": "you",
+                            "content": "Sometimes it feels like you're the only exciting thing in my life."
+                          },
+                          {
+                            "char": "you",
+                            "content": "So sometimes it's just easier to write when thinking about you."
+                          },
+                          {
+                            "char": "you",
+                            "content": "...Sayori?"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "N-No...",
+                            "charImg":"Ori22.png"
+                          },
+                          {
+                            "usesVar":true,
+                            "char": "Sayori",
+                            "content": "#var..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I don't...deserve this..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "You're too nice to me..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Why are you doing this...?"
+                          },
+                          {
+                            "content": "Sayori has trouble keeping her voice steady, all of a sudden.", "char":"nobody"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "If you had fun with everyone else instead..."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "This would be...so much easier!"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Sayori...!"
+                          },
+                          {
+                            "content": "I glance around the room to make sure nobody has noticed this.", "char":"nobody"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Sayori."
+                          },
+                          {
+                            "char": "you",
+                            "content": "I've probably never said this before, but I don't understand what you're feeling right now."
+                          },
+                          {
+                            "char": "you",
+                            "content": "Tell me what will cheer you up."
+                          },
+                          {
+                            "content": "Sayori shakes her head.", "char":"nobody"
+                          },
+                          {
+                            "content": "She sniffles and keeps shaking her head.", "char":"nobody"
+                          },
+                          {
+                            "content": "Finally, she gathers herself and puts on a smile.", "char":"nobody"
+                          },
+                          {
+                              "usesVar":true,
+                              "charImg":"Say25.png",
+                            "char": "Sayori",
+                            "content": "It's nothing, #var."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "It's just a little raincloud."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I'm sorry you had to see that. Ahahaha!",
+                            "charImg":"Ori18.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I promise it won't happen again."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Just smiles from everyone, okay?",
+                            "charImg":"Say1.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "That's all that matters."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Go play with everyone else."
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I'm gonna go home a little bit early today~"
+                          },
+                          {
+                            "char": "you",
+                            "content": "Sayori--"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "Tell Monika I wasn't feeling well, okay?",
+                            "charImg":"Ori17.png"
+                          },
+                          {
+                            "char": "Sayori",
+                            "content": "I'll see you tomorrow~"
+                          },
+                          {
+                            "content": "Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                          }
+                    ],
+                    "option2":[
+                        {
+                            "char": "Sayori",
+                            "content": "...",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "...Hm.",
+                            "charImg": "Say11.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "It's nice, I guess~"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Come on, I can already tell you don't like it."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Well...",
+                            "charImg": "Say4.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You don't need to worry about what I think."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "After all, you wrote this for someone else, didn't you?",
+                            "charImg": "Ori25.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Probably #route...",
+                            "usesVar": true
+                        },
+                        {
+                            "char": "you",
+                            "content": "Eh??"
+                        },
+                        {
+                            "char": "you",
+                            "content": "I didn't write this for anyone specifically!"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Maybe..."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That's not really what I meant, though.",
+                            "charImg": "Say5.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "But it's okay."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You're making new friends, just like I was hoping."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That makes me...really happy.",
+                            "charImg": "Say17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "And you're happy too, right?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "In this club?",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Well..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Of course I am."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Good~",
+                            "charImg": "Ori17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That's all that matters to me."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Thank you, #var.",
+                            "charImg": "Say5.png",
+                            "usesVar": true
+                        },
+                        {
+                            "char": "you",
+                            "content": "Sayori..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Is there something wrong?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Huh?",
+                            "charImg": "Say26.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "No, nothing.",
+                            "charImg": "Say11.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'm just a little tired today."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Ehehe.",
+                            "charImg": "Say12.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Alright..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Just tell me if you need anything."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I will.",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Don't worry about me, okay?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You can go play with everyone else now."
+                        },
+                        {
+                            "char": "you",
+                            "content": "If you insist..."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Yaay~",
+                            "charImg": "Ori17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'm gonna go home a little bit early today.",
+                            "charImg": "Ori1.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Sayori...?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Tell Monika I wasn't feeling well, okay?",
+                            "charImg": "Say17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'll see you tomorrow~"
+                        },
+                        {
+                            "content": "Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                        }
+                    ],
+                    "option3":
+                    [
+                        {
+                            "char": "Sayori",
+                            "content": "...",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "...Hm.",
+                            "charImg": "Say11.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "It's nice, I guess~"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Come on, I can already tell you don't like it."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Well...",
+                            "charImg": "Say4.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You don't need to worry about what I think."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "After all, you wrote this for someone else, didn't you?",
+                            "charImg": "Ori25.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Probably #route...",
+                            "usesVar": true
+                        },
+                        {
+                            "char": "you",
+                            "content": "Eh??"
+                        },
+                        {
+                            "char": "you",
+                            "content": "I didn't write this for anyone specifically!"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Maybe..."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That's not really what I meant, though.",
+                            "charImg": "Say5.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "But it's okay."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You're making new friends, just like I was hoping."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That makes me...really happy.",
+                            "charImg": "Say17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "And you're happy too, right?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "In this club?",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Well..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Of course I am."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Good~",
+                            "charImg": "Ori17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "That's all that matters to me."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Thank you, #var.",
+                            "charImg": "Say5.png",
+                            "usesVar": true
+                        },
+                        {
+                            "char": "you",
+                            "content": "Sayori..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Is there something wrong?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Huh?",
+                            "charImg": "Say26.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "No, nothing.",
+                            "charImg": "Say11.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'm just a little tired today."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Ehehe.",
+                            "charImg": "Say12.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Alright..."
+                        },
+                        {
+                            "char": "you",
+                            "content": "Just tell me if you need anything."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I will.",
+                            "charImg": "Say1.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Don't worry about me, okay?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "You can go play with everyone else now."
+                        },
+                        {
+                            "char": "you",
+                            "content": "If you insist..."
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Yaay~",
+                            "charImg": "Ori17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'm gonna go home a little bit early today.",
+                            "charImg": "Ori1.png"
+                        },
+                        {
+                            "char": "you",
+                            "content": "Sayori...?"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "Tell Monika I wasn't feeling well, okay?",
+                            "charImg": "Say17.png"
+                        },
+                        {
+                            "char": "Sayori",
+                            "content": "I'll see you tomorrow~"
+                        },
+                        {
+                            "content": "Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                        }     
+                      ]
+                }
             ],
             "like": [
                 {
@@ -858,7 +1572,7 @@
                     "content": "I'll see you tomorrow~"
                 },
                 {
-                    "content": "\"Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                    "content": "Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
                 }
             ],
             "dislike": [
@@ -1037,7 +1751,7 @@
                     "content": "I'll see you tomorrow~"
                 },
                 {
-                    "content": "\"Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
+                    "content": "Before I can say anything else, Sayori cheerfully walks out of the classroom, humming to herself.\""
                 }
             ],
             "end": [
@@ -1051,6 +1765,7 @@
         },
         "Monika":[
             {
+                "musicGroup":"my-feelings-end",
                 "sayori":[
                     {
                         "options": true,
@@ -1473,7 +2188,7 @@
                                 "content": "Is that so..."
                             },
                             {
-                                "content": "\"I kind of knew that, but I just didn't want to admit it.\"\r"
+                                "content": "I kind of knew that, but I just didn't want to admit it.", "char":"nobody"
                             },
                             {
                                 "char": "Monika",
@@ -1520,10 +2235,10 @@
                                 "content": "That's--"
                             },
                             {
-                                "content": "\"I'm not sure how to respond to Monika.\"\r"
+                                "content": "I'm not sure how to respond to Monika.", "char":"nobody"
                             },
                             {
-                                "content": "\"While I care about her and the club, it's also kind of unfair to bring that up.\"\r"
+                                "content": "While I care about her and the club, it's also kind of unfair to bring that up.", "char":"nobody"
                             },
                             {
                                 "char": "Monika",
@@ -1534,7 +2249,7 @@
                                 "content": "I'm sure you'll do the right thing."
                             },
                             {
-                                "content": "\"Monika smiles sweetly.\""
+                                "content": "Monika smiles sweetly.\""
                             }
                         ],
                         "option2":[
@@ -2296,7 +3011,7 @@
                 "content": "Well..."
             },
             {
-                "content": "\"Being in this club is one thing, but performing in front of a bunch of people...\"\r"
+                "content": "Being in this club is one thing, but performing in front of a bunch of people...", "char":"nobody"
             },
             {
                 "char": "you",
@@ -2330,7 +3045,7 @@
                 "content": "Sure..."
             },
             {
-                "content": "\"I let Monika take the poem I'm holding in my hands.\"\r"
+                "content": "I let Monika take the poem I'm holding in my hands.", "char":"nobody"
             },
             {
                 "char": "Monika",
@@ -2339,10 +3054,27 @@
         ]
     },
     {
+
+    },
+    {
+
+    },
+    {
+
+    },
+    {
         "char": "Monika",
         "content": "...Okay, you three!",
         "charImg":"Ika2.png",
-        "music":"main-theme.mp3"
+        "music":"main-theme.mp3",
+        "musicGroup":"end"
+    },
+    {
+        "char": "Monika",
+        "content": "...Okay, you three!",
+        "charImg":"Ika2.png",
+        "music":"main-theme.mp3",
+        "musicGroup":"end"
     },
     {
         "char": "Monika",
@@ -2419,7 +3151,7 @@
     },
     {
         "char": "you",
-        "content": "In <i>your</i> books, maybe!",
+        "content": "\"In <i>your</i> books, maybe!\"",
         "animation":"return"
     },
     {
@@ -2528,7 +3260,7 @@
     },
     {
         "char": "you",
-        "content": "<i>That curious expression coming from Yuri, of all people??</i>",
+        "content": "\"<i>That curious expression coming from Yuri, of all people??</i>\"",
         "animation":"return"
     },
     {
@@ -2559,7 +3291,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "I already know what <i>I'm</i> doing!",
+        "content": "\"I already know what <i>I'm</i> doing!\"",
         "animation":[{"direction":"height","value":"100%"},{"direction":"height","value":"103%","char":"Natsuki"}],
         "newCharacter":[{"char":"Natsuki","charImg":"Y23.png"}]
     },
@@ -2727,7 +3459,7 @@
         "newCharacter":[{"char": "Yuri","charImg":"YAngry.png"}]
     },
     {
-        "content": "\"Yuri's expression suddenly changes as she stares at her desk in focus and starts nodding to herself.\"\r",
+        "content": "Yuri's expression suddenly changes as she stares at her desk in focus and starts nodding to herself.", "char":"nobody",
         "newCharacter":[{"char": "Yuri","charImg":"Yuu2.png"}]
     },
     {
@@ -2798,10 +3530,10 @@
         "content": "That's..."
     },
     {
-        "content": "\"Is Monika suggesting I spend the weekend with one of my club members?\"\r"
+        "content": "Is Monika suggesting I spend the weekend with one of my club members?", "char":"nobody"
     },
     {
-        "content": "\"How on Earth are they going to respond to a suggestion like that...?\"\r"
+        "content": "How on Earth are they going to respond to a suggestion like that...?", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -2825,7 +3557,7 @@
         "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms4.png"}]
     },
     {
-        "content": "\"Natsuki tries to mumble a bunch of excuses like that.\"\r"
+        "content": "Natsuki tries to mumble a bunch of excuses like that.", "char":"nobody"
     },
     {
         "char": "Yuri",
@@ -2921,7 +3653,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "You <i>literally</i> just said--",
+        "content": "\"You <i>literally</i> just said--\"",
         "animation":[{"direction":"height","value":"103%","char":"Natsuki"},{"direction":"height","value":"100%"}],
         "newCharacter":[{"char":"Natsuki","charImg":"Y17.png"}]
     },
@@ -2994,7 +3726,7 @@
         "animation":[{"direction":"height","value":"103%"},{"direction":"height","value":"100%","char":"Yuri"}]
     },
     {
-        "content": "\"Everyone looks straight at me.\"",
+        "content": "Everyone looks straight at me.\"",
         "animation":"return"
     },
     {
@@ -3103,7 +3835,7 @@
                 "charImg":"Mon14.png"
             },
             {
-                "content": "\"Even though Yuri is being melodramatic, it's a little hard to not feel bad...\"\r"
+                "content": "Even though Yuri is being melodramatic, it's a little hard to not feel bad...", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3190,7 +3922,7 @@
                 "newCharacter":[{"char":"Natsuki","charImg":"LeftArm4.png"}]
             },
             {
-                "content": "\"Natsuki starts pouting, too.\"\r"
+                "content": "Natsuki starts pouting, too.", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3233,7 +3965,7 @@
                 "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms6.png"}]
             },
             {
-                "content": "\"Natsuki glances back and forth between everyone with a worried expression.\"\r",
+                "content": "Natsuki glances back and forth between everyone with a worried expression.", "char":"nobody",
                 "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}]
             },
             {
@@ -3242,7 +3974,7 @@
                 "newCharacter":[{"char":"Natsuki","charImg":"Schoolu.png"}]
             },
             {
-                "content": "\"Natsuki goes over and puts her hands down on Yuri's shoulders.\"\r"
+                "content": "Natsuki goes over and puts her hands down on Yuri's shoulders.", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3285,7 +4017,7 @@
                 "newCharacter":[{"char":"Natsuki","charImg":"Y26.png"}]
             },
             {
-                "content": "\"Natsuki releases her hands and turns around to face the other direction.\"\r"
+                "content": "Natsuki releases her hands and turns around to face the other direction.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -3308,26 +4040,26 @@
                 "content": "N-Not really, but..."
             },
             {
-                "content": "\"Yuri isn't the only one surprised.\"\r",
+                "content": "Yuri isn't the only one surprised.", "char":"nobody",
                 "animation":"return"
             },
             {
-                "content": "\"Monika and I are also taken aback by Natsuki's words.\"\r"
+                "content": "Monika and I are also taken aback by Natsuki's words.", "char":"nobody"
             },
             {
-                "content": "\"Natsuki, of all people, to be saying such encouraging things.\"\r"
+                "content": "Natsuki, of all people, to be saying such encouraging things.", "char":"nobody"
             },
             {
-                "content": "\"But I begin to understand.\"\r"
+                "content": "But I begin to understand.", "char":"nobody"
             },
             {
-                "content": "\"Natsuki was trying to sound like Sayori.\"\r"
+                "content": "Natsuki was trying to sound like Sayori.", "char":"nobody"
             },
             {
-                "content": "\"Even if it didn't work perfectly, I can tell that she tried to say something Sayori would say at a time like this.\"\r"
+                "content": "Even if it didn't work perfectly, I can tell that she tried to say something Sayori would say at a time like this.", "char":"nobody"
             },
             {
-                "content": "\"Because Sayori always helps everyone smile and feel good about themselves.\"\r"
+                "content": "Because Sayori always helps everyone smile and feel good about themselves.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -3390,13 +4122,13 @@
                 "animation":[{"direction":"height","value":"103%"},{"direction":"height","value":"100%","char":"Natsuki"}]
             },
             {
-                "content": "\"Everyone packs up their things.\"\r",
+                "content": "Everyone packs up their things.", "char":"nobody",
                 "newCharacter":"erase",
                 "newBackground": "transition",
                 "charImg":"non"
             },
             {
-                "content": "\"I start to follow Monika and Yuri out the door as they chat between each other.\"\r"
+                "content": "I start to follow Monika and Yuri out the door as they chat between each other.", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3450,7 +4182,7 @@
                 "charImg":"Schoolr.png"
             },
             {
-                "content": "\"Natsuki gives me her number.\"\r"
+                "content": "Natsuki gives me her number.", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3471,7 +4203,7 @@
             },
             {
                 "char": "you",
-                "content": "You're coming to <i>my</i> house?"
+                "content": "\"You're coming to <i>my</i> house?\""
             },
             {
                 "char": "Natsuki",
@@ -3731,7 +4463,7 @@
                 "animation":"return"
             },
             {
-                "content": "\"Everyone can tell that Natsuki is feeling a little sour.\"\r"
+                "content": "Everyone can tell that Natsuki is feeling a little sour.", "char":"nobody"
             },
             {
                 "char": "you",
@@ -3824,7 +4556,7 @@
                 "newCharacter":[{"char":"Yuri","charImg":"YWorried.png"}]
             },
             {
-                "content": "\"Yuri anxiously glances between everyone in the room.\"\r"
+                "content": "Yuri anxiously glances between everyone in the room.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -3903,25 +4635,25 @@
                 "newCharacter":[{"char":"Yuri","charImg":"YSSad.png"}]
             },
             {
-                "content": "\"Natsuki isn't the only one surprised.\"\r"
+                "content": "Natsuki isn't the only one surprised.", "char":"nobody"
             },
             {
-                "content": "\"Monika and I are also taken aback by Yuri's words.\"\r"
+                "content": "Monika and I are also taken aback by Yuri's words.", "char":"nobody"
             },
             {
-                "content": "\"When she already has trouble with words, trying to cheer someone up must be far out of her own comfort zone.\"\r"
+                "content": "When she already has trouble with words, trying to cheer someone up must be far out of her own comfort zone.", "char":"nobody"
             },
             {
-                "content": "\"But I begin to understand.\"\r"
+                "content": "But I begin to understand.", "char":"nobody"
             },
             {
-                "content": "\"Yuri was trying to sound like Sayori.\"\r"
+                "content": "Yuri was trying to sound like Sayori.", "char":"nobody"
             },
             {
-                "content": "\"Even if it didn't work perfectly, I can tell that she tried to say something Sayori would say at a time like this.\"\r"
+                "content": "Even if it didn't work perfectly, I can tell that she tried to say something Sayori would say at a time like this.", "char":"nobody"
             },
             {
-                "content": "\"Because Sayori always helps everyone smile and feel good about themselves.\"\r"
+                "content": "Because Sayori always helps everyone smile and feel good about themselves.", "char":"nobody"
             },
             {
                 "char": "Natsuki",
@@ -3991,14 +4723,14 @@
                 "animation":[{"direction":"return"},{"direction":"height","value":"103%","char":"Natsuki"}]
             },
             {
-                "content": "\"Everyone packs up their things.\"\r",
+                "content": "Everyone packs up their things.", "char":"nobody",
                 "newCharacter":"erase",
                 "newBackground": "transition",
                 "music":"stop",
                 "charImg":"non"
             },
             {
-                "content": "\"I start to follow Monika and Natsuki out the door as they chat between each other.\"\r"
+                "content": "I start to follow Monika and Natsuki out the door as they chat between each other.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -4011,7 +4743,7 @@
                 "content": "Eh?"
             },
             {
-                "content": "\"I turn around.\"\r"
+                "content": "I turn around.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -4044,7 +4776,7 @@
                 "content": "Alright, then..."
             },
             {
-                "content": "\"Yuri and I exchange phone numbers.\"\r"
+                "content": "Yuri and I exchange phone numbers.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -4097,10 +4829,10 @@
                 "content": "In that case, it won't be a problem."
             },
             {
-                "content": "\"I decide not to press Yuri for a reason.\"\r"
+                "content": "I decide not to press Yuri for a reason.", "char":"nobody"
             },
             {
-                "content": "\"It's not like it should matter much either way, so I'll just need to make sure my room is clean.\"\r"
+                "content": "It's not like it should matter much either way, so I'll just need to make sure my room is clean.", "char":"nobody"
             },
             {
                 "char": "you",
@@ -4159,7 +4891,7 @@
                 "charImg":"YSSad.png"
             },
             {
-                "content": "\"Yuri thinks to herself with an extremely tense expression.\"\r"
+                "content": "Yuri thinks to herself with an extremely tense expression.", "char":"nobody"
             },
             {
                 "char": "you",
@@ -4196,10 +4928,10 @@
                 "charImg":"YSSad2.png"
             },
             {
-                "content": "\"Yuri thinks really hard again.\"\r"
+                "content": "Yuri thinks really hard again.", "char":"nobody"
             },
             {
-                "content": "\"She looks straight into my eyes for a long while.\"\r"
+                "content": "She looks straight into my eyes for a long while.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -4207,7 +4939,7 @@
                 "charImg":"Yuu2.png"
             },
             {
-                "content": "\"As if it took her tremendous effort, Yuri finally says that and relaxes her expression.\"\r"
+                "content": "As if it took her tremendous effort, Yuri finally says that and relaxes her expression.", "char":"nobody"
             },
             {
                 "char": "Yuri",
@@ -4223,7 +4955,7 @@
                 "content": "I am too."
             },
             {
-                "content": "\"After that exchange, I make my way out the door, and Yuri follows.\"",
+                "content": "After that exchange, I make my way out the door, and Yuri follows.\"",
                 "charImg":"non"
             }
         ],
@@ -4379,7 +5111,7 @@
             },
             {
                 "char": "Natsuki",
-                "content": "<i>Excuse</i> me?",
+                "content": "\"<i>Excuse</i> me?\"",
                 "animation":[{"direction":"height","value":"100%"},{"direction":"height","value":"103%","char":"Natsuki"}],
                 "newCharacter":[{"char":"Natsuki","charImg":"Schooly.png"}]
             },
@@ -4436,7 +5168,7 @@
             },
             {
                 "char": "Natsuki",
-                "content": "So are you going to do the right thing, {i}President{/i}?",
+                "content": "So are you going to do the right thing, <i>President</i>?",
                 "newCharacter":[{"char":"Natsuki","charImg":"Y26.png"}],
                 "animation":[{"char":"Natsuki", "direction":"height","value":"103%"},{"direction":"height","value":"100%"}]
             },
@@ -4481,38 +5213,38 @@
     },
     {
         "newCharacter":"erase",
-        "content": "\"I can't believe this!\"\r",
+        "content": "I can't believe this!", "char":"nobody",
         "newBackground":"barrio.png"
     },
     {
         "usesVar":true,
-        "content": "\"#choice is going to be coming to my house on Sunday...?\"\r"
+        "content": "#choice is going to be coming to my house on Sunday...?", "char":"nobody"
     },
     {
-        "content": "\"My anxiety shoots through the roof.\"\r"
+        "content": "My anxiety shoots through the roof.", "char":"nobody"
     },
     {
-        "content": "\"Even though I've gotten pretty used to handling her at this point...\"\r"
+        "content": "Even though I've gotten pretty used to handling her at this point...", "char":"nobody"
     },
     {
-        "content": "\"There's no telling what might end up happening when we're outside of school.\"\r"
+        "content": "There's no telling what might end up happening when we're outside of school.", "char":"nobody"
     },
     {
-        "content": "\"More than that...she told me that she was looking forward to it.\"\r"
+        "content": "More than that...she told me that she was looking forward to it.", "char":"nobody"
     },
     {
-        "content": "\"Is this the chance I have to make something happen between us?\"\r"
+        "content": "Is this the chance I have to make something happen between us?", "char":"nobody"
     },
     {
-        "content": "\"...Or is it too early for that?\"\r"
+        "content": "...Or is it too early for that?", "char":"nobody"
     },
     {
-        "content": "\"Only time will tell...\"\r"
+        "content": "Only time will tell...", "char":"nobody"
     },
     {
-        "content": "\"But until then, I won't be able to take my mind off it.\"\r"
+        "content": "But until then, I won't be able to take my mind off it.", "char":"nobody"
     },
     {
-        "content": "\"I seriously can't wait!\""
+        "content": "I seriously can't wait!\""
     }
 ]

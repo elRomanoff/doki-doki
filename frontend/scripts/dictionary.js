@@ -233,6 +233,8 @@ let dictionary = {
     "3aa.png": window.location.origin + "/api/img/3aa.png",
     "3bb.png": window.location.origin + "/api/img/3bb.png",
 
+    
+
     //BACKGROUNDS
     "Class.png": window.location.origin + "/api/img/bg/Class.png",
     "Club.png": window.location.origin + "/api/img/bg/Club.png",
@@ -247,8 +249,8 @@ let dictionary = {
     //Sayori
     "sayori-bg-1.png": window.location.origin + "/api/img/bg/sayori-bg-1.png",
     
-    "sayori-bg2-1.png": window.location.origin +"/api/img/bg/sayori-bg2-1.png",
-    "sayori-bg2-2.png": "https://scontent.fsty3-1.fna.fbcdn.net/v/t39.30808-6/289877624_5334851013295929_7662543301281405987_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0debeb&_nc_ohc=ojoexHbmADoAX9TxwRU&_nc_ht=scontent.fsty3-1.fna&oh=00_AT_XjY6ZdM_MSwXf_rxdFqeewBj-vtvIPQyF81jc37RIcA&oe=62BFA205",
+    "sayori-bg2-1.png": window.location.origin + "/api/img/bg/sayori-bg2-1.png",
+    "sayori-bg2-2.png": window.location.origin + "/api/img/bg/sayori-bg2-1.png",
     "sayori-bg2-3.png": "https://scontent.fsty3-1.fna.fbcdn.net/v/t39.30808-6/289931736_5334851023295928_755724118788519877_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=0debeb&_nc_ohc=jxPRdcK3rEQAX8VJaQn&_nc_ht=scontent.fsty3-1.fna&oh=00_AT9OKwOLWjgE_seZt3v7e0KLkl8f4ldQHnmUESJWF9CW_w&oe=62BF8A1D",
     "sayori-bg2-4.png": "https://scontent.fsty3-1.fna.fbcdn.net/v/t39.30808-6/288779336_5334851153295915_7895092477482200250_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0debeb&_nc_ohc=4HdJT8lCh4gAX9KtsDX&_nc_ht=scontent.fsty3-1.fna&oh=00_AT_WQ5cDL9mt9USaUK2gWXI_JjbAlAIS9VfCMNFVFt7pOQ&oe=62BEDD6D",
     "sayori-bg2-5.png": "https://scontent.fsty3-1.fna.fbcdn.net/v/t39.30808-6/289308508_5334851213295909_6277423624068676777_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0debeb&_nc_ohc=nLwFCetloYMAX8zZn1i&_nc_ht=scontent.fsty3-1.fna&oh=00_AT_hF8tsYgaVcU1Vzm5JKzZhQbwtu1F7pLtyUMZ5X9Ytcw&oe=62BF6795",

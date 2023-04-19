@@ -1,0 +1,350 @@
+[
+
+  {
+      "char": "Monika",
+      "newBackground": "Club.png",
+      "usesVar":true,
+      "content": "#var!",
+      "charImg":"3aa.png"
+  },
+  {
+      "char": "Monika",
+      "content": "You're the first one here."
+  },
+  {
+      "char": "Monika",
+      "content": "Thanks for being early!"
+  },
+  {
+      "char": "you",
+      "content": "That's funny, I thought at least Yuri would be here by now."
+  },
+  {
+      "content": "Monika is placing little booklets on each of the desks in the classroom.","char":"nobody"
+  },
+  {
+      "content": "They must be the ones she prepared that has all the poems we're performing.","char":"nobody"
+  },
+  {
+      "content": "In the end, I found a random poem online that I thought Monika would like, and submitted it.","char":"nobody"
+  },
+  {
+      "content": "So, that's the one I'll be performing.","char":"nobody"
+  },
+  {
+      "char": "Monika",
+      "content": "I'm surprised you didn't bring Sayori with you.",
+      "charImg":"Mon4.png"
+  },
+  {
+      "char": "you",
+      "content": "Yeah, she overslept again..."
+  },
+  {
+      "char": "you",
+      "content": "That dummy."
+  },
+  {
+      "char": "you",
+      "content": "You'd think that on days this important, she'd try a little harder..."
+  },
+  {
+      "content": "I say that, but I suddenly remember what Sayori told me yesterday...","char":"nobody"
+  },
+  {
+      "content": "And I suddenly feel awful, knowing it's not nearly that simple for her.","char":"nobody"
+  },
+  {
+      "content": "I only said it because it's the way I'm used to thinking.","char":"nobody"
+  },
+  {
+      "content": "But...","char":"nobody"
+  },
+  {
+      "content": "Maybe I should have gone to wake her up after all?","char":"nobody"
+  },
+  {
+      "char": "Monika",
+      "content": "Ahaha.",
+      "charImg":"Mon11.png"
+  },
+  {
+      "char": "Monika",
+      "content": "You should take a little responsibility for her, #var!",
+      "charImg":"Ika2.png",
+      "usesVar":true
+  },
+  {
+      "char": "Monika",
+      "content": "I mean, especially after your exchange with her yesterday..."
+  },
+  {
+      "char": "Monika",
+      "content": "You kind of left her hanging this morning, you know?"
+  },
+  {
+      "content": "Exchange...?",
+      "charImg":"Ika1.png"
+  },
+  {
+      "char": "you",
+      "content": "Monika-- You know about that??"
+  },
+  {
+      "char": "Monika",
+      "content": "Of course I do.",
+      "charImg":"Monika1.png"
+  },
+  {
+      "char": "Monika",
+      "content": "I'm the club president, after all."
+  },
+  {
+      "char": "you",
+      "content": "But--!"
+  },
+  {
+      "content": "I stammer, embarrassed.","char":"nobody"
+  },
+  {
+      "content": "Did Sayori really tell her about it that quickly?","char":"nobody"
+  },
+  {
+    "content": "About how I basically turned down her confession?",
+    "char":"nobody"
+  },
+  {
+    "content": "That makes me really seem like the bad guy here...",
+    "char":"nobody"
+  },
+  {
+    "content": "But I'm the one who knows what's best for her, right?",
+    "char":"nobody"
+  },
+  {
+      "char": "you",
+      "content": "Jeez..."
+  },
+  {
+      "char": "you",
+      "content": "You don't know the full story at all, so..."
+  },
+  {
+      "char": "Monika",
+      "content": "Don't worry.",
+      "charImg":"Monika11.png"
+  },
+  {
+      "char": "Monika",
+      "content": "I probably know a lot more than you think."
+  },
+  {
+      "char": "you",
+      "content": "Eh...?"
+  },
+  {
+      "content": "Monika is being as friendly as usual, but for some reason I felt a chill down my spine after hearing that.","char":"nobody"
+  },
+  {
+      "char": "Monika",
+      "content": "Hey, do you want to check out the pamphlets?",
+      "charImg":"3aa.png"
+  },
+  {
+      "char": "Monika",
+      "content": "They came out really nice!"
+  },
+  {
+      "char": "you",
+      "content": "Yeah, sure."
+  },
+  {
+      "content": "I grab one of the pamphlets laid out on the desks.","char":"nobody"
+  },
+  {
+      "char": "you",
+      "content": "Oh yeah, they really did."
+  },
+  {
+      "char": "you",
+      "content": "Something like this will definitely help people take the club more seriously."
+  },
+  {
+      "char": "Monika",
+      "content": "Yeah, I thought so too!"
+  },
+  {
+      "content": "I flip through the pages",
+      "charImg":"non"
+  },
+  {
+      "content": "Each member's poem is neatly printed on its own page, giving it an almost professional feel.","char":"nobody"
+  },
+  {
+      "content": "I recognize Natsuki's and Yuri's poems from the ones they performed during our practice.","char":"nobody"
+  },
+  {
+      "char": "you",
+      "content": "What's this...?"
+  },
+  {
+      "content": "I flip to Sayori's poem.","char":"nobody"
+  },
+  {
+      "content": "It's different from the one she practiced.","char":"nobody"
+  },
+  {
+      "content": "It's one that I haven't read before...","char":"nobody"
+  },
+  {
+    "poem":{
+      "content": "Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of my head. Get out of<br/>Get.<br/>Out.<br/>Of.<br/>My.<br/>Head.<br/>Get out of my head before I do what I know is best for you.<br/>Get out of my head before I listen to everything she said to me.<br/>Get out of my head before I show you how much I love you.<br/>Get out of my head before I finish writing this poem.<br/>But a poem is never actually finished.<br/>It just stops moving.",
+      "title":"%",
+      "char":"s"
+    },
+    "content":"................................................."
+  },
+  {
+      "content": "What is this...?","char":"nobody",
+      "poem":"quit"
+  },
+  {
+      "content": "Reading the poem, I get a pit in my stomach.","char":"nobody"
+  },
+  {
+    "usesVar":true,
+    "charImg":"Mon4.png",
+    "content": "#var?"
+  },
+  {
+      "char": "Monika",
+      "content": "What's wrong?"
+  },
+  {
+      "char": "you",
+      "content": "Ah, nothing..."
+  },
+  {
+      "content": "This poem feels completely different from everything else Sayori's written.","char":"nobody"
+  },
+  {
+      "content": "But more than that...","char":"nobody"
+  },
+  {
+      "char": "you",
+      "content": "I-I changed my mind!"
+  },
+  {
+      "char": "you",
+      "content": "I'm going to go get Sayori, so..."
+  },
+  {
+      "char": "Monika",
+      "content": "Ah--"
+  },
+  {
+      "char": "Monika",
+      "content": "Well, alright!",
+      "charImg":"Mon2.png"
+  },
+  {
+      "char": "Monika",
+      "content": "Try not to take too long, okay?"
+  },
+  {
+      "content": "I quickly leave the class room.",
+      "char":"nobody",
+      "newBackground":"Corridor.png"
+  },
+  {
+      "char": "Monika",
+      "content": "Don't strain yourself~"
+  },
+  {
+      "content": "Monika calls that out after me.","char":"nobody"
+  },
+  {
+      "content": "I quicken my pace.","char":"nobody"
+  },
+  {
+      "content": "What was I thinking?",
+      "char":"nobody",
+      "newBackground":"barrio.png"
+  },
+  {
+      "content": "I should have tried a little bit harder for Sayori.","char":"nobody"
+  },
+  {
+      "content": "It's not a big deal to at least wait for her, or help her wake up.","char":"nobody"
+  },
+  {
+      "content": "Even the simple gesture of walking her to school makes her really happy.","char":"nobody"
+  },
+  {
+      "content": "Besides...","char":"nobody"
+  },
+  {
+      "content": "I told her yesterday that things will be the same as they always have been.","char":"nobody"
+  },
+  {
+      "content": "That's all she needs, and what I want to give her.","char":"nobody"
+  },
+  {
+      "content": "I reach Sayori's house and knock on the door",
+      "newBackground":"house.png"
+  },
+  {
+      "content": "I don't expect an answer, since she's not picking up her phone, either.","char":"nobody"
+  },
+  {
+      "content": "Like yesterday, I open the door and let myself in.","char":"nobody"
+  },
+  {
+      "content": "Sayori?",
+      "char":"you",
+      "newBackground":"black"
+  },
+  {
+      "content": "She really is a heavy sleeper...","char":"nobody"
+  },
+  {
+      "content": "I swallow.","char":"nobody"
+  },
+  {
+      "content": "I can't believe I ended up doing this after all.","char":"nobody"
+  },
+  {
+      "content": "Waking her up in her own house...","char":"nobody"
+  },
+  {
+    "char":"nobody",
+   "content": "Isn't that more like something a boyfriend would do?"
+  },
+  {
+      "content": "Outside Sayori's room, I knock on her door.","char":"nobody"
+  },
+  {
+      "char": "you",
+      "content": "Sayori?"
+  },
+  {
+      "char": "you",
+      "content": "Wake up, dummy..."
+  },
+  {
+      "content": "There's no response.","char":"nobody"
+  },
+  {
+      "content": "I really didn't want to have to enter her room like this...","char":"nobody"
+  },
+  {
+      "content": "Isn't it kind of a breach of privacy?","char":"nobody"
+  },
+  {
+      "content": "But she really leaves me no choice.","char":"nobody"
+  },
+  {
+      "content": "I gently open the door.\""
+  }
+
+]

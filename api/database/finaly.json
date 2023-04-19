@@ -3,7 +3,8 @@
         "content": "It's already Sunday.","char":"nobody",
         "newBackground": "barrio.png",
         "newCharacter": "erase",
-        "music":"playwithme.mp3"
+        "music":"playwithme.mp3",
+        "next":"final-day"
     },
     {
         "content": "I've been getting increasingly anxious about Natsuki's upcoming visit.","char":"nobody"
@@ -1923,7 +1924,7 @@
         "content": "Eh...?"
     },
     {
-        "content": "Yuri calling {i}me{/i} weird?","char":"nobody"
+        "content": "Yuri calling <i>me</i> weird?", "char":"nobody"
     },
     {
         "content": "I have no response to that...","char":"nobody"
@@ -2868,8 +2869,7 @@
         "char": "you",
         "content": "Sayori--",
         "charImg": "Yori1.png",
-        "newCharacter": "erase",
-        "music":"my-feelings.mp3"
+        "newCharacter": "erase"
     },
     {
         "char": "you",
@@ -2891,6 +2891,7 @@
     {
         "char": "Sayori",
         "content": "So I had to come here and see it for myself.",
+        "music":"my-confession.mp3",
         "charImg": "Yori25.png"
     },
     {
@@ -3151,7 +3152,8 @@
             },
             {
                 "char": "you",
-                "content": "Those are my true feelings."
+                "content": "Those are my true feelings.",
+                "nextRoute":"s"
             },
             {
                 "char": "you",
@@ -3448,7 +3450,8 @@
         ],
         "Monika":[{
                 "char": "you",
-                "content": "You'll always be my dearest friend."
+                "content": "You'll always be my dearest friend.",
+                "charImg":{"background":"break"}
             },
             {
                 "char": "you",
@@ -3456,7 +3459,8 @@
             },
             {
                 "char": "you",
-                "content": "Monika told me the truth..."
+                "content": "Monika told me the truth...",
+                "nextRoute":"m"
             },
             {
                 "char": "you",
@@ -3581,7 +3585,7 @@
             },
             {
                 "char": "Sayori",
-                "content": "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
+                "content": "<i>AAAAAaaaaAAAAAAAAHH!!!!</i>"
             },
             {
                 "content": "\"Clutching her head with both hands, she screams as loudly as she can.\"\r"
@@ -3641,5 +3645,50 @@
                 "content": "\"And I'll do whatever it takes to put a smile on her face every day.\""
             }
         ]
+    },
+    {
+        "content":" ",
+        "newBackground":"barrio.png"
+    },
+    {
+        "content": "It's the day of the festival.",
+        "char":"nobody",
+        "newBackground": "barrio.png"
+      },
+      {
+        "content": "Of all days, I expected this to be the one where I'd be walking to school with Sayori.",
+        "char":"nobody"
+      },
+      {
+        "content": "But Sayori isn't answering her phone.",
+        "char":"nobody"
+      },
+      {
+        "content": "I considered going to her house to wake her up, but decided that's a little too much.",
+        "char":"nobody"
+      },
+      {
+        "content": "Meanwhile, the preparations for the event should be nearly complete.",
+        "char":"nobody"
+      },
+      {
+        "content": "The banner Yuri and I painted is dry, and I gently rolled it up to take with me.",
+        "char":"nobody"
+      },
+      {
+        "content":"She sent me a pleasant text reminding me not to forget anything, and I reassured her.",
+        "char":"nobody"
+    },
+    {
+        "content":"Funnily enough, I probably feel the same way as Natsuki about the event.",
+        "char":"nobody"
+    },
+    {
+        "content":"I'm more excited for it to be over so I can spend time with Sayori and Yuri at the festival.",
+        "char":"nobody"
+    },
+    {
+        "content": "But knowing Monika, I'm sure the event will be great, too.",
+        "char":"nobody"
     }
 ]

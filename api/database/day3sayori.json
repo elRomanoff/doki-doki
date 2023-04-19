@@ -229,34 +229,34 @@
     },
     {
         "char": "Sayori",
-        "content": "{i}The last remaining flower beckons to me.{/i}"
+        "content": "<i>The last remaining flower beckons to me.</i>"
     },
     {
         "char": "Sayori",
-        "content": "{i}I twist the stem, freeing it from its clinging roots...{/i}",
+        "content": "<i>I twist the stem, freeing it from its clinging roots...</i>",
         "charImg":"Say3.png"
     },
     {
         "char": "Sayori",
-        "content": "{i}Caressing the final joyous moment between my fingers.{/i}"
+        "content": "<i>Caressing the final joyous moment between my fingers.</i>"
     },
     {
         "char": "Sayori",
-        "content": "{i}But to what ends have I summoned this joy?{/i}",
+        "content": "<i>But to what ends have I summoned this joy?</i>",
         "charImg":"Sayori2.png"
     },
     {
         "char": "Sayori",
-        "content": "{i}For now when I look in every direction...{/i}"
+        "content": "<i>For now when I look in every direction...</i>"
     },
     {
         "char": "Sayori",
-        "content": "{i}The once-prosperous field before me...{/i}",
+        "content": "<i>The once-prosperous field before me...</i>",
         "charImg":"Say10.png"
     },
     {
         "char": "Sayori",
-        "content": "{i}Is but a barren wasteland!{/i}",
+        "content": "<i>Is but a barren wasteland!</i>",
         "charImg":"Ori13.png",
         "animation":[{"direction":"jump"}]
     },
@@ -422,7 +422,7 @@
     },
     {
         "sound": "slap",
-        "content": "{i}Smack!{/i}", "char":"nobody",
+        "content": "<i>Smack!</i>", "char":"nobody",
         "charImg":"Ori16.png"
     },
     {

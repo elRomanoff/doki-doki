@@ -41,6 +41,13 @@ router.get("/finaly", (req, res) => {
     res.sendFile(path.join(__dirname, '../database/finaly.json'))
 })
 
+router.get("/final-daym", (req, res) => {
+    res.sendFile(path.join(__dirname, '../database/final-daym.json'))
+})
+router.get("/final-days", (req, res) => {
+    res.sendFile(path.join(__dirname, '../database/final-days.json'))
+})
+
 router.get("/day3/:char", (req, res) => {
     if (req.params.char === "sayori") {
         res.sendFile(path.join(__dirname, '../database/day3sayori.json'))

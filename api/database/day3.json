@@ -5911,6 +5911,16 @@
     {
         "char": "Monika",
         "newBackground":"Club.png",
+        
+        "content": "Okay, everyone!",
+        "charImg":"Ika2.png",
+        "music":"main-theme.mp3",
+        "musicGroup":"end"
+    },
+    {
+        "char": "Monika",
+        "newBackground":"Club.png",
+        
         "content": "Okay, everyone!",
         "charImg":"Ika2.png",
         "music":"main-theme.mp3",
@@ -6535,7 +6545,7 @@
     },
     {
         "char": "Yuri",
-        "content": "It...It's called...{i}Afterimage of a Crimson Eye{/i}."
+        "content": "It...It's called...<i>Afterimage of a Crimson Eye</i>."
     },
     {
         "content": "Yuri's voice shakes as she starts reading the poem.","char":"nobody"

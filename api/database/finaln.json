@@ -4,7 +4,8 @@
         "char": "nobody",
         "newBackground": "barrio.png",
         "newCharacter": "erase",
-        "music":"playwithme.mp3"
+        "music":"playwithme.mp3",
+        "next":"final-day"
     },
     {
         "content": "I've been getting increasingly anxious about Natsuki's upcoming visit.",
@@ -1286,7 +1287,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "Now you <i>are</i> treating me like a kid!"
+        "content": "\"Now you <i>are</i> treating me like a kid!"
     },
     {
         "char": "Natsuki",
@@ -1303,7 +1304,7 @@
         "charImg":"Casual15.png"
     },
     {
-        "content": "\"Natsuki catches her words, and her face turns red.\"\r"
+        "content": "Natsuki catches her words, and her face turns red.\r"
     },
     {
         "char": "you",
@@ -1402,7 +1403,8 @@
         "charImg":"Arm4.png"
     },
     {
-        "content": "\"Natsuki smiles deviously.\"\r"
+        "content": "Natsuki smiles deviously.",
+        "char":"nobody"
     },
     {
         "char": "you",
@@ -1624,7 +1626,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "I don't want <i>your</i> gross fingers in my icing.",
+        "content": "\"I don't want <i>your</i> gross fingers in my icing.\"",
         "charImg":"S19.png"
     },
     {
@@ -1841,7 +1843,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "{i}*Cough*{/i}",
+        "content": "\"<i>*Cough*</i>\"",
         "charImg":"Casual23.png"
     },
     {
@@ -1935,7 +1937,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "Not like you need to tell {i}me{/i} that!",
+        "content": "\"Not like you need to tell <i>me</i> that!\"",
         "charImg":"Arm1.png"
     },
     {
@@ -2526,8 +2528,7 @@
         "char": "you",
         "content": "Sayori--",
         "charImg": "Yori1.png",
-        "newCharacter": "erase",
-        "music":"my-feelings.mp3"
+        "newCharacter": "erase"
     },
     {
         "char": "you",
@@ -2544,7 +2545,8 @@
     },
     {
         "char": "Sayori",
-        "content": "But my imagination was being really mean to me..."
+        "content": "But my imagination was being really mean to me...",
+        "music":"my-confession.mp3"
     },
     {
         "char": "Sayori",
@@ -2827,7 +2829,8 @@
             },
             {
                 "char": "you",
-                "content": "Those are my true feelings."
+                "content": "Those are my true feelings.",
+                "nextRoute":"s"
             },
             {
                 "char": "you",
@@ -3127,7 +3130,10 @@
         "Monika": [
             {
                 "char": "you",
-                "content": "You'll always be my dearest friend."
+                "content": "You'll always be my dearest friend.",
+                "charImg": {
+                    "background": "break"
+                },
             },
             {
                 "char": "you",
@@ -3135,7 +3141,8 @@
             },
             {
                 "char": "you",
-                "content": "Monika told me the truth..."
+                "content": "Monika told me the truth...",
+                "nextRoute":"m"
             },
             {
                 "char": "you",
@@ -3171,7 +3178,8 @@
             },
             {
                 "char": "Sayori",
-                "content": "Ahaha..."
+                "content": "Ahaha...",
+                "charImg":"Yori20.png"
             },
             {
                 "char": "Sayori",
@@ -3260,7 +3268,7 @@
             },
             {
                 "char": "Sayori",
-                "content": "{i}AAAAAaaaaAAAAAAAAHH!!!!{/i}"
+                "content": "\"<i>AAAAAaaaaAAAAAAAAHH!!!!</i>\""
             },
             {
                 "content": "\"Clutching her head with both hands, she screams as loudly as she can.\"\r"
@@ -3325,5 +3333,50 @@
                 "content": "\"And I'll do whatever it takes to put a smile on her face every day.\""
             }
         ]
+    },
+    {
+        "content":" ",
+        "newBackground":"barrio.png"
+    },
+    {
+        "content": "It's the day of the festival.",
+        "char":"nobody",
+        "newBackground": "barrio.png"
+    },
+    {
+        "content": "Of all days, I expected this to be the one where I'd be walking to school with Sayori.",
+        "char":"nobody"
+    },
+    {
+        "content": "But Sayori isn't answering her phone.",
+        "char":"nobody"
+    },
+    {
+        "content": "I considered going to her house to wake her up, but decided that's a little too much.",
+        "char":"nobody"
+    },
+    {
+        "content": "Meanwhile, the preparations for the event should be nearly complete.",
+        "char":"nobody"
+    },
+    {
+        "content": "I managed to carry all the cupcakes myself by carefully stacking two trays.",
+        "char":"nobody"
+    },
+    {
+        "content": "Natsuki is already texting up a storm, but I can't respond, thanks to my hands being full.",
+        "char":"nobody"
+    },
+    {
+        "content":"Funnily enough, I probably feel the same way as Natsuki about the event.",
+        "char":"nobody"
+    },
+    {
+        "content":"I'm more excited for it to be over so I can spend time with Sayori and Natsuki at the festival.",
+        "char":"nobody"
+    },
+    {
+        "content": "But knowing Monika, I'm sure the event will be great, too.",
+        "char":"nobody"
     }
 ]

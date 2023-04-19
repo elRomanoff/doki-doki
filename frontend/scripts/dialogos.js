@@ -30,7 +30,7 @@ console.log(config.getScore(), config.getPrevScore())
 
 const hoverSound = cargarSonido("/api/sound/sfx/hover-sound");
 const selectSound = cargarSonido("/api/sound/sfx/select");
-// const slap = cargarSonido("https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2Fslap.ogg?alt=media&token=f0248221-f60e-41b2-a757-ed0cce40331f")
+const slap = cargarSonido("https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sound%2Fslap.ogg?alt=media&token=f0248221-f60e-41b2-a757-ed0cce40331f")
 
 const mainScreen = document.querySelector(".mainScreen");
 const pngChar = document.getElementById("char");
@@ -49,10 +49,11 @@ let audioS
 let audioM 
 let audioY 
 let audioNeutral 
+let myFeelings
 
 
 //variables to save game
-let {song, currentBackground, currentImg} = config.getExtra()
+let {song, currentBackground, currentImg} = config.getExtra() 
 
 manageImage(currentImg)
 manageBackground(currentBackground)
@@ -195,7 +196,7 @@ fetch(chapter)
     })
 
 
-music = cargarSonido("/api/sound/music/" + song)
+if (song) music = cargarSonido("/api/sound/music/" + song)
 
 
 if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
@@ -315,7 +316,8 @@ function manageOptions(optionObj){
             if (prevNScore >= prevSScore && prevNScore >= prevYScore && optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
             else arrDialog.splice(i + 1, 0, ...optionObj.option2)
         }
-        else if (optionObj.prevRoute === "y") {
+        //WTF????
+        else if (optionObj.prevRoute === "s") {
             if (prevSScore >= prevYScore && prevSScore >= prevNScore && optionObj.route == route) arrDialog.splice(i + 1, 0, ...optionObj.option1)
             else arrDialog.splice(i + 1, 0, ...optionObj.option2)
         }
@@ -380,10 +382,12 @@ function addAnimatedText(text) {
             }
             else {
                 clearInterval(interval);
-                mainScreen.addEventListener("click", runDialog)
+                mainScreen.addEventListener("click", runDialog);
+                printFullText()
             }
         }, textSpeed);     
     }
+
 
 }
 
@@ -455,6 +459,7 @@ function manageMusic(musicSrc) {
     } catch { }
     if(musicSrc !=="stop"){
         music = cargarSonido("/api/sound/music/" + musicSrc, true);
+        console.log(musicSrc)
         song = musicSrc
         if (enableMusic !== "false" || !enableMusic) music.play()
     }
@@ -473,6 +478,7 @@ function manageMusicGroup(group){
         audioS = cargarSonido("/api/sound/music/" + group.say, true)
         audioY = cargarSonido("/api/sound/music/" + group.yu, true)
         audioNeutral = cargarSonido("/api/sound/music/" + group.neutral, true)
+        myFeelings = cargarSonido("api/sound/music/my-feelings.mp3")
 
         audioNeutral.play()
     }
@@ -504,12 +510,26 @@ function manageMusicGroup(group){
         audioS.pause();
     }
     else if (group ==="end"){
-        music.play()
-        document.body.removeChild(audioM)
-        document.body.removeChild(audioN)
-        document.body.removeChild(audioS)
-        document.body.removeChild(audioY)
-        document.body.removeChild(audioNeutral)
+        music.play();
+        try{
+            document.body.removeChild(audioM)
+            document.body.removeChild(audioN)
+            document.body.removeChild(audioS)
+            document.body.removeChild(audioY)
+            document.body.removeChild(audioNeutral)
+        }
+        catch(e){}
+    }
+    else if (group === "my-feelings.mp3"){
+
+        audioNeutral.muted = true;
+        myFeelings.play()
+
+    }
+    else if (group === "my-feelings-end"){
+        audioNeutral.muted = false
+        myFeelings.pause()
+        myFeelings.currentTime = 0
     }
     
 }

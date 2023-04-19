@@ -53,4 +53,9 @@ const arr = rawArray.map(x =>{
 
 const bestArr = arr.filter(x => x != null)
 
-fs.writeFileSync("./algo.json", JSON.stringify(bestArr))
+try{
+    fs.writeFileSync("./algo.json", JSON.stringify(bestArr))
+}
+catch(e){
+    console.log(e)
+}
