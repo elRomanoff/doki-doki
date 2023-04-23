@@ -2536,10 +2536,6 @@
                     "option1":[
                         {
                             "char": "Yuri",
-                            "content": "This one might even be better than yesterday's..."
-                        },
-                        {
-                            "char": "Yuri",
                             "content": "...How did you even pick up on this so quickly?"
                         }
                     ],
@@ -2550,6 +2546,10 @@
                         }
                     ],
                     "option3":[
+                        {
+                            "char": "Yuri",
+                            "content": "This one might even be better than yesterday's..."
+                        },
                         {
                             "char": "Yuri",
                             "content": "...How did you pick up on this so quickly?"
@@ -2722,10 +2722,7 @@
                     "content": "Mm...",
                     "prevRoute":"y",
                     "option1": [
-                        {
-                            "char": "Yuri",
-                            "content": "Let's see what you've written for today."
-                        },
+                       
                         {
                             "char": "Yuri",
                             "content": "..."
@@ -2741,7 +2738,8 @@
                         },
                         {
                             "char": "Yuri",
-                            "content": "Were you influenced by seeing everyone's writing styles yesterday?"
+                            "content": "Were you influenced by seeing everyone's writing styles yesterday?",
+                            "charImg":"YSmile.png"
                         },
                         {
                             "char": "you",

@@ -295,6 +295,8 @@ function manageOptions(optionObj){
 
     //si la opcion es "ya entregaste el poema a"
     if(optionObj.shownCharacter){
+        //primer if: ver si le entregaste el poema
+        //segundo if: si es por opciones o no
         if (selectionMenu.filter(filtered => filtered.char === optionObj.shownCharacter)[0]) {
             if(optionObj.optionalText) addAnimatedText(optionObj.optionalText[1])
             else arrDialog.splice(i + 1, 0, ...optionObj.option1)
@@ -333,18 +335,18 @@ function manageOptions(optionObj){
 
     else if(optionObj.prevRoute){
         if(optionObj.prevRoute === "s"){
-            if(prevSScore >= 45) arrDialog.splice(i+1,0, ...optionObj.option1)
+            if(prevSScore >= 43) arrDialog.splice(i+1,0, ...optionObj.option1)
             else if (prevSScore >= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
         else if (optionObj.prevRoute === "n") {
-            if (prevNScore >= 45) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            if (prevNScore >= 43) arrDialog.splice(i + 1, 0, ...optionObj.option1)
             else if (prevNScore >= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
         else if (optionObj.prevRoute === "y") {
-            if (prevYScore <= 45) arrDialog.splice(i + 1, 0, ...optionObj.option1)
-            else if (prevYScore <= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
+            if (prevYScore >= 43) arrDialog.splice(i + 1, 0, ...optionObj.option1)
+            else if (prevYScore >= 30) arrDialog.splice(i + 1, 0, ...optionObj.option2)
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
     }
@@ -486,21 +488,25 @@ function manageMusicGroup(group){
         audioN.play();
         audioN.currentTime = audioNeutral.currentTime
         audioNeutral.muted = true;
+        myFeelings.muted = true
     }
     else if (group === "s") {
         audioS.play();
         audioS.currentTime = audioNeutral.currentTime
         audioNeutral.muted = true;
+        myFeelings.muted = true
     }
     else if (group === "y") {
         audioY.play();
         audioY.currentTime = audioNeutral.currentTime
         audioNeutral.muted = true;
+        myFeelings.muted = true
     }
     else if (group === "m") {
         audioM.play();
         audioM.currentTime = audioNeutral.currentTime
         audioNeutral.muted = true;
+        myFeelings.muted = true
     }
     else if (group === "neutral"){
         audioNeutral.muted = false;

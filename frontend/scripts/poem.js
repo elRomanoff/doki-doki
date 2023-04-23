@@ -22,7 +22,9 @@ ok.addEventListener("mouseover",()=>{
 
 ok.addEventListener("click", () => {
     selectSound.play();
-    if(enableMusic) music.play()
+    if(enableMusic || enableMusic === null) {
+        music.play()
+    }
     screen.removeChild(poemAlert)
 })
 
