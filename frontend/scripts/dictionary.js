@@ -49,6 +49,7 @@ let dictionary = {
     "Say25.png": "https://i.postimg.cc/nL2yx2Tg/Say25.png",
     "Say26.png": "https://i.postimg.cc/vBmpZnNB/Say26.png",
     "Say3.png": "https://i.postimg.cc/WbKbLNtg/Say3.png",
+    "Say4.png": "https://i.postimg.cc/JhCr0pNh/say4.png",
     "say4.png": "https://i.postimg.cc/JhCr0pNh/say4.png",
     "Say5.png": "https://i.postimg.cc/R01MHwdL/Say5.png",
     "Say6.png": "https://i.postimg.cc/PxtdzNFs/Say6.png",

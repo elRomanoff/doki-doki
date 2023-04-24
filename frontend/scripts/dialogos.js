@@ -485,26 +485,26 @@ function manageMusicGroup(group){
         audioNeutral.play()
     }
     else if(group === "n"){
-        audioN.play();
         audioN.currentTime = audioNeutral.currentTime
+        audioN.play();
         audioNeutral.muted = true;
         myFeelings.muted = true
     }
     else if (group === "s") {
-        audioS.play();
         audioS.currentTime = audioNeutral.currentTime
+        audioS.play();
         audioNeutral.muted = true;
         myFeelings.muted = true
     }
     else if (group === "y") {
-        audioY.play();
         audioY.currentTime = audioNeutral.currentTime
+        audioY.play();
         audioNeutral.muted = true;
         myFeelings.muted = true
     }
     else if (group === "m") {
-        audioM.play();
         audioM.currentTime = audioNeutral.currentTime
+        audioM.play();
         audioNeutral.muted = true;
         myFeelings.muted = true
     }
