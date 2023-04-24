@@ -103,6 +103,7 @@ fetch(chapter)
                     fetchCall = chapter + "/" + route
                 }
 
+                console.log(fetchCall)
                 const res = await fetch(fetchCall)
                 const resJson = await res.json();
                 resJson.forEach(y => auxDialogArray.push(y))
