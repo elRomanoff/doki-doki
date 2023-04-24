@@ -1,0 +1,6 @@
+n "..."
+n 2c "...Meh."
+n "I guess you really haven't learned anything after all."
+n "Honestly, I don't know why I got my hopes up in the first place."
+mc "What? I didn't think this one was that bad..."
+mc "What did I do wrong?"

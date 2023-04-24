@@ -2049,7 +2049,8 @@
                         },
                         {
                             "char": "Natsuki",
-                            "content": "Poems don't need to be all deep-sounding to express something."
+                            "content": "Poems don't need to be all deep-sounding to express something.",
+                            "charImg":"Y14.png"
                         },
                         {
                             "char": "Natsuki",
@@ -2057,10 +2058,13 @@
                         },
                         {
                             "char": "Natsuki",
-                            "content": "Honestly... Don't bother trying to write poems like this until you're on Yuri's level--"
+                            "content": "Honestly... Don't bother trying to write poems like this until you're on Yuri's level--",
+                            "charImg":"Y26.png"
                         },
                         {
-                            "content": " "
+                            "content": "Natsuki stops short all of sudden",
+                            "char":"nobody",
+                            "charImg":"Schooln.png"
                         },
                         {
                             "char": "Natsuki",
@@ -2080,7 +2084,8 @@
                         },
                         {
                             "char": "Natsuki",
-                            "content": "You know Yuri would love this kind of...this angsty.......!!"
+                            "content": "You know Yuri would love this kind of...this angsty.......!!",
+                            "charImg":"Schooly.png"
                         },
                         {
                             "char": "you",
@@ -2088,7 +2093,8 @@
                         },
                         {
                             "char": "Natsuki",
-                            "content": "Uu....!!"
+                            "content": "Uu....!!",
+                            "charImg":"Schooln.png"
                         },
                         {
                             "content": "Looks like I'm in trouble.", "char":"nobody"
@@ -2098,14 +2104,16 @@
                         },
                         {
                             "char": "Natsuki",
-                            "content": "I am so done with you."
+                            "content": "I am so done with you.",
+                            "charImg":"Y14.png"
                         },
                         {
                             "content": "Natsuki shoves the poem I handed her back over to me.", "char":"nobody"
                         },
                         {
                             "char": "Natsuki",
-                            "content": "Take your stupid poem. If you wrote it for someone else, just don't show it to me!"
+                            "content": "Take your stupid poem. If you wrote it for someone else, just don't show it to me!",
+                            "charImg":"Natsukiheadturn.png"
                         },
                         {
                             "char": "you",

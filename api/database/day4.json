@@ -2254,8 +2254,393 @@
                 "content":"",
                 "prevRoute":"n",
             
-                "option1":[],
-                "option2":[],
+                "option1":[
+                    {
+                        "char": "Natsuki",
+                        "content": "...",
+                        "charImg":"Schoolb.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Oh, man.",
+                        "charImg":"Y28.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "This is seriously a step backwards."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I liked your last two way better than this one.",
+                        "charImg":"Schoolb.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I mean...",
+                        "charImg":"Schoolj.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I guess I can't be mad at you for trying different things."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "As long as you're not just trying to impress Yuri or something like that.",
+                        "charImg":"Schoolb.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Gross.",
+                        "charImg":"NatsukiCrossedArms4.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Okay, okay."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Like you said, I'm allowed to try new things."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Why are you so emotionally invested in my poems, anyway?",
+                        "charImg":"NatsukiCrossedArms7.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Isn't that more of a compliment to me?"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "...Eh?",
+                        "charImg":"Schooln.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "N-No! Gross!",
+                        "charImg":"Y26.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "It's not like I care!"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "It's just that <i>one</i> of us in this club has to make sure you're not slacking off."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Really?"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Well, what if you ended up just scaring me away?"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "That's--um...",
+                        "charImg":"Schoolt.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "...It's not like you would actually do that."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Yeah, you're right."
+                    },
+                    {
+                        "char": "you",
+                        "content": "It's kind of fun to hang out here, even if I have to put up with you."
+                    },
+                    {
+                        "char": "you",
+                        "content": "<i>Guh--!!</i>",
+                        "charImg":"Schooly.png"
+                    },
+                    {
+                        "content": "\"Natsuki's elbow connects with my stomach.\"\r"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Oh?",
+                        "charImg":"Y27.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Maybe I won't mind scaring you away after all."
+                    },
+                    {
+                        "char": "you",
+                        "content": "I was......just joking...."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Oh, I know!",
+                        "charImg":"Natsuki_Grin3.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Don't worry, I was too."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Ahahaha!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "...",
+                        "charImg":"Y21.png"
+                    },
+                    {
+                        "content": "\"How the hell do you call that a joke?\"\r"
+                    },
+                    {
+                        "content": "\"That seriously hurt.\"\r"
+                    },
+                    {
+                        "content": "\"Well, maybe it was funny to her...\"\r"
+                    },
+                    {
+                        "content": "\"...I guess that's kind of the point.\"\r"
+                    },
+                    {
+                        "content": "\"I should really just watch my mouth around Natsuki.\"\r"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Anyway...",
+                        "charImg":"LeftArm1.png"
+                    },
+                    {
+                        "content": "\"Natsuki holds her poem out to me like nothing even happened.\""
+                    },
+                    {
+                        "poem":{
+                            "char": "n",
+                            "title":"I'll Be Your Beach",
+                            "content":"Your mind is so full of troubles and fears</br>That diminished your wonder over the years</br>But today I have a special place</br>A beach for us to go.</br>A shore reaching beyond your sight</br>A sea that sparkles with brilliant light</br>The walls in your mind will melt away</br>Before the sunny glow.</br>I'll be the beach that washes your worries away</br>I'll be the beach that you daydream about each day</br>I'll be the beach that makes your heart leap</br>In a way you thought had left you long ago.</br>Let's bury your heavy thoughts in a pile of sand</br>Bathe in sunbeams and hold my hand</br>Wash your insecurities in the salty sea</br>And let me see you shine.</br>Let's leave your memories in a footprint trail</br>Set you free in my windy sail</br>And remember the reasons you're wonderful</br>When you press your lips to mine.</br>I'll be the beach that washes your worries away</br>I'll be the beach that you daydream about each day</br>I'll be the beach that makes your heart leap</br>In a way you thought had left you long ago.</br>But if you let me by your side</br>Your own beach, your own escape</br>You'll learn to love yourself again."
+                        },
+                        "content":" . . . . . . . . . . . . . . . . ",
+                        "musicGroup":"n"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Yeah...",
+                        "charImg":"LeftArm0.png",
+                        "poem":"quit",
+                        "musicGroup":"neutral"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I felt like I kept writing about negative things, so I wanted to write something with a nice message for once."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Besides...the beach is awesome!",
+                        "charImg":"Natsuki_Grin2.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Kinda hard to write anything negative about the beach.",
+                        "charImg": "Y21.png"
+                    },
+                    {
+                        "option1":[
+                            {
+                                "char": "you",
+                                "content": "Well, Yuri's take on it was a little more solemn."
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "Well, that's--",
+                                "charImg":"Y13.png"
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "Jeez...she better not have said anything bad about mine!",
+                                "charImg":"NatsukiCrossedArms5.png"
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "After all, she was the one who wanted us to write about the same topic."
+                            }
+                        ],
+                        "option2":[
+                            {
+                                "char": "you",
+                                "content": "So you decided to write about the beach first, and then came up with the message later?"
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "Yeah, well...",
+                                "charImg":"Y14.png"
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "It's only because of what happened yesterday."
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "I mean, after Yuri and I realized we kind of wrote about the same thing...",
+                                "charImg":"NatsukiCrossedArms4.png"
+                            },
+                            {
+                                "char": "Natsuki",
+                                "content": "She wanted to pick a topic and have us both write about it, or whatever."
+                            }
+                        ],
+                        "content":" ",
+                        "char":"nobody",
+                        "shownCharacter":"Yuri",
+                        "options":true
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Ugh...you can really see her doing that, too.",
+                        "charImg":"Y29.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Making us write about a simple topic, then trying to impress me by coming up with something all fancy."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Well, it's not like I care.",
+                        "charImg":"Y26.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I just did it anyway."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I mean, I guess mine ended up being kind of metaphorical too...",
+                        "charImg":"Y29.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "...But there's nothing wrong with doing that once in a while!"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "At the very least, it was good practice."
+                    }
+                ],
+                "option2":[
+                    {
+                        "char": "Natsuki",
+                        "content": "...",
+                        "charImg":"Schoolb.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "...Meh."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I guess you really haven't learned anything after all.",
+                        "charImg":"LeftArmj.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Honestly, I don't know why I got my hopes up in the first place.",
+                        "charImg":"NatsukiCrossedArms2.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "What? I didn't think this one was that bad..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "What did I do wrong?"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Poems don't need to be all deep-sounding to express something.",
+                        "charImg":"Y14.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "It's going to just sound like you're forcing it unless you really don't suck at it."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Honestly... Don't bother trying to write poems like this until you're on Yuri's level--",
+                        "charImg":"Y26.png"
+                    },
+                    {
+                        "content": "Natsuki stops short all of sudden",
+                        "char":"nobody",
+                        "charImg":"Schooln.png"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "D-Don't...tell me..."
+                    },
+                    {
+                        "char": "you",
+                        "content": "Eh?"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "You're not...you're not just trying to impress Yuri, are you?!"
+                    },
+                    {
+                        "char": "you",
+                        "content": "W-What are you talking about?? And keep your voice down...!"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "You know Yuri would love this kind of...this angsty.......!!",
+                        "charImg":"Schooly.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Just because she's a talented writer doesn't mean...I-I mean..."
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Uu....!!",
+                        "charImg":"Schooln.png"
+                    },
+                    {
+                        "content": "Looks like I'm in trouble.", "char":"nobody"
+                    },
+                    {
+                        "content": "I somehow struck a nerve, though what I did is beyond me.", "char":"nobody"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "I am so done with you.",
+                        "charImg":"Y14.png"
+                    },
+                    {
+                        "content": "Natsuki shoves the poem I handed her back over to me.", "char":"nobody"
+                    },
+                    {
+                        "char": "Natsuki",
+                        "content": "Take your stupid poem. If you wrote it for someone else, just don't show it to me!",
+                        "charImg":"Natsukiheadturn.png"
+                    },
+                    {
+                        "char": "you",
+                        "content": "Ouch..."
+                    },
+                    {
+                        "content": "This is what I get for letting a younger girl step into my business.", "char":"nobody"
+                    },
+                    {
+                        "content": "Unless I was a mind reader, I was destined to be in a world of pain from the start.", "char":"nobody"
+                    },
+                    {
+                        "content": "At least Natsuki wasn't really the girl I was trying to impress in the first place...", "char":"nobody"
+                    }
+                ],
                 "option3":[
                     {
                         "char":"Natsuki",
