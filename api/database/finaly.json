@@ -3201,8 +3201,8 @@
                 "content": "#var..."
             },
             {
-                "content": "\"Suddenly, Sayori wraps her arms tightly around me.\"\r",
-                "charImg":{"background":"abreazo sayori"}
+                "content": "Suddenly, Sayori wraps her arms tightly around me.","char":"nobody",
+                "charImg":{"background":"sayori-hug.png"}
             },
             {
                 "usesVar": true,
@@ -3218,7 +3218,7 @@
                 "content": "Yeah."
             },
             {
-                "content": "\"I hold Sayori in my arms and pull her closer.\"\r"
+                "content": "I hold Sayori in my arms and pull her closer.","char":"nobody"
             },
             {
                 "char": "you",
@@ -3242,7 +3242,7 @@
                 "content": "..."
             },
             {
-                "content": "\"I feel Sayori's grip around me weaken a little bit.\"\r"
+                "content": "I feel Sayori's grip around me weaken a little bit.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3302,7 +3302,8 @@
                 "content": "I...trust you..."
             },
             {
-                "content": "\"Sayori and I slowly release each other.\"\r"
+                "content": "Sayori and I slowly release each other.","char":"nobody",
+                "charImg":{"background": null}
             },
             {
                 "char": "you",
@@ -3357,7 +3358,7 @@
                 "charImg":"Yori4.png"
             },
             {
-                "content": "\"Sayori gazes at me once again, smiling sadly.\"\r"
+                "content": "Sayori gazes at me once again, smiling sadly.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3373,7 +3374,7 @@
                 "content": "Eh...?"
             },
             {
-                "content": "\"I don't really understand what Sayori means by that.\"\r"
+                "content": "I don't really understand what Sayori means by that.","char":"nobody"
             },
             {
                 "char": "you",
@@ -3414,38 +3415,38 @@
                 "content": "That's my promise."
             },
             {
-                "content": "\"I say that, but in reality, I've never felt more uncertain when it comes to Sayori.\"\r",
+                "content": "I say that, but in reality, I've never felt more uncertain when it comes to Sayori.","char":"nobody",
                 "charImg":"non"
             },
             {
-                "content": "\"I know that I love her, and she loves me.\"\r"
+                "content": "I know that I love her, and she loves me.","char":"nobody"
             },
             {
-                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+                "content": "But I'm having as much trouble understanding Sayori's feelings as she is.","char":"nobody"
             },
             {
-                "content": "\"Even though I can comfort her...\"\r"
+                "content": "Even though I can comfort her...","char":"nobody"
             },
             {
-                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+                "content": "I keep wondering if I should be doing something more, or something different.","char":"nobody"
             },
             {
-                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+                "content": "I know these thoughts will continue to plague me until things are back to the way they were.","char":"nobody"
             },
             {
-                "content": "\"Is that what Sayori meant by not wanting anything to change?\"\r"
+                "content": "Is that what Sayori meant by not wanting anything to change?","char":"nobody"
             },
             {
-                "content": "\"I don't know.\"\r"
+                "content": "I don't know.","char":"nobody"
             },
             {
-                "content": "\"But I know that I'll give it everything I've got.\"\r"
+                "content": "But I know that I'll give it everything I've got.","char":"nobody"
             },
             {
-                "content": "\"Sayori is the most important person to me.\"\r"
+                "content": "Sayori is the most important person to me.","char":"nobody"
             },
             {
-                "content": "\"And I'll do whatever it takes to have a happy future with her.\""
+                "content": "And I'll do whatever it takes to have a happy future with her."
             }
         ],
         "Monika":[{
@@ -3492,7 +3493,7 @@
                 "content": "I...see..."
             },
             {
-                "content": "\"Sayori forces a smile through an incredibly pained expression.\"\r"
+                "content": "Sayori forces a smile through an incredibly pained expression.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3577,21 +3578,21 @@
                 "content": "So..."
             },
             {
-                "content": "\"Sayori's smile finally breaks.\"\r",
+                "content": "Sayori's smile finally breaks.","char":"nobody",
                 "charImg":"non"
             },
             {
-                "content": "\"All of a sudden, she turns around and drops to her knees.\"\r"
+                "content": "All of a sudden, she turns around and drops to her knees.","char":"nobody"
             },
             {
                 "char": "Sayori",
                 "content": "<i>AAAAAaaaaAAAAAAAAHH!!!!</i>"
             },
             {
-                "content": "\"Clutching her head with both hands, she screams as loudly as she can.\"\r"
+                "content": "Clutching her head with both hands, she screams as loudly as she can.","char":"nobody"
             },
             {
-                "content": "\"I'm so shocked that I don't know how to react.\"\r"
+                "content": "I'm so shocked that I don't know how to react.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3599,7 +3600,7 @@
                 "charImg":"Z20.png"
             },
             {
-                "content": "\"Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off.\"\r",
+                "content": "Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off.","char":"nobody",
                 "animation":[{"direction":"left","value":"-200%"}]
             },
             {
@@ -3608,41 +3609,41 @@
                 "charImg":"non"
             },
             {
-                "content": "\"...\"\r",
+                "content": "...","char":"nobody",
                 "animation":"return"
             },
             {
-                "content": "\"I'm left helplessly standing in the front of my house.\"\r"
+                "content": "I'm left helplessly standing in the front of my house.","char":"nobody"
             },
             {
-                "content": "\"Why am I feeling so horrible about this?\"\r"
+                "content": "Why am I feeling so horrible about this?","char":"nobody"
             },
             {
-                "content": "\"There's nothing more that I could have done.\"\r"
+                "content": "There's nothing more that I could have done.","char":"nobody"
             },
             {
-                "content": "\"The most I can do is support Sayori through her feelings and help her on the path that's right.\"\r"
+                "content": "The most I can do is support Sayori through her feelings and help her on the path that's right.","char":"nobody"
             },
             {
-                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+                "content": "But I'm having as much trouble understanding Sayori's feelings as she is.","char":"nobody"
             },
             {
-                "content": "\"Even though I can comfort her...\"\r"
+                "content": "Even though I can comfort her...","char":"nobody"
             },
             {
-                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+                "content": "I keep wondering if I should be doing something more, or something different.","char":"nobody"
             },
             {
-                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+                "content": "I know these thoughts will continue to plague me until things are back to the way they were.","char":"nobody"
             },
             {
-                "content": "\"I'm going to give it everything I've got.\"\r"
+                "content": "I'm going to give it everything I've got.","char":"nobody"
             },
             {
-                "content": "\"Sayori will always be my dearest friend.\"\r"
+                "content": "Sayori will always be my dearest friend.","char":"nobody"
             },
             {
-                "content": "\"And I'll do whatever it takes to put a smile on her face every day.\""
+                "content": "And I'll do whatever it takes to put a smile on her face every day."
             }
         ]
     },

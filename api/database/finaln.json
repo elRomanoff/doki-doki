@@ -1046,14 +1046,14 @@
     },
     {
         "newBackground":"house.png",
-        "content":"I spend only a few minutes back at home anxiously awaiting Natsuki's arrival.\"\r",
+        "content":"I spend only a few minutes back at home anxiously awaiting Natsuki's arrival.","char":"nobody",
         "music":"playwithme.mp3"
     },
     {
-        "content": "\"Before I know it, she texts me to let me know she's outside the front door.\"\r"
+        "content": "Before I know it, she texts me to let me know she's outside the front door.","char":"nobody"
     },
     {
-        "content": "\"Without delay, I open the front door to let her in.\"\r"
+        "content": "Without delay, I open the front door to let her in.","char":"nobody"
     },
     {
         "char": "you",
@@ -1069,10 +1069,10 @@
         "content": "...Hey."
     },
     {
-        "content": "\"I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off.\"\r"
+        "content": "I don't know what I was expecting, but seeing Natsuki in something other than her school uniform totally threw me off.","char":"nobody"
     },
     {
-        "content": "\"Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison.\"\r"
+        "content": "Seeing her in such cute clothes makes the uniform seem totally unfitting in comparison.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1094,7 +1094,7 @@
         "newBackground":"kitchen.png"
     },
     {
-        "content": "\"Natsuki is carrying a large bag that is probably full of baking supplies.\"\r"
+        "content": "Natsuki is carrying a large bag that is probably full of baking supplies.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1109,7 +1109,7 @@
         "content": "Yeah, I did."
     },
     {
-        "content": "\"Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home.\"\r"
+        "content": "Yesterday, Natsuki asked me to buy a bunch of ingredients if I didn't already have them at home.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1125,10 +1125,10 @@
         "content": "Well...of course."
     },
     {
-        "content": "\"I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does.\"\r"
+        "content": "I'm surprised to hear Natsuki suddenly say that, rather than something snarky like she usually does.","char":"nobody"
     },
     {
-        "content": "\"Could it be that she is a little different outside of school after all?\"\r"
+        "content": "Could it be that she is a little different outside of school after all?","char":"nobody"
     },
     {
         "char": "you",
@@ -1153,7 +1153,7 @@
         "content": "Since when did I need to be a gentleman?"
     },
     {
-        "content": "\"I grab the bag Natsuki holds out to me.\"\r"
+        "content": "I grab the bag Natsuki holds out to me.","char":"nobody"
     },
     {
         "char": "you",
@@ -1204,7 +1204,7 @@
         "charImg":"S1.png"
     },
     {
-        "content": "\"Natsuki hits a fist into my chest.\"\r"
+        "content": "Natsuki hits a fist into my chest.","char":"nobody"
     },
     {
         "char": "you",
@@ -1287,7 +1287,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "\"Now you <i>are</i> treating me like a kid!"
+        "content": "Now you <i>are</i> treating me like a kid!"
     },
     {
         "char": "Natsuki",
@@ -1411,24 +1411,24 @@
         "content": "Please spare me..."
     },
     {
-        "content": "\"Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back.\"\r"
+        "content": "Well, if Natsuki decides to dish out more insults like that, there's no way I'm not fighting back.","char":"nobody"
     },
     {
-        "content": "\"But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started.\"\r"
+        "content": "But she's satisfied enough for now, finally starting to pull things out of her bag so we can get started.","char":"nobody"
     },
     {
-        "content": "\"Before long, the whole kitchen is a mess.\"\r",
+        "content": "Before long, the whole kitchen is a mess.","char":"nobody",
         "charImg":"non",
         "newBackground":"transition"
     },
     {
-        "content": "\"Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop.\"\r"
+        "content": "Spoons, dirty bowls, flour, spilled fluid, and plastic bags are strewn about every countertop.","char":"nobody"
     },
     {
-        "content": "\"The mixer isn't big enough to make all the batter at once, so we've had to do it several times.\"\r"
+        "content": "The mixer isn't big enough to make all the batter at once, so we've had to do it several times.","char":"nobody"
     },
     {
-        "content": "\"Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking.\"\r"
+        "content": "Meanwhile, Natsuki is babysitting all of my movements to make sure I don't mess up her precious baking.","char":"nobody"
     },
     {
         "usesVar": true,
@@ -1505,10 +1505,10 @@
         "content": "I'm having fun..."
     },
     {
-        "content": "\"I'm not really sure what Natsuki is trying to get out of me.\"\r"
+        "content": "I'm not really sure what Natsuki is trying to get out of me.","char":"nobody"
     },
     {
-        "content": "\"Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each.\"\r"
+        "content": "Meanwhile, I see her separate the batter into smaller bowls and put a few drops of food coloring into each.","char":"nobody"
     },
     {
         "char": "you",
@@ -1536,10 +1536,10 @@
         "content": "Like the ones you made on my first day, huh?"
     },
     {
-        "content": "\"I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions.\"\r"
+        "content": "I recall Natsuki proudly presenting her cat-shaped cupcakes, and Sayori and Monika's delighted expressions.","char":"nobody"
     },
     {
-        "content": "\"I wonder if I can make Natsuki proud like that, too.\"\r"
+        "content": "I wonder if I can make Natsuki proud like that, too.","char":"nobody"
     },
     {
         "char": "you",
@@ -1562,7 +1562,7 @@
         "content": "Yeah, it's getting there."
     },
     {
-        "content": "\"We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing.\"\r"
+        "content": "We were using the electric mixer for the batter, so I got stuck with a whisk and a huge bowl for the icing.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1595,7 +1595,7 @@
         "content": "Here, look."
     },
     {
-        "content": "\"Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back.\"\r"
+        "content": "Natsuki grabs the whisk from me and uses her other hand to tilt the bowl back.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1603,7 +1603,7 @@
         "charImg":"S16.png"
     },
     {
-        "content": "\"After a few seconds, the consistency of the icing has already improved.\"\r"
+        "content": "After a few seconds, the consistency of the icing has already improved.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1611,10 +1611,10 @@
         "charImg":"S1.png"
     },
     {
-        "content": "\"As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth.\"\r"
+        "content": "As if to emphasize, Natsuki sticks a finger in the icing and pops it in her mouth.","char":"nobody"
     },
     {
-        "content": "\"I reluctantly start to do the same.\"\r"
+        "content": "I reluctantly start to do the same.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1622,11 +1622,11 @@
         "charImg":"Casual8.png"
     },
     {
-        "content": "\"Natsuki suddenly grabs my wrist.\"\r"
+        "content": "Natsuki suddenly grabs my wrist.","char":"nobody"
     },
     {
         "char": "Natsuki",
-        "content": "\"I don't want <i>your</i> gross fingers in my icing.\"",
+        "content": "I don't want <i>your</i> gross fingers in my icing.",
         "charImg":"S19.png"
     },
     {
@@ -1638,7 +1638,7 @@
         "content": "Are you forgetting who did all the work?"
     },
     {
-        "content": "\"I start to fight back, trying to inch my finger toward the bowl.\"\r"
+        "content": "I start to fight back, trying to inch my finger toward the bowl.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1650,17 +1650,17 @@
         "content": "I'd like to see you try!"
     },
     {
-        "content": "\"I push harder, just enough for my finger to reach the icing.\"\r"
+        "content": "I push harder, just enough for my finger to reach the icing.","char":"nobody"
     },
     {
-        "content": "\"I triumphantly scoop some with my finger just as Natsuki tugs with all her might.\"\r"
+        "content": "I triumphantly scoop some with my finger just as Natsuki tugs with all her might.","char":"nobody"
     },
     {
         "char": "you",
         "content": "Ah--!"
     },
     {
-        "content": "\"The force of Natsuki pulling me causes me to stumble, making her stumble in turn.\"\r"
+        "content": "The force of Natsuki pulling me causes me to stumble, making her stumble in turn.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1676,7 +1676,7 @@
         "content": "Whose fault is that?!"
     },
     {
-        "content": "\"There's a big glob of icing on Natsuki's cheek.\"\r"
+        "content": "There's a big glob of icing on Natsuki's cheek.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1684,7 +1684,7 @@
         "charImg":"Casual23.png"
     },
     {
-        "content": "\"She tries to reach it with her tongue, but it's too far away.\"\r"
+        "content": "She tries to reach it with her tongue, but it's too far away.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1701,20 +1701,20 @@
         "charImg":"S15.png"
     },
     {
-        "content": "\"Natsuki instead wipes it off with her finger before shoving her finger toward my own face.\"\r"
+        "content": "Natsuki instead wipes it off with her finger before shoving her finger toward my own face.","char":"nobody"
     },
     {
         "char": "you",
         "content": "You wish--!"
     },
     {
-        "content": "\"I'm faster.\"\r"
+        "content": "I'm faster.","char":"nobody"
     },
     {
-        "content": "\"I grab her wrist with my hand before it reaches my face.\"\r"
+        "content": "I grab her wrist with my hand before it reaches my face.","char":"nobody"
     },
     {
-        "content": "\"Natsuki tries to use her other hand to fight back, but I grab that one as well.\"\r"
+        "content": "Natsuki tries to use her other hand to fight back, but I grab that one as well.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1762,7 +1762,7 @@
         "content": "In that case, I probably shouldn't do this, either..."
     },
     {
-        "content": "\"I take Natsuki's finger and put it in my mouth, licking off the icing.\"\r"
+        "content": "I take Natsuki's finger and put it in my mouth, licking off the icing.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1778,10 +1778,10 @@
         "content": "A-Ah--"
     },
     {
-        "content": "\"Natsuki is so surprised that she can't even figure out how to get mad at me.\"\r"
+        "content": "Natsuki is so surprised that she can't even figure out how to get mad at me.","char":"nobody"
     },
     {
-        "content": "\"Her face is entirely red.\"\r"
+        "content": "Her face is entirely red.","char":"nobody"
     },
     {
         "usesVar": true,
@@ -1802,23 +1802,23 @@
         "content": "..."
     },
     {
-        "content": "\"What kind of question is she asking me, just like that?\"\r"
+        "content": "What kind of question is she asking me, just like that?","char":"nobody"
     },
     {
-        "content": "\"How did the mood turn to this so quickly?\"\r"
+        "content": "How did the mood turn to this so quickly?","char":"nobody"
     },
     {
         "char": "you",
         "content": "I..."
     },
     {
-        "content": "\"Natsuki gazes at me in silence.\"\r"
+        "content": "Natsuki gazes at me in silence.","char":"nobody"
     },
     {
-        "content": "\"I notice her shallow breaths.\"\r"
+        "content": "I notice her shallow breaths.","char":"nobody"
     },
     {
-        "content": "\"Why am I starting to feel dizzy...?\"\r"
+        "content": "Why am I starting to feel dizzy...?","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1827,11 +1827,11 @@
     },
     {
         "newBackground":{"src":"kitchen.png","noTransition": true},
-        "content": "\"Out of nowhere, the fire alarm starts going off.\"\r",
+        "content": "Out of nowhere, the fire alarm starts going off.","char":"nobody",
         "charImg":{"background":""}
     },
     {
-        "content": "\"Natsuki rushes over to the oven.\"\r"
+        "content": "Natsuki rushes over to the oven.","char":"nobody"
     },
     {
         "char": "you",
@@ -1843,7 +1843,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "\"<i>*Cough*</i>\"",
+        "content": "<i>*Cough*</i>",
         "charImg":"Casual23.png"
     },
     {
@@ -1873,13 +1873,13 @@
         "content": "Jeez..."
     },
     {
-        "content": "\"Natsuki uses an oven mitt to grab the blackened tray out of the oven.\"\r"
+        "content": "Natsuki uses an oven mitt to grab the blackened tray out of the oven.","char":"nobody"
     },
     {
-        "content": "\"She sets it on top of the stove.\"\r"
+        "content": "She sets it on top of the stove.","char":"nobody"
     },
     {
-        "content": "\"In another moment, the fire alarm stops.\"\r"
+        "content": "In another moment, the fire alarm stops.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1895,16 +1895,16 @@
         "content": "Yeah..."
     },
     {
-        "content": "\"The tension from the moment before still lingers over our heads.\"\r"
+        "content": "The tension from the moment before still lingers over our heads.","char":"nobody"
     },
     {
-        "content": "\"But the moment has already been lost.\"\r"
+        "content": "But the moment has already been lost.","char":"nobody"
     },
     {
-        "content": "\"I watch as Natsuki slides the cupcake trays into the oven.\"\r"
+        "content": "I watch as Natsuki slides the cupcake trays into the oven.","char":"nobody"
     },
     {
-        "content": "\"Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened.\"\r"
+        "content": "Then, I reluctantly pick up the whisk and continue with the icing, like nothing ever happened.","char":"nobody"
     },
     {
         "char":"nobody",
@@ -1918,10 +1918,10 @@
         "charImg":"S12.png"
     },
     {
-        "content": "\"The cupcakes are ready to be pulled out of the oven.\"\r"
+        "content": "The cupcakes are ready to be pulled out of the oven.","char":"nobody"
     },
     {
-        "content": "\"As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room.\"\r"
+        "content": "As soon as Natsuki opens the oven door, a blast of sweet-smelling warm air fills the room.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1929,7 +1929,7 @@
         "charImg":"S24.png"
     },
     {
-        "content": "\"She proudly shows off the different-colored cupcakes in each of the trays.\"\r"
+        "content": "She proudly shows off the different-colored cupcakes in each of the trays.","char":"nobody"
     },
     {
         "char": "you",
@@ -1937,7 +1937,7 @@
     },
     {
         "char": "Natsuki",
-        "content": "\"Not like you need to tell <i>me</i> that!\"",
+        "content": "Not like you need to tell <i>me</i> that!",
         "charImg":"Arm1.png"
     },
     {
@@ -1949,7 +1949,7 @@
         "content": "Here, scoop the icing into these bags."
     },
     {
-        "content": "\"Natsuki hands me some plastic bags.\"\r"
+        "content": "Natsuki hands me some plastic bags.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -1969,7 +1969,7 @@
         "content": "What's this one for?"
     },
     {
-        "content": "\"I pick up one of the nozzles that has a much thinner tip than the others.\"\r"
+        "content": "I pick up one of the nozzles that has a much thinner tip than the others.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2061,7 +2061,7 @@
         "charImg":"Casual19.png"
     },
     {
-        "content": "\"Natsuki's voice trails off.\"\r"
+        "content": "Natsuki's voice trails off.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2085,7 +2085,7 @@
         "content": "Let's just do the icing!"
     },
     {
-        "content": "\"Natsuki picks up the pace and fastens a nozzle onto each of the bags.\"\r"
+        "content": "Natsuki picks up the pace and fastens a nozzle onto each of the bags.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2097,13 +2097,13 @@
         "content": "Here, I'll show you how to do it."
     },
     {
-        "content": "\"Without giving me a chance to think about before, Natsuki quickly moves on.\"\r"
+        "content": "Without giving me a chance to think about before, Natsuki quickly moves on.","char":"nobody"
     },
     {
-        "content": "\"She shows me how to apply the icing, and then we each get to work.\"\r"
+        "content": "She shows me how to apply the icing, and then we each get to work.","char":"nobody"
     },
     {
-        "content": "\"When we're finally finished, Natsuki puts them all side by side to admire our work.\"\r",
+        "content": "When we're finally finished, Natsuki puts them all side by side to admire our work.","char":"nobody",
         "charImg":"non",
         "newBackground":"transition"
     },
@@ -2199,7 +2199,7 @@
         "content": "Man..."
     },
     {
-        "content": "\"As usual, Natsuki places the blame on me.\"\r"
+        "content": "As usual, Natsuki places the blame on me.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2236,14 +2236,14 @@
         "content": "Yeah."
     },
     {
-        "content": "\"I again think back to the conversation I had with Sayori earlier today.\"\r",
+        "content": "I again think back to the conversation I had with Sayori earlier today.","char":"nobody",
         "charImg":"non"
     },
     {
-        "content": "\"I felt so helpless.\"\r"
+        "content": "I felt so helpless.","char":"nobody"
     },
     {
-        "content": "\"Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all.\"\r"
+        "content": "Sayori always does listen to me, but at that point it felt like she couldn't listen to me at all.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2263,18 +2263,18 @@
         "content": "I'll walk you out...I guess."
     },
     {
-        "content": "\"Just like that, Natsuki is already about to leave.\"\r",
+        "content": "Just like that, Natsuki is already about to leave.","char":"nobody",
         "charImg":"non",
         "newBackground":"house.png"
     },
     {
-        "content": "\"It feels like the afternoon went by in a flash.\"\r"
+        "content": "It feels like the afternoon went by in a flash.","char":"nobody"
     },
     {
-        "content": "\"More than that...\"\r"
+        "content": "More than that...","char":"nobody"
     },
     {
-        "content": "\"Did I even take the opportunity to get closer to her, like I wanted?\"\r"
+        "content": "Did I even take the opportunity to get closer to her, like I wanted?","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2345,7 +2345,7 @@
         "content": "Do you...really mean that?"
     },
     {
-        "content": "\"Natsuki looks at me tensely, like she's trying to hide her expression.\"\r"
+        "content": "Natsuki looks at me tensely, like she's trying to hide her expression.","char":"nobody"
     },
     {
         "char": "you",
@@ -2388,7 +2388,7 @@
         "content": "I feel the same way as you, so..."
     },
     {
-        "content": "\"Natsuki suddenly gets closer to me.\"\r",
+        "content": "Natsuki suddenly gets closer to me.","char":"nobody",
         "animation":[{"direction":"height","value":"200%"},{"direction":"top","value":"70%"}],
         "charImg":"Casual9.png",
         "music":"stop"
@@ -2398,19 +2398,19 @@
         "content": "Wait, Natsuki--"
     },
     {
-        "content": "\"Standing inches from me, Natsuki looks up at me.\"\r"
+        "content": "Standing inches from me, Natsuki looks up at me.","char":"nobody"
     },
     {
-        "content": "\"I feel her fingers gently clutch at the sides of my shirt, as if holding onto me.\"\r"
+        "content": "I feel her fingers gently clutch at the sides of my shirt, as if holding onto me.","char":"nobody"
     },
     {
-        "content": "\"Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips.\"\r"
+        "content": "Her rose-colored cheeks and matching eyes fill my vision, along with her slightly-parted lips.","char":"nobody"
     },
     {
-        "content": "\"What is happening...?\"\r"
+        "content": "What is happening...?","char":"nobody"
     },
     {
-        "content": "\"My head starts to go dizzy as I feel her soft breaths against me.\"\r"
+        "content": "My head starts to go dizzy as I feel her soft breaths against me.","char":"nobody"
     },
     {
         "char": "Natsuki",
@@ -2427,7 +2427,7 @@
         "charImg":"Casual15.png"
     },
     {
-        "content": "\"Natsuki suddenly jumps back.\"\r",
+        "content": "Natsuki suddenly jumps back.","char":"nobody",
         "comment":"jump back :v",
         "animation":"return"
     },
@@ -2521,7 +2521,7 @@
         "content": "Anyway, later!"
     },
     {
-        "content": "\"Clearly flustered, Natsuki hurries off, and Sayori waves goodbye.\"",
+        "content": "Clearly flustered, Natsuki hurries off, and Sayori waves goodbye.",
         "charImg":"non"
     },
     {
@@ -2878,9 +2878,9 @@
                 "content": "#var..."
             },
             {
-                "content": "\"Suddenly, Sayori wraps her arms tightly around me.\"\r",
+                "content": "Suddenly, Sayori wraps her arms tightly around me.","char":"nobody",
                 "charImg": {
-                    "background": "abreazo sayori"
+                    "background": "sayori-hug.png"
                 }
             },
             {
@@ -2897,7 +2897,7 @@
                 "content": "Yeah."
             },
             {
-                "content": "\"I hold Sayori in my arms and pull her closer.\"\r"
+                "content": "I hold Sayori in my arms and pull her closer.","char":"nobody"
             },
             {
                 "char": "you",
@@ -2921,7 +2921,7 @@
                 "content": "..."
             },
             {
-                "content": "\"I feel Sayori's grip around me weaken a little bit.\"\r"
+                "content": "I feel Sayori's grip around me weaken a little bit.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -2981,7 +2981,8 @@
                 "content": "I...trust you..."
             },
             {
-                "content": "\"Sayori and I slowly release each other.\"\r"
+                "content": "Sayori and I slowly release each other.","char":"nobody",
+                "charImg":{"background": null}
             },
             {
                 "char": "you",
@@ -3036,7 +3037,7 @@
                 "charImg": "Yori4.png"
             },
             {
-                "content": "\"Sayori gazes at me once again, smiling sadly.\"\r"
+                "content": "Sayori gazes at me once again, smiling sadly.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3052,7 +3053,7 @@
                 "content": "Eh...?"
             },
             {
-                "content": "\"I don't really understand what Sayori means by that.\"\r"
+                "content": "I don't really understand what Sayori means by that.","char":"nobody"
             },
             {
                 "char": "you",
@@ -3093,38 +3094,38 @@
                 "content": "That's my promise."
             },
             {
-                "content": "\"I say that, but in reality, I've never felt more uncertain when it comes to Sayori.\"\r",
+                "content": "I say that, but in reality, I've never felt more uncertain when it comes to Sayori.","char":"nobody",
                 "charImg": "non"
             },
             {
-                "content": "\"I know that I love her, and she loves me.\"\r"
+                "content": "I know that I love her, and she loves me.","char":"nobody"
             },
             {
-                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+                "content": "But I'm having as much trouble understanding Sayori's feelings as she is.","char":"nobody"
             },
             {
-                "content": "\"Even though I can comfort her...\"\r"
+                "content": "Even though I can comfort her...","char":"nobody"
             },
             {
-                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+                "content": "I keep wondering if I should be doing something more, or something different.","char":"nobody"
             },
             {
-                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+                "content": "I know these thoughts will continue to plague me until things are back to the way they were.","char":"nobody"
             },
             {
-                "content": "\"Is that what Sayori meant by not wanting anything to change?\"\r"
+                "content": "Is that what Sayori meant by not wanting anything to change?","char":"nobody"
             },
             {
-                "content": "\"I don't know.\"\r"
+                "content": "I don't know.","char":"nobody"
             },
             {
-                "content": "\"But I know that I'll give it everything I've got.\"\r"
+                "content": "But I know that I'll give it everything I've got.","char":"nobody"
             },
             {
-                "content": "\"Sayori is the most important person to me.\"\r"
+                "content": "Sayori is the most important person to me.","char":"nobody"
             },
             {
-                "content": "\"And I'll do whatever it takes to have a happy future with her.\""
+                "content": "And I'll do whatever it takes to have a happy future with her."
             }
         ],
         "Monika": [
@@ -3133,7 +3134,7 @@
                 "content": "You'll always be my dearest friend.",
                 "charImg": {
                     "background": "break"
-                },
+                }
             },
             {
                 "char": "you",
@@ -3174,7 +3175,7 @@
                 "content": "I...see..."
             },
             {
-                "content": "\"Sayori forces a smile through an incredibly pained expression.\"\r"
+                "content": "Sayori forces a smile through an incredibly pained expression.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3260,21 +3261,21 @@
                 "content": "So..."
             },
             {
-                "content": "\"Sayori's smile finally breaks.\"\r",
+                "content": "Sayori's smile finally breaks.","char":"nobody",
                 "charImg": "non"
             },
             {
-                "content": "\"All of a sudden, she turns around and drops to her knees.\"\r"
+                "content": "All of a sudden, she turns around and drops to her knees.","char":"nobody"
             },
             {
                 "char": "Sayori",
-                "content": "\"<i>AAAAAaaaaAAAAAAAAHH!!!!</i>\""
+                "content": "<i>AAAAAaaaaAAAAAAAAHH!!!!</i>"
             },
             {
-                "content": "\"Clutching her head with both hands, she screams as loudly as she can.\"\r"
+                "content": "Clutching her head with both hands, she screams as loudly as she can.","char":"nobody"
             },
             {
-                "content": "\"I'm so shocked that I don't know how to react.\"\r"
+                "content": "I'm so shocked that I don't know how to react.","char":"nobody"
             },
             {
                 "char": "Sayori",
@@ -3282,7 +3283,7 @@
                 "charImg": "Z20.png"
             },
             {
-                "content": "\"Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off.\"\r",
+                "content": "Sayori looks over her shoulder and flashes me one more weak smile before turning around and running off.","char":"nobody",
                 "animation": [
                     {
                         "direction": "left",
@@ -3296,41 +3297,41 @@
                 "charImg": "non"
             },
             {
-                "content": "\"...\"\r",
+                "content": "...","char":"nobody",
                 "animation": "return"
             },
             {
-                "content": "\"I'm left helplessly standing in the front of my house.\"\r"
+                "content": "I'm left helplessly standing in the front of my house.","char":"nobody"
             },
             {
-                "content": "\"Why am I feeling so horrible about this?\"\r"
+                "content": "Why am I feeling so horrible about this?","char":"nobody"
             },
             {
-                "content": "\"There's nothing more that I could have done.\"\r"
+                "content": "There's nothing more that I could have done.","char":"nobody"
             },
             {
-                "content": "\"The most I can do is support Sayori through her feelings and help her on the path that's right.\"\r"
+                "content": "The most I can do is support Sayori through her feelings and help her on the path that's right.","char":"nobody"
             },
             {
-                "content": "\"But I'm having as much trouble understanding Sayori's feelings as she is.\"\r"
+                "content": "But I'm having as much trouble understanding Sayori's feelings as she is.","char":"nobody"
             },
             {
-                "content": "\"Even though I can comfort her...\"\r"
+                "content": "Even though I can comfort her...","char":"nobody"
             },
             {
-                "content": "\"I keep wondering if I should be doing something more, or something different.\"\r"
+                "content": "I keep wondering if I should be doing something more, or something different.","char":"nobody"
             },
             {
-                "content": "\"I know these thoughts will continue to plague me until things are back to the way they were.\"\r"
+                "content": "I know these thoughts will continue to plague me until things are back to the way they were.","char":"nobody"
             },
             {
-                "content": "\"I'm going to give it everything I've got.\"\r"
+                "content": "I'm going to give it everything I've got.","char":"nobody"
             },
             {
-                "content": "\"Sayori will always be my dearest friend.\"\r"
+                "content": "Sayori will always be my dearest friend.","char":"nobody"
             },
             {
-                "content": "\"And I'll do whatever it takes to put a smile on her face every day.\""
+                "content": "And I'll do whatever it takes to put a smile on her face every day.", "char":"nobody"
             }
         ]
     },

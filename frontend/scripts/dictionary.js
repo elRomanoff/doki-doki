@@ -261,6 +261,7 @@ let dictionary = {
     "sayori-bg2-6.png": "https://i.postimg.cc/CKSPMMpc/sayori-bg2-6.png",
     "sayori-bg2-7.png": "https://i.postimg.cc/Dz6CSV2n/sayori-bg2-7.png",
     "xD.png": "https://i.postimg.cc/sxQKHv5g/xD.png",
+    "sayori-hug.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fsayori-hug.png?alt=media&token=2a1581f5-22f0-4455-9f86-f34d59c94b6c",
 
     
     //Natsuki
@@ -278,7 +279,7 @@ let dictionary = {
     "natsuki-bg3-3.png": "https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fnatsuki-bg3-3.png?alt=media&token=1c449bbf-af2e-4a06-bc48-8acf0ca12ca8",
 
     //yuri
-      "yuri-bg-1.png": "https://i.postimg.cc/ry7LV4ng/yuri-bg-1.png",
+    "yuri-bg-1.png": "https://i.postimg.cc/ry7LV4ng/yuri-bg-1.png",
     "yuri-bg-2.png": "https://i.postimg.cc/Z5xkxMTD/yuri-bg-2.png",
     "yuri-bg-3.png": "https://i.postimg.cc/brtWD6Cg/yuri-bg-3.png",
     "yuri-bg2-1.png":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/fondos%2Fyuri-bg2-1.png?alt=media&token=062f9fc9-03fc-4298-947e-dc9d6630349b",

@@ -9,6 +9,7 @@ import Background from "/scripts/backgrounds.js"
 import {managePoem} from "/scripts/managePoem.js"
 
 //config stuff
+let changeSaveError = false
 const you = config.getName();
 let enableMusic = config.getMusic();
 let textSpeed = config.getTextSpeed();
@@ -103,7 +104,6 @@ fetch(chapter)
                     fetchCall = chapter + "/" + route
                 }
 
-                console.log(fetchCall)
                 const res = await fetch(fetchCall)
                 const resJson = await res.json();
                 resJson.forEach(y => auxDialogArray.push(y))
@@ -191,11 +191,13 @@ fetch(chapter)
             arrDialog.push(element)
             //
         });
-        console.log(arrDialog)
-    
+        try{
+            let auxNextRoute = arrDialog.find(element => element.nextRoute).nextRoute
+            if((chapter === "finaln" || chapter==="finaly") && auxNextRoute) next = next + auxNextRoute
+        }
+        catch(e){}
         mainScreen.addEventListener("click",runDialog)
     })
-
 
 if (song) music = cargarSonido("/api/sound/music/" + song)
 
@@ -259,6 +261,7 @@ function manageProperties(objDialog){
     if (objDialog.charImg) manageImage(objDialog.charImg);
 
     if(objDialog.selectMenu){
+        if(objDialog.dependsOnRoute) changeSaveError = i - 5;
         document.removeEventListener("keydown", keyDownPress)
 
         if(objDialog.selectMenu === "continue"){
@@ -462,7 +465,6 @@ function manageMusic(musicSrc) {
     } catch { }
     if(musicSrc !=="stop"){
         music = cargarSonido("/api/sound/music/" + musicSrc, true);
-        console.log(musicSrc)
         song = musicSrc
         if (enableMusic !== "false" || !enableMusic) music.play()
     }
@@ -743,14 +745,17 @@ function createSelectionMenu(arrChar, objDialog, isNew) {
 //options
 function saveGame(option) {
     const inScreenCharacters = document.querySelectorAll(".char")
-    console.log(inScreenCharacters)
     const arrDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
     const arrMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     let dateToSave = new Date()
     let fullDate = `${arrDays[dateToSave.getDay()]}, ${arrMonths[dateToSave.getMonth()]} ${dateToSave.getDate()} ${dateToSave.getFullYear()}, ${dateToSave.getHours()}:${dateToSave.getMinutes()}`
+
+    let gameIndex = i;
+    if ((chapter[3] == "4" || chapter[3] == "3") && changeSaveError) gameIndex = changeSaveError; 
+
     const objectToSave = {
         inScreenCharacters:[], 
-        doki_currentGame: i,
+        doki_currentGame: gameIndex,
         date: fullDate,
         chapter: chapter,
         choices:choices,
