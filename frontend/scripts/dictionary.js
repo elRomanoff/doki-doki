@@ -250,6 +250,7 @@ let dictionary = {
     "kitchen.png": "https://i.postimg.cc/527YypZD/kitchen.png",
     "Notebook.png": "https://i.postimg.cc/Pq1j95zK/Notebook.png",
     "sayori.png": "https://i.postimg.cc/FRZQFC6L/sayori.png",
+    "sayonara.gif":"https://firebasestorage.googleapis.com/v0/b/segundobucket-ddlc.appspot.com/o/sayonara.gif?alt=media&token=61b82c59-9367-4605-8238-70d6a7e34876",
 
     //Sayori
     "sayori-bg-1.png": "https://i.postimg.cc/GmywTmNr/sayori-bg-1.png",

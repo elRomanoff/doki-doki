@@ -5,7 +5,9 @@
       "newBackground": "Club.png",
       "usesVar":true,
       "content": "#var!",
-      "charImg":"3aa.png"
+      "charImg":"3aa.png",
+      "next":"the-end",
+      "music":"stop"
   },
   {
       "char": "Monika",
@@ -298,7 +300,9 @@
   {
       "content": "Sayori?",
       "char":"you",
-      "newBackground":"black"
+      
+        "newBackground": "black"
+
   },
   {
       "content": "She really is a heavy sleeper...","char":"nobody"
@@ -341,6 +345,175 @@
   },
   {
       "content": "I gently open the door.","char":"nobody"
-  }
+  },
+  {
+    "newBackground": "sayonara.gif",
+    "content": "Say--",
+    "char": "???",
+    "music": "sayonara.mp3"
+  },
+  {
+    "charImg":{
+        "background":"remove"
+    },
+    "content":". . . . . . . . . . . . . . . . . "
+  },
+  {
+    "content":". . . . . . . . . . . . . . . . . "
+  },
+  {
+    "content":". . . . . . . . . . . . . . . . . "
+  },
+  {
+    "content":". . . . . . . . . . . . . . . . . "
+  },
+  {
+    "charImg":{
+        "background":"remove"
+    },
+    "content": "What the hell...?","char":"nobody"
+},
+{
+    "content": "<i>What the hell??</i>","char":"nobody"
+},
+{
+    "content": "Is this a nightmare?","char":"nobody"
+},
+{
+    "content": "It...has to be.","char":"nobody"
+},
+{
+    "content": "This isn't real.","char":"nobody"
+},
+{
+    "content": "There's no way this can be real.","char":"nobody"
+},
+{
+    "content": "Sayori wouldn't do this.","char":"nobody"
+},
+{
+    "content": "Everything was normal up until a few days ago.","char":"nobody"
+},
+{
+    "content": "That's why I can't believe what my eyes are showing me...!","char":"nobody"
+},
+{
+    "content": "I suppress the urge to vomit.","char":"nobody",
+    "charImg": {
+        "background": "black"
+    }
+},
+{
+    "content": "Just yesterday...","char":"nobody"
+},
+{
+    "content": "I told Sayori I would be there for her.","char":"nobody"
+},
+{
+    "content": "I told her I know what's best, and that everything will be okay.","char":"nobody"
+},
+{
+    "content": "Then why...?","char":"nobody"
+},
+{
+    "content": "Why would she do this...?","char":"nobody"
+},
+{
+    "content": "How could I be so helpless?","char":"nobody"
+},
+{
+    "content": "Confessing to her...","char":"nobody"
+},
+{
+    "content": "I shouldn't have confessed to her.","char":"nobody"
+},
+{
+    "content": "That's not what Sayori needed at all.","char":"nobody"
+},
+{
+    "content": "She even told me how painful it is for others to care about her.","char":"nobody"
+},
+{
+    "content": "Then why did I confess to her, and make her feel even worse?","char":"nobody"
+},
+{
+    "content": "Why was I so selfish?","char":"nobody"
+},
+{
+    "content": "This is my fault--!","char":"nobody"
+},
+{
+    "content": "My swarming thoughts keep telling me everything I could have done to prevent this.","char":"nobody"
+},
+{
+    "content": "If I just spent more time with her.","char":"nobody"
+},
+{
+    "content": "Walked her to school.","char":"nobody"
+},
+{
+    "content": "And remained friends with her, like it always has been...","char":"nobody"
+},
+{
+    "content": "...Then I could have prevented this.","char":"nobody"
+},
+{
+    "content": "I know I could have prevented this!","char":"nobody"
+},
+{
+    "content": "Screw the Literature Club.","char":"nobody"
+},
+{
+    "content": "Screw the festival.","char":"nobody"
+},
+{
+    "content": "I just...lost my best friend.","char":"nobody"
+},
+{
+    "content": "Someone I grew up with.","char":"nobody"
+},
+{
+    "content": "She's gone forever now.","char":"nobody"
+},
+{
+    "content": "Nothing I do can bring her back.","char":"nobody"
+},
+{
+    "content": "This isn't some game where I can reset and try something different.","char":"nobody"
+},
+{
+    "content": "I had only one chance, and I wasn't careful enough.","char":"nobody"
+},
+{
+    "content": "And now I'll carry this guilt with me until I die.","char":"nobody"
+},
+{
+    "content": "Nothing in my life is worth more than hers...","char":"nobody"
+},
+{
+    "content": "But I still couldn't do what she needed from me.","char":"nobody"
+},
+{
+    "content": "And now...","char":"nobody"
+},
+{
+    "content": "I can never take it back.","char":"nobody"
+},
+{
+    "content": "Never.","char":"nobody"
+},
+{
+    "content": "Never.","char":"nobody"
+},
+{
+    "content": "Never.","char":"nobody"
+},
+{
+    "content": "Never.","char":"nobody"
+},
+{
+    "content": "Never..."
+}
+  
 
 ]

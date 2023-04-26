@@ -12,7 +12,7 @@ loadMenu.classList.add("load-menu")
 
 alert("Welcome to Doki Doki Literature Club Browser Edition! - Original game by Dan Salvato, Adapted to web browsers by elpapu (Github:'github.com/elRomanoff')")
 
-//cargar las canciones
+//cargar los sonidos
 const hoverSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fhover.ogg?alt=media&token=69a7fd4d-f846-4215-87e7-96dc46e0149c");
 const selectSound = cargarSonido("https://firebasestorage.googleapis.com/v0/b/vamosaprobarpitos.appspot.com/o/musica%2Fselect.ogg?alt=media&token=02f9acb0-aa26-41f4-97c8-68eac0a0a5e7");
 
@@ -25,6 +25,9 @@ let logo = document.getElementById("logo")
 let mainScreen = document.getElementById('pantalla');
 let menuBtns = document.getElementById('menu-btns');
 
+if(localStorage.getItem("the-end")){
+    s.src = "./imagenes/glitch.png"
+}
 
 const menuAside = document.querySelector(".menu__aside")
 const cornerText = document.createElement("p");

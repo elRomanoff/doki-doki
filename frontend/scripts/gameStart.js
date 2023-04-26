@@ -7,7 +7,7 @@ const charName = document.getElementById("char-name");
 const textBackground = document.querySelector(".text-background");
 const textBox = document.getElementById("text-box");
 
-function remove() {
+export default function remove() {
     charName.classList.toggle("none");
     textBackground.classList.toggle("none");
     textBox.classList.toggle("none");

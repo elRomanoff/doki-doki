@@ -7,6 +7,7 @@ import {config} from "/scripts/config.js"
 import {dictionary} from "/scripts/dictionary.js"
 import Background from "/scripts/backgrounds.js"
 import {managePoem} from "/scripts/managePoem.js"
+import remove from "/scripts/gameStart.js"
 
 //config stuff
 let changeSaveError = false
@@ -80,6 +81,14 @@ function takeCharactersToScreen () {
     
 };
 takeCharactersToScreen()
+
+
+//checkIfEnded
+
+if(chapter === "the-end" || localStorage.getItem("the-end")){
+    if(chapter === "the-end") localStorage.setItem("the-end", true)
+    window.open("/Happy", "_self")
+}
 
 //init
 fetch(chapter)
@@ -430,6 +439,7 @@ function manageImage(img){
         if (!img.background) try { mainScreen.removeChild(charBg.domImg); charBg.inScreen = false}catch(e){console.log("aaaaaaa " + e)}
         else if (img.background === "break") charBg.break();
         else if (img.background === "black") charBg.black();
+        else if (img.background === "remove") remove()
         else{ 
             if(charBg.inScreen){
                 charBg.defineImgWithAnimation(img.background)

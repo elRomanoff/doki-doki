@@ -10,6 +10,9 @@ router.get("/Game", (req, res) => {
 router.get("/poem", (req, res) => {
     res.sendFile(path.join(__dirname, '../../frontend/poem.html'))
 })
+router.get("/happy", (req, res) => {
+    res.sendFile(path.join(__dirname, '../../frontend/happy.html'))
+})
 //poem words
 router.get("/poem-words", async (req, res) =>{
     const textWords = fs.readFileSync(path.join(__dirname, "../database/poem-words.txt"), "utf-8");
