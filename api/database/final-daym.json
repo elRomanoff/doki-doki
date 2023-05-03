@@ -353,7 +353,8 @@
     "newBackground": "sayonara.gif",
     "content": "Say--",
     "char": "???",
-    "music": "sayonara.mp3"
+    "music": "sayonara.mp3",
+    "options":"setEnd"
   },
   {
     "content":". . . . . . . . . . . . . . . . . ",

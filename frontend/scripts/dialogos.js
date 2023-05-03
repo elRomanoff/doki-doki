@@ -363,6 +363,8 @@ function manageOptions(optionObj){
             else arrDialog.splice(i + 1, 0, ...optionObj.option3)
         }
     }
+    else if (optionObj.options === "setEnd") localStorage.setItem("doki_currentChapter","the-end")
+
 
 }
 
