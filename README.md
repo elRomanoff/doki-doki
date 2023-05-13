@@ -6,6 +6,7 @@ The popular anime visual novel DDLC programmed from zero in vanilla javascript, 
 Some of the many concepts I handle in this project are:
 
     CSS animations
+    Responsive Design
     POO
     Consuming data from API
     Audio Handling 
