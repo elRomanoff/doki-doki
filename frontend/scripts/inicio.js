@@ -3,7 +3,7 @@ import { cargarSonido } from "/scripts/cargarSonido.js"
 import {findSave} from "/scripts/saveGame.js"
 
 
-const music = cargarSonido("/api/sound/music/main-theme.mp3");
+const music = cargarSonido("/api/sound/music/main-theme-cumbia.mp3");
 
 const optionsMenu = document.createElement("div");
 optionsMenu.classList.add("options-menu")
