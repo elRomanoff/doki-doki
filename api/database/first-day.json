@@ -7,27 +7,27 @@
     "music": "ohayou-sayori.mp3"
 },
 {
-    "content": "I see an annoying girl running toward me from the distance, waving her arms in the air like she's totally oblivious to any attention she might draw to herself.",
+    "content": "Veo a una mina corriendo hacia mí a la distancia, revoleando los brazos en el aire como si no se diera cuenta de que obviamente está llamando toda la atención.",
     "char": "nobody"
 },
 {
-    "content": "That girl is Sayori, my neighbor and good friend since we were children.",
+    "content": "Ella es Sayori, mi vecina y amiga desde que eramos pendejos.",
     "char":"nobody"
 },
 {
-    "content": "You know, the kind of friend you'd never see yourself making today, but it just kind of works out becouse you've known each other for so long?",
+    "content": "Viste, el tipo de persona del que seguramente no te harías amigo ni en pedo a esta altura del partido, pero que anda porque se conocen hace mucho, por así decirlo.",
     "char":"nobody"
 },
 {
-    "content": "We used to walk to school together on days like this, but starting around high school she would oversleep more and more frequently, and I would get tired of waiting up.",
+    "content": "Solíamos caminar hasta la escuela juntos en días como este, pero arrancando la secundaria ella empezaría a quedarse dormida a cada rato, y yo me terminaría cansando de esperarla.",
     "char": "nobody"
 },
 {
-    "content": "But if she's going to chase after me like this, I almost feel better off running away.",
+    "content": "Pero si me van a alcanzar así, casi que me sentiría mejor si salgo corriendo.",
     "char": "nobody"
 },
 {
-    "content": "However, I just sigh and idle in front of the crosswalk and let Sayori catch up to me.",
+    "content": "De cualquier forma, la espero en la esquina para que eventualmente me alcance.",
     "char": "nobody"
 },
 {
@@ -36,19 +36,19 @@
     "charImg":"Ori16.png"
 },
 {
-    "content": "I oversleept again!",
+    "content": "Me quedé dormida de nuevo, boludo.",
     "char": "Sayori"
 },
 {
-    "content":"But I caught you this time!",
+    "content":"Pero esta vez te alcancé!",
     "char": "Sayori"
 },
 {
-    "content": "Maybe, but only becouse I decided to stop and wait for you.",
+    "content": "Si, porque me quedé a esperarte capaz.",
     "char":"you"
 },
 {
-    "content":"Eeehhhh, you say that like you were thinking about ignoring me!",
+    "content":"Bueehhhh, lo decís como si fuera mejor ignorarme!",
     "char": "Sayori",
     "charImg": "Say2.png",
     "animation":[{
@@ -58,17 +58,17 @@
 },
 {
     "usesVar": "true",
-    "content": "That's mean, #var.",
+    "content": "Medio forro eso, #var.",
     "char": "Sayori"
 },
 {
-    "content": "Well, if people stare at you for acting weird then I don't want them to think we are a couple or something.",
+    "content": "Bueno, si la gente te mira por actuar raro entonces yo no quiero que nos vean como una pareja o algo así.",
     "char": "you"
 },
 {
     "char": "Sayori",
     "charImg": "Say1.png",
-    "content":"Fine, fine.",
+    "content":"Bueno, bueno.",
     "animation":[{
         "direction": "height",
         "value":"100%"
@@ -76,55 +76,55 @@
 },
 {
 
-    "content": "But you did wait for me, after all."
+    "content": "Aunque sea me esperaste."
 },
 {
 
-    "content": "I guess you don't have it in you to be mean even if you want to-"
+    "content": "Cuando querés sos simpático, sabés?-"
 },
 {
     "char":"you",
-    "content":"Whatever you say, Sayori..."
+    "content":"Si, como digas, Soraya..."
 },
 {
     "char":"Sayori",
-    "content":"Ehehe...",
+    "content":"Ejeje...",
     "charImg":"Say17.png"
 },
 {
     "insertImg":"Sayori",
-    "content": "We cross the street together and make our way to school.",
+    "content": "Cruzamos la calle y encaramos para el colegio.",
     "char": "nobody"
 },
 {
-    "content": "As we draw near, the streets become increasingly speckled with other students making their daily commute.",
+    "content": "A medida que nos acercamos, las calles empiezan a poblarse del piberío haciendo su rutina diaria.",
     "char": "nobody"
 },
 {
     "char": "Sayori",
     "charImg":"Sayori1.png",
     "usesVar":"true",
-    "content": "By the way, #var..."
+    "content": "Che, a todo esto, #var..."
 },
 {
     "char": "Sayori",
-    "content":"Have you decided on a club to join yet?"
+    "content":"Ya te decidiste a qué club vas a entrar este año?"
 },
 {
-    "content":"A club?",
+    "content":"Un club?",
     "char": "you"
 },
 {
-    "content":"I told you already, I'm not interested in joining any clubs.",
+    "content":"Ya te dije, no me interesa meterme en ningún club.",
     "char":"you"
 },
 {
     "char": "you",
-    "content": "I haven't been looking, either."
+    "content": "Tampoco estuve viendo."
 },
 {
     "char": "Sayori",
-    "content":"Eh? That's not true!",
+    "content":"Eh? Nada que ver!",
     "charImg":"Ori8.png",
     "animation": [
         {
@@ -135,71 +135,71 @@
 },
 {
     "char": "Sayori",
-    "content": "You told me you would join a club this year!"
+    "content": "Me dijiste que te ibas a anotar en alguno este año!"
 },
 {
     "char": "you",
-    "content": "Did I...?"
+    "content": "Posta...?"
 },
 {
     "char": "nobody",
-    "content": "I'm sure it's possible that I did, in one of our of our many conversations where I dismissively go along with whatever she's going on about"
+    "content": "Estoy seguro de que es posible que lo haya dicho, en una de las tantas veces que Sayori me habla y no le doy pelota."
 },
 {
     "char": "nobody",
-    "content": "Sayori likes to worry a little too much about me, when I'm perfectly content just getting by on the average while spending my free time on games and anime"
+    "content": "Ella se preocupa demasiado por mi cuando estoy perfectamente cómodo siendo un pibe promedio que juega a los jueguitos y mira anime."
 },
 {
     "char":"Sayori",
     "charImg":"Ori10.png",
-    "content":"Uh-huh!"
+    "content":"No no!"
 },
 {
     "char":"Sayori",
-    "content":"I was talking about how I'm worried that you won't learn how to socialize or have any skills before college."
+    "content":"A mi me preocupa que no aprendas alguna que otra habilidad, o al menos a socializar antes de arrancar la facu."
 },
 {
     "char": "Sayori",
-    "content": "Your happiness is really important to me, you know!."
+    "content": "Me importa mucho tu felicidad, ya sabés eso!."
 },
 {
-    "content":"And I know you're happy now, but I'd die at the thought of you becoming a NEET in a few years becouse you're not used to the real world!",
+    "content":"Y andás bien ahora, pero me puedo llegar a morir si te convertis en un NINI en un par de años por no saber manejarte en el mundo real!",
     "char": "Sayori"
 },
 {
     "char": "Sayori",
     "charImg": "Ori7.png",
-    "content": "You trust me, right?"
+    "content": "No seas boludo."
 },
 {
     "char": "Sayori",
-    "content": "Don't make me keep worrying about you..."
+    "content": "No me hagas preocupar..."
 },
 {
     "char": "you",
-    "content": "Alright, alright..."
+    "content": "Fo, cómo rompés las bolas."
 },
 {
     "char": "you",
-    "content": "I'll look at a few clubs if it makes you happy"
+    "content": "Si te parece, voy y miro algunas actividades para anotarme."
 },
 {
     "char": "you",
-    "content": "No promises, though"
+    "content": "Igual no prometo nada, eh."
 },
 {
     "char": "Sayori",
     "charImg":"Say8.png",
-    "content": "Will you at least promise me you'll try a little?"
+    "content": "Aunque sea prometeme que lo vas a intentar..."
 },
 {
     "char": "you",
-    "content":"Yeah, I guess I'll promise you that."
+    "content":"Bueno, te lo prometo."
 },
 {
     "char": "Sayori",
     "charImg":"Ori18.png",
-    "content":"Yaay~!",
+    "content":"Bien~!",
     "animation": [
         {
             "direction": "top",
@@ -209,24 +209,24 @@
 },
 {
     "char": "nobody",
-    "content": "Why do I let myself get lectured by such a carefree girl?"
+    "content": "Por qué pingo me dejo mandonear por una mina tan descuidada?"
 },
 {
     "char": "nobody",
-    "content": "More than that, I'm surprised I even let myself relent to her."
+    "content": "Encima le terminé diciendo que si..."
 },
 {
     "char": "nobody",
-    "content": "I guess seeing her worry so much about me makes me want to ease her mind at least a little bit--even if she does exaggerate everything inside of her head."
+    "content": "Me parece que verla preocuparse tanto por mí hace que quiera tranquilizarla al menos un poco, pero exagera todo lo que tiene en la cabeza.."
 },
 {
     "newBackground": "Class.png",
     "char":"nobody",
-    "content":"The school day is as ordinary as ever, and it's over before I know it."
+    "content":"El día de escuela fue tan ordinario como siempre, y se terminó antes de que me diera cuenta."
 },
 {
     "char": "nobody",
-    "content":"After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
+    "content":"Guardo las cosa y miro un rato la pared, buscando alguna pizca de motivación."
 },
 {
     "char": "you",
@@ -234,11 +234,11 @@
 },
 {
     "char": "nobody",
-    "content":"Sayori wants me to check out some clubs"
+    "content":"Sayori quiere que mire y elija alguno"
 },
 {
     "char": "nobody",
-    "content": "I guess I have no choice but to start with the anime club..."
+    "content": "Capaz termino armando un club de anime, aunque no me sacaría la etiqueta de virgo hasta que nos recibamos..."
 },
 {
     "char": "Sayori",
@@ -252,36 +252,36 @@
 },
 {
     "char":"nobody",
-    "content":"Sayori must have come into the classroom while I was spacing out."
+    "content":"Sayori habrá entrado mientras que yo estaba en cualquiera."
 },
 
 {
     "char":"nobody",
-    "content": "I look around and realize that I'm the only one left in the classroom."
+    "content": "Miro a mi alrededor y me doy cuenta de que somos los únicos en todo el áula."
 },
 {
     "char":"Sayori",
-    "content":"I thought I'd catch you coming out of the classroom, but I saw you just sitting here and spacing out, so I came in."
+    "content":"Pensé que te vería a la salida, pero te vi sentado totalmente en cualquiera así que entré."
 },
 {
-    "content":"Honestly, you're even worse than me sometimes... I'm impressed!"
+    "content":"La verdad, cada vez peor lo tuyo..."
 },
 {
     "char": "you",
-    "content":"You don't need to wait up for me if it's going to make you late to your own club."
+    "content":"No tenés por qué esperarme sabiendo que llegás tarde a tu propia actividad."
 },
 {
     "char":"Sayori",
     "charImg":"Say25.png",
-    "content": "Well, I thought you might need some encouragement, so I thought, you know..."
+    "content": "Bueno, pense que necesitarías algo de aguante, así que se me ocurrió que... viste..."
 },
 {
     "char":"you",
-    "content":"Know what?"
+    "content":"Qué cosa?"
 },
 {
     "char":"Sayori",
-    "content": "Well, that you could come to my club!",
+    "content": "Bueno, que podrías venir a mi club!",
     "charImg": "Say1.png"
 },
 {
@@ -290,17 +290,17 @@
 },
 {
     "char": "Sayori",
-    "content": "Yeah??",
+    "content": "Si??",
     "charImg": "Ori18.png"
 },
 {
     "char": "you",
-    "content": "There is no way I'm going to your club."
+    "content": "Ni en pedo voy a tu club."
 },
 {
     "char":"Sayori",
     "charImg": "3d.png",
-    "content":"Eeeehhhhh?! Meanie!",
+    "content":"Eeeehhhhh?! Qué forro!",
     "animation": [
         {
             "direction": "top",
@@ -310,72 +310,71 @@
 },
 {
     "char":"nobody",
-    "content":"Sayori is vice president of the Literature Club"
+    "content":"Sayori es la vicepresidente del club de Literatura"
 },
 {
     "char": "nobody",
-    "content":"Not that I was ever aware that she had any interest in literature"
+    "content":"No es que alguna vez supiera que ella tenía algún interés en la literatura."
 },
 {
     "char": "nobody",
-    "content":"In fact, I'm 99% sure she only did it becouse she thought it would be fun to help start a new club."
+    "content":"De hecho, estoy 99% seguro de que sólo lo hizo porque pensó que sería divertido ayudar a iniciar un nuevo club."
 },
 {
     "char": "nobody",
-    "content":"Since she was the first one to show interest after the one who proposed the club, she inherited the title ''Vice President''."
+    "content":"Como fue la primera en mostrar interés después de la que propuso el club, heredó el título de 'Vicepresidenta'"
 },
 {
     "char": "nobody",
-    "content":"That said, my interest in literature is guaranteed to be even less."
+    "content":"Y qué te cuento que mi interés en la literatura es menor todavía."
 },
 {
     "char":"you",
-    "content":"Yeah. I'm going to the anime club."
+    "content":"Si, voy a armar un club de animé."
 },
 {
     "char": "Sayori",
-    "content": "C'mon, please?",
+    "content": "Dale, loco. Dejá de hacerte rogar.",
     "charImg": "Say7.png"
 },
 {
     "char": "you",
-    "content": "Why do you care so much, anyway?"
+    "content": "Qué te calienta tanto?"
 },
 {
     "char": "Sayori",
-    "content": "Well...",
+    "content": "Bueno...",
     "charImg": "3b.png"
 },
 {
-    "content": "I kind of told the club yesterday I would bring in a new member..."
+    "content": "Medio que le dije a las pibas que llevaría un nuevo miembro..."
 },
 {
-    "content": "And Natsuki made cupcakes and everything..."
+    "content": "Y Natsuki hizo magdalenas y todo..."
 },
 {
-    "content": "Ehehe..."
-},
-{
-    "char": "you",
-    "content": "Don't make promises you can't keep!"
-},
-{
-    "char": "nobody",
-    "content": "I can't tell if Sayori is really that much of an airhead, or if she's so cunning as to have planned all of this out."
-},
-{
-    "char": "nobody",
-    "content": "I let out a long sigh."
+    "content": "Ejeje..."
 },
 {
     "char": "you",
-    "content": "Fine...I'll stop by for a cupcake, okay?"
+    "content": "Para qué prometés cosas que no vas a cumplir?"
+},
+{
+    "char": "nobody",
+    "content": "No puedo decir si Sayori es realmente tan boluda, o si es tan astuta como para haber planeado todo esto."
+},
+{
+    "char": "nobody",
+    "content": "Puteo un poco en voz baja."
+},
+{
+    "char": "you",
+    "content": "Bueno...Voy y pruebo una magdalena, dale?"
 },
 {
     "char": "Sayori",
-    "content": "Yay! Let's go!~",
+    "content": "Bien! Dale, vamos!~",
     "charImg": "Ori18.png",
-    "comment": "Acá hace como un saltito hacia arriba",
     "animation": [
         {
             "direction": "top",
@@ -386,26 +385,26 @@
 {
     "newBackground":"Corridor.png",
     "char": "nobody",
-    "content": "And thus, today marks the day I sold my soul for a cupcake."
+    "content": "Y así, marca el día en el que me vendí por una magdalena."
 },
 {
-    "content": "I dejectedly follow Sayori across the school and upstairs--a section of the school I rarely visit, being generally used for third-year classes and activities.",
+    "content": "La seguí a Sayori calladito por toda la escuela hasta la parte de arriba, una parte de la escuela que nunca había visto, usada generalmente para clases y actividades de tercer año.",
     "char": "nobody"
 },
 {
     "char": "nobody",
-    "content": "Sayori, full of energy, swings open the classroom door."
+    "content": "Sayori, re manija, patea la puerta del aula."
 },
 {
     "music":"main-theme.mp3",
     "newBackground":"Club.png",
     "char": "Sayori",
-    "content": "Everyone! the new member is here!",
+    "content": "Gente! llegó el nuevo!",
     "charImg": "Ori1.png"
 },
 {
     "char": "you",
-    "content":"I told you, don't call me a 'new member--'",
+    "content":"Boluda, no me digas 'el nuevo--'",
     "animation": [
         {
             "direction": "left",
@@ -415,7 +414,7 @@
 },
 {
     "char": "nobody",
-    "content": "Eh? I glance around the room.",
+    "content": "Eh? Miro un toque por el aula.",
     "charImg":"non",
     "animation": [
         {
@@ -425,16 +424,16 @@
     ]    
 },
 {
-    "char":"Girl 1",
-    "content": "Welcome to the Literature Club. It's a pleasure meeting you.",
+    "char":"Chica 1",
+    "content": "Bienvenido al club de literatura, pibe. Un placer.",
     "charImg":"Yuri_school_2.png"
 },
 {
-    "content": "Sayori always says nice things about you."
+    "content": "Sayori siempre anda diciendo cosas buenas de vos."
 },
 {
-    "char":"Girl 2",
-    "content":"Seriously? You brought a boy?",
+    "char":"Chica 2",
+    "content": "En serio? Trajiste a un pibe?",
     "newCharacter":[{
         "new": "true",
         "left":"true",
@@ -443,12 +442,12 @@
     }]
 },
 {
-    "content": "Way to kill the atmosphere"
+    "content": "Qué ganas de cagar la atmósfera"
 },
 {
     "usesVar":"true",
-    "char": "Girl 3",
-    "content":"Ah, #var! What a great surprise!", 
+    "char": "Chica 3",
+    "content":"Ah, #var! Qué sorpresa!", 
     "newCharacter": [{
         "new": "true",
         "left": "true",
@@ -457,7 +456,7 @@
     }]
 },
 {
-    "content":"Welcome to the club!"
+    "content":"Bienvenido al club!"
 },
 {
     "char": "you",
@@ -469,19 +468,19 @@
 },
 {
     "char": "nobody",
-    "content":"All words scape me in this situation"
+    "content":"Todas las palabras se me escapan en esta situación"
 },
 {
     "char": "nobody",
-    "content": "This club..."
+    "content": "Este club..."
 },
 {
     "char": "nobody",
-    "content": "IS FULL OF INCREDIBLY CUTE GIRLS!!!"
+    "content": "<i>Está lleno de minas re lindas</i>!!!"
 },
 {
-    "char": "Girl 2",
-    "content":"What are you looking at?",
+    "char": "Chica 2",
+    "content":"Qué mirá, bobo?",
     "newCharacter": "erase",
     "charImg":"Y14.png",
     "animation": [
@@ -492,14 +491,14 @@
     ]
 },
 {
-    "content":"If you want to say something, say it."
+    "content":"Si querés decir algo, decilo."
 },
 {
     "char": "you",
-    "content":"S-Sorry..."
+    "content":"Ah, perdón..."
 },
 {
-    "char": "Girl 1",
+    "char": "Chica 1",
     "content":"Natsuki...",
     "newCharacter":[{
         "new":"true",
@@ -533,7 +532,7 @@
 },
 {
     "char":"nobody",
-    "content":"The girl with the sour actitude, whose name is apparently Natsuki, is one I don't recognize.",
+    "content":"La mina con esa actitud ácida, que aparentemente se llama Natsuki, es la única que no reconozco.",
     "animation": [
         {
             "direction": "height",
@@ -543,15 +542,15 @@
 },
 {
     "char": "nobody",
-    "content": "Her small figure makes me think she's probably a first-year."
+    "content": "Es una nena, seguramente de primer año o segundo."
 },
 {
     "char": "nobody",
-    "content": "She is also the one who made cupcakes, acording to Sayori."
+    "content": "También es la que hizo las magdalenas, según Sayori."
 },
 {
     "char":"Sayori",
-    "content": "You can't just ignore her when she gets moody~",
+    "content": "Cuando se pone así no podés ignorarla jaja~",
     "newCharacter":[{
         "char":"Sayori",
         "hide":"NO",
@@ -561,19 +560,19 @@
 },
 {
     "char":"nobody",
-    "content":"Sayori says that quietly into my ear, then turns back toward the other girls."
+    "content":"Sayori me dice eso bajito y al oído, y después se voltea hacia las otras chicas."
 },
 {
     "char":"Sayori",
-    "content":"Anyway! This is Natsuki, allways full of energy!",
+    "content":"En fin! Ella es Natsuki, siempre llena de energía!",
     "newCharacter":[{"char": "Sayori", "charImg":"Say24.png", "comment":"arreglar esta imagen de sayori de vuelta"}]
 },
 {
-    "content": "And this is Yuri, the smartest of the club!"
+    "content": "Y ella es Yuri, la más inteligente del club!"
 },
 {
     "char":"Yuri",
-    "content":"D-Don't say things like that...",
+    "content":"Pará, tampoco lo digas así...",
     "newCharacter":[{"char":"Yuri","charImg":"YSLookaway.png"}],
     "animation": [
         {
@@ -584,12 +583,12 @@
     ]
 },
 {
-    "content": "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with people like Sayori and Natsuki",
+    "content": "Yuri, quien aparenta a ser más madura y tímida por comparación, parece no pasarla muy bien yendo al ritmo de gente como Sayori o Natsuki.",
     "char": "nobody"
 },
 {
     "char":"you",
-    "content":"Ah... Well, it's nice to meet both of you.",
+    "content":"Ah... Bueno, es un gusto conocerlas a las dos.",
     "animation": [
         {
             "char": "Yuri",
@@ -602,11 +601,11 @@
    "char": "Sayori",
    "charImg":"Say1.png",
    "newCharacter":"erase",
-   "content":"And it looks like you already know Monika, is that right?" 
+   "content":"Y parece que ya conocías a Mónika, no?" 
 },
 {
     "char":"Monika",
-    "content":"That's right.",
+    "content":"Así es.",
     "charImg": "Ika1.png",
     "newCharacter":[{"char":"Sayori","new":true,"left":true, "charImg":"Say1.png"},{"char":"Yuri","new":true, "charImg":"Yuri_school_2.png", "hide":"hide"}],
     "comment": "armar imagen de monika",
@@ -619,12 +618,12 @@
 },
 {
     "char": "Monika",
-    "content":"It's great to see you again, #var.",
+    "content":"Qué bueno volver a verte, #var.",
     "usesVar":"true"
 },
 {
     "char": "nobody",
-    "content":"Monika smiles sweetly.",
+    "content":"Monika sonrie dulcemente.",
     "charImg":"3aa.png",
     "animation":[{
         "direction":"jump",
@@ -633,45 +632,45 @@
 },
 {   
     "char":"nobody",
-    "content":"We do know each other--well, we rarely talked, but we were in the same class last year."
+    "content":"Ella y yo ya nos conocemos--bueno, rara vez hablamos, pero estuvimos en la misma clase el año pasado."
 },
 {
     "char":"nobody",
-    "content":"Monika was probably the most popular girl in class--smart, beautiful, athletic."
+    "content":"Monika era probablemente la más top del aula--inteligente, linda, atlética."
 },
 {
     "char":"nobody",
-    "content":"Basically, completly out of my league."
+    "content":"Básicamente, completamente fuera de mi alcance."
 },
 {
     "char": "nobody",
-    "content": "So, having her smile at me so genuinely feels a little..."
+    "content": "Entonces, ganarse una sonrisa suya es como..."
 },
 {
     "char": "you",
-    "content": "Y-You too, Monika."
+    "content": "I-igualmente, Monika."
 },
 {
     "char":"Sayori",
-    "content":"Come sit down, #var! We made room for you at the table, so you can sit next to me or Monika.",
+    "content":"Vení, sentate #var! Hicimos lugar en la mesa, así te sentas al lado mío o de Monika.",
     "usesVar":"true",
     "newCharacter":[{"char":"Sayori","charImg":"Ori24.png"}],
     "charImg":"non",
     "animation":[{"char":"Sayori","direction":"height","value":"102%"}]
 },
 {
-    "content":"I'll get the cupcakes~"
+    "content":"Voy a buscar las magdalenas~"
 },
 {
 
     "char":"Natsuki",
     "charImg":"Schoold.png",
-    "content":"Hey! I made them, I'll get them!",
+    "content":"Ey! Yo las hice, yo las traigo!",
     "animation":[{"char":"Sayori","direction":"height","value":"100%"},{"direction":"height","value":"102%"}]
 },
 {
     "char":"Sayori",
-    "content":"Sorry, I got a little too exited~",
+    "content":"Ay perdón, me entusiasmé un poco mucho~",
     "newCharacter":[{
         "char":"Sayori","hide":"non","charImg": "3a.png"
     }],
@@ -689,7 +688,7 @@
 },
 {
     "char":"Yuri",
-    "content":"Then, how about I make some tea as well?",
+    "content":"Mientras tanto yo pongo la pava para unos mates.",
     "newCharacter":[{"char":"Yuri","hide":"non","charImg":"Yuri_school_2.png"}],
     "animation":[{
         "char":"Sayori",
@@ -707,28 +706,28 @@
     "char":"nobody",
     "newBackground":"Club.png",
     "newCharacter":"erase",
-    "content":"The girls have a few desks arranged to form a table."
+    "content":"Las chicas acomodan algunos pupitres para formar una mesa."
 },
 {
     "char":"nobody",
-    "content":"As Sayori mentioned, it's been widened so that there is one space next to Monika and one space next to Sayori"
+    "content":"Como mencionó Sayori, Hicieron lugar como para que me sentara al lado de Mónika o de Sayori."
 },
 {
     "char": "nobody",
-    "content": "Natsuki and Yuri walk over to the corner of the room, where Natsuki grabs a wrapped tray and Yuri opens the closet."
+    "content": "Natsuki y Yuri caminan hacia un rincón, donde Natsuki pela una bandeja envuelta y Yuri abre la alacena."
 },
 {
     "char": "nobody",
-    "content": "Still feeling awkward, I take a seat next to Sayori."
+    "content": "Todavía sintiéndome un poco incómodo, me siento al lado de Sayori."
 },
 {
     "char": "nobody",
-    "content": "Natsuki proudly marches back to the table, tray in hand"
+    "content": "Natsuki marcha orgullosa de vuelta hacia la mesa, con bandeja en mano"
 },
 {
     "char":"Natsuki",
     "charImg":"Natsuki_Grin2.png",
-    "content":"Okaaay, are you ready?"
+    "content":"Okeyyy, todos listos?"
 },
 {
     "content":"...Ta-daa!"
@@ -740,21 +739,21 @@
 },
 {
     "char":"nobody",
-    "content":"Natsuki lifts the foil off the tray to reveal a dozen white, fluffy cupcakes decorated to look like little cats."
+    "content":"Natsuki quita el mantel de la bandeja para revelar una docena de magdalenas blancas y esponjosas decoradas como gatitos."
 },
 {
     "char": "nobody",
-    "content": "The whiskers are drawn with icing, and little pieces of chocolate were used to make ears."
+    "content": "Los bigotes están dibujados con glaseado y se usaron trocitos de chocolate para hacer las orejas."
 },
 {
     "char":"Sayori",
-    "content":"So cuuuute~!",
+    "content":"Está precioso~!",
     "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}],
     "animation":[{"char":"Sayori","direction":"height","value":"103%"}]
 },
 {
     "char":"Monika",
-    "content":"I had no idea you were so good at baking, Natsuki!",
+    "content":"No sabía que eras tan buena pastelera, Natsuki!",
     "newCharacter":[{"char":"Monika", "charImg":"Mon2.png"}],
     "animation":[{
         "char":"Sayori","direction":"height","value":"100%"
@@ -765,7 +764,7 @@
 },
 {
     "char":"Natsuki",
-    "content":"Ehehe. Well, you know.",
+    "content":"Ejeje, bueno viste.",
     "charImg":"Y15.png",
         "animation": [
             {
@@ -781,15 +780,15 @@
 },
 {
     "char": "Natsuki",
-    "content": "Just hurry and take one!."
+    "content": "Apurate y agarrá uno!."
 },
 {
     "char":"nobody",
-    "content":"Sayori grabs one first, then Monika. I follow."
+    "content":"Sayori manotea un primera, después Mónika, sigo yo."
 },
 {
     "char":"Sayori",
-    "content":"It's delicious!",
+    "content":"Está riquísimo!",
     "newCharacter":[{"char":"Sayori","charImg":"Ori17.png"}],
         "animation": [
             {
@@ -805,63 +804,63 @@
 },
 {
     "char":"nobody",
-    "content":"Sayori talks with her mouth full and has already managed to get icing on her face."
+    "content":"Sayori habla con toda la boca llena, y ya se las arregló para tener glaseado en la cara."
 },
 {
     "char":"nobody",
-    "content":"I turn the cupcake around in my fingers, looking for the best angle to take a bite."
+    "content":"Giro la magdalena entre mis dedos, buscando el mejor ángulo para morder."
 },
 {
     "char":"nobody",
-    "content":"Natsuki is quiet.",
+    "content":"Natsuki está callada.",
     "charImg":"Schoolb.png",
     "newCharacter":"erase"
 },
 {
     "char":"nobody",
-    "content":"I can't help but notice her sneaking blances in my direction"
+    "content":"No puedo dejar de notar que su vista apunta hacia mi dirección"
 },
 {
     "char":"nobody",
-    "content":"Is she waiting for me to take a bite?"
+    "content":"Está esperando que muerda...?"
 },
 {
     "char":"nobody",
-    "content":"I finally bite down."
+    "content":"Al final le doy un bocado."
 },
 {
     "char":"nobody",
-    "content":"The icing is sweet and full of flavor--I wonder if she made it herself."
+    "content":"El glaseado está dulce y lleno de sabor--andá a saber si lo prepara ella."
 },
 {
     "char":"you",
-    "content":"This is really good."
+    "content":"Están muy buenos."
 },
 {
-    "content":"Thank you, Natsuki"
+    "content":"Gracias, Natsuki"
 },
 {
     "char":"Natsuki",
-    "content":"W-Why are you thanking me? It's not like I...!",
+    "content":"P-Por qué me agradeces? No es que yo haya...!",
     "charImg":"NatsukiCrossedArms3.png"
 },
 {
     "char":"nobody",
-    "content":"Haven't I heard it before?"
+    "content":"No escuché esto antes?"
 },
 {
     "char": "Natsuki",
-    "content": "...Made them for you or anything.",
+    "content": "...Los haya hecho para vos.",
     "charImg": "NatsukiCrossedArms2.png",
     "animation":[{"direction":"top","value":"3%"}]
 },
 {
     "char":"you",
-    "content":"Eh? I thought you technically did. Sayori said--"
+    "content":"Eh? Los hiciste por mi. Sayori dijo que--"
 },
 {
     "char": "Natsuki",
-    "content": "Well, maybe!",
+    "content": "Bueno, ponele!",
     "charImg": "Y5.png",
     "animation": [
         {
@@ -871,247 +870,247 @@
     ]
 },
 {
-    "content":"But not for, y-you know, you! Dummy..."
+    "content":"Pero no exactamente para vos! Gil..."
 },
 {
     "char":"you",
-    "content":"Alright, alright"
+    "content":"Bueno, ta bien."
 },
 {
     "insertImg":"a",
     "char": "nobody",
-    "content":"I give up on Natsuki's weird logic and dismiss the conversation."
+    "content":"No le doy mucha bola a la lógica rara de Natsuki y paso de la conversación ."
 },
 {
     "char":"nobody",
-    "content":"Yuri returns to the table, carrying a tea set."
+    "content":"Yuri vuelve a la mesa con un juego de mate."
 },
 {
     "char":"nobody",
-    "content":"She carefully places a teacup in front of each of us before setting down the teapot next to the cupcake tray"
+    "content":"Lo arma con paciencia y cuidando la montañita, y deja el termo al lado de la bandeja"
 },
 {
     "newCharacter":[{"new":"true","char":"Monika","charImg":"Ika1.png","hide":"hide"}],
     "char":"you",
-    "content":"You keep a whole tea set in this classroom?",
+    "content":"Tienen todo un juego de mate en esta aula?",
     "charImg":"Yuri_school_2.png",
     "insertImg":"Yuri"
 },
 {
     "char":"Yuri",
-    "content":"Don't worry, the teachers gave us permission."
+    "content":"Si, tranqui. Los profes nos dieron permiso."
 },
 {
-    "content":"After all, doesn't a hot cup of tea help you enjoy a good book?"
+    "content":"Igual, me vas a decir que unos matecitos no van como piña para disfrutar un buen libro?"
 },
 {
     "char":"you",
-    "content":"Ah... I-I guess..."
+    "content":"Eh... S-si, qué se yo..."
 },
 {
     "char":"Monika",
-    "content":"Ehehe, don't let yourself get intimidated, Yuri's just trying to impress you.",
+    "content":"Ejeje, que no te intimide. Yuri estará tratando de impresionarte.",
     "newCharacter":[{"char":"Monika", "hide":"NO"}]
 },
 {
     "char":"Yuri",
-    "content":"Eh?! T-That's not...",
+    "content":"Eh?! Nada que...",
     "charImg":"YScared2.png",
     "animation":[{"direction":"jump", "value":"none"}]
 },
 {
     "char":"nobody",
-    "content":"Insulted, Yuri looks away."
+    "content":"Insultada, Yuri mira para otro lado."
 },
 {
     "char":"Yuri",
-    "content":"I meant that, you know...",
+    "content":"Quise decir que... coso",
     "charImg":"YSLookaway.png"
 },
 {
     "char":"you",
-    "content":"I believe you."
+    "content":"Te creo."
 },
 {
-    "content":"Well, tea and reading might not be a pastime for me, but I at least enjoy tea."
+    "content":"Qué se yo, tomar mate y leer no fue nunca mi pasatiempo, pero no te niego unos verdes."
 },
 {
     "char":"Yuri",
-    "content":"I'm glad...",
+    "content":"Más vale...",
     "charImg":"YBashful_Smile_2.png"
 },
 {
     "char":"nobody",
-    "content":"Yuri faintly smiles to herself in relief."
+    "content":"Yuri se alivia y sonrie para ella misma."
 },
 {
     "char":"nobody",
-    "content":"Monika raises an eyebrow, then smiles at me."
+    "content":"Mónika levanta una ceja y me sonríe."
 },
 {
     "char":"Monika",
-    "content":"So, what made you consider the Literature Club?",
+    "content":"Entonces, qué te hizo considerar el Club de Literatura?",
     "charImg":"Mon1.png",
     "newCharacter":"erase"
 },
 {
-    "content":"Um...",
+    "content":"Em...",
     "char":"you"
 },
 {
     "char":"nobody",
-    "content":"I was afraid of this question."
+    "content":"Tenía miedo de que me pregunten eso."
 },
 {
     "char":"nobody",
-    "content":"Something tells me I shouldn't tell Monika that I was practically dragged here by Sayori."
+    "content":"Medio que no puedo decirle a Mónika que Sayori prácticamente me arrastró hasta acá."
 },
 {
     "char":"you",
-    "content":"Well, I haven't joined any clubs yet, adn Sayori seemed really happy here, so..."
+    "content":"Bueno, no había mirado ningún club, y Sayori parecía que la pasaba muy bien aca, entonces..."
 },
 {
     "char":"Monika",
-    "content":"That's okay! Don't be embarrassed!",
+    "content":"Está muy bien! No tengas vergüenza.",
     "charImg":"Mon10.png"
 },
 {
     "char": "Monika",
-    "content": "We'll make sure you feel right at home, okay?",
+    "content": "Nos vamos a asegurar de que te sientas como en casa, dale?",
     "charImg": "Mon2.png"
 },
 {
-    "content":"As president of the Literature Club, It's my duty to make the club fun and exciting for everyone!"
+    "content":"Como presidente del Club de Literatura, me encargo de hacer que el club sea divertido y disfrutable para todos."
 },
 {
     "char":"you",
     "insertImg":"Monika",
     "charImg":"Mon1.png",
-    "content":"Monika, I'm surprised."
+    "content":"Monika, me sorprendiste."
 },
 {
-    "content":"How come you decided to start your own club?"
+    "content":"Cómo terminaste decidiéndote a empezar tu propio club?"
 },
 {
-    "content":"You could probably be a board member for any of the major clubs."
+    "content":"Vos tranquilamente podrías estar en el top de alguno de los clubes mayores."
 },
 {
-    "content":"Weren't you a leader of the debate club last year?"
+    "content":"No estabas como líder del club de debate el año pasado?"
 },
 {
     "char":"Monika",
-    "content":"Ahaha, well, you know...",
+    "content":"Jaja y si, bueno...",
     "charImg":"3aa.png"
 },
 {
-    "content":"To be honest, I can't stand all of the politics around the major clubs."
+    "content":"Para ser honesta, no me bancaba la política de los clubes mayores."
 },
 {
-    "content":"It feels like nothing but arguing about the budget and publicity and how to prepare for events"
+    "content":"Todo el día discutiendo por el presupuesto, la publicidad, cómo prepararnos para los eventos y la concha de la lora."
 },
 {
-    "content":"I'd much rather take something I personally enjoy and make something special out of it."
+    "content":"Prefiero tomar algo que personalmente disfruto y convertirlo en algo especial."
 },
 {
     "char":"Monika",
-    "content":"And if it encourages others to get into literature, then I'm fulfilling that dream!",
+    "content":"Y si anima a otros a meterse en la literatura, ¡estoy cumpliendo ese sueño!",
     "charImg":"Mon2.png"
 },
 {
     "insertImg":"Monika",
     "charImg":"Mon1.png",
     "char":"Sayori",
-    "content":"Monika really is a great leader!",
+    "content":"Mónika es una excelente líder!",
     "newCharacter":[{"char":"Yuri", "charImg":"Yuri_school_2.png","hide":"hide","new":"true"},{"char":"Sayori","charImg":"Ori17.png","left":"true","new":"true"}]
 },
 {
     "newCharacter":[{"char":"Yuri","hide":"non","charImg": "Yuri_school_2.png"}],
-    "char":"Yuri",
-    "content":"Yuri also nods in agreement."
+    "char":"nobody",
+    "content":"Yuri también asiente con la cabeza."
 },
 {
     "char":"you",
-    "content":"Then I'm surprised there areen't more people in the club yet.",
+    "content":"Entonces me sorprende que todavía no haya más gente en el club.",
     "newCharacter":"erase"
 },
 {
-    "content":"It must be hard to start a new club."
+    "content":"Debe ser difícil comenzar un nuevo club."
 },
 {
     "char":"Monika",
     "charImg":"Monika2.png",
-    "content":"You could put it that way."
+    "content":"Vos podés verlo de esta manera."
 },
 {
-    "content":"Not many people are very interested in putting out all the effort to start something brand new..."
+    "content":"No mucha gente está muy interesada en poner todo el esfuerzo para empezar algo completamente nuevo..."
 },
 {
-    "content":"Especially when it's something that doesn't grab your attention, like literature."
+    "content": "Especialmente cuando es algo que no te llama la atención, como la literatura."
 },
 {
-    "content":"You have to work hard to convince people that you're both fun and worthwhile."
+    "content":"Tenés que romperte un poco el culo para convencer a la gente de que está bueno."
 },
 {
-    "content":"But it makes school events, like the festival, that much more important"
+    "content":"Por eso eventos como el festival de la escuela son recontra importanets."
 },
 {
     "char":"Monika",
     "charImg":"Mon11.png",
-    "content":"I'm confident that we can all really grow this club before we graduate!"
+    "content":"Estoy segura de que podemos realmente hacer crecer este club antes de recibirnos!"
 },
 {
-    "content":"Right everyone?"
+    "content":"Cierto chicas?"
 },
 {
     "char":"Sayori",
     "charImg":"Monika1.png",
-    "content":"Yeah!",
+    "content":"Si!",
     "newCharacter":[{"char":"Sayori","new":"true","charImg":"Ori18.png", "left":"true"}]
 },
 {
     "char":"Yuri",
-    "content":"We'll do our best.",
+    "content":"Por supuesto, le ponemos onda.",
     "newCharacter":[{"char":"Yuri","new":"true","charImg":"Yuri_school_2.png", "left":"true"}]
 },
 {
     "char":"Natsuki",
-    "content":"You know it!",
+    "content":"Ma vale ameo!",
     "newCharacter":[{"char":"Natsuki","new":"true","charImg":"Y15.png","left":"true"}]
 },
 {
     "char":"nobody",
-    "content":"Everyone enthusiastically agrees."
+    "content":"Todas asienten con entusiasmo."
 },
 {
     "char":"nobody",
-    "content":"Such different girls, all interested in the same goal..."
+    "content":"Chicas tan diferentes, todas enfocadas en el mismo objetivo..."
 },
 {
     "char":"nobody",
-    "content":"Monika must have worked really hard just to find these three."
+    "content":"Encontrar a estas tres habrá sido un gran laburo para Monika."
 },
 {
     "char":"nobody",
-    "content":"Maybe that's why they were all so delighted by the idea of a new member joining."
+    "content":"Capaz por eso se coparon todas con la idea de que se uniera un nuevo miembro."
 },
 {
     "char":"nobody",
-    "content":"Though I still don't really know if I can keep up with their level of enthusiasm about literature"
+    "content":"Aunque todavía no sé si puedo mantener su nivel de entusiasmo por la literatura."
 },
 {
     "newCharacter":"erase",
     "char":"Yuri",
-    "content":"So, #var, what kinds of things do you like to read?",
+    "content":"Entonces, #var, ¿qué tipo de cosas te gusta leer?",
     "usesVar":"true",
     "charImg":"Yuri_school_2.png"
 },
 {
     "char":"you",
-    "content":"Well... Ah..."
+    "content":"Ah... Este..."
 },
 {
     "char":"nobody",
-    "content":"Considering how little I've read these past few years, I don't really have a good way of answering that."
+    "content":"Teniendo en cuenta lo poco que leí estos últimos años, realmente no tengo una buena manera de responder a eso."
 },
 {
     "char":"you",
@@ -1119,110 +1118,114 @@
 },
 {
     "char":"nobody",
-    "content":"I mutter quietly to myself, half-joking."
+    "content":"Digo medio jodiendo"
 },
 {
     "newCharacter":[{"new":"true", "char":"Natsuki","left":"true", "charImg":"Schoolb.png"},{"new":"true","hide":"hide","char":"Monika","charImg":"Mon4.png"}],
     "char":"nobody",
-    "content":"Natsuki's head suddenly perks up."
+    "content":"Natsuki de repente levanta la cabeza."
 },
 {
     "char":"nobody",
-    "content":"It looks like she wants to say something, but she keeps quiet."
+    "content":"Como si quisiera decir algo, pero sigue callada."
 },
 {
     "char":"Yuri",
     "newCharacter":[{"char":"Natsuki","hide":"hide"}],
     "charImg":"YBashful_Smile.png",
-    "content":"N-Not much of a reader, I guess..."
+    "content":"No sos muy lector que digamos, entonces..."
 },
 {
     "char":"you",
-    "content":"...Well, that can change..."
+    "content":"...Bueno, eso puede cambiar..."
 },
 {
     "char":"nobody",
-    "content":"What am I saying?"
+    "content":"Qué pingo estoy diciendo?"
 },
 {
     "char":"nobody",
-    "content":"I spoke without thinking after seeing Yuri's sad smile."
+    "content":"Hablé sin pensar después de ver la sonrisa medio amarga de Yuri."
 },
 {
     "char":"you",
-    "content":"Anyway, what about you, Yuri?"
+    "content":"Bueno y, vos qué onda, Yuri?"
 },
 {
     "char":"Yuri",
     "charImg":"Yuu.png",
-    "content":"Well, let's see..."
+    "content":"Bueno, a ver..."
 },
 {
     "char":"nobody",
-    "content":"Yuri traces the rim of her teacup with her finger"
+    "content":"Yuri traza el borde de su taza de té con el dedo"
 },
 {
     "char":"Yuri",
     "charImg":"Yuri_school_2.png",
-    "content":"My favorites are usually novels that build deep and complex fantasy worlds."
+    "content":"Me suele gustar más que nada las novelas que construyen mundos de fantasía profundos y complejos."
 },
 {
-    "content":"The level of creativity and craftsmanship behind them is amazing to me."
+    "content":"El nivel de creatividad y artesanía que manejan es increíble para mí."
 },
 {
     "char":"Yuri",
-    "content":"And telling a good story in such a foreign world is equally impressive.",
+    "content":"Y contar una buena historia en un mundo tan raro es igualmente impresionante..",
     "charImg":"YSurp.png"
 },
 {
     "char":"nobody",
-    "content":"Yuri goes on, clearly passionate about her reading."
+    "content":"Yuri sigue dándose manija, claramente apasionada en su lectura."
 },
 {
     "char":"nobody",
-    "content":"She seemed so reserved and timid since the moment I walked in, but it's obvious by the way her eyes light up that she finds her confort in the world of books, not people."
+    "content":"Parecía tan reservada y tímida desde el momento en que entré, pero es obvio por la forma en que se le iluminan los ojos."
+},
+{
+    "content":"Pareciera que encuentra su comodidad en el mundo de los libros, no en las personas.",
+    "char":"nobody"
 },
 {
     "char":"Yuri",
     "charImg":"Yuvu.png",
-    "content":"But you know, I like a lot of things."
+    "content":"Pero bueno, en general me gusta de todo."
 },
 {
-   "content":"Stories with deep psychological elements usually immerse me as well." 
+   "content":"Las historias con elementos psicológicos profundos me vuelan la cabeza." 
 },
 {
     "char":"Yuri",
     "charImg":"2l1.png",
-    "content":"Isn't it amazing how a writer can so deliberately take adventage of your own lack of imagination to completely throw you for a loop?"
+    "content":"¿No es sorprendente cómo un escritor puede aprovecharse de su propia falta de imaginación para dejarlo completamente en un bucle?"
 },
 {
-    "content":"Anyway, I've been reading a lot of horror lately..."
+    "content":"Igual, estuve leyendo bastante horror últimamente..."
 },
 {
     "char":"you",
-    "content":"Ah, I read a horror book once..."
+    "content":"Ah, mirá. Yo leí un libro de horror una vez..."
 },
 {
     "char":"nobody",
-    "content":"I desperately grasp something I can relate to at the minimal level."
+    "content":"Claramente arañé algo para seguir con la conversación."
 },
 {
     "char":"nobody",
-    "content":"At this rate, yuri might as well be having a conversation with a rock."
+    "content":"A este ritmo Yuri va a parecer que está hablando con una piedra."
 },
 {
     "char":"Monika",
-    "content":"Really? I wouldn't have expected that, yuri.",
+    "content":"Posta? No la tenía a esa de vos, Yuri.",
     "newCharacter":[{"char":"Monika", "charImg":"Mon4.png","hide":"NON"}],
     "animation":[{"char":"Monika", "direction":"height","value":"103%"}]
 },
 {
     "char":"Monika",
-    "content":"For someone as gentle as you..."
+    "content":"Para alguien así tan suave ..."
 },
 {
     "char":"Yuri",
-    "content":"I guess you could say that",
+    "content":"Entiendo lo que me querés decir",
     "charImg":"Yuri_school_2.png",
         "animation": [
             {
@@ -1236,14 +1239,14 @@
         ]
 },
 {
-    "content":"But if a story makes me think, or takes me to another world, then I can't put it down."
+    "content":"Pero si una historia me hace pensar, o me lleva para otro mundo, no puedo dejarlo."
 },
 {
-    "content":"Surreal horror is often very succesful at changing the way you look at the world, if only for a brief moment."
+    "content":"El horror surrealista generalmente te hace cambiar la forma que ves el mundo, a lo sumo por un rato, un re viaje."
 },
 {
     "char":"Natsuki",
-    "content":"Ugh, I hate horror...",
+    "content":"Ugh, Una cagada el horror...",
     "newCharacter":[{"char":"Natsuki","hide":"NO","charImg":"NatsukiCrossedArms2.png"}],
     "animation": [
         {
@@ -1259,7 +1262,7 @@
 },
 {
     "char":"Yuri",
-    "content":"Oh? Why's that?",
+    "content":"Eh? Y por qué?",
     "charImg":"YSurp.png",
     "animation": [
         {
@@ -1275,7 +1278,7 @@
 },
 {
     "char":"Natsuki",
-    "content":"Well, I just...",
+    "content":"Bueno, porque...",
     "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms.png"}],
     "animation": [
         {
@@ -1291,16 +1294,16 @@
 },
 {
     "char":"nobody",
-    "content":"Natsuki's eyes dart over to me for a split second."
+    "content":"Los ojos de Natsuki apuntan hacia mí por una fracción de segundo."
 },
 {
     "char":"Natsuki",
-    "content":"Never mind.",
+    "content":"Dejá nomás.",
     "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms2.png"}]
 },
 {
     "char":"Monika",
-    "content":"That's right, you usually like to write about cute things, don't you, Natsuki?",
+    "content":"Es verdad, vos andás siempre escribiendo cosas re tiernas, no, Natsuki?",
     "newCharacter":[{"char":"Monika","charImg":"Mon1.png"}],
     "animation": [
         {
@@ -1317,7 +1320,7 @@
 },
 {
     "char":"Natsuki",
-    "content":"W-What?",
+    "content":"Q-qué?",
     "newCharacter":[{"char":"Natsuki","charImg":"Schooln.png"}],
     "animation": [
         {
@@ -1333,7 +1336,7 @@
     ]
 },
 {
-    "content":"What gives you that idea?"
+    "content":"Qué te da esa idea?"
 },
 {
     "char":"Monika",

@@ -211,10 +211,11 @@ fetch(chapter)
 if (song) music = cargarSonido("/api/sound/music/" + song)
 
 
-if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
 
 function runDialog(skipInterval) {
-
+    
+    if (music && i > 0 && (enableMusic !== "false" || !enableMusic)) music.play();
+    
     if ((arrDialog[i]?.selectMenu || arrDialog[i]?.poem) && skipInterval === "skipping") return "stop"
 
     mainScreen.removeEventListener("click", runDialog)
@@ -475,11 +476,10 @@ function manageMusic(musicSrc) {
         music.pause()
         document.body.removeChild(music)
     } catch { }
-    if(musicSrc !=="stop"){
-        music = cargarSonido("/api/sound/music/" + musicSrc, true);
-        song = musicSrc
-        if (enableMusic !== "false" || !enableMusic) music.play()
-    }
+
+    music = cargarSonido("/api/sound/music/" + musicSrc, true);
+    song = musicSrc
+    if (enableMusic !== "false" || !enableMusic) music.play()
 }
 
 function manageMusicGroup(group){

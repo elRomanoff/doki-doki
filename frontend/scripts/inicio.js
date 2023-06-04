@@ -143,17 +143,17 @@ menuBtns.addEventListener("click", (e) => {
             if(logo.classList.contains("hidden")){
                 optionsMenu.innerHTML = `<div class="options-flex-spacer"></div>
                 <div class="options-flex-container">
-                    <p class="ok">Music:</p>
-                    <p class="ok">Text speed:</p>
+                    <p class="ok">Música:</p>
+                    <p class="ok">Velocidad del Texto:</p>
                 </div>
                 <div class="options-flex-container">
                     <p id="music">
-                        <span class="ok ho">On</span> <span class="ok ho">Off</span>
+                        <span class="ok ho" id ="btn-music-on">On</span> <span class="ok ho" id ="btn-music-off">Off</span>
                     </p>
                     <p id="speeds">
-                        <span class="ok ho">Slow</span>
-                        <span class="ok ho">Normal</span>
-                        <span class="ok ho">Fast</span>
+                        <span class="ok ho" id="btn-textspeed-slow">Normal</span>
+                        <span class="ok ho" id="btn-textspeed-normal">Rápida</span>
+                        <span class="ok ho" id="btn-textspeed-fast">A mil</span>
                     </p>
                 </div>`
                 mainScreen.appendChild(optionsMenu)
@@ -162,24 +162,24 @@ menuBtns.addEventListener("click", (e) => {
                 const musicSwitch = document.getElementById('music');
 
                 speedOptions.addEventListener("click", (e) =>{
-                    if(e.target.innerHTML ==="Fast"){
+                    if(e.target.id ==="btn-textspeed-fast"){
                         config.setTextSpeed(10)
                     }
-                    else if(e.target.innerHTML ==="Normal"){
+                    else if(e.target.id ==="btn-textspeed-normal"){
                         config.setTextSpeed(22)
                     }
-                    else if (e.target.innerHTML ==="Slow"){
+                    else if (e.target.id ==="btn-textspeed-slow"){
                         config.setTextSpeed(35)
                     }
                 });
 
                 musicSwitch.addEventListener("click", (e) =>{
-                    if(e.target.innerHTML === "On"){
+                    if(e.target.id === "btn-music-on"){
                         config.setMusic(true)
                         music.volume = 1;
                         try{music.play()}catch{}
                     }
-                    else if(e.target.innerHTML === "Off"){
+                    else if(e.target.id === "btn-music-off"){
                         config.setMusic(false)
                         music.volume = 0
                         try{music.play()} 
