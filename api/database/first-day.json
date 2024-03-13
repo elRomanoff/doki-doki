@@ -23,7 +23,7 @@
     "char": "nobody"
 },
 {
-    "content": "Pero si me van a alcanzar así, casi que me sentiría mejor si salgo corriendo.",
+    "content": "Pero si me van a perseguir así, casi que me sentiría mejor si salgo corriendo.",
     "char": "nobody"
 },
 {
@@ -1340,7 +1340,7 @@
 },
 {
     "char":"Monika",
-    "content":"You left a piece of scrap paper behind last club meeting.",
+    "content":"La otra vuelta dejaste tirado un cacho de papel.",
     "newCharacter":[{"char":"Monika","charImg":"Ika2.png"}],
     "animation": [
         {
@@ -1356,11 +1356,11 @@
     ]
 },
 {
-    "content":"It looked like you were working on a poem called--"
+    "content":"Tenía pinta de ser un poema llamado--"
 },
 {
     "char":"Natsuki",
-    "content":"Don't say it out loud!!",
+    "content":"Callate un poco!!",
     "newCharacter":[{"char":"Natsuki","charImg":"Schoolo.png"}],
         "animation": [
             {
@@ -1376,11 +1376,11 @@
         ]
 },
 {
-    "content":"And give that back!"
+    "content":"Y devolveme eso!"
 },
 {
     "char":"Monika",
-    "content":"Fine, fine~",
+    "content":"Bueno, bueno~",
     "newCharacter":[{"char":"Monika","charImg":"Mon10.png"}],
         "animation": [
             {
@@ -1397,16 +1397,16 @@
 },
 {
     "char":"Sayori",
-    "content":"Ehehe, your cupcakes, your poems...",
+    "content":"Jeje, tus magdalenas, tus poemas...",
     "newCharacter":[{"char":"Sayori","charImg":"Ori17.png","new":"true","left":"true"},{"char":"Monika","hide":"hide"}],
     "insertImg":"???"
 },
 {
-    "content":"Everything you do is just as cute as you are~"
+    "content":"Todo te sale tierno como vos~"
 },
 {
     "char":"nobody",
-    "content":"Sayori sidles up behind Natsuki and puts her hands on her shoulders.",
+    "content":"Sayori se para atras de Natsuki y coloca las manos en sus hombros.",
         "animation": [
             {
                 "char": "Sayori",
@@ -1424,19 +1424,19 @@
         }
     ],
     "char":"Natsuki",
-    "content":"I'm not cute!!",
+    "content":"No soy tierna, pelotuda!!",
     "newCharacter":[{"char": "Natsuki","charImg":"Schools.png"}]
 },
 {
     "newCharacter":"erase",
     "char":"you",
-    "content":"Natsuki, you write your own poems?",
+    "content":"Che, Natsuki. Vos escribís poesía?",
     "insertImg":"Natsuki",
     "charImg":"Schools.png"
 },
 {
     "char":"Natsuki",
-    "content":"Eh? Well, I guess sometimes.",
+    "content":"Eh? Si, cada tanto.",
     "charImg":"Schoolj.png",
     "animation":[{
         "char":"Sayori",
@@ -1445,14 +1445,14 @@
     }]
 },
 {
-    "content":"Why do you care?"
+    "content":"Qué te importa?"
 },
 {
     "char":"you",
-    "content":"I think that's impressive."
+    "content":"Me parece zarpado."
 },
 {
-    "content":"Why don't you share them sometime?"
+    "content":"No querés compartirlos?"
 },
 {
     "char":"Natsuki",
@@ -1461,42 +1461,42 @@
 },
 {
     "char":"Nobody",
-    "content":"Natsuki averts her eyes."
+    "content":"Natsuki desvía la mirada."
 },
 {
     "char":"Natsuki",
-    "content":"You wouldn't... like them..."
+    "content":"No te... No te gustarían..."
 },
 {
     "char":"you",
-    "content":"Ah... not a very confident writer yet?"
+    "content":"Ah... No estás muy confiada todavia?"
 },
 {
     "newCharacter":[{"char":"Yuri","charImg":"YSurp.png","new":"true","left":"true"},{"char":"Monika","hide":"hide","charImg":"Mon1.png","new":"true"}],
-    "content":"I understand how Natsuki feels.",
+    "content":"Yo entiendo cómo Nati se siente.",
     "char":"Yuri",
     "animation":[{"char":"Yuri","direction":"height","value":"103%"}]
 },
 {
-    "content":"Sharing that level of writing takes more than just confidence."
+    "content":"Compartir ese tipo de escritos requiere más que confianza."
 },
 {
     "char":"Yuri",
-    "content":"The truest form of writing is writing to oneself.",
+    "content":"La forma más verdadera para escribir algo es hacerlo para vos mismo.",
     "newCharacter":[{"char":"Yuri","charImg":"Yuu.png"}]
 },
 {
-    "content":"You must be willing to open up to readers, exposing your vulnerabilities and showing even the deepest reaches of your heart."
+    "content":"Tenés que estar dispuesto a abrirte a los lectores, exponiendo tus vulnerabilidades y mostrando hasta lo más profundo de tu corazón."
 },
 {
     "char":"Monika",
-    "content":"Do you have writing experience too, Yuri?",
+    "content":"Vos también tenés experiencia escribiendo, Yuri?",
     "newCharacter":[{"char":"Monika","hide":"non"}],
     "insertImg":"nobody"
 },
 {
     "char":"Monika",
-    "content":"Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
+    "content":"Capaz si compartis algo de tu trabajo, podrías dar el ejemplo para Natsuki, así ella se siente confiada tambien y comparte lo suyo."
 },
 {
     "char":"Yuri",
@@ -1512,17 +1512,17 @@
 },
 {
     "char":"you",
-    "content":"I guess it's the same for Yuri..."
+    "content":"Mepa que a Yuri le pasa lo mismo..."
 },
 {
     "char":"Sayori",
-    "content":"Aww... I wanted to read everyone's poems...",
+    "content":"Aww... Yo quería leer los poemas de todos...",
     "charImg":"Say7.png"
 },
 {
     "char":"nobody",
     "newCharacter":"erase",
-    "content":"We all sit in silence for a moment.",
+    "content":"Quedamos todos en silencio durante un minuto.",
     "insertImg":"nobody"
 },
 {
@@ -1531,7 +1531,7 @@
     "content":"Okay!"
 },
 {
-    "content":"I have an idea, everyone~"
+    "content":"Tengo una idea, gente~"
 },
 {
     "newCharacter":[{"char":"Yuri", "charImg":"YLook.png","left":"true","new":"true"},{"new":"true","char":"Natsuki","charImg":"Y22.png"}],
@@ -1541,18 +1541,18 @@
 },
 {
     "char":"nobody",
-    "content":"Natsuki and Yuri look quizzically at Monika."
+    "content":"Natsuki y Yuri miran con curiosidad a Monika."
 },
 {
     "char":"Monika",
     "charImg":"Ika2.png",
-    "content":"Let's all go home and write a poem of your own!"
+    "content":"Vamos cada uno para su casa, y escribimos un poema propio!"
 },
 {
-    "content":"Then, next time we meet, we'll all share them with each other."
+    "content":"Entonces, para la próxima vez que nos veamos, todos compartimos nuestros poemas con el otro."
 },
 {
-    "content":"That way, everyone is even!"
+    "content":"Así estamos todos parejos!"
 },
 {
     "char":"Natsuki",
@@ -1587,7 +1587,7 @@
 },
 {
     "char":"Sayori",
-    "content":"Yeaaah! Let's do it!",
+    "content":"Si! Yo me prendo!",
     "newCharacter":[{"char":"Sayori","charImg":"Ori18.png","left":"true","new":"true"}],
         "animation": [
             {
@@ -1599,7 +1599,7 @@
 },
 {
     "char":"Monika",
-    "content":"Plus, now that we have a new member, I think it will help us all get a little more comfortable with each other, and strengthen the bond of the club.",
+    "content":"Aparte, ahora que tenemos un miembro nuevo, va a ser más fácil agarrar confianza con este tipo de cosas.",
     "charImg":"Mon1.png",
         "animation": [
             {
@@ -1609,12 +1609,12 @@
         ]
 },
 {
-    "content":"Isn't that right, #var?",
+    "content":"Nosierto, #var?",
     "usesVar":"true"
 },
 {
     "char":"nobody",
-    "content":"Monika smiles warmly at me once again.",
+    "content":"Monika vuelve a darme esa sonrisa cálida.",
         "animation": [
             {
                 "direction": "height",
@@ -1624,11 +1624,11 @@
 },
 {
     "char":"you",
-    "content":"Hold on... there's still one problem."
+    "content":"Banquen, que todavía hay un problema."
 },
 {
     "char":"Monika",
-    "content":"Eh? What's that?",
+    "content":"Eh? Cuál?",
     "charImg":"Mon4.png",
     "animation": [
         {
@@ -1639,11 +1639,11 @@
 },
 {
     "char":"nobody",
-    "content":"Now that we're back to the original topic of me joining the club, I bluntly come forth with what's been on my mind the entire time."
+    "content":"Ahora que volvemos al tema de unirse al club, largo lo que estuve pensando hasta recien."
 },
 {
     "char":"you",
-    "content":"I never said I would join this club!",
+    "content":"Nunca dije que me iba a unir!",
     "animation": [
         {
             "direction": "height",
@@ -1652,24 +1652,24 @@
     ]
 },
 {
-    "content":"Sayori may have convinced me to stop by, but I necer made any decision."
+    "content":"Sayori me compró para que pase a saludar, pero no tomé ninguna decision todavia."
 },
 {
-    "content":"I still have other clubs to look at and... um..."
+    "content":"Todavía tendría que chusmear otras actividades y... bueno..."
 },
 {
     "char":"nobody",
-    "content":"I lose my train of thought.",
+    "content":"Medio que pierdo mi tren de pensamiento.",
     "charImg":"Mon7.png",
     "newCharacter":[{"char":"Natsuki", "charImg":"Y18.png"},{"char":"Sayori","charImg":"Say7.png"},{"char":"Yuri","charImg":"YSurp.png"}]
 },
 {
     "char":"nobody",
-    "content":"All four girls stare back at me with dejected eyes."
+    "content":"Las cuatro guachas me miran con cara de decepción."
 },
 {
     "char":"Monika",
-    "content":"B-But...",
+    "content":"Pero...",
     "charImg":"Mon16.png",
     "animation": [
         {
@@ -1680,7 +1680,7 @@
 },
 {
     "char":"Yuri",
-    "content":"I'm sorry, I thought...",
+    "content":"Perdón, pensé que...",
     "newCharacter":[{"char":"Yuri","charImg":"YSSad.png"}],
     "animation": [
         {
@@ -1717,31 +1717,31 @@
 },
 {
     "char":"you",
-    "content":"Y-You all..."
+    "content":"Ustedes..."
 },
 {
     "char":"nobody",
-    "content":"I...I'm defenseless against these girls."
+    "content":"...Posta que me tienen agarrado por las bolas."
 },
 {
     "char":"nobody",
-    "content":"How am I supposed to make a clear-headed decision when it's like this?"
+    "content":"Así no puedo tomar una desición clara?"
 },
 {
     "char": "nobody",
-    "content":"That is, if writing poems is the price I need to pay in order to spend every day with these beautiful girls..."
+    "content":"Supongo que estar como un boludo escribiendo poesía es el precio a pagar por rodearme de minas lindas..."
 },
 {
     "char":"you",
-    "content":"...Right."
+    "content":"...Bueno."
 },
 {
     "char": "you",
-    "content": "Okay, I'v decided, then."
+    "content": "Ya está, ya decidí."
 },
 {
     "char":"you",
-    "content":"I'll join the Literature Club.",
+    "content":"Me uno al Club de Literatura, loco.",
     "animation": [
         {
             "direction": "jump",
@@ -1782,16 +1782,16 @@
 },
 {
     "char":"nobody",
-    "content":"One by one, the girls' eyes light up"
+    "content":"Los ojos de las chicas se iluminan una a una"
 },
 {
     "char":"Sayori",
-    "content":"Yesss! I'm so happyyy~",
+    "content":"Siii! Ay, me pone feliz~",
     "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}]
 },
 {
     "char":"nobody",
-    "content":"Sayori wraps her arms around me, jumping up and down"
+    "content":"Sayori me abraza y se queda colgada de mí"
 },
 {
     "char":"you",
@@ -1799,7 +1799,7 @@
 },
 {
     "char":"Yuri",
-    "content":"You really did scare me for a moment...",
+    "content":"Me asustaste por un momento, flaco...",
     "newCharacter":[{"char":"Yuri","charImg":"Yuvu.png"}],
     "animation":[{
         "char":"Yuri",
@@ -1809,7 +1809,7 @@
 },
 {
     "char":"Natsuki",
-    "content":"If you really just came for the cupcakes, I would be super pissed.",
+    "content":"Si venías por mis magdalenas nomás, me hubiera re calentado.",
     "newCharacter":[{"char":"Natsuki","charImg":"NatsukiCrossedArms4.png"}],
         "animation": [
             {
@@ -1827,7 +1827,7 @@
 {
     "char":"Monika",
     "charImg":"3aa.png",
-    "content":"Then that makes it official!",
+    "content":"Listo, es oficial entonces!",
     "animation": [
         {
             "char": "Natsuki",
@@ -1841,11 +1841,11 @@
     ]
 },
 {
-    "content":"Welcome to the Literature Club!"
+    "content":"Bienvenido al Club de la Literatura!"
 },
 {
     "char":"you",
-    "content":"Ah..thanks, I guess.",
+    "content":"Ah.. Gracias, Supongo.",
     "animaation":[{
         "direction":"height",
         "value":"100%"
@@ -1855,26 +1855,26 @@
     "newCharacter":"erase",
     "char":"Monika",
     "charImg":"Monika2.png",
-    "content":"Okay, everyone!"
+    "content":"Bueno, gente!"
 },
 {
-    "content":"I think with that, we can officialy end today's meeting on a good note."
+    "content":"Me parece que la reunión de hoy terminó en buena ley."
 },
 {
-    "content":"Everyone remember tonight's assignment:"
+    "content":"Acuerdense de hacer la tarea:"
 },
 {
-    "content":"Write a poem to bring to the next meeting, so we can all share!"
+    "content":"Escríbanse un poema cada uno, y la próxima reunión los compartimos!"
 },
 {
     "char":"nobody",
-    "content":"Monika looks over at me once more"
+    "content":"Monika me mira de reojo una vez más"
 },
 {
     "usesVar":"true",
     "char":"Monika",
     "charImg":"Mon1.png",
-    "content":"#var, I look foward to seeing you how you express yourself."
+    "content":"#var, espero poder ver cómo te expresas."
 },
 {
     "char":"Monika",
@@ -1887,34 +1887,34 @@
 },
 {
     "char":"you",
-    "content":"Y-Yeah..."
+    "content":"Si, de una..."
 },
 {
     "insertImg":"???",
     "char":"nobody",
-    "content":"Can I really impress the class star Monika with my mediocre writing skills?"
+    "content":"Será que puedo impresionar a la estudiante estrella Monika con mi escritura chota?"
 },
 {
     "char":"nobody",
-    "content":"I already feel the anxiety welling up inside me."
+    "content":"Qué paja, ya me está dando ansiedad."
 },
 {
     "char":"nobody",
-    "content":"Meanwhile, the girls continue to chit-chat as Yuri and Natsuki clean up their food."
+    "content":"Mientras tanto, Natsuki y Yuri limpian la comida, Mónika y Sayori cotorrean..."
 },
 {
     "char":"Sayori",
-    "content":"Hey, #var, since we're already here, do you want to walk home together?",
+    "content":"Che, #var, querés que volvamos juntos a casa ya que estamos acá?",
     "usesVar":"true",
     "charImg":"Say1.png"
 },
 {
     "char":"nobody",
-    "content":"That's right--Sayori and I never walk home together anymore because she always stayed after school for clubs."
+    "content":"Posta, loco... Sayori y yo dejamos de volver juntos de la escuela porque ella se quedaba después de clases en estos clubes."
 },
 {
     "char":"you",
-    "content":"Sure, might as well."
+    "content":"Más vale, vamos."
 },
 {
     "char":"Sayori",
@@ -1924,11 +1924,11 @@
 {
     "newBackground":"barrio.png",
     "char":"nobody",
-    "content":"With that, the two of us depart the clubroom and make our way home."
+    "content":"Así, tocamos los tarros de la escuela y nos vamos para casa."
 },
 {
     "char":"nobody",
-    "content":"The whole way, my mind wanders back and forth between the four girls:"
+    "content":"Durante todo el camino, mi mente vaga de un lado a otro entre las cuatro chicas.:"
 },
 {
     "char":"nobody",
@@ -1952,28 +1952,28 @@
 },
 {
     "char":"nobody",
-    "content":"and, of course, Monika.",
+    "content":"Y por supuesto, Monika.",
     "newCharacter":[{"char":"Monika","hide":"non"}]
 },
 {
     "char":"nobody",
-    "content":"Will I really be happy spending every day after school in a literature club?"
+    "content":"Realmente me va a hacer feliz pasar todos los dias después de clases en el Club de Literatura?"
 },
 {
     "char":"nobody",
-    "content":"Perhaps I'll have the chance to grow closer to one of these girls..."
+    "content":"Igual tengo la oportunidad de acercarme a cualquiera de las minas... Cualquier cosa me rajo y fue"
 },
 {
     "newCharacter":"erase",
     "char":"nobody",
-    "content":"Alright!"
+    "content":"Listo, guacho!"
 },
 {
     "char":"nobody",
-    "content":"I'll just need to make the most of my circumstances, and I'm sure good fortune will find me."
+    "content":"Nada más tengo que aprovechar estas circunstancias al máximo, y seguro que la buena fortuna va a llegar sola"
 },
 {
     "char": "nobody",
-    "content": "And I guess that starts with writing a poem tonight..."
+    "content": "Y supongo que la cosa empieza escribiendo un poema esta noche..."
 }
 ]
