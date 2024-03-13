@@ -7,7 +7,7 @@ amor,3,2,1
 aventura,3,2,1
 dulce,3,2,1
 emoción,3,2,1
-fuegos artificiales,3,2,1
+pirotecnia,3,2,1
 romance,3,2,1
 lágrimas,3,1,2
 depresión,3,1,2
@@ -39,12 +39,11 @@ llorar,3,1,2
 risa,3,2,1
 oscuro, 3,1,2
 soleado,3,2,1
-nube de lluvia,3,2,1
+nube,3,2,1
 calma,3,1,2
 tonto,3,2,1
 volando, 3,2,1
 maravilloso,3,2,1
-no correspondido, 3,1,2
 rosa,3,1,2
 juntos,3,2,1
 promesa,3,2,1
@@ -67,7 +66,7 @@ desgracia,3,1,2
 fuerte, 3,2,1
 pacífico,3,1,2
 alegría,3,1,2
-puesta de sol,3,2,1
+ocaso,3,2,1
 luciérnagas,3,2,1
 arcoiris,3,2,1
 herido,3,1,2
@@ -81,7 +80,7 @@ abrazo,3,1,2
 extraordinario,3,2,1
 impresionante,3,2,1
 derrota,3,1,2
-sin esperanza,3,1,2
+desperanzado,3,1,2
 miseria,3,1,2
 tesoro,3,2,1
 felicidad, 3,2,1
@@ -94,12 +93,12 @@ compras,2,3,1
 masilla,2,3,1
 gatito, 2,3,1
 nubes,2,3,1
-lápiz labial,1,3,2
-postre helado,2,3,1
+labial,1,3,2
+helado,2,3,1
 fresa,2,3,1
 rosa,2,3,1
 chocolate,2,3,1
-latido del corazón, 1,3,2
+latido, 1,3,2
 beso,1,3,2
 melodía, 2,3,1
 cinta,2,3,1
@@ -108,7 +107,7 @@ doki-doki,2,3,1
 kawaii,2,3,1
 falda,2,3,1
 mejillas,2,3,1
-correo electrónico,2,3,1
+email,2,3,1
 pegajoso,2,3,1
 saltarín,2,3,1
 brillante, 2,3,1
@@ -128,13 +127,13 @@ burbujas, 2,3,1
 susurro,2,3,1
 verano,2,3,1
 cascada,1,3,2
-traje de baño,2,3,1
+bikini,2,3,1
 vainilla,2,3,1
 auriculares,2,3,1
 juegos,2,3,1
 calcetines,2,3,1
 pelo,2,3,1
-patio de recreo, 2,3,1
+recreo, 2,3,1
 camisón,1,3,2
 manta,1,3,2
 leche,2,3,1
@@ -157,12 +156,12 @@ existencia,2,1,3
 refulgente, 1,1,3
 carmesí, 1,1,3
 torbellino,1,1,3
-imagen secundaria, 1,1,3
+imagen, 1,1,3
 vértigo,1,1,3
 desorientado,1,1,3
 esencia,2,1,3
 ambiente, 2,1,3
-paisaje estelar, 2,1,3
+constelación, 2,1,3
 desorden, 1,1,3
 contaminación,1,1,3
 intelectual,1,1,3
@@ -172,7 +171,7 @@ vivaz,1,1,3
 extraño, 2,1,3
 incongruente,1,1,3
 ira,2,1,3
-enviado del cielo, 2,1,3
+mesías, 2,1,3
 masacre,2,1,3
 filosofía,1,1,3
 voluble, 1,1,3
@@ -210,7 +209,7 @@ eternidad,2,1,3
 tiempo,2,1,3
 universo,2,1,3
 interminable,2,1,3
-gotas de lluvia,2,1,3
+gotas,2,1,3
 codiciar,1,1,3
 desenfrenado, 1,1,3
 paisaje,2,1,3
