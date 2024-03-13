@@ -12,7 +12,7 @@ console.log(prevScore)
 const screen = document.querySelector(".screen")
 const poemAlert = document.createElement("div")
 poemAlert.classList.add("alert-btn")
-poemAlert.innerHTML = `<p>Time to write a poem!</p> Pick words you think your favorite club member will like. Something good might happen with whoever likes your poem the most! <p class="ok ho">OK</p>`
+poemAlert.innerHTML = `<p>Hora de escribir poesía!</p> Elegí las palabras que te parezcan más acertadas para la pibita que más te guste. <p class="ok ho">OK</p>`
 screen.appendChild(poemAlert)
 const ok = document.querySelector(".ok")
 
