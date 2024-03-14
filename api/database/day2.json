@@ -9,37 +9,37 @@
         "char": "Monika",
         "usesVar": "true",
         "charImg": "3aa.png",
-        "content": "Hi again, #var!"
+        "content": "Hola de nuevo, #var!"
     },{},
     {
-        "content": "Glad to see you didn't run away from us. Hahaha!"
+        "content": "Qué bueno que no te rajaste. Jajaja!"
     },
     {
         "char": "you",
-        "content": "Nah, don't worry."
+        "content": "Nah, no te calentés."
     },
     {
-        "content": "This might be a little strange for me, but I at least keep my word."
+        "content": "Esto puede ser un poco raro para mí, pero cumplo mi palabra."
     },
     {
         "char": "nobody",
-        "content": "Well, I'm back at the Literature Club.",
+        "content": "Bueno, estoy de vuelta en el Club de Literatura.",
         "charImg":"MC"
     },
     {
-        "content": "I was the last to come in, so everyone else is already hanging out."
+        "content": "Fui el último en entrar, así que cada una ya está en la suya."
     },
     {
         "char":"Yuri",
         "usesVar": true,
-        "content": "Thanks for keeping your promise, #var.",
+        "content": "Gracias por cumplir tu promesa, che, #var.",
         "charImg":"Yuri_school_2.png"
     },
     {
-        "content": "I hope this isn't too overwhelming of a commitment for you."
+        "content": "Espero que no sea mucho bardo para vos mantener ese compromiso."
     },
     {
-        "content": "Making you dive headfirst into literature when you're not accustomed to it...",
+        "content": "Meterte de lleno a la literatura cuando no estás acostumbrado...",
         "charImg":"YBashful_Smile_3.png"
     },
     {
