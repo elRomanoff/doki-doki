@@ -44,7 +44,7 @@
     },
     {
         "char":"Natsuki",
-        "content": "Oh, come on! Like he deserves any slack.",
+        "content": "Pero, dejá de chuparle las medias a este!.",
         "newCharacter":[
             {
                 "new": true,
@@ -69,21 +69,21 @@
         
     },
     {
-        "content": "Sayori told me you didn't even want to join any clubs this year."
+        "content": "Sayori me contó que no querías unirte a ningún club este año."
     },
     {
-        "content": "And last year, too!"
+        "content": "Y el año pasado tampoco!"
     },
     {
-        "content": "I don't know if you plan to just come here and hang out, or what...",
+        "content": "No se si pensas venir acá a rascarte los huevos o qué...",
         "newCharacter":[{"char": "Natsuki","charImg": "Y14.png"}]
     },
     {
-        "content": "But if you don't take us seriously, then you won't see the end of it."
+        "content": "Pero si no te lo tomás un poquito en serio te achuramos."
     },
     {
         "char":"Monika",
-        "content": "Natsuki, you certainly have a big mouth for someone who keeps her manga collection in the clubroom.",
+        "content": "Natsuki, no te hagás la polenta que en este salón te guardás tu colección de manga.",
         "newCharacter":[{"char":"Monika", "hide":"non"}],
         "animation": [
             {
@@ -104,43 +104,43 @@
         ]
     },
     {
-        "content": "Natsuki finds herself stuck between saying 'Monika' and 'Manga'",
+        "content": "A Natsuki se le lengua la traba entre decir 'Monika' y 'Manga'",
         "animation":[{"char":"Monika","direction":"left","value":"-70%"}]
     },
     {
-        "content": "Manga is literature!!",
+        "content": "El manga es literatura, la puta que te parió!!",
         "newCharacter":[{"char":"Natsuki", "charImg":"Schools.png"}],
         "animation":[{"char":"Natsuki", "direction":"jump"}]
     },
     {
         "char":"nobody",
-        "content": "Swiftly defeated, Natsuki plops back into her seat.",
+        "content": "Ofendida, Natsuki vuelve a su asiento.",
         "newCharacter":"erase"
     },
     {
         "char":"Sayori",
-        "content": "Don't worry, guys~",
+        "content": "Chicas, no se calienten~",
         "newCharacter":[{"char":"Sayori", "new":"true", "left":"true","charImg":"Sayori3.png"}]
     },
     {
         "usesVar": true,
-        "content": "#var always gives it his best as long as he's having fun."
+        "content": "#var siempre se pone la 10, sobre todo cuando se divierte."
     },
     {
-        "content": "He helps me with busywork without me even asking."
+        "content": "Me ayuda con cualquier laburo sin que le pida."
     },
     {
-        "content": "Like cooking, cleaning my room..."
+        "content": "Me cocina, limpia mi pieza..."
     },
     {
         "char":"Yuri",
-        "content": "How dependable...",
+        "content": "Alta mucama...",
         "charImg":"Yuvu.png",
         "animation":[{"direction":"height", "value":"102%"}]
     },
     {
         "char":"you",
-        "content": "Sayori, that's because your room is so messy it's distracting.",
+        "content": "Sayori, es que me da paja estar en tu pieza cuando está hecha un asco.",
         "animation": [
             {
                 "direction": "height",
@@ -149,10 +149,10 @@
         ]
     },
     {
-        "content": "And you almost set your house on fire once."
+        "content": "Y una vez casi prendes fuego todo."
     },
     {
-        "content": "Is that so... Ehehe...",
+        "content": "Ah, por eso... Ejeje...",
         "char":"Sayori",
         "newCharacter":[{"char":"Sayori","charImg":"3a.png"}],
         "animation":[{"char":"Sayori","direction":"top","value":"3%"}]
@@ -160,7 +160,7 @@
     {
         "char":"Yuri",
         "charImg":"Yuri_school_4.png",
-        "content": "You two are really good friends, aren't you?",
+        "content": "Ustedes son re compas, no?",
         "animation": [
             {
                 "direction": "height",
@@ -169,12 +169,12 @@
         ]
     },
     {
-        "content": "I might be a little jealous..."
+        "content": "Mirá que me pongo celosa..."
     },
     {
         "char":"Sayori",
         "usesVar": true,
-        "content": "How come? You and #var can become good friends too!",
+        "content": "De qué? vos y #var pueden hacerse amigos también!",
         "newCharacter":[{"char":"Sayori","charImg":"Say1.png"}],
         "animation":[
             {
@@ -238,11 +238,11 @@
     },
     {
         "char":"nobody",
-        "content": "As usual, Sayori seems oblivious to the weird situation she just put me into."
+        "content": "Como de costumbre, Sayori ni se da cuenta de la situación incómoda en la que me puso."
     },
     {
         "char":"Sayori",
-        "content": "Oh, oh! Yuri even brought you something today, you know~",
+        "content": "Ah, cierto! Yuri Yuri te trajo algo hoy~",
         "newCharacter":[{"char":"Sayori","charImg":"Ori24.png"}],
         "animation":[
             {
@@ -253,7 +253,7 @@
     },
     {
         "char":"Yuri",
-        "content": "W-Wait! Sayori...",
+        "content": "P-Pará! Sayori...",
         "charImg":"YScared3.png",
         "animation":[[
                 {
@@ -269,7 +269,7 @@
     },
     {
         "char":"you",
-        "content": "Eh? Me?",
+        "content": "Eh? A mí?",
         "animation":[{
                 "direction": "height",
                 "value": "100%"
@@ -277,7 +277,7 @@
     },
     {
         "char":"Yuri",
-        "content": "Um... Not really...",
+        "content": "Um... Algo así...",
         "charImg":"YWorried.png",
         "animation":[{
                 "direction": "height",
@@ -286,7 +286,7 @@
     },
     {
         "char":"Sayori",
-        "content": "Don't be shy~",
+        "content": "Ay qué te pasa~",
         "newCharacter":[{"char":"Sayori","charImg":"Ori18.png"}],
         "animation":[
             {
@@ -301,7 +301,7 @@
     },
     {
         "char":"Yuri",
-        "content": "It's really nothing...",
+        "content": "En serio, no es nada...",
         "animation":[
             {
                 "char": "Sayori",
@@ -316,7 +316,7 @@
     },
     {
         "char":"you",
-        "content": "What is it?",
+        "content": "Uh, qué es?",
         "animation":[
             {
                 "direction": "height",
@@ -326,7 +326,7 @@
     },
     {
         "char":"Yuri",
-        "content": "N-Never mind!",
+        "content": "Nada, d-dejá!",
         "charImg":"YSShy1.png",
         "animation":[{
             "direction": "height",
@@ -334,14 +334,14 @@
         }]
     },
     {
-        "content": "Sayori made it sound like a big deal when it's really not..."
+        "content": "Sayori hizo que suene como la gran cosa y nada que ver..."
     },
     {
-        "content": "Uuuuh, what do I do..."
+        "content": "Uuuuh, y ahora qué hago..."
     },
     {
         "char":"Sayori",
-        "content": "Eh? I'm sorry, Yuri, I wasn't thinking...",
+        "content": "Eh? Perdón, Yuri, no estaba pensando...",
                 "newCharacter": [
                     {
                         "char": "Sayori",
@@ -361,49 +361,41 @@
                 ]
     },
     {
-        "content": "I guess that means it's up to me to rescue this situation...",
+        "content": "Mepa que voy a tener que salvar la situación solito...",
         "newCharacter":"erase"
     },
     {
         "char":"you",
-        "content": "Hey, don't worry about it."
+        "content": "Che, no te calentés."
     },
     {
-        "content": "First of all, I wasn't expecting anything in the first place."
+        "content": "Primero que nada, no estaba esperando nada."
     },
     {
-        "content": "So any nice gesture from you is a pleasant surprise."
+        "content": "Así que cualquier cosita va a ser un lindo detalle."
     },
     {
-        "content": "It'll make me happy no matter what."
+        "content": "Seguramente me va a gustar."
     },
     {
-        "content": "I-Is that so...",
+        "content": "Bueno, si es así...",
         "char":"Yuri",
         "charImg":"YSSad.png"
     },
     {
-        "char":"you",
-        "content": "Yeah. I won't make it a big deal if you don't want it to be."
-    },
-    {
-        "char":"Yuri",
-        "content": "Alright..."
-    },
-    {
-        "content": "Well, here.",
+        "content": "Acá está.",
         "charImg": "Yuri_school_2.png"
     },
     {
         "char":"nobody",
-        "content": "Yuri reaches into her bag and pulls out a book."
+        "content": "Yuri pela un libro de su mochila."
     },
     {
         "char":"Yuri",
-        "content": "I didn't want you to feel left out..."
+        "content": "No quería que te sientas excluído..."
     },
     {
-        "content": "So I picked out a book that I thought you might enjoy."
+        "content": "Así que elegí un libro que podrías disfutar."
     },
     {
         "content": "It's a short read, so it should keep your attention, even if you don't usually read."
